@@ -1,0 +1,84 @@
+2023-09-27 16:09:42.267 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:45.292 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:48.302 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:51.326 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:54.301 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:57.243 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

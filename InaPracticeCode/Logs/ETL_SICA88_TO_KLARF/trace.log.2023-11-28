@@ -1,0 +1,293 @@
+2023-11-28 09:22:54.056 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 09:22:54.057 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-28 09:22:54.057 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 09:22:54.058 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-28 09:22:54.070 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-28 09:22:54.070 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-28 09:22:54.071 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-28 09:22:57.733 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-28 09:23:01.142 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_SICA88_TO_KLARF.py.*
+2023-11-28 09:23:01.146 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-28 09:22:54.048132
+2023-11-28 09:23:04.702 - __init__   [INFO    ] Set process status code: 0.
+2023-11-28 09:23:04.720 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 09:23:04.824 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 09:23:04.879 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 09:23:05.682 - ETL_SICA88_TO_KLARF [INFO    ] Read Source File:0:00:00.727197
+2023-11-28 09:23:05.691 - CustomFuction [ERROR   ] argument of type 'numpy.float64' is not iterable
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 55, in do_file
+    if '.' in x_value and len(x_value.split('.')[1]) == 3:
+TypeError: argument of type 'numpy.float64' is not iterable
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 138, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-28 09:23:05.694 - CustomFuction [INFO    ] [ERROR] 40-4N46-DF07016.xlsx
+2023-11-28 09:23:05.695 - CustomFuction [INFO    ] Move file: 40-4N46-DF07016.xlsx to ERROR folder: Data\ERROR\40-4N46-DF07016.xlsx.
+2023-11-28 09:23:05.918 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-28 09:23:05.919 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-28 09:23:05.933 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-28 09:23:06.076 - __init__   [INFO    ] Set process status code: 5.
+2023-11-28 09:25:17.064 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 09:25:17.064 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-28 09:25:17.064 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 09:25:17.065 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-28 09:25:17.077 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-28 09:25:17.078 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-28 09:25:17.078 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-28 09:25:17.367 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-28 09:25:20.603 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_SICA88_TO_KLARF.py.*
+2023-11-28 09:25:20.605 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-28 09:25:17.056559
+2023-11-28 09:25:20.851 - __init__   [INFO    ] Set process status code: 0.
+2023-11-28 09:25:20.862 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 09:25:20.973 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 09:25:21.090 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 09:25:21.302 - ETL_SICA88_TO_KLARF [INFO    ] Read Source File:0:00:00.128305
+2023-11-28 09:25:21.305 - CustomFuction [ERROR   ] argument of type 'float' is not iterable
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 57, in do_file
+    if '.' in x_value and len(x_value.split('.')[1]) == 3:
+TypeError: argument of type 'float' is not iterable
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 140, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-28 09:25:21.309 - CustomFuction [INFO    ] [ERROR] 2-HB019RD5CID2.xls
+2023-11-28 09:25:21.309 - CustomFuction [INFO    ] Move file: 2-HB019RD5CID2.xls to ERROR folder: Data\ERROR\2-HB019RD5CID2.xls.
+2023-11-28 09:25:21.570 - ETL_SICA88_TO_KLARF [INFO    ] Read Source File:0:00:00.023034
+2023-11-28 09:25:21.571 - CustomFuction [ERROR   ] argument of type 'float' is not iterable
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 57, in do_file
+    if '.' in x_value and len(x_value.split('.')[1]) == 3:
+TypeError: argument of type 'float' is not iterable
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 140, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-28 09:25:21.574 - CustomFuction [INFO    ] [ERROR] 3-HB07F141CIC7.xls
+2023-11-28 09:25:21.574 - CustomFuction [INFO    ] Move file: 3-HB07F141CIC7.xls to ERROR folder: Data\ERROR\3-HB07F141CIC7.xls.
+2023-11-28 09:25:21.786 - ETL_SICA88_TO_KLARF [INFO    ] Read Source File:0:00:00.017999
+2023-11-28 09:25:21.791 - CustomFuction [ERROR   ] argument of type 'float' is not iterable
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 57, in do_file
+    if '.' in x_value and len(x_value.split('.')[1]) == 3:
+TypeError: argument of type 'float' is not iterable
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 140, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-28 09:25:21.795 - CustomFuction [INFO    ] [ERROR] 5_HB07FYQ6CIB5.csv
+2023-11-28 09:25:21.798 - CustomFuction [INFO    ] Move file: 5_HB07FYQ6CIB5.csv to ERROR folder: Data\ERROR\5_HB07FYQ6CIB5.csv.
+2023-11-28 09:25:22.016 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-28 09:25:22.016 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-28 09:25:22.034 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-28 09:25:22.219 - __init__   [INFO    ] Set process status code: 5.
+2023-11-28 10:56:23.098 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 10:56:23.098 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-28 10:56:23.099 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 10:56:23.100 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-28 10:56:23.112 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-28 10:56:23.113 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-28 10:56:23.113 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-28 10:56:23.454 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-28 10:56:26.765 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_SICA88_TO_KLARF.py.*
+2023-11-28 10:56:26.768 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-28 10:56:23.086754
+2023-11-28 10:56:26.962 - __init__   [INFO    ] Set process status code: 0.
+2023-11-28 10:56:26.973 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 10:56:27.062 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 10:56:27.140 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 10:56:28.150 - ETL_SICA88_TO_KLARF [INFO    ] Read Source File:0:00:00.928075
+2023-11-28 10:56:28.157 - ETL_SICA88_TO_KLARF [INFO    ] Converter ./Data/Source\40-4N46-DF07016 to KLA-Tencor_None_4N46-DF07016_01_4N46-DF07016_2023-11-28-10-56-27.001 ;Total Used:0:00:00.936083
+2023-11-28 10:56:28.159 - CustomFuction [INFO    ] [Archive] 40-4N46-DF07016.xlsx
+2023-11-28 10:56:28.160 - CustomFuction [INFO    ] Move file: 40-4N46-DF07016.xlsx to Archive folder: Data\Archive\40-4N46-DF07016.xlsx.
+2023-11-28 10:56:28.160 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-28 10:56:28.160 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-28 10:56:28.171 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-28 10:56:28.331 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-28 10:59:28.510 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 10:59:28.510 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-28 10:59:28.510 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 10:59:28.512 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-28 10:59:28.525 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-28 10:59:28.525 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-28 10:59:28.526 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-28 10:59:28.794 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-28 10:59:32.033 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_SICA88_TO_KLARF.py.*
+2023-11-28 10:59:32.035 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-28 10:59:28.500027
+2023-11-28 10:59:32.198 - __init__   [INFO    ] Set process status code: 0.
+2023-11-28 10:59:32.208 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 10:59:32.273 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 10:59:32.336 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 10:59:33.249 - ETL_SICA88_TO_KLARF [INFO    ] Read Source File:0:00:00.832652
+2023-11-28 10:59:33.256 - ETL_SICA88_TO_KLARF [INFO    ] Converter ./Data/Source\40-4N46-DF07016 to KLA-Tencor_None_4N46-DF07016_01_4N46-DF07016_2023-11-28-10-59-32.001 ;Total Used:0:00:00.839627
+2023-11-28 10:59:33.260 - CustomFuction [INFO    ] [Archive] 40-4N46-DF07016.xlsx
+2023-11-28 10:59:33.261 - CustomFuction [INFO    ] Move file: 40-4N46-DF07016.xlsx to Archive folder: Data\Archive\40-4N46-DF07016.xlsx.
+2023-11-28 10:59:33.261 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-28 10:59:33.261 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-28 10:59:33.274 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-28 10:59:33.465 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-28 11:07:08.869 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 11:07:08.870 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-28 11:07:08.870 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 11:07:08.871 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-28 11:07:08.884 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-28 11:07:08.884 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-28 11:07:08.884 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-28 11:07:09.286 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-28 11:07:12.479 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_SICA88_TO_KLARF.py.*
+2023-11-28 11:07:12.483 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-28 11:07:08.861519
+2023-11-28 11:07:12.704 - __init__   [INFO    ] Set process status code: 0.
+2023-11-28 11:07:12.715 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 11:07:12.805 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 11:07:12.873 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 11:07:13.500 - ETL_SICA88_TO_KLARF [INFO    ] Read Source File:0:00:00.542036
+2023-11-28 11:07:13.507 - ETL_SICA88_TO_KLARF [INFO    ] Converter ./Data/Source\40-4N46-DF07016 to KLA-Tencor_None_4N46-DF07016_01_4N46-DF07016_2023-11-28-11-07-12.001 ;Total Used:0:00:00.548958
+2023-11-28 11:07:13.510 - CustomFuction [INFO    ] [Archive] 40-4N46-DF07016.xlsx
+2023-11-28 11:07:13.513 - CustomFuction [ERROR   ] Move File Error
+2023-11-28 11:07:13.516 - CustomFuction [ERROR   ] [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\40-4N46-DF07016.xlsx'
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\40-4N46-DF07016.xlsx' -> 'Data\\Archive\\40-4N46-DF07016.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 572, in move
+    os.unlink(src)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\40-4N46-DF07016.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-28 11:07:13.524 - CustomFuction [ERROR   ] [Errno 13] Permission denied: './Data/Source\\~$40-4N46-DF07016.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 34, in do_file
+    Data = pd.read_excel(file_path,engine = "openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_openpyxl.py", line 480, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_openpyxl.py", line 492, in load_workbook
+    filepath_or_buffer, read_only=True, data_only=True, keep_links=False
+  File "D:\Python37\lib\site-packages\openpyxl\reader\excel.py", line 345, in load_workbook
+    data_only, keep_links, rich_text)
+  File "D:\Python37\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "D:\Python37\lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "D:\Python37\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$40-4N46-DF07016.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-28 11:07:13.543 - CustomFuction [INFO    ] [ERROR] ~$40-4N46-DF07016.xlsx
+2023-11-28 11:07:13.545 - CustomFuction [ERROR   ] Move File Error
+2023-11-28 11:07:13.545 - CustomFuction [ERROR   ] [Errno 13] Permission denied: './Data/Source\\~$40-4N46-DF07016.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 34, in do_file
+    Data = pd.read_excel(file_path,engine = "openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_openpyxl.py", line 480, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_openpyxl.py", line 492, in load_workbook
+    filepath_or_buffer, read_only=True, data_only=True, keep_links=False
+  File "D:\Python37\lib\site-packages\openpyxl\reader\excel.py", line 345, in load_workbook
+    data_only, keep_links, rich_text)
+  File "D:\Python37\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "D:\Python37\lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "D:\Python37\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$40-4N46-DF07016.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\~$40-4N46-DF07016.xlsx' -> 'Data\\ERROR\\~$40-4N46-DF07016.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 120, in copyfile
+    with open(src, 'rb') as fsrc:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$40-4N46-DF07016.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 646, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-28 11:07:13.741 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-28 11:07:13.741 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-28 11:07:13.753 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-28 11:07:13.995 - __init__   [INFO    ] Set process status code: 5.
+2023-11-28 11:07:58.617 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 11:07:58.617 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-28 11:07:58.617 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-28 11:07:58.618 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-28 11:07:58.630 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-28 11:07:58.630 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-28 11:07:58.630 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-28 11:07:58.901 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-28 11:07:58.962 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_SICA88_TO_KLARF.py.*
+2023-11-28 11:07:58.964 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-28 11:07:58.608635
+2023-11-28 11:07:59.152 - __init__   [INFO    ] Set process status code: 0.
+2023-11-28 11:07:59.165 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 11:07:59.255 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 11:07:59.333 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-28 11:07:59.875 - ETL_SICA88_TO_KLARF [INFO    ] Read Source File:0:00:00.464150
+2023-11-28 11:07:59.881 - ETL_SICA88_TO_KLARF [INFO    ] Converter ./Data/Source\40-4N46-DF07016 to KLA-Tencor_None_4N46-DF07016_01_4N46-DF07016_2023-11-28-11-07-59.001 ;Total Used:0:00:00.470151
+2023-11-28 11:07:59.883 - CustomFuction [INFO    ] [Archive] 40-4N46-DF07016.xlsx
+2023-11-28 11:07:59.885 - CustomFuction [INFO    ] Move file: 40-4N46-DF07016.xlsx to Archive folder: Data\Archive\40-4N46-DF07016.xlsx.
+2023-11-28 11:07:59.885 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-28 11:07:59.885 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-28 11:07:59.898 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-28 11:08:00.104 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

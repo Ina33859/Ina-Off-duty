@@ -1,0 +1,1452 @@
+2023-10-25 09:24:00.870 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:24:00.872 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 09:24:00.872 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:24:00.873 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 09:24:00.895 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 09:24:00.895 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 09:24:00.896 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 09:24:04.067 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 09:24:04.464 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 09:24:04.487 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 09:24:00.844689
+2023-10-25 09:24:07.539 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 09:24:07.622 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:24:07.946 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:24:08.264 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:24:08.581 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 09:24:09.734 - ETL_FT_SD_TO_XSIFF [INFO    ] Not The Correct Archive !
+2023-10-25 09:24:12.703 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:24:12.790 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 09:24:12.792 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 09:24:12.794 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 09:29:18.140 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:29:18.140 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 09:29:18.141 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:29:18.142 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 09:29:18.157 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 09:29:18.157 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 09:29:18.158 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 09:29:21.194 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-10-25 09:29:21.195 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-10-25 09:29:25.084 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 09:29:25.101 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 09:29:18.112650
+2023-10-25 09:29:28.173 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 09:29:28.255 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:29:28.600 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:29:28.939 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:29:29.263 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 09:29:30.462 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.199557
+2023-10-25 09:30:16.784 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 09:30:18.472 - ETL_FT_SD_TO_XSIFF [ERROR   ] list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 460, in do_file
+    if variables_to_check[variable_name].isnull().any():
+TypeError: list indices must be integers or slices, not str
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 577, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 481, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 09:30:28.849 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:30:28.849 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 09:30:28.849 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:30:28.850 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 09:30:28.862 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 09:30:28.862 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 09:30:28.863 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 09:30:31.903 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-10-25 09:30:31.904 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-10-25 09:30:35.667 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 09:30:35.668 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 09:30:28.841276
+2023-10-25 09:30:38.639 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 09:30:38.722 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:30:39.006 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:30:39.281 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:30:39.569 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 09:30:40.185 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.616163
+2023-10-25 09:30:40.186 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 09:30:40.188 - ETL_FT_SD_TO_XSIFF [ERROR   ] list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 460, in do_file
+    if variables_to_check[variable_name].isnull().any():
+TypeError: list indices must be integers or slices, not str
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 577, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 481, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 09:30:43.098 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:30:43.169 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 09:30:43.171 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 09:30:43.173 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 09:30:44.304 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.131531
+2023-10-25 09:30:44.306 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 09:30:44.306 - ETL_FT_SD_TO_XSIFF [ERROR   ] list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 460, in do_file
+    if variables_to_check[variable_name].isnull().any():
+TypeError: list indices must be integers or slices, not str
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 577, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 481, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 09:30:47.193 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:30:47.269 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 09:30:47.271 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 09:30:47.273 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 09:30:48.075 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.802296
+2023-10-25 09:30:48.076 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 09:30:48.077 - ETL_FT_SD_TO_XSIFF [ERROR   ] list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 460, in do_file
+    if variables_to_check[variable_name].isnull().any():
+TypeError: list indices must be integers or slices, not str
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 577, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 481, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 09:30:50.980 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:30:51.061 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 09:30:51.064 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 09:30:51.065 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 09:30:51.066 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 09:30:51.069 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 09:30:51.163 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 09:30:54.057 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 09:32:17.299 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:32:17.300 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 09:32:17.300 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:32:17.301 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 09:32:17.313 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 09:32:17.313 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 09:32:17.313 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 09:32:20.342 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 09:32:24.351 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 09:32:24.352 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 09:32:17.292611
+2023-10-25 09:32:27.294 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 09:32:27.374 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:32:27.678 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:32:27.980 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:32:28.231 - CustomFuction [INFO    ] [Empty] Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic
+2023-10-25 09:32:28.231 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 09:32:28.232 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 09:32:28.316 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 09:32:31.192 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 09:32:48.229 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:32:48.229 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 09:32:48.229 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:32:48.230 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 09:32:48.241 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 09:32:48.241 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 09:32:48.241 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 09:32:51.412 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 09:32:55.238 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 09:32:55.244 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 09:32:48.221493
+2023-10-25 09:32:58.298 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 09:32:58.380 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:32:58.707 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:32:59.047 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:32:59.343 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 09:32:59.780 - ETL_FT_SD_TO_XSIFF [INFO    ] Not The Correct Archive !
+2023-10-25 09:33:02.680 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:33:02.764 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 09:33:02.767 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 09:33:02.771 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 09:33:03.010 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.240190
+2023-10-25 09:33:03.011 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 09:33:03.013 - ETL_FT_SD_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 459, in do_file
+    for i , variable_name in variables_to_check:
+ValueError: not enough values to unpack (expected 2, got 0)
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 577, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 481, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 09:33:05.980 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:33:06.054 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 09:33:06.055 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 09:33:06.057 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 09:33:06.881 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.824011
+2023-10-25 09:33:06.883 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 09:33:06.883 - ETL_FT_SD_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 459, in do_file
+    for i , variable_name in variables_to_check:
+ValueError: not enough values to unpack (expected 2, got 0)
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 577, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 481, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 09:33:09.810 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:33:09.887 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 09:33:09.888 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 09:33:09.889 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 09:33:10.682 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.792089
+2023-10-25 09:33:10.683 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 09:33:10.683 - ETL_FT_SD_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 459, in do_file
+    for i , variable_name in variables_to_check:
+ValueError: not enough values to unpack (expected 2, got 0)
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 577, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 481, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 09:33:13.582 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:33:13.672 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 09:33:13.762 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 09:33:13.763 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 09:33:13.763 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 09:33:13.764 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 09:33:13.877 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 09:33:16.886 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 09:33:46.003 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:33:46.003 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 09:33:46.003 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:33:46.004 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 09:33:46.016 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 09:33:46.016 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 09:33:46.017 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 09:33:49.070 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 09:33:49.469 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 09:33:49.474 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 09:33:45.994982
+2023-10-25 09:33:52.578 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 09:33:52.658 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:33:52.968 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:33:53.298 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:33:53.639 - CustomFuction [INFO    ] [Empty] Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic
+2023-10-25 09:33:53.640 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 09:33:53.641 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 09:33:53.756 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 09:33:56.815 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 09:34:10.778 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:34:10.778 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 09:34:10.778 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:34:10.779 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 09:34:10.791 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 09:34:10.791 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 09:34:10.792 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 09:34:13.805 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 09:34:14.163 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 09:34:14.164 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 09:34:10.770069
+2023-10-25 09:34:17.099 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 09:34:17.176 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:34:17.463 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:34:17.768 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:34:18.068 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 09:34:18.522 - ETL_FT_SD_TO_XSIFF [INFO    ] Not The Correct Archive !
+2023-10-25 09:34:21.420 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:34:21.508 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 09:34:21.512 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 09:34:21.515 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 09:34:22.027 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.511992
+2023-10-25 09:34:22.031 - ETL_FT_SD_TO_XSIFF [ERROR   ]  列包含空值
+2023-10-25 09:34:24.927 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:34:25.004 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 09:34:25.008 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 09:34:25.013 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 09:34:25.968 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.954963
+2023-10-25 09:34:25.970 - ETL_FT_SD_TO_XSIFF [ERROR   ]  列包含空值
+2023-10-25 09:34:28.868 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:34:28.951 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 09:34:28.954 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 09:34:28.957 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 09:34:29.810 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.852932
+2023-10-25 09:34:29.811 - ETL_FT_SD_TO_XSIFF [ERROR   ]  列包含空值
+2023-10-25 09:34:32.728 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:34:32.809 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 09:34:32.990 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 09:34:32.991 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 09:34:32.991 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 09:34:32.994 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 09:34:33.076 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 09:34:36.158 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 09:38:51.285 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:38:51.286 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 09:38:51.286 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 09:38:51.287 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 09:38:51.298 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 09:38:51.298 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 09:38:51.298 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 09:38:54.367 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 09:38:54.829 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 09:38:54.835 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 09:38:51.278509
+2023-10-25 09:38:57.890 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 09:38:57.959 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:38:58.226 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:38:58.516 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 09:38:58.814 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 09:38:59.238 - ETL_FT_SD_TO_XSIFF [INFO    ] Not The Correct Archive !
+2023-10-25 09:39:02.150 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:39:02.234 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 09:39:02.238 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 09:39:02.242 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 09:39:02.485 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.243013
+2023-10-25 09:39:02.486 - ETL_FT_SD_TO_XSIFF [ERROR   ] FtLot 是空值
+2023-10-25 09:39:05.418 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:39:05.507 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 09:39:05.511 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 09:39:05.515 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 09:39:06.354 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.840137
+2023-10-25 09:39:06.355 - ETL_FT_SD_TO_XSIFF [ERROR   ] FtLot 是空值
+2023-10-25 09:39:09.292 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:39:09.377 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 09:39:09.379 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 09:39:09.382 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 09:39:10.121 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.739164
+2023-10-25 09:39:10.122 - ETL_FT_SD_TO_XSIFF [ERROR   ] FtLot 是空值
+2023-10-25 09:39:13.067 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 09:39:13.148 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 09:39:13.273 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 09:39:13.274 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 09:39:13.274 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 09:39:13.275 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 09:39:13.363 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 09:39:16.320 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 10:40:14.759 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 10:40:14.760 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 10:40:14.761 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 10:40:14.762 - __init__   [ERROR   ] Check CustomFuction.pyc SHA256 Failed
+2023-10-25 11:06:25.989 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:06:25.989 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 11:06:25.989 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:06:25.990 - __init__   [ERROR   ] Check CustomFuction.pyc SHA256 Failed
+2023-10-25 11:07:18.585 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:07:18.585 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 11:07:18.585 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:07:18.586 - __init__   [ERROR   ] Check CustomFuction.pyc SHA256 Failed
+2023-10-25 11:08:26.441 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:08:26.442 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 11:08:26.442 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:08:26.443 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 11:08:26.455 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 11:08:26.455 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 11:08:26.456 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 11:08:27.417 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 11:08:27.725 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 11:08:27.728 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 11:08:26.434198
+2023-10-25 11:08:28.565 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 11:08:28.651 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 11:08:29.044 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 11:08:29.431 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 11:08:29.802 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 11:08:29.832 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 11:08:29.841 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 546, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 11:08:30.592 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 11:08:30.666 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 11:08:30.668 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 11:08:30.671 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 11:08:30.674 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 11:08:30.675 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 546, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 11:08:31.390 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 11:08:31.465 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 11:08:31.466 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 11:08:31.467 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 11:08:31.478 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 11:08:31.478 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 546, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 11:08:32.201 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 11:08:32.277 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 11:08:32.279 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 11:08:32.283 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 11:08:32.286 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 11:08:32.287 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 546, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 11:08:33.005 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 11:08:33.078 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 11:08:33.125 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 11:08:33.126 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 11:08:33.126 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 11:08:33.126 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 11:08:33.224 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 11:08:33.971 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 11:09:33.089 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:09:33.089 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 11:09:33.089 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:09:33.090 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 11:09:33.103 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 11:09:33.103 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 11:09:33.104 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 11:09:36.115 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 11:09:36.452 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 11:09:36.464 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 11:09:33.081018
+2023-10-25 11:09:39.440 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 11:09:39.535 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 11:09:39.811 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 11:09:40.089 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 11:09:40.364 - CustomFuction [INFO    ] [Empty] Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic
+2023-10-25 11:09:40.365 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 11:09:40.365 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 11:09:40.459 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 11:09:43.397 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 11:11:03.925 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:11:03.926 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 11:11:03.926 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 11:11:03.927 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 11:11:03.937 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 11:11:03.938 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 11:11:03.938 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 11:11:07.010 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 11:11:07.362 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 11:11:07.365 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 11:11:03.916034
+2023-10-25 11:11:10.353 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 11:11:10.429 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 11:11:10.719 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 11:11:11.010 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 11:11:11.351 - CustomFuction [INFO    ] [Empty] Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic
+2023-10-25 11:11:11.352 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 11:11:11.353 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 11:11:11.442 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 11:11:14.388 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 15:16:10.846 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:16:10.846 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 15:16:10.847 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:16:10.848 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 15:16:10.860 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 15:16:10.860 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 15:16:10.860 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 15:16:19.529 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 15:16:19.977 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 15:16:19.984 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 15:16:10.835586
+2023-10-25 15:16:28.637 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 15:16:28.727 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:16:31.277 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:16:33.822 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:16:36.375 - CustomFuction [INFO    ] [Empty] Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic
+2023-10-25 15:16:36.376 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 15:16:36.376 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 15:16:36.481 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 15:16:46.549 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 15:17:32.540 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:17:32.540 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 15:17:32.540 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:17:32.541 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 15:17:32.553 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 15:17:32.553 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 15:17:32.553 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 15:17:40.971 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 15:17:41.316 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 15:17:41.320 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 15:17:32.528276
+2023-10-25 15:17:46.939 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 15:17:47.011 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:17:49.572 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:17:52.134 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:17:54.696 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 15:17:54.813 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 15:17:54.816 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 545, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:18:00.414 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:18:00.494 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 15:18:00.496 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 15:18:00.498 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 15:18:00.510 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 15:18:00.510 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 545, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:18:05.660 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:18:05.742 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 15:18:05.744 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 15:18:05.748 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 15:18:05.763 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 15:18:05.764 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 545, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:18:10.868 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:18:10.940 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 15:18:10.942 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 15:18:10.945 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 15:18:10.960 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 15:18:10.962 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 545, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:18:16.128 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:18:16.206 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 15:18:16.293 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 15:18:16.294 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 15:18:16.294 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 15:18:16.294 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 15:18:16.380 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 15:18:21.485 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 15:23:54.724 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:23:54.724 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 15:23:54.725 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:23:54.726 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 15:23:54.737 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 15:23:54.738 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 15:23:54.738 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 15:23:59.837 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 15:24:00.134 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 15:24:00.135 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 15:23:54.717563
+2023-10-25 15:24:15.096 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:24:15.096 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 15:24:15.096 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:24:15.097 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 15:24:15.108 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 15:24:15.109 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 15:24:15.109 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 15:24:20.457 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-10-25 15:24:20.458 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-10-25 15:24:20.814 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 15:24:20.818 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 15:24:15.088786
+2023-10-25 15:24:26.082 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 15:24:26.162 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:24:28.719 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:24:31.258 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:24:33.805 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 15:24:33.846 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 15:24:33.853 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 545, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:24:39.108 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:24:39.184 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 15:24:39.185 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 15:24:39.187 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 15:24:39.188 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 15:24:39.189 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 545, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:24:44.309 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:24:44.391 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 15:24:44.394 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 15:24:44.397 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 15:24:44.401 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 15:24:44.402 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 545, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:24:49.570 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:24:49.653 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 15:24:49.655 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 15:24:49.659 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 15:24:49.662 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 15:24:49.664 - ETL_FT_SD_TO_XSIFF [ERROR   ] Excel xlsx file; not supported
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 187, in do_file
+    source_data_df = pd.read_excel(file_path, skiprows=2)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 170, in open_workbook
+    raise XLRDError(FILE_FORMAT_DESCRIPTIONS[file_format]+'; not supported')
+xlrd.biffh.XLRDError: Excel xlsx file; not supported
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 545, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:24:54.831 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:24:54.901 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 15:24:54.967 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 15:24:54.967 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 15:24:54.967 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 15:24:54.968 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 15:24:55.066 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 15:25:00.257 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 15:36:06.594 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:36:06.595 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 15:36:06.595 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:36:06.599 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 15:36:06.632 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 15:36:06.633 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 15:36:06.634 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 15:36:18.164 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 15:36:18.580 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 15:36:18.588 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 15:36:06.567992
+2023-10-25 15:36:29.901 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 15:36:29.987 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:36:32.500 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:36:35.141 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:36:37.714 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 15:36:40.416 - ETL_FT_SD_TO_XSIFF [INFO    ] Not the correct documentation: the column source_data_df[Serial no.] is numeric!
+2023-10-25 15:36:51.463 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:36:51.554 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 15:36:51.558 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 15:36:51.561 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 15:36:52.438 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.876100
+2023-10-25 15:36:52.453 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 15:36:52.465 - ETL_FT_SD_TO_XSIFF [ERROR   ] local variable 'result' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 446, in do_file
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 544, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 449, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:36:59.894 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:36:59.974 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 15:36:59.977 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 15:36:59.980 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 15:37:03.031 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:03.051025
+2023-10-25 15:37:03.035 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 15:37:03.036 - ETL_FT_SD_TO_XSIFF [ERROR   ] local variable 'result' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 446, in do_file
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 544, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 449, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:37:10.323 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:37:10.406 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 15:37:10.409 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 15:37:10.413 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 15:37:11.924 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.510941
+2023-10-25 15:37:11.926 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to create xsiff: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 15:37:11.926 - ETL_FT_SD_TO_XSIFF [ERROR   ] local variable 'result' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 446, in do_file
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 544, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 449, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:37:19.339 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:37:19.419 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 15:37:19.630 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 15:37:19.632 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 15:37:19.632 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 15:37:19.635 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 15:37:19.736 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 15:37:27.346 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 15:49:10.029 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:49:10.030 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 15:49:10.031 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:49:10.035 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 15:49:10.075 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 15:49:10.077 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 15:49:10.078 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 15:49:27.805 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:49:27.806 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 15:49:27.806 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:49:27.809 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 15:49:27.836 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 15:49:27.837 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 15:49:27.838 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 15:49:35.709 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 15:49:36.106 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 15:49:36.112 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 15:49:27.783622
+2023-10-25 15:49:43.976 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 15:49:44.058 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:49:46.571 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:49:49.273 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:49:51.899 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 15:49:53.380 - ETL_FT_SD_TO_XSIFF [INFO    ] Not the correct documentation: the column source_data_df[Serial no.] is numeric!
+2023-10-25 15:50:00.830 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:50:00.913 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 15:50:00.917 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 15:50:00.920 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 15:50:01.568 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.647923
+2023-10-25 15:50:01.579 - CustomFuction [ERROR   ] 'data'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 598, in file2db_init
+    analysis_res.append(res['data'])
+KeyError: 'data'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 575, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:50:01.597 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 15:50:01.599 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 15:50:09.198 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 15:50:11.642 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:02.443085
+2023-10-25 15:50:11.650 - CustomFuction [ERROR   ] 'data'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 598, in file2db_init
+    analysis_res.append(res['data'])
+KeyError: 'data'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 575, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:50:11.667 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 15:50:11.669 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 15:50:19.321 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 15:50:22.316 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:02.994781
+2023-10-25 15:50:22.322 - CustomFuction [ERROR   ] 'data'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 598, in file2db_init
+    analysis_res.append(res['data'])
+KeyError: 'data'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 575, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:50:22.339 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 15:50:22.535 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 15:50:30.067 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 15:50:30.069 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 15:50:30.072 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 15:50:30.172 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 15:50:38.066 - __init__   [INFO    ] Set process status code: 5.
+2023-10-25 15:52:04.105 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:52:04.106 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 15:52:04.106 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:52:04.110 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 15:52:04.147 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 15:52:04.148 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 15:52:04.149 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 15:52:16.161 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:52:16.163 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 15:52:16.163 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 15:52:16.166 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 15:52:16.197 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 15:52:16.199 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 15:52:16.199 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 15:52:24.094 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-10-25 15:52:24.513 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 15:52:24.517 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 15:52:16.134884
+2023-10-25 15:52:32.285 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 15:52:32.364 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:52:34.844 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:52:37.414 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 15:52:40.089 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 15:52:41.222 - ETL_FT_SD_TO_XSIFF [INFO    ] Not the correct documentation: the column source_data_df[Serial no.] is numeric!
+2023-10-25 15:52:48.603 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 15:52:48.702 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 15:52:48.707 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 15:52:48.711 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 15:52:49.251 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.541025
+2023-10-25 15:52:49.259 - CustomFuction [ERROR   ] 'status'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 604, in file2db_init
+    if res['status'] == 'archive':
+KeyError: 'status'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 575, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:52:49.278 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 15:52:49.279 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 15:52:56.956 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 15:52:59.059 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:02.103415
+2023-10-25 15:52:59.063 - CustomFuction [ERROR   ] 'status'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 604, in file2db_init
+    if res['status'] == 'archive':
+KeyError: 'status'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 575, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:52:59.079 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 15:52:59.080 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 15:53:06.562 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 15:53:08.749 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:02.187941
+2023-10-25 15:53:08.753 - CustomFuction [ERROR   ] 'status'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 604, in file2db_init
+    if res['status'] == 'archive':
+KeyError: 'status'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 575, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 15:53:08.769 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 15:53:08.895 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 15:53:16.426 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 15:53:16.427 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 15:53:16.430 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 15:53:16.526 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 15:53:23.971 - __init__   [INFO    ] Set process status code: 5.
+2023-10-25 16:27:02.246 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 16:27:02.246 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 16:27:02.247 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 16:27:02.248 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 16:27:02.260 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 16:27:02.261 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 16:27:02.261 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 16:27:09.654 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-10-25 16:27:10.051 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 16:27:10.057 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 16:27:02.238666
+2023-10-25 16:27:17.524 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 16:27:17.602 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 16:27:20.067 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 16:27:22.579 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 16:27:25.055 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 16:27:25.505 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 16:27:25.507 - ETL_FT_SD_TO_XSIFF [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 212, in do_file
+    FtLot = temp_value.split(' ')[1][:9]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 564, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 382, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 16:27:32.827 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 16:27:32.910 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 16:27:32.914 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 16:27:32.917 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 16:27:33.080 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 16:27:33.081 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'logging' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 324, in do_file
+    logging.error(log_message)
+NameError: name 'logging' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 564, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 382, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 16:27:40.356 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 16:27:40.433 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 16:27:40.436 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 16:27:40.440 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 16:27:41.084 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 16:27:41.085 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'logging' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 324, in do_file
+    logging.error(log_message)
+NameError: name 'logging' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 564, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 382, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 16:27:48.342 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 16:27:48.413 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 16:27:48.414 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 16:27:48.414 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 16:27:48.964 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 16:27:48.965 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'logging' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 324, in do_file
+    logging.error(log_message)
+NameError: name 'logging' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 564, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 382, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 16:27:56.137 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 16:27:56.205 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 16:27:56.248 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 16:27:56.249 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 16:27:56.249 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 16:27:56.250 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 16:27:56.334 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 16:28:03.607 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 16:33:31.114 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 16:33:31.115 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 16:33:31.115 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 16:33:31.116 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 16:33:31.131 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 16:33:31.132 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 16:33:31.132 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 16:33:38.706 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 16:33:39.074 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 16:33:39.081 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 16:33:31.102167
+2023-10-25 16:33:46.496 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 16:33:46.578 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 16:33:49.102 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 16:33:51.582 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 16:33:54.099 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 16:33:54.637 - ETL_FT_SD_TO_XSIFF [INFO    ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-25 16:34:01.945 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 16:34:02.029 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 16:34:02.034 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 16:34:02.037 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 16:34:02.239 - ETL_FT_SD_TO_XSIFF [ERROR   ] 缺少有效表头，列名包含数字: L1[(V)]
+2023-10-25 16:34:09.563 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 16:34:09.647 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 16:34:09.650 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to ERROR folder: Data\ERROR\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 16:34:09.653 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 16:34:10.335 - ETL_FT_SD_TO_XSIFF [ERROR   ] 缺少有效表头，列名包含数字: L1[(V)]
+2023-10-25 16:34:17.660 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 16:34:17.741 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 16:34:17.744 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 16:34:17.747 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 16:34:18.320 - ETL_FT_SD_TO_XSIFF [ERROR   ] 缺少有效表头，列名包含数字: L1[(V)]
+2023-10-25 16:34:25.608 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 16:34:25.705 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 16:34:25.776 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 16:34:25.776 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 16:34:25.777 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 16:34:25.777 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 16:34:25.859 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 16:34:33.201 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 16:41:33.763 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 16:41:33.764 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 16:41:33.764 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 16:41:33.765 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 16:41:33.778 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 16:41:33.778 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 16:41:33.778 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 16:41:36.855 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 16:41:37.234 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 16:41:37.240 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 16:41:33.756940
+2023-10-25 16:41:40.273 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 16:41:40.355 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 16:41:40.644 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 16:41:40.957 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 16:41:41.275 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 16:41:41.739 - ETL_FT_SD_TO_XSIFF [INFO    ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-25 16:41:44.697 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 16:41:44.781 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 16:41:44.785 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 16:41:44.789 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 16:41:45.092 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.303125
+2023-10-25 16:41:45.094 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001999
+2023-10-25 16:41:45.116 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.021961
+2023-10-25 16:41:45.116 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to FT_GD200FYS100L6S_TLECGQG81_GW_20230720142946.xsiff ;Total Used:0:00:00.327085
+2023-10-25 16:41:45.130 - CustomFuction [INFO    ] [Archive] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 16:41:45.131 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 16:41:45.132 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 16:41:45.916 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.784029
+2023-10-25 16:41:45.917 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.000968
+2023-10-25 16:41:45.950 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.031964
+2023-10-25 16:41:45.950 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707091834.xsiff ;Total Used:0:00:00.817996
+2023-10-25 16:41:45.965 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 16:41:45.966 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 16:41:45.967 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 16:41:46.691 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.724041
+2023-10-25 16:41:46.693 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001988
+2023-10-25 16:41:46.724 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.030970
+2023-10-25 16:41:46.725 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to FT_GD600MLS100L6S_XWECYQH62_GW_20230705045013.xsiff ;Total Used:0:00:00.758026
+2023-10-25 16:41:46.740 - CustomFuction [INFO    ] [Archive] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 16:41:46.847 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 16:41:46.848 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 16:41:46.848 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 16:41:46.849 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 16:41:46.933 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 16:41:49.918 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 17:28:11.080 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 17:28:11.089 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 17:28:11.090 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 17:28:11.091 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 17:28:11.108 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 17:28:11.109 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 17:28:11.110 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 17:28:18.615 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 17:28:18.845 - base       [ERROR   ] Exception during reset or similar
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\site-packages\sqlalchemy\pool\base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "D:\soft\anaconda3\lib\site-packages\sqlalchemy\pool\base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "D:\soft\anaconda3\lib\site-packages\sqlalchemy\engine\default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+KeyboardInterrupt
+2023-10-25 17:29:50.587 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 17:29:50.588 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 17:29:50.588 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 17:29:50.589 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 17:29:50.600 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 17:29:50.601 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 17:29:50.601 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 17:29:58.084 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 17:29:58.465 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 17:29:58.473 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 17:29:50.580896
+2023-10-25 17:30:05.837 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 17:30:05.922 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 17:30:08.451 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 17:30:10.943 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 17:30:13.444 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 17:30:13.988 - ETL_FT_SD_TO_XSIFF [ERROR   ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-25 17:30:21.307 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 17:30:21.389 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 17:30:21.392 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 17:30:21.395 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 17:30:21.670 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.273962
+2023-10-25 17:30:21.671 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001001
+2023-10-25 17:30:21.689 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.016962
+2023-10-25 17:30:21.689 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to FT_GD200FYS100L6S_TLECGQG81_GW_20230720142946.xsiff ;Total Used:0:00:00.293921
+2023-10-25 17:30:21.704 - CustomFuction [INFO    ] [Archive] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 17:30:21.708 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 17:30:21.712 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 17:30:22.534 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.821951
+2023-10-25 17:30:22.535 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001002
+2023-10-25 17:30:22.569 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.033969
+2023-10-25 17:30:22.569 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707091834.xsiff ;Total Used:0:00:00.856922
+2023-10-25 17:30:22.585 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 17:30:22.588 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 17:30:22.592 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 17:30:23.187 - ETL_FT_SD_TO_XSIFF [INFO    ] Failed to read file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 17:30:23.191 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'logging' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 357, in do_file
+    logging.error(log_message)
+NameError: name 'logging' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 366, in do_file
+    logging.error(log_message)
+NameError: name 'logging' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 574, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 394, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-25 17:30:30.494 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 17:30:30.564 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 17:30:30.621 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 17:30:30.622 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 17:30:30.622 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 17:30:30.623 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 17:30:30.705 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 17:30:37.987 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 17:31:22.925 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 17:31:22.925 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 17:31:22.925 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 17:31:22.926 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 17:31:22.937 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 17:31:22.938 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 17:31:22.938 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 17:31:30.355 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 17:31:30.738 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 17:31:30.742 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 17:31:22.916918
+2023-10-25 17:31:38.144 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 17:31:38.227 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 17:31:40.717 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 17:31:43.207 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 17:31:45.744 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 17:31:46.214 - ETL_FT_SD_TO_XSIFF [ERROR   ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-25 17:31:53.519 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 17:31:53.602 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 17:31:53.605 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 17:31:53.608 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 17:31:53.828 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.220107
+2023-10-25 17:31:53.830 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002002
+2023-10-25 17:31:53.845 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.014996
+2023-10-25 17:31:53.845 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to FT_GD200FYS100L6S_TLECGQG81_GW_20230720142946.xsiff ;Total Used:0:00:00.237105
+2023-10-25 17:31:53.859 - CustomFuction [INFO    ] [Archive] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 17:31:53.860 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 17:31:53.861 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 17:31:54.656 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.795028
+2023-10-25 17:31:54.658 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.000999
+2023-10-25 17:31:54.691 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.032969
+2023-10-25 17:31:54.691 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707091834.xsiff ;Total Used:0:00:00.829997
+2023-10-25 17:31:54.707 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 17:31:54.708 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 17:31:54.709 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 17:31:55.232 - ETL_FT_SD_TO_XSIFF [ERROR   ] 参数值不符合要求，包含非数值型或非空值的值: -1.00
+2023-10-25 17:32:02.522 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 17:32:02.603 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 17:32:02.687 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 17:32:02.687 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 17:32:02.687 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 17:32:02.688 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 17:32:02.775 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 17:32:10.145 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-25 17:40:22.111 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 17:40:22.112 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-25 17:40:22.112 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-25 17:40:22.113 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-25 17:40:22.125 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-25 17:40:22.126 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-25 17:40:22.126 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-25 17:40:25.196 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-25 17:40:25.591 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-10-25 17:40:25.595 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-25 17:40:22.104412
+2023-10-25 17:40:28.641 - __init__   [INFO    ] Set process status code: 0.
+2023-10-25 17:40:28.723 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 17:40:29.057 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 17:40:29.326 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-25 17:40:29.645 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: QG35-CW_GD400TAS100L6S.xlsx 
+2023-10-25 17:40:30.117 - ETL_FT_SD_TO_XSIFF [ERROR   ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-25 17:40:33.061 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 17:40:33.138 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S.xlsx
+2023-10-25 17:40:33.139 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S.xlsx to ERROR folder: Data\ERROR\GW\QG35-CW_GD400TAS100L6S.xlsx.
+2023-10-25 17:40:33.140 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-10-25 17:40:33.372 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.231141
+2023-10-25 17:40:33.374 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002000
+2023-10-25 17:40:33.389 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.014997
+2023-10-25 17:40:33.390 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to FT_GD200FYS100L6S_TLECGQG81_GW_20230720142946.xsiff ;Total Used:0:00:00.249139
+2023-10-25 17:40:33.403 - CustomFuction [INFO    ] [Archive] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-10-25 17:40:33.404 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-10-25 17:40:33.405 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-10-25 17:40:34.207 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.802153
+2023-10-25 17:40:34.208 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001008
+2023-10-25 17:40:34.241 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.032974
+2023-10-25 17:40:34.241 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707091834.xsiff ;Total Used:0:00:00.836135
+2023-10-25 17:40:34.259 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-10-25 17:40:34.260 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-10-25 17:40:34.261 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-10-25 17:40:34.833 - ETL_FT_SD_TO_XSIFF [ERROR   ] 参数值不符合要求，包含非数值型或非空值的值: ∞
+2023-10-25 17:40:37.772 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-25 17:40:37.856 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-25 17:40:37.939 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\ERROR\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-25 17:40:37.939 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-25 17:40:37.939 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-25 17:40:37.940 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-10-25 17:40:38.027 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-25 17:40:40.990 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

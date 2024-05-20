@@ -1,0 +1,106 @@
+2023-11-30 09:16:28.102 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-30 09:16:28.104 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-30 09:16:28.104 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-30 09:16:28.105 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-30 09:16:28.118 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-30 09:16:28.118 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-30 09:16:28.118 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-30 09:16:31.873 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-30 09:16:35.146 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XBSL_TO_XSIFF\ETL_XBSL_TO_XSIFF.py.*
+2023-11-30 09:16:35.150 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-30 09:16:28.091811
+2023-11-30 09:16:38.650 - __init__   [INFO    ] Set process status code: 0.
+2023-11-30 09:16:38.669 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-30 09:16:38.792 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-30 09:16:38.904 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-30 09:16:39.006 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00101-G1.xml 
+2023-11-30 09:16:39.013 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.006998
+2023-11-30 09:16:39.085 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.072961
+2023-11-30 09:16:39.148 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.062035
+2023-11-30 09:16:39.148 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00101-G1.xml to CP_WAS23ABI_S23A00101_01_Step1_20230724023852.xsiff ;Total Used:0:00:00.141994
+2023-11-30 09:16:39.155 - CustomFuction [INFO    ] [Archive] S23A00101-G1.xml
+2023-11-30 09:16:39.155 - CustomFuction [INFO    ] Move file: S23A00101-G1.xml to Archive folder: Data\Source\Step1\S23A00101-G1.xml.
+2023-11-30 09:16:39.156 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00102-B1.xml 
+2023-11-30 09:16:39.159 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.002975
+2023-11-30 09:16:39.224 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.065018
+2023-11-30 09:16:39.275 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.050978
+2023-11-30 09:16:39.275 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00102-B1.xml to CP_WAS23ABI_S23A00102_01_Step1_20230723180621.xsiff ;Total Used:0:00:00.118971
+2023-11-30 09:16:39.282 - CustomFuction [INFO    ] [Archive] S23A00102-B1.xml
+2023-11-30 09:16:39.283 - CustomFuction [INFO    ] Move file: S23A00102-B1.xml to Archive folder: Data\Source\Step1\S23A00102-B1.xml.
+2023-11-30 09:16:39.284 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00103-D4.xml 
+2023-11-30 09:16:39.287 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.002996
+2023-11-30 09:16:39.332 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.045007
+2023-11-30 09:16:39.385 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.053960
+2023-11-30 09:16:39.385 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00103-D4.xml to CP_WAS23ABI_S23A00103_04_Step1_20230723201040.xsiff ;Total Used:0:00:00.101963
+2023-11-30 09:16:39.393 - CustomFuction [INFO    ] [Archive] S23A00103-D4.xml
+2023-11-30 09:16:39.393 - CustomFuction [INFO    ] Move file: S23A00103-D4.xml to Archive folder: Data\Source\Step1\S23A00103-D4.xml.
+2023-11-30 09:16:39.396 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00104-F7.xml 
+2023-11-30 09:16:39.397 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.001974
+2023-11-30 09:16:39.454 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.056998
+2023-11-30 09:16:39.513 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.058993
+2023-11-30 09:16:39.515 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00104-F7.xml to CP_WAS23ABI_S23A00104_07_Step1_20230723221951.xsiff ;Total Used:0:00:00.117965
+2023-11-30 09:16:39.520 - CustomFuction [INFO    ] [Archive] S23A00104-F7.xml
+2023-11-30 09:16:39.521 - CustomFuction [INFO    ] Move file: S23A00104-F7.xml to Archive folder: Data\Source\Step1\S23A00104-F7.xml.
+2023-11-30 09:16:39.523 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00105-A7.xml 
+2023-11-30 09:16:39.526 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.002993
+2023-11-30 09:16:39.589 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.063028
+2023-11-30 09:16:39.646 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.056620
+2023-11-30 09:16:39.646 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00105-A7.xml to CP_WAS23ABI_S23A00105_07_Step1_20230724002842.xsiff ;Total Used:0:00:00.122641
+2023-11-30 09:16:39.654 - CustomFuction [INFO    ] [Archive] S23A00105-A7.xml
+2023-11-30 09:16:39.654 - CustomFuction [INFO    ] Move file: S23A00105-A7.xml to Archive folder: Data\Source\Step1\S23A00105-A7.xml.
+2023-11-30 09:16:39.654 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-30 09:16:39.655 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-30 09:16:39.667 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-30 09:16:39.844 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-30 09:17:59.383 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-30 09:17:59.383 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-30 09:17:59.383 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-30 09:17:59.384 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-30 09:17:59.395 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-30 09:17:59.396 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-30 09:17:59.396 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-30 09:17:59.634 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-30 09:18:02.924 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XBSL_TO_XSIFF\ETL_XBSL_TO_XSIFF.py.*
+2023-11-30 09:18:02.927 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-30 09:17:59.374362
+2023-11-30 09:18:03.188 - __init__   [INFO    ] Set process status code: 0.
+2023-11-30 09:18:03.197 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-30 09:18:03.282 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-30 09:18:03.396 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-30 09:18:03.483 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00101-G1.xml 
+2023-11-30 09:18:03.485 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.002000
+2023-11-30 09:18:03.535 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.049993
+2023-11-30 09:18:03.591 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.055973
+2023-11-30 09:18:03.591 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00101-G1.xml to CP_WAS23ABI_S23A00101_01_Step1_20230724023852.xsiff ;Total Used:0:00:00.107966
+2023-11-30 09:18:03.597 - CustomFuction [INFO    ] [Archive] S23A00101-G1.xml
+2023-11-30 09:18:03.597 - CustomFuction [INFO    ] Move file: S23A00101-G1.xml to Archive folder: Data\Source\Step1 - 僲僢僠岦偒曄峏\S23A00101-G1.xml.
+2023-11-30 09:18:03.599 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00102-B1.xml 
+2023-11-30 09:18:03.601 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.002002
+2023-11-30 09:18:03.666 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.065029
+2023-11-30 09:18:03.719 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.051969
+2023-11-30 09:18:03.720 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00102-B1.xml to CP_WAS23ABI_S23A00102_01_Step1_20230723180621.xsiff ;Total Used:0:00:00.120998
+2023-11-30 09:18:03.726 - CustomFuction [INFO    ] [Archive] S23A00102-B1.xml
+2023-11-30 09:18:03.726 - CustomFuction [INFO    ] Move file: S23A00102-B1.xml to Archive folder: Data\Source\Step1 - 僲僢僠岦偒曄峏\S23A00102-B1.xml.
+2023-11-30 09:18:03.728 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00103-D4.xml 
+2023-11-30 09:18:03.730 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.001999
+2023-11-30 09:18:03.779 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.049003
+2023-11-30 09:18:03.831 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.052028
+2023-11-30 09:18:03.831 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00103-D4.xml to CP_WAS23ABI_S23A00103_04_Step1_20230723201040.xsiff ;Total Used:0:00:00.103030
+2023-11-30 09:18:03.838 - CustomFuction [INFO    ] [Archive] S23A00103-D4.xml
+2023-11-30 09:18:03.838 - CustomFuction [INFO    ] Move file: S23A00103-D4.xml to Archive folder: Data\Source\Step1 - 僲僢僠岦偒曄峏\S23A00103-D4.xml.
+2023-11-30 09:18:03.840 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00104-F7.xml 
+2023-11-30 09:18:03.842 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.002000
+2023-11-30 09:18:03.888 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.046006
+2023-11-30 09:18:03.939 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.050969
+2023-11-30 09:18:03.939 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00104-F7.xml to CP_WAS23ABI_S23A00104_07_Step1_20230723221951.xsiff ;Total Used:0:00:00.098975
+2023-11-30 09:18:03.946 - CustomFuction [INFO    ] [Archive] S23A00104-F7.xml
+2023-11-30 09:18:03.946 - CustomFuction [INFO    ] Move file: S23A00104-F7.xml to Archive folder: Data\Source\Step1 - 僲僢僠岦偒曄峏\S23A00104-F7.xml.
+2023-11-30 09:18:03.949 - ETL_XBSL_TO_XSIFF [INFO    ] Currently working on files: S23A00105-A7.xml 
+2023-11-30 09:18:03.950 - ETL_XBSL_TO_XSIFF [INFO    ] Read source file:0:00:00.000999
+2023-11-30 09:18:03.999 - ETL_XBSL_TO_XSIFF [INFO    ] Create xsiff:0:00:00.047997
+2023-11-30 09:18:04.058 - ETL_XBSL_TO_XSIFF [INFO    ] Export xsiff:0:00:00.059010
+2023-11-30 09:18:04.058 - ETL_XBSL_TO_XSIFF [INFO    ] Converter S23A00105-A7.xml to CP_WAS23ABI_S23A00105_07_Step1_20230724002842.xsiff ;Total Used:0:00:00.109004
+2023-11-30 09:18:04.065 - CustomFuction [INFO    ] [Archive] S23A00105-A7.xml
+2023-11-30 09:18:04.066 - CustomFuction [INFO    ] Move file: S23A00105-A7.xml to Archive folder: Data\Source\Step1 - 僲僢僠岦偒曄峏\S23A00105-A7.xml.
+2023-11-30 09:18:04.066 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-30 09:18:04.066 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-30 09:18:04.076 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-30 09:18:04.257 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

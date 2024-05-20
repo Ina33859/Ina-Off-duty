@@ -1,0 +1,352 @@
+2023-11-27 18:24:41.260 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-11-27 18:31:13.682 - CustomFuction [ERROR   ] Move File Error
+2023-11-27 18:31:13.698 - CustomFuction [ERROR   ] './Data/Source\\1-HB0185F0CIB0.xlsx' and 'Data\\Source\\1-HB0185F0CIB0.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\1-HB0185F0CIB0.xlsx' -> 'Data\\Source\\1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: './Data/Source\\1-HB0185F0CIB0.xlsx' and 'Data\\Source\\1-HB0185F0CIB0.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:31:14.572 - CustomFuction [ERROR   ] Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 157, in open_workbook
+    ragged_rows=ragged_rows,
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 92, in open_workbook_xls
+    biff_version = bk.getbof(XL_WORKBOOK_GLOBALS)
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1278, in getbof
+    bof_error('Expected BOF record; found %r' % self.mem[savpos:savpos+8])
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1272, in bof_error
+    raise XLRDError('Unsupported format, or corrupt file: ' + msg)
+xlrd.biffh.XLRDError: Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:31:16.800 - CustomFuction [ERROR   ] [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:31:16.827 - CustomFuction [ERROR   ] Move File Error
+2023-11-27 18:31:16.829 - CustomFuction [ERROR   ] './Data/Source\\~$1-HB0185F0CIB0.xlsx' and 'Data\\Source\\~$1-HB0185F0CIB0.xlsx' are the same file
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\~$1-HB0185F0CIB0.xlsx' -> 'Data\\Source\\~$1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: './Data/Source\\~$1-HB0185F0CIB0.xlsx' and 'Data\\Source\\~$1-HB0185F0CIB0.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 646, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:31:54.040 - CustomFuction [ERROR   ] Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 157, in open_workbook
+    ragged_rows=ragged_rows,
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 92, in open_workbook_xls
+    biff_version = bk.getbof(XL_WORKBOOK_GLOBALS)
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1278, in getbof
+    bof_error('Expected BOF record; found %r' % self.mem[savpos:savpos+8])
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1272, in bof_error
+    raise XLRDError('Unsupported format, or corrupt file: ' + msg)
+xlrd.biffh.XLRDError: Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:41:28.573 - CustomFuction [ERROR   ] Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 157, in open_workbook
+    ragged_rows=ragged_rows,
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 92, in open_workbook_xls
+    biff_version = bk.getbof(XL_WORKBOOK_GLOBALS)
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1278, in getbof
+    bof_error('Expected BOF record; found %r' % self.mem[savpos:savpos+8])
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1272, in bof_error
+    raise XLRDError('Unsupported format, or corrupt file: ' + msg)
+xlrd.biffh.XLRDError: Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:53:32.809 - CustomFuction [ERROR   ] local variable 'Data' referenced before assignment
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 41, in do_file
+    for item, row in Data.iterrows():
+UnboundLocalError: local variable 'Data' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:55:26.172 - CustomFuction [ERROR   ] 'str' object has no attribute 'iterrows'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 41, in do_file
+    for item, row in Data.iterrows():
+AttributeError: 'str' object has no attribute 'iterrows'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:42:49.091 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-42-48.001'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 59, in do_file
+    with open(outputPath, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-42-48.001'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:42:49.162 - CustomFuction [ERROR   ] Move File Error
+2023-11-27 19:42:49.164 - CustomFuction [ERROR   ] [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\1-HB0185F0CIB0.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 59, in do_file
+    with open(outputPath, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-42-48.001'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\1-HB0185F0CIB0.xlsx' -> 'Data\\ERROR\\1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 572, in move
+    os.unlink(src)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\1-HB0185F0CIB0.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 646, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:42:53.269 - CustomFuction [ERROR   ] [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 25, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:42:53.323 - CustomFuction [ERROR   ] Move File Error
+2023-11-27 19:42:53.324 - CustomFuction [ERROR   ] [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 25, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\~$1-HB0185F0CIB0.xlsx' -> 'Data\\ERROR\\~$1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 120, in copyfile
+    with open(src, 'rb') as fsrc:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 646, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:43:13.910 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-43-13.001'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 59, in do_file
+    with open(outputPath, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-43-13.001'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

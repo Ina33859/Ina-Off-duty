@@ -1,0 +1,1315 @@
+2024-01-19 12:25:47.443 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:25:47.445 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-19 12:25:47.445 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:25:47.446 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-19 12:25:47.458 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-19 12:25:47.459 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-19 12:25:47.459 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-19 12:25:48.101 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-19 12:25:48.159 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-19 12:25:48.161 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-19 12:25:47.435553
+2024-01-19 12:25:48.487 - __init__   [INFO    ] Set process status code: 0.
+2024-01-19 12:25:48.501 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:25:48.595 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:25:48.696 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:25:48.788 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.013004
+2024-01-19 12:25:48.793 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:48.818 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv
+2024-01-19 12:25:48.819 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv.
+2024-01-19 12:25:49.027 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.007958
+2024-01-19 12:25:49.028 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.032 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv
+2024-01-19 12:25:49.032 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv.
+2024-01-19 12:25:49.177 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003886
+2024-01-19 12:25:49.177 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.179 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv
+2024-01-19 12:25:49.180 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv.
+2024-01-19 12:25:49.383 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002992
+2024-01-19 12:25:49.383 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.385 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv
+2024-01-19 12:25:49.386 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv.
+2024-01-19 12:25:49.633 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.006001
+2024-01-19 12:25:49.634 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.637 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv
+2024-01-19 12:25:49.637 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv.
+2024-01-19 12:25:49.880 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.004012
+2024-01-19 12:25:49.881 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.885 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv
+2024-01-19 12:25:49.886 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv.
+2024-01-19 12:25:50.072 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002999
+2024-01-19 12:25:50.073 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.075 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv
+2024-01-19 12:25:50.075 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv.
+2024-01-19 12:25:50.286 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002983
+2024-01-19 12:25:50.287 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.289 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv
+2024-01-19 12:25:50.290 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv.
+2024-01-19 12:25:50.498 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.004037
+2024-01-19 12:25:50.499 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.501 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv
+2024-01-19 12:25:50.501 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv.
+2024-01-19 12:25:50.635 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003022
+2024-01-19 12:25:50.636 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.638 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201428CNF4_19_DefectAttributes.csv
+2024-01-19 12:25:50.638 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201428CNF4_19_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201428CNF4_19_DefectAttributes.csv.
+2024-01-19 12:25:50.809 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003003
+2024-01-19 12:25:50.810 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.812 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201429CNC3_09_DefectAttributes.csv
+2024-01-19 12:25:50.813 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201429CNC3_09_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201429CNC3_09_DefectAttributes.csv.
+2024-01-19 12:25:50.971 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003034
+2024-01-19 12:25:50.972 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.974 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B0600229CNE1_07_DefectAttributes.csv
+2024-01-19 12:25:50.975 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B0600229CNE1_07_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B0600229CNE1_07_DefectAttributes.csv.
+2024-01-19 12:25:51.147 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.004049
+2024-01-19 12:25:51.148 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.150 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B3300620CNB6_06_DefectAttributes.csv
+2024-01-19 12:25:51.151 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B3300620CNB6_06_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B3300620CNB6_06_DefectAttributes.csv.
+2024-01-19 12:25:51.294 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.005999
+2024-01-19 12:25:51.296 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.299 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100510CNC2_13_DefectAttributes.csv
+2024-01-19 12:25:51.300 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100510CNC2_13_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100510CNC2_13_DefectAttributes.csv.
+2024-01-19 12:25:51.488 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.004027
+2024-01-19 12:25:51.489 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.491 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100511CNG4_14_DefectAttributes.csv
+2024-01-19 12:25:51.492 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100511CNG4_14_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100511CNG4_14_DefectAttributes.csv.
+2024-01-19 12:25:51.695 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.011982
+2024-01-19 12:25:51.696 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.699 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100512CND3_15_DefectAttributes.csv
+2024-01-19 12:25:51.700 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100512CND3_15_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100512CND3_15_DefectAttributes.csv.
+2024-01-19 12:25:51.866 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.004004
+2024-01-19 12:25:51.867 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.870 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B8901213CNE2_10_DefectAttributes.csv
+2024-01-19 12:25:51.872 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B8901213CNE2_10_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B8901213CNE2_10_DefectAttributes.csv.
+2024-01-19 12:25:52.074 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002993
+2024-01-19 12:25:52.075 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:52.080 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B9400230CNF6_16_DefectAttributes.csv
+2024-01-19 12:25:52.081 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B9400230CNF6_16_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B9400230CNF6_16_DefectAttributes.csv.
+2024-01-19 12:25:52.424 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.005001
+2024-01-19 12:25:52.425 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:52.428 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C1001324CNC7_05_DefectAttributes.csv
+2024-01-19 12:25:52.428 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C1001324CNC7_05_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C1001324CNC7_05_DefectAttributes.csv.
+2024-01-19 12:25:52.733 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003034
+2024-01-19 12:25:52.734 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:52.740 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C2601230CNC6_12_DefectAttributes.csv
+2024-01-19 12:25:52.741 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C2601230CNC6_12_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C2601230CNC6_12_DefectAttributes.csv.
+2024-01-19 12:25:52.915 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-19 12:25:52.915 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-19 12:25:52.929 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-19 12:25:53.106 - __init__   [INFO    ] Set process status code: 5.
+2024-01-19 12:27:15.864 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:27:15.864 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-19 12:27:15.864 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:27:15.866 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-19 12:27:15.879 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-19 12:27:15.880 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-19 12:27:15.880 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-19 12:27:16.395 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2024-01-19 12:27:16.444 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-19 12:27:16.446 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-19 12:27:15.855490
+2024-01-19 12:27:16.610 - __init__   [INFO    ] Set process status code: 0.
+2024-01-19 12:27:16.616 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:27:16.685 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:27:16.757 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:27:16.869 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.014017
+2024-01-19 12:27:16.876 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:16.883 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv
+2024-01-19 12:27:16.883 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv.
+2024-01-19 12:27:17.075 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003995
+2024-01-19 12:27:17.076 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.078 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv
+2024-01-19 12:27:17.078 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv.
+2024-01-19 12:27:17.276 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003995
+2024-01-19 12:27:17.277 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.279 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv
+2024-01-19 12:27:17.280 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv.
+2024-01-19 12:27:17.445 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.004987
+2024-01-19 12:27:17.446 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.448 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv
+2024-01-19 12:27:17.448 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv.
+2024-01-19 12:27:17.640 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.004026
+2024-01-19 12:27:17.641 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.645 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv
+2024-01-19 12:27:17.646 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv.
+2024-01-19 12:27:17.811 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.009001
+2024-01-19 12:27:17.812 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.815 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv
+2024-01-19 12:27:17.816 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv.
+2024-01-19 12:27:18.065 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.021138
+2024-01-19 12:27:18.068 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:18.073 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv
+2024-01-19 12:27:18.075 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv.
+2024-01-19 12:27:18.371 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.015008
+2024-01-19 12:27:18.374 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:18.380 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv
+2024-01-19 12:27:18.382 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv.
+2024-01-19 12:27:18.758 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.011101
+2024-01-19 12:27:18.759 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:18.761 - CustomFuction [INFO    ] [ERROR] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv
+2024-01-19 12:27:18.762 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv.
+2024-01-19 12:27:21.210 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:27:21.210 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-19 12:27:21.210 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:27:21.212 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-19 12:27:21.223 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-19 12:27:21.224 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-19 12:27:21.224 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-19 12:27:21.582 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-19 12:27:21.582 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-19 12:27:21.642 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-19 12:27:21.645 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-19 12:27:21.185616
+2024-01-19 12:27:21.883 - __init__   [INFO    ] Set process status code: 0.
+2024-01-19 12:27:21.897 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:27:22.035 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:27:22.175 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:27:31.511 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:27:31.511 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-19 12:27:31.512 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:27:31.513 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-19 12:27:31.524 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-19 12:27:31.525 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-19 12:27:31.525 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-19 12:27:31.847 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-19 12:27:31.848 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-19 12:27:31.913 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-19 12:27:31.915 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-19 12:27:31.487758
+2024-01-19 12:27:32.299 - __init__   [INFO    ] Set process status code: 0.
+2024-01-19 12:27:32.314 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:27:32.466 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:27:32.601 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:27:32.786 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.024936
+2024-01-19 12:28:14.751 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:28:14.751 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-19 12:28:14.751 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 12:28:14.752 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-19 12:28:14.763 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-19 12:28:14.763 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-19 12:28:14.763 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-19 12:28:15.002 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-19 12:28:15.003 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-19 12:28:15.044 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-19 12:28:15.045 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-19 12:28:14.740747
+2024-01-19 12:28:15.211 - __init__   [INFO    ] Set process status code: 0.
+2024-01-19 12:28:15.220 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:28:15.314 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:28:15.369 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 12:28:15.450 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.005035
+2024-01-19 12:28:15.463 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.018039
+2024-01-19 12:28:15.475 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.030000
+2024-01-19 12:28:15.487 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.042031
+2024-01-19 12:28:15.499 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.054006
+2024-01-19 12:28:15.514 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.067998
+2024-01-19 12:28:15.528 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.083004
+2024-01-19 12:28:15.548 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.103032
+2024-01-19 12:28:15.562 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.116999
+2024-01-19 12:28:15.577 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.131998
+2024-01-19 12:28:15.592 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.147001
+2024-01-19 12:28:15.608 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.163023
+2024-01-19 12:28:15.623 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.178003
+2024-01-19 12:28:15.640 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.195023
+2024-01-19 12:28:15.657 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.212034
+2024-01-19 12:28:15.674 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.229030
+2024-01-19 12:28:15.691 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.246036
+2024-01-19 12:28:15.709 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.263997
+2024-01-19 12:28:15.728 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.283001
+2024-01-19 12:28:15.748 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.303025
+2024-01-19 12:28:15.766 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_20_L87-477__A0201422CNA3_2024-01-19-12-25-30.001 ;Total Used:0:00:00.320996
+2024-01-19 12:28:15.770 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv
+2024-01-19 12:28:15.770 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201422CNA3_20_DefectAttributes.csv.
+2024-01-19 12:28:15.773 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002957
+2024-01-19 12:28:15.782 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.011960
+2024-01-19 12:28:15.790 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.019990
+2024-01-19 12:28:15.799 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.028986
+2024-01-19 12:28:15.808 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.037958
+2024-01-19 12:28:15.818 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.047958
+2024-01-19 12:28:15.828 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.057958
+2024-01-19 12:28:15.838 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.067989
+2024-01-19 12:28:15.848 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.077990
+2024-01-19 12:28:15.859 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.088961
+2024-01-19 12:28:15.871 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.100983
+2024-01-19 12:28:15.882 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.111956
+2024-01-19 12:28:15.895 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.124962
+2024-01-19 12:28:15.908 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.137984
+2024-01-19 12:28:15.920 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.149957
+2024-01-19 12:28:15.933 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.162957
+2024-01-19 12:28:15.947 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.176955
+2024-01-19 12:28:15.961 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.190957
+2024-01-19 12:28:15.980 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.209959
+2024-01-19 12:28:15.996 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_18_L87-477__A0201423CNE5_2024-01-19-12-25-30.001 ;Total Used:0:00:00.225988
+2024-01-19 12:28:15.998 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv
+2024-01-19 12:28:15.999 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201423CNE5_18_DefectAttributes.csv.
+2024-01-19 12:28:16.001 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002025
+2024-01-19 12:28:16.009 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.010031
+2024-01-19 12:28:16.017 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.018025
+2024-01-19 12:28:16.025 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.026034
+2024-01-19 12:28:16.034 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.034998
+2024-01-19 12:28:16.042 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.043039
+2024-01-19 12:28:16.051 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.052001
+2024-01-19 12:28:16.060 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.061032
+2024-01-19 12:28:16.072 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.073000
+2024-01-19 12:28:16.084 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.085002
+2024-01-19 12:28:16.096 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.097001
+2024-01-19 12:28:16.107 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.108035
+2024-01-19 12:28:16.118 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.118998
+2024-01-19 12:28:16.130 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.131042
+2024-01-19 12:28:16.141 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.141997
+2024-01-19 12:28:16.153 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.154035
+2024-01-19 12:28:16.166 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.166998
+2024-01-19 12:28:16.182 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.183000
+2024-01-19 12:28:16.195 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_17_L87-477__A0201425CNF6_2024-01-19-12-25-30.001 ;Total Used:0:00:00.196000
+2024-01-19 12:28:16.197 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv
+2024-01-19 12:28:16.198 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201425CNF6_17_DefectAttributes.csv.
+2024-01-19 12:28:16.200 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002000
+2024-01-19 12:28:16.209 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.011002
+2024-01-19 12:28:16.217 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.019035
+2024-01-19 12:28:16.227 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.029000
+2024-01-19 12:28:16.236 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.038033
+2024-01-19 12:28:16.246 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.048002
+2024-01-19 12:28:16.256 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.058023
+2024-01-19 12:28:16.265 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.067027
+2024-01-19 12:28:16.275 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.077031
+2024-01-19 12:28:16.286 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.087997
+2024-01-19 12:28:16.300 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.101998
+2024-01-19 12:28:16.313 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.115000
+2024-01-19 12:28:16.324 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.126031
+2024-01-19 12:28:16.336 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.137998
+2024-01-19 12:28:16.348 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.149998
+2024-01-19 12:28:16.361 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.163006
+2024-01-19 12:28:16.374 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.175999
+2024-01-19 12:28:16.386 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_01_L87-477__A0201428CND6_2024-01-19-12-25-30.001 ;Total Used:0:00:00.188016
+2024-01-19 12:28:16.388 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv
+2024-01-19 12:28:16.388 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A0201428CND6_01_DefectAttributes.csv.
+2024-01-19 12:28:16.392 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003000
+2024-01-19 12:28:16.407 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.018033
+2024-01-19 12:28:16.423 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.034000
+2024-01-19 12:28:16.439 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.050006
+2024-01-19 12:28:16.456 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.066998
+2024-01-19 12:28:16.478 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.089010
+2024-01-19 12:28:16.497 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.106999
+2024-01-19 12:28:16.517 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.127045
+2024-01-19 12:28:16.539 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.149998
+2024-01-19 12:28:16.560 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.170998
+2024-01-19 12:28:16.582 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.192998
+2024-01-19 12:28:16.605 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.215997
+2024-01-19 12:28:16.627 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.237997
+2024-01-19 12:28:16.651 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.262025
+2024-01-19 12:28:16.675 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.285999
+2024-01-19 12:28:16.699 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.310022
+2024-01-19 12:28:16.723 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_11_L87-477__A2900410CNA5_2024-01-19-12-25-30.001 ;Total Used:0:00:00.334022
+2024-01-19 12:28:16.725 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv
+2024-01-19 12:28:16.725 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A2900410CNA5_11_DefectAttributes.csv.
+2024-01-19 12:28:16.728 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003028
+2024-01-19 12:28:16.733 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.008002
+2024-01-19 12:28:16.739 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.014026
+2024-01-19 12:28:16.745 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.020027
+2024-01-19 12:28:16.751 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.026000
+2024-01-19 12:28:16.757 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.032001
+2024-01-19 12:28:16.763 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.038025
+2024-01-19 12:28:16.770 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.045003
+2024-01-19 12:28:16.777 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.052000
+2024-01-19 12:28:16.784 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.059027
+2024-01-19 12:28:16.792 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.067033
+2024-01-19 12:28:16.799 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.074035
+2024-01-19 12:28:16.808 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.083035
+2024-01-19 12:28:16.817 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.092034
+2024-01-19 12:28:16.826 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.101034
+2024-01-19 12:28:16.832 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_02_L87-477__A3501324CNB3_2024-01-19-12-25-30.001 ;Total Used:0:00:00.107040
+2024-01-19 12:28:16.834 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv
+2024-01-19 12:28:16.834 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501324CNB3_02_DefectAttributes.csv.
+2024-01-19 12:28:16.837 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003005
+2024-01-19 12:28:16.843 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.009027
+2024-01-19 12:28:16.850 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.016029
+2024-01-19 12:28:16.857 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.023026
+2024-01-19 12:28:16.864 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.030000
+2024-01-19 12:28:16.871 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.037004
+2024-01-19 12:28:16.880 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.046000
+2024-01-19 12:28:16.888 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.053998
+2024-01-19 12:28:16.897 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.062999
+2024-01-19 12:28:16.905 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.071003
+2024-01-19 12:28:16.914 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.080033
+2024-01-19 12:28:16.922 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.088031
+2024-01-19 12:28:16.931 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.096997
+2024-01-19 12:28:16.941 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.106997
+2024-01-19 12:28:16.946 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_03_L87-477__A3501327CNG6_2024-01-19-12-25-30.001 ;Total Used:0:00:00.112025
+2024-01-19 12:28:16.948 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv
+2024-01-19 12:28:16.949 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501327CNG6_03_DefectAttributes.csv.
+2024-01-19 12:28:16.951 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002027
+2024-01-19 12:28:16.955 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.006023
+2024-01-19 12:28:16.959 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.010041
+2024-01-19 12:28:16.964 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.015034
+2024-01-19 12:28:16.969 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.020023
+2024-01-19 12:28:16.973 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.023999
+2024-01-19 12:28:16.978 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.029033
+2024-01-19 12:28:16.983 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.034024
+2024-01-19 12:28:16.988 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.039025
+2024-01-19 12:28:16.994 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.045002
+2024-01-19 12:28:16.999 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.050028
+2024-01-19 12:28:17.004 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.055034
+2024-01-19 12:28:17.011 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.061000
+2024-01-19 12:28:17.015 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_04_L87-477__A3501328CND5_2024-01-19-12-25-30.001 ;Total Used:0:00:00.066000
+2024-01-19 12:28:17.017 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv
+2024-01-19 12:28:17.017 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A3501328CND5_04_DefectAttributes.csv.
+2024-01-19 12:28:17.020 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002000
+2024-01-19 12:28:17.033 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.014998
+2024-01-19 12:28:17.044 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.026058
+2024-01-19 12:28:17.057 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.039001
+2024-01-19 12:28:17.070 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.051999
+2024-01-19 12:28:17.088 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.069998
+2024-01-19 12:28:17.108 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.089009
+2024-01-19 12:28:17.150 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.131998
+2024-01-19 12:28:17.181 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.162996
+2024-01-19 12:28:17.212 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.193999
+2024-01-19 12:28:17.242 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.223996
+2024-01-19 12:28:17.265 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.246997
+2024-01-19 12:28:17.288 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_08_L87-477__A7201426CNE3_2024-01-19-12-25-30.001 ;Total Used:0:00:00.269994
+2024-01-19 12:28:17.289 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv
+2024-01-19 12:28:17.291 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201426CNE3_08_DefectAttributes.csv.
+2024-01-19 12:28:17.298 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.006001
+2024-01-19 12:28:17.310 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.018001
+2024-01-19 12:28:17.323 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.030000
+2024-01-19 12:28:17.334 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.042001
+2024-01-19 12:28:17.348 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.055998
+2024-01-19 12:28:17.362 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.069998
+2024-01-19 12:28:17.378 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.086000
+2024-01-19 12:28:17.391 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.098998
+2024-01-19 12:28:17.407 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.115035
+2024-01-19 12:28:17.423 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.131000
+2024-01-19 12:28:17.441 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.149001
+2024-01-19 12:28:17.459 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201428CNF4_19_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_19_L87-477__A7201428CNF4_2024-01-19-12-25-30.001 ;Total Used:0:00:00.167032
+2024-01-19 12:28:17.460 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201428CNF4_19_DefectAttributes.csv
+2024-01-19 12:28:17.462 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201428CNF4_19_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201428CNF4_19_DefectAttributes.csv.
+2024-01-19 12:28:17.466 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003994
+2024-01-19 12:28:17.475 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.012994
+2024-01-19 12:28:17.488 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.025995
+2024-01-19 12:28:17.499 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.036993
+2024-01-19 12:28:17.509 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.046994
+2024-01-19 12:28:17.520 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.057994
+2024-01-19 12:28:17.534 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.071998
+2024-01-19 12:28:17.551 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.088998
+2024-01-19 12:28:17.565 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.102993
+2024-01-19 12:28:17.575 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.112992
+2024-01-19 12:28:17.583 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201429CNC3_09_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_09_L87-477__A7201429CNC3_2024-01-19-12-25-30.001 ;Total Used:0:00:00.120990
+2024-01-19 12:28:17.585 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201429CNC3_09_DefectAttributes.csv
+2024-01-19 12:28:17.585 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201429CNC3_09_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__A7201429CNC3_09_DefectAttributes.csv.
+2024-01-19 12:28:17.589 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002993
+2024-01-19 12:28:17.598 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.011995
+2024-01-19 12:28:17.605 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.018993
+2024-01-19 12:28:17.612 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.025993
+2024-01-19 12:28:17.620 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.033995
+2024-01-19 12:28:17.633 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.045995
+2024-01-19 12:28:17.649 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.062999
+2024-01-19 12:28:17.681 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.095000
+2024-01-19 12:28:17.711 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.125005
+2024-01-19 12:28:17.741 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B0600229CNE1_07_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_07_L87-477__B0600229CNE1_2024-01-19-12-25-30.001 ;Total Used:0:00:00.153999
+2024-01-19 12:28:17.743 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B0600229CNE1_07_DefectAttributes.csv
+2024-01-19 12:28:17.745 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B0600229CNE1_07_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B0600229CNE1_07_DefectAttributes.csv.
+2024-01-19 12:28:17.759 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.012998
+2024-01-19 12:28:17.789 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.042983
+2024-01-19 12:28:17.812 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.065987
+2024-01-19 12:28:17.832 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.085982
+2024-01-19 12:28:17.850 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.102982
+2024-01-19 12:28:17.864 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.117984
+2024-01-19 12:28:17.880 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.133982
+2024-01-19 12:28:17.901 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.154981
+2024-01-19 12:28:17.921 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B3300620CNB6_06_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_06_L87-477__B3300620CNB6_2024-01-19-12-25-30.001 ;Total Used:0:00:00.174982
+2024-01-19 12:28:17.924 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B3300620CNB6_06_DefectAttributes.csv
+2024-01-19 12:28:17.925 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B3300620CNB6_06_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B3300620CNB6_06_DefectAttributes.csv.
+2024-01-19 12:28:17.931 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.005996
+2024-01-19 12:28:17.959 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.033994
+2024-01-19 12:28:17.985 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.058993
+2024-01-19 12:28:18.005 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.079993
+2024-01-19 12:28:18.034 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.108995
+2024-01-19 12:28:18.053 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.128000
+2024-01-19 12:28:18.075 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.149993
+2024-01-19 12:28:18.104 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100510CNC2_13_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_13_L87-477__B5100510CNC2_2024-01-19-12-25-30.001 ;Total Used:0:00:00.178993
+2024-01-19 12:28:18.106 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100510CNC2_13_DefectAttributes.csv
+2024-01-19 12:28:18.107 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100510CNC2_13_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100510CNC2_13_DefectAttributes.csv.
+2024-01-19 12:28:18.110 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002999
+2024-01-19 12:28:18.130 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.022999
+2024-01-19 12:28:18.163 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.056004
+2024-01-19 12:28:18.240 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.133002
+2024-01-19 12:28:18.289 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.181997
+2024-01-19 12:28:18.322 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.214998
+2024-01-19 12:28:18.352 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100511CNG4_14_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_14_L87-477__B5100511CNG4_2024-01-19-12-25-30.001 ;Total Used:0:00:00.244997
+2024-01-19 12:28:18.353 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100511CNG4_14_DefectAttributes.csv
+2024-01-19 12:28:18.356 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100511CNG4_14_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100511CNG4_14_DefectAttributes.csv.
+2024-01-19 12:28:18.361 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.005004
+2024-01-19 12:28:18.381 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.025002
+2024-01-19 12:28:18.404 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.048001
+2024-01-19 12:28:18.428 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.072011
+2024-01-19 12:28:18.448 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.092004
+2024-01-19 12:28:18.465 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100512CND3_15_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_15_L87-477__B5100512CND3_2024-01-19-12-25-30.001 ;Total Used:0:00:00.109037
+2024-01-19 12:28:18.466 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100512CND3_15_DefectAttributes.csv
+2024-01-19 12:28:18.467 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100512CND3_15_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B5100512CND3_15_DefectAttributes.csv.
+2024-01-19 12:28:18.472 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.005001
+2024-01-19 12:28:18.489 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.022000
+2024-01-19 12:28:18.506 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.039007
+2024-01-19 12:28:18.523 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.056001
+2024-01-19 12:28:18.538 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B8901213CNE2_10_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_10_L87-477__B8901213CNE2_2024-01-19-12-25-30.001 ;Total Used:0:00:00.071000
+2024-01-19 12:28:18.540 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B8901213CNE2_10_DefectAttributes.csv
+2024-01-19 12:28:18.541 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B8901213CNE2_10_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B8901213CNE2_10_DefectAttributes.csv.
+2024-01-19 12:28:18.544 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003006
+2024-01-19 12:28:18.551 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.010003
+2024-01-19 12:28:18.557 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.016000
+2024-01-19 12:28:18.561 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B9400230CNF6_16_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_16_L87-477__B9400230CNF6_2024-01-19-12-25-30.001 ;Total Used:0:00:00.020002
+2024-01-19 12:28:18.563 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B9400230CNF6_16_DefectAttributes.csv
+2024-01-19 12:28:18.563 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B9400230CNF6_16_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__B9400230CNF6_16_DefectAttributes.csv.
+2024-01-19 12:28:18.570 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.006002
+2024-01-19 12:28:18.582 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.017997
+2024-01-19 12:28:18.588 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C1001324CNC7_05_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_05_L87-477__C1001324CNC7_2024-01-19-12-25-30.001 ;Total Used:0:00:00.024000
+2024-01-19 12:28:18.589 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C1001324CNC7_05_DefectAttributes.csv
+2024-01-19 12:28:18.590 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C1001324CNC7_05_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C1001324CNC7_05_DefectAttributes.csv.
+2024-01-19 12:28:18.596 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.006004
+2024-01-19 12:28:18.604 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C2601230CNC6_12_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_12_L87-477__C2601230CNC6_2024-01-19-12-25-30.001 ;Total Used:0:00:00.014012
+2024-01-19 12:28:18.605 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C2601230CNC6_12_DefectAttributes.csv
+2024-01-19 12:28:18.606 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C2601230CNC6_12_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__C2601230CNC6_12_DefectAttributes.csv.
+2024-01-19 12:28:18.606 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-19 12:28:18.607 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-19 12:28:18.616 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-19 12:28:18.747 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-19 13:19:34.118 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 13:19:34.119 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-19 13:19:34.119 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 13:19:34.120 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-19 13:19:34.131 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-19 13:19:34.132 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-19 13:19:34.132 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-19 13:19:34.667 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-19 13:19:34.742 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-19 13:19:34.745 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-19 13:19:34.111877
+2024-01-19 13:19:35.094 - __init__   [INFO    ] Set process status code: 0.
+2024-01-19 13:19:35.109 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 13:19:35.202 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 13:19:35.295 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 13:19:35.380 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.012988
+2024-01-19 13:19:35.388 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.020951
+2024-01-19 13:19:35.393 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.025951
+2024-01-19 13:19:35.396 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-496_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-496__TKAM4EG105_20_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-496_20_L87-496__TKAM4EG105_2024-01-19-13-19-03.001 ;Total Used:0:00:00.028948
+2024-01-19 13:19:35.397 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-496_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-496__TKAM4EG105_20_DefectAttributes.csv
+2024-01-19 13:19:35.398 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-496_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-496__TKAM4EG105_20_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-496_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-496__TKAM4EG105_20_DefectAttributes.csv.
+2024-01-19 13:19:35.399 - ETL_LC_TO_KLARF [INFO    ] EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf is already a Klarf document.
+2024-01-19 13:19:35.401 - ETL_LC_TO_KLARF [INFO    ] EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf copied to D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Klarf.
+2024-01-19 13:19:35.401 - ETL_LC_TO_KLARF [INFO    ] EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf is already a Klarf document.
+2024-01-19 13:19:35.402 - ETL_LC_TO_KLARF [INFO    ] EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf copied to D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Klarf.
+2024-01-19 13:19:35.402 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf ;Total Used:0:00:00.003955
+2024-01-19 13:19:35.403 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf
+2024-01-19 13:19:35.404 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf.
+2024-01-19 13:19:35.407 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.003031
+2024-01-19 13:19:35.409 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-497_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-497__TKAJ4EFY18_11_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-497_11_L87-497__TKAJ4EFY18_2024-01-19-13-19-03.001 ;Total Used:0:00:00.005032
+2024-01-19 13:19:35.410 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-497_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-497__TKAJ4EFY18_11_DefectAttributes.csv
+2024-01-19 13:19:35.411 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-497_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-497__TKAJ4EFY18_11_DefectAttributes.csv to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\Data\Archive\EPI_6INCH_L87-497_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-497__TKAJ4EFY18_11_DefectAttributes.csv.
+2024-01-19 13:19:35.411 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-19 13:19:35.411 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-19 13:19:35.421 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-19 13:19:35.570 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

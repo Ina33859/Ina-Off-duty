@@ -1,0 +1,248 @@
+2023-08-18 11:14:31.591 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:14:31.591 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 11:14:31.592 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:14:31.593 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 11:14:31.613 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 11:14:31.613 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 11:14:31.614 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 11:14:53.020 - Database   [WARNING ] (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+(Background on this error at: https://sqlalche.me/e/14/4xp6)
+2023-08-18 11:14:53.025 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-08-18 11:16:23.855 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:16:23.855 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 11:16:23.855 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:16:23.856 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 11:16:23.867 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 11:16:23.868 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 11:16:23.868 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 11:16:27.018 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-08-18 11:16:27.110 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py.*
+2023-08-18 11:16:27.114 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-18 11:16:23.845001
+2023-08-18 11:16:30.245 - __init__   [INFO    ] Set process status code: 0.
+2023-08-18 11:16:30.334 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:16:30.700 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:16:31.039 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:16:31.390 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF_衬底\\Data\\DefectCodes  \\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py", line 27, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF_衬底\\Data\\DefectCodes  \\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py", line 130, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 11:16:31.422 - CustomFuction [INFO    ] [ERROR] BN06772ㄗ俋晊疪釴梓ㄘ.xls
+2023-08-18 11:16:31.423 - CustomFuction [INFO    ] Move file: BN06772ㄗ俋晊疪釴梓ㄘ.xls to ERROR folder: Data\Source\BN06772ㄗ俋晊疪釴梓ㄘ.xls.
+2023-08-18 11:16:34.578 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-18 11:16:34.579 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-18 11:16:34.697 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-18 11:16:37.757 - __init__   [INFO    ] Set process status code: 5.
+2023-08-18 11:18:10.494 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:18:10.495 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 11:18:10.495 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:18:10.496 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 11:18:10.506 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 11:18:10.507 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 11:18:10.507 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 11:18:13.550 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-18 11:18:13.989 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py.*
+2023-08-18 11:18:13.993 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-18 11:18:10.485766
+2023-08-18 11:18:17.147 - __init__   [INFO    ] Set process status code: 0.
+2023-08-18 11:18:17.231 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:18:17.557 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:18:17.875 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:18:18.209 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF_衬底\\Data\\DefectCodes  \\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py", line 27, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF_衬底\\Data\\DefectCodes  \\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py", line 131, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 11:18:18.229 - CustomFuction [INFO    ] [ERROR] BN06772ㄗ俋晊疪釴梓ㄘ.xls
+2023-08-18 11:18:18.231 - CustomFuction [INFO    ] Move file: BN06772ㄗ俋晊疪釴梓ㄘ.xls to ERROR folder: Data\Source\BN06772ㄗ俋晊疪釴梓ㄘ.xls.
+2023-08-18 11:18:21.300 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-18 11:18:21.301 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-18 11:18:21.400 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-18 11:18:24.467 - __init__   [INFO    ] Set process status code: 5.
+2023-08-18 11:20:10.138 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:20:10.138 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 11:20:10.138 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:20:10.139 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 11:20:10.150 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 11:20:10.150 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 11:20:10.150 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 11:20:13.266 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-18 11:20:13.700 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py.*
+2023-08-18 11:20:13.702 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-18 11:20:10.129331
+2023-08-18 11:20:16.865 - __init__   [INFO    ] Set process status code: 0.
+2023-08-18 11:20:16.956 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:20:17.317 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:20:17.704 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:20:18.170 - ETL_XLS_TO_KLARF_TEST_外延 [INFO    ] Not Any File
+2023-08-18 11:20:18.178 - CustomFuction [ERROR   ] name 'klarfFileName' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py", line 82, in do_file
+    log.info(f'Converter {file_name} to {klarfFileName} ;Total Used:{te_t-ts_t}')
+NameError: name 'klarfFileName' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py", line 131, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 11:20:18.199 - CustomFuction [INFO    ] [ERROR] BN06772ㄗ俋晊疪釴梓ㄘ.xls
+2023-08-18 11:20:18.202 - CustomFuction [INFO    ] Move file: BN06772ㄗ俋晊疪釴梓ㄘ.xls to ERROR folder: Data\Source\BN06772ㄗ俋晊疪釴梓ㄘ.xls.
+2023-08-18 11:20:21.362 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-18 11:20:21.363 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-18 11:20:21.477 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-18 11:20:24.608 - __init__   [INFO    ] Set process status code: 5.
+2023-08-18 11:21:30.990 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:21:30.990 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 11:21:30.990 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:21:30.991 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 11:21:31.001 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 11:21:31.002 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 11:21:31.002 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 11:21:34.161 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-18 11:21:34.566 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py.*
+2023-08-18 11:21:34.568 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-18 11:21:30.981355
+2023-08-18 11:21:37.644 - __init__   [INFO    ] Set process status code: 0.
+2023-08-18 11:21:37.730 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:21:38.032 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:21:38.355 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:21:38.708 - ETL_XLS_TO_KLARF_TEST_外延 [INFO    ] Not Any File
+2023-08-18 11:21:38.724 - CustomFuction [INFO    ] [Archive] BN06772ㄗ俋晊疪釴梓ㄘ.xls
+2023-08-18 11:21:38.726 - CustomFuction [INFO    ] Move file: BN06772ㄗ俋晊疪釴梓ㄘ.xls to Archive folder: Data\Source\BN06772ㄗ俋晊疪釴梓ㄘ.xls.
+2023-08-18 11:21:38.726 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-18 11:21:38.726 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-18 11:21:38.830 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-18 11:21:41.878 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-08-18 11:36:17.065 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:36:17.066 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 11:36:17.066 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 11:36:17.067 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 11:36:17.078 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 11:36:17.078 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 11:36:17.078 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 11:36:20.369 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-08-18 11:36:20.825 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py.*
+2023-08-18 11:36:20.829 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-18 11:36:17.057079
+2023-08-18 11:36:23.997 - __init__   [INFO    ] Set process status code: 0.
+2023-08-18 11:36:24.087 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:36:24.396 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:36:24.728 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 11:36:25.060 - ETL_XLS_TO_KLARF_TEST_外延 [INFO    ] Not Any File
+2023-08-18 11:36:25.078 - CustomFuction [INFO    ] [Archive] BN06772ㄗ俋晊疪釴梓ㄘ.xls
+2023-08-18 11:36:25.081 - CustomFuction [INFO    ] Move file: BN06772ㄗ俋晊疪釴梓ㄘ.xls to Archive folder: Data\Source\BN06772ㄗ俋晊疪釴梓ㄘ.xls.
+2023-08-18 11:36:25.081 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-18 11:36:25.081 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-18 11:36:25.184 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-18 11:36:28.177 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-08-18 16:13:02.740 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 16:13:02.741 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 16:13:02.741 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 16:13:02.742 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 16:13:02.755 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 16:13:02.756 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 16:13:02.756 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 16:13:05.873 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-08-18 16:13:09.737 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py.*
+2023-08-18 16:13:09.746 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-18 16:13:02.730017
+2023-08-18 16:13:12.920 - __init__   [INFO    ] Set process status code: 0.
+2023-08-18 16:13:13.014 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 16:13:13.377 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 16:13:13.754 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 16:13:14.340 - ETL_XLS_TO_KLARF_TEST_外延 [INFO    ] Read Source File:0:00:00.175376
+2023-08-18 16:13:14.536 - CustomFuction [ERROR   ] name 'klarfFileName' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py", line 81, in do_file
+    log.info(f'Converter {file_name} to {klarfFileName} ;Total Used:{te_t-ts_t}')
+NameError: name 'klarfFileName' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py", line 130, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 16:13:14.553 - CustomFuction [INFO    ] [ERROR] BN06772ㄗ俋晊疪釴梓ㄘ.xls
+2023-08-18 16:13:14.554 - CustomFuction [INFO    ] Move file: BN06772ㄗ俋晊疪釴梓ㄘ.xls to ERROR folder: Data\Source\BN06772ㄗ俋晊疪釴梓ㄘ.xls.
+2023-08-18 16:13:17.687 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-18 16:13:17.688 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-18 16:13:17.804 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-18 16:13:20.853 - __init__   [INFO    ] Set process status code: 5.
+2023-08-18 16:13:29.948 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 16:13:29.948 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 16:13:29.949 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 16:13:29.950 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 16:13:29.961 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 16:13:29.962 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 16:13:29.962 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 16:13:33.060 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-18 16:13:36.938 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py.*
+2023-08-18 16:13:36.943 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-18 16:13:29.939272
+2023-08-18 16:13:40.165 - __init__   [INFO    ] Set process status code: 0.
+2023-08-18 16:13:40.259 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 16:13:40.624 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 16:13:40.963 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 16:13:41.387 - ETL_XLS_TO_KLARF_TEST_外延 [INFO    ] Read Source File:0:00:00.061972
+2023-08-18 16:13:41.576 - CustomFuction [INFO    ] [Archive] BN06772ㄗ俋晊疪釴梓ㄘ.xls
+2023-08-18 16:13:41.577 - CustomFuction [INFO    ] Move file: BN06772ㄗ俋晊疪釴梓ㄘ.xls to Archive folder: Data\Source\BN06772ㄗ俋晊疪釴梓ㄘ.xls.
+2023-08-18 16:13:41.577 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-18 16:13:41.577 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-18 16:13:41.683 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-18 16:13:44.795 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-08-18 16:29:39.024 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 16:29:39.024 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 16:29:39.025 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 16:29:39.026 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 16:29:39.037 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 16:29:39.037 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 16:29:39.038 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 16:29:42.189 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-08-18 16:29:46.016 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_外延.py.*
+2023-08-18 16:29:46.022 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-18 16:29:39.015680
+2023-08-18 16:29:49.218 - __init__   [INFO    ] Set process status code: 0.
+2023-08-18 16:29:49.311 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 16:29:49.689 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 16:29:50.051 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 16:29:50.497 - ETL_XLS_TO_KLARF_TEST_外延 [INFO    ] Read Source File:0:00:00.068944
+2023-08-18 16:29:50.691 - CustomFuction [INFO    ] [Archive] BN06772ㄗ俋晊疪釴梓ㄘ.xls
+2023-08-18 16:29:50.692 - CustomFuction [INFO    ] Move file: BN06772ㄗ俋晊疪釴梓ㄘ.xls to Archive folder: Data\Source\BN06772ㄗ俋晊疪釴梓ㄘ.xls.
+2023-08-18 16:29:50.692 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-18 16:29:50.693 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-18 16:29:50.797 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-18 16:29:53.917 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

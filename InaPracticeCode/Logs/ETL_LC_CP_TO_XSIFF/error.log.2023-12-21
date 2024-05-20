@@ -1,0 +1,324 @@
+2023-12-21 11:15:34.834 - ETL_LC_CP_TO_XSIFF [ERROR   ] Tuple or struct_time argument required
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 166, in do_file
+    StartTime = time.strftime("%Y-%m-%d %H:%M:%S", creation_time_formatted)
+TypeError: Tuple or struct_time argument required
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 350, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 235, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 11:15:35.030 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 11:22:49.047 - ETL_LC_CP_TO_XSIFF [ERROR   ] name 'StartTime' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 186, in do_file
+    'StartTime': StartTime,
+NameError: name 'StartTime' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 356, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 241, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 11:22:49.230 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 11:24:53.695 - ETL_LC_CP_TO_XSIFF [ERROR   ] an integer is required (got type datetime.datetime)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 167, in do_file
+    creation_time_struct = time.gmtime(creation_time_formatted)
+TypeError: an integer is required (got type datetime.datetime)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 359, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 244, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 11:24:53.824 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 14:15:25.267 - ETL_LC_CP_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 36 elements, new values have 6 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 200, in do_file
+    data_df.columns = [selectedParameterName,"TouchdownNo","DutNo","TestTime","HBIN","SBIN"]
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 36 elements, new values have 6 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 359, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 244, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 14:15:25.496 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 14:16:26.485 - ETL_LC_CP_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 36 elements, new values have 41 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 200, in do_file
+    data_df.columns = selectedParameterName+["TouchdownNo","DutNo","TestTime","HBIN","SBIN"]
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 36 elements, new values have 41 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 359, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 244, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 14:16:26.672 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 14:16:46.432 - ETL_LC_CP_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 36 elements, new values have 41 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 200, in do_file
+    data_df.columns = [selectedParameterName+["TouchdownNo","DutNo","TestTime","HBIN","SBIN"]]
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 36 elements, new values have 41 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 359, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 244, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 14:16:46.613 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 14:34:05.545 - ETL_LC_CP_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 36 elements, new values have 2 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 194, in do_file
+    rowDatasDF.columns = selectedParameterName
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 36 elements, new values have 2 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 251, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 14:34:08.872 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 15:00:30.755 - ETL_LC_CP_TO_XSIFF [ERROR   ] name 'parameter_dict' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 194, in do_file
+    parameter_df = pd.DataFrame(parameter_dict.items(), columns=['ParameterNo', 'ParameterName'])
+NameError: name 'parameter_dict' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 384, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 269, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 15:00:30.973 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 15:00:48.175 - ETL_LC_CP_TO_XSIFF [ERROR   ] 1 columns passed, passed data had 34 columns
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 564, in _list_to_arrays
+    columns = _validate_or_indexify_columns(content, columns)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 689, in _validate_or_indexify_columns
+    f"{len(columns)} columns passed, passed data had "
+AssertionError: 1 columns passed, passed data had 34 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 200, in do_file
+    limits_3_df = pd.DataFrame([Limits[3][5:]],columns=['SpecLow'])
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 509, in __init__
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 524, in to_arrays
+    return _list_to_arrays(data, columns, coerce_float=coerce_float, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 567, in _list_to_arrays
+    raise ValueError(e) from e
+ValueError: 1 columns passed, passed data had 34 columns
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 384, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 269, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 15:00:48.395 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 15:01:54.765 - ETL_LC_CP_TO_XSIFF [ERROR   ] 7 columns passed, passed data had 34 columns
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 564, in _list_to_arrays
+    columns = _validate_or_indexify_columns(content, columns)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 689, in _validate_or_indexify_columns
+    f"{len(columns)} columns passed, passed data had "
+AssertionError: 7 columns passed, passed data had 34 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 200, in do_file
+    limits_3_df = pd.DataFrame([Limits[3][5:]],columns='SpecLow')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 509, in __init__
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 524, in to_arrays
+    return _list_to_arrays(data, columns, coerce_float=coerce_float, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 567, in _list_to_arrays
+    raise ValueError(e) from e
+ValueError: 7 columns passed, passed data had 34 columns
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 384, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 269, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 15:01:54.921 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 15:08:49.563 - ETL_LC_CP_TO_XSIFF [ERROR   ] If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 197, in do_file
+    unit_df = pd.DataFrame({'Unit': unitList[0][5]})
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 468, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 283, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 78, in arrays_to_mgr
+    index = extract_index(arrays)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 387, in extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 385, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 270, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 15:08:49.817 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 16:27:15.778 - ETL_LC_CP_TO_XSIFF [ERROR   ] unsupported operand type(s) for +: 'dict' and 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 216, in do_file
+    binDF = pd.DataFrame(data1+data2)
+TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 393, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 278, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 16:27:15.953 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 16:30:42.064 - ETL_LC_CP_TO_XSIFF [ERROR   ] arrays must all be same length
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 216, in do_file
+    data1DF = pd.DataFrame(data1)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 468, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 283, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 78, in arrays_to_mgr
+    index = extract_index(arrays)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 397, in extract_index
+    raise ValueError("arrays must all be same length")
+ValueError: arrays must all be same length
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 395, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 280, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 16:30:42.220 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 17:39:15.929 - ETL_LC_CP_TO_XSIFF [ERROR   ] name 'export_wat_xsiff' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 313, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+NameError: name 'export_wat_xsiff' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 406, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 341, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 17:39:16.114 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 17:39:35.508 - ETL_LC_CP_TO_XSIFF [ERROR   ] 'CpType'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 322, in do_file
+    xsiff_file_name = export_cp_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 51, in export_cp_xsiff
+    file_name = f"CP_{header['Product']}_{header['Lot']}_{header['CpType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+KeyError: 'CpType'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 391, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 17:39:35.673 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 18:08:36.733 - ETL_LC_CP_TO_XSIFF [ERROR   ] list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 219, in do_file
+    COUNT_BIN_G = (selectedRowData['HBIN'] == '1').sum()
+TypeError: list indices must be integers or slices, not str
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 401, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 301, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 18:08:36.912 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-21 18:12:30.531 - ETL_LC_CP_TO_XSIFF [ERROR   ] name 'GrossDie' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 248, in do_file
+    'GrossDie': GrossDie
+NameError: name 'GrossDie' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 401, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 301, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-21 18:12:30.711 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None

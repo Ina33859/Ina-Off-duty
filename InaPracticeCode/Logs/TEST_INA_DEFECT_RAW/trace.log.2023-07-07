@@ -1,0 +1,564 @@
+2023-07-07 17:15:32.251 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:15:32.252 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:15:32.252 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:15:32.253 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:15:32.268 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:15:32.269 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:15:32.270 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:15:35.508 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-07-07 17:15:35.613 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:15:35.624 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:15:32.241651
+2023-07-07 17:15:38.856 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:15:38.951 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:15:39.319 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:15:39.681 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:15:40.056 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:15:40.076 - CustomFuction [INFO    ] [Archive] Defect_Raw.csv
+2023-07-07 17:15:40.079 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to Archive folder: Data\ARCHIVE\Defect_Raw.csv.
+2023-07-07 17:15:40.081 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.100 - CustomFuction [INFO    ] [SKIP] 001.txt
+2023-07-07 17:15:40.106 - CustomFuction [INFO    ] Move file: 001.txt to SKIP folder: Data\Skip\Test\001.txt.
+2023-07-07 17:15:40.107 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.125 - CustomFuction [INFO    ] [SKIP] 002.txt
+2023-07-07 17:15:40.126 - CustomFuction [INFO    ] Move file: 002.txt to SKIP folder: Data\Skip\Test\002.txt.
+2023-07-07 17:15:40.127 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.144 - CustomFuction [INFO    ] [SKIP] 003.txt
+2023-07-07 17:15:40.146 - CustomFuction [INFO    ] Move file: 003.txt to SKIP folder: Data\Skip\Test\003.txt.
+2023-07-07 17:15:40.146 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.162 - CustomFuction [INFO    ] [SKIP] 004.txt
+2023-07-07 17:15:40.164 - CustomFuction [INFO    ] Move file: 004.txt to SKIP folder: Data\Skip\Test\004.txt.
+2023-07-07 17:15:40.164 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.180 - CustomFuction [INFO    ] [SKIP] 005.txt
+2023-07-07 17:15:40.182 - CustomFuction [INFO    ] Move file: 005.txt to SKIP folder: Data\Skip\Test\005.txt.
+2023-07-07 17:15:40.183 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.204 - CustomFuction [INFO    ] [SKIP] 006.txt
+2023-07-07 17:15:40.206 - CustomFuction [INFO    ] Move file: 006.txt to SKIP folder: Data\Skip\Test\006.txt.
+2023-07-07 17:15:40.207 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.224 - CustomFuction [INFO    ] [SKIP] 007.txt
+2023-07-07 17:15:40.226 - CustomFuction [INFO    ] Move file: 007.txt to SKIP folder: Data\Skip\Test\007.txt.
+2023-07-07 17:15:40.227 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.244 - CustomFuction [INFO    ] [SKIP] 008.txt
+2023-07-07 17:15:40.245 - CustomFuction [INFO    ] Move file: 008.txt to SKIP folder: Data\Skip\Test\008.txt.
+2023-07-07 17:15:40.245 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.261 - CustomFuction [INFO    ] [SKIP] 009.txt
+2023-07-07 17:15:40.262 - CustomFuction [INFO    ] Move file: 009.txt to SKIP folder: Data\Skip\Test\009.txt.
+2023-07-07 17:15:40.262 - TEST_INA_DEFECT_RAW [INFO    ] Not Csv File
+2023-07-07 17:15:40.278 - CustomFuction [INFO    ] [SKIP] 010.txt
+2023-07-07 17:15:40.279 - CustomFuction [INFO    ] Move file: 010.txt to SKIP folder: Data\Skip\Test\010.txt.
+2023-07-07 17:15:40.280 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:15:40.280 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:15:40.280 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : Data\Source\Test
+2023-07-07 17:15:40.389 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:15:44.492 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:17:09.323 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:17:09.324 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:17:09.324 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:17:09.325 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:17:09.336 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:17:09.336 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:17:09.337 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:17:40.781 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:17:40.782 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:17:40.782 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:17:40.783 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:17:40.795 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:17:40.796 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:17:40.797 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:17:44.053 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:17:44.489 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:17:44.494 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:17:40.773740
+2023-07-07 17:17:47.710 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:17:47.797 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:17:48.125 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:17:48.485 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:17:48.811 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:17:48.830 - CustomFuction [INFO    ] [Archive] Defect_Raw.csv
+2023-07-07 17:17:48.833 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to Archive folder: Data\ARCHIVE\Defect_Raw.csv.
+2023-07-07 17:17:48.834 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:17:48.835 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:17:48.949 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:17:52.017 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:19:45.195 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:19:45.196 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:19:45.196 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:19:45.197 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:19:45.211 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:19:45.212 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:19:45.212 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:19:48.470 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:19:48.873 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:19:48.876 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:19:45.186586
+2023-07-07 17:19:52.031 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:19:52.127 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:19:52.496 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:19:52.847 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:19:53.206 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:19:53.222 - CustomFuction [INFO    ] [Archive] Defect_Raw.csv
+2023-07-07 17:19:53.223 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to Archive folder: Data\ARCHIVE\Defect_Raw.csv.
+2023-07-07 17:19:53.224 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:19:53.224 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:19:53.325 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:19:56.399 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:24:48.979 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:24:48.980 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:24:48.980 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:24:48.981 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:24:48.993 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:24:48.994 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:24:48.994 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:24:52.094 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:24:52.500 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:24:52.502 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:24:48.971974
+2023-07-07 17:24:55.585 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:24:55.677 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:24:56.012 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:24:56.347 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:24:56.720 - CustomFuction [INFO    ] [Empty] Empty Folder : .\\Data\\Source
+2023-07-07 17:24:56.721 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:24:56.722 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:24:56.833 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:25:00.675 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:25:54.428 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:25:54.428 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:25:54.428 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:25:54.429 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:25:54.441 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:25:54.441 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:25:54.442 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:25:57.679 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:25:58.119 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:25:58.124 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:25:54.419514
+2023-07-07 17:26:01.302 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:26:01.388 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:26:01.713 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:26:02.029 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:26:03.348 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:26:03.374 - CustomFuction [INFO    ] [Archive] Defect_Raw.csv
+2023-07-07 17:26:03.375 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to Archive folder: Data\ARCHIVE\Defect_Raw.csv.
+2023-07-07 17:26:03.375 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:26:03.375 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:26:03.476 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:26:06.576 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:33:21.230 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:33:21.231 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:33:21.231 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:33:21.232 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:33:21.243 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:33:21.244 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:33:21.244 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:33:24.528 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:33:24.956 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:33:24.958 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:33:21.221864
+2023-07-07 17:33:28.288 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:33:28.387 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:33:28.824 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:33:29.184 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:33:30.453 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:33:30.486 - CustomFuction [INFO    ] [Archive] Defect_Raw.csv
+2023-07-07 17:33:30.487 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to Archive folder: Data\ARCHIVE\Defect_Raw.csv.
+2023-07-07 17:33:30.488 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:33:30.488 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:33:30.587 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:33:33.679 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:36:11.152 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:36:11.152 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:36:11.153 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:36:11.154 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:36:11.170 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:36:11.170 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:36:11.171 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:36:14.347 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:36:14.856 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:36:14.858 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:36:11.144903
+2023-07-07 17:36:18.060 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:36:18.156 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:36:18.585 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:36:18.941 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:36:20.211 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:36:20.239 - CustomFuction [INFO    ] [Archive] Defect_Raw.csv
+2023-07-07 17:36:20.296 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to Archive folder: Data\ARCHIVE\Defect_Raw.csv.
+2023-07-07 17:36:20.297 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:36:20.297 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:36:20.402 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:36:23.538 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:42:15.210 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:42:15.210 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:42:15.210 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:42:15.211 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:42:15.223 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:42:15.224 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:42:15.224 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:42:18.465 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:42:18.884 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:42:18.888 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:42:15.200750
+2023-07-07 17:42:22.133 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:42:22.235 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:42:22.601 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:42:22.943 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:42:23.318 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:42:24.302 - CustomFuction [INFO    ] [Archive] Defect_Raw.csv
+2023-07-07 17:42:24.303 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to Archive folder: Data\ARCHIVE\Defect_Raw.csv.
+2023-07-07 17:42:24.304 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:42:24.304 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:42:24.424 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:42:27.520 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:52:05.443 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:52:05.443 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:52:05.443 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:52:05.444 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:52:05.459 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:52:05.460 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:52:05.460 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:52:08.707 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:52:09.179 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:52:09.183 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:52:05.433310
+2023-07-07 17:52:12.366 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:52:12.462 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:52:12.831 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:52:13.224 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:52:13.546 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:52:14.466 - CustomFuction [INFO    ] [Archive] Defect_Raw.csv
+2023-07-07 17:52:14.467 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to Archive folder: Data\ARCHIVE\Defect_Raw.csv.
+2023-07-07 17:52:14.468 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:52:14.468 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:52:14.579 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:52:17.627 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:53:51.904 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:53:51.904 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:53:51.904 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:53:51.905 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:53:51.917 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:53:51.918 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:53:51.918 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:53:55.079 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:53:55.619 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:53:55.621 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:53:51.895943
+2023-07-07 17:54:15.762 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:54:15.762 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:54:15.762 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:54:15.763 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:54:15.774 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:54:15.774 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:54:15.775 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:54:19.009 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-07-07 17:54:19.009 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-07-07 17:54:19.445 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:54:19.450 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:54:15.754259
+2023-07-07 17:54:22.622 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:54:22.714 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:54:23.076 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:54:23.437 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:54:23.778 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:54:24.678 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 17:54:24.692 - CustomFuction [ERROR   ] parameters should be a list of sequences/dictionaries or an integer specifying the number of times to execute the statement
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 25, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 21, in do_file
+    db_tgt.executemany(config_sql.SQL_INS_TEST_INA_DEFECT_RAW, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+TypeError: parameters should be a list of sequences/dictionaries or an integer specifying the number of times to execute the statement
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 78, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 17:54:24.710 - CustomFuction [INFO    ] [ERROR] Defect_Raw.csv
+2023-07-07 17:54:24.711 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to ERROR folder: Data\ERROR\Defect_Raw.csv.
+2023-07-07 17:54:27.821 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:54:27.822 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:54:27.946 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:54:31.096 - __init__   [INFO    ] Set process status code: 5.
+2023-07-07 17:55:57.384 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:55:57.384 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:55:57.385 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:55:57.386 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:55:57.397 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:55:57.397 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:55:57.398 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:56:00.588 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-07 17:56:01.031 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:56:01.033 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:55:57.376624
+2023-07-07 17:56:04.113 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:56:04.213 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:56:04.561 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:56:04.885 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:56:05.232 - CustomFuction [INFO    ] [Empty] Empty Folder : .\\Data\\Source
+2023-07-07 17:56:05.233 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:56:05.233 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:56:05.353 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:56:08.949 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 17:56:43.966 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:56:43.967 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 17:56:43.967 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 17:56:43.968 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 17:56:43.979 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 17:56:43.979 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 17:56:43.980 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 17:56:47.201 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 17:56:47.650 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 17:56:47.656 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 17:56:43.958065
+2023-07-07 17:56:50.842 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 17:56:50.937 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:56:51.305 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:56:51.669 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 17:56:52.029 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 17:57:41.297 - TEST_INA_DEFECT_RAW [INFO    ] Get Data!
+2023-07-07 17:57:41.430 - CustomFuction [INFO    ] [Archive] Defect_Raw.csv
+2023-07-07 17:57:41.439 - CustomFuction [INFO    ] Move file: Defect_Raw.csv to Archive folder: Data\ARCHIVE\Defect_Raw.csv.
+2023-07-07 17:57:41.442 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 17:57:41.442 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 17:57:42.512 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 17:57:45.765 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 18:14:22.520 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:14:22.520 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 18:14:22.520 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:14:22.521 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 18:14:22.534 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 18:14:22.535 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 18:14:22.535 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 18:14:25.804 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 18:14:26.231 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 18:14:26.242 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 18:14:22.511688
+2023-07-07 18:14:29.459 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 18:14:29.553 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:14:29.928 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:14:30.263 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:14:30.593 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 18:14:30.627 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:14:30.631 - CustomFuction [ERROR   ] DPI-1043: invalid number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 22, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: DPI-1043: invalid number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:14:30.647 - CustomFuction [INFO    ] [ERROR] Defect_Recipe.csv
+2023-07-07 18:14:30.648 - CustomFuction [INFO    ] Move file: Defect_Recipe.csv to ERROR folder: Data\ERROR\Defect_Recipe.csv.
+2023-07-07 18:14:33.789 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 18:14:33.790 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 18:14:33.891 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 18:14:36.928 - __init__   [INFO    ] Set process status code: 5.
+2023-07-07 18:17:18.070 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:17:18.071 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 18:17:18.071 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:17:18.072 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 18:17:18.087 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 18:17:18.087 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 18:17:18.096 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 18:17:21.309 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-07 18:17:21.771 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 18:17:21.785 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 18:17:18.044941
+2023-07-07 18:17:24.986 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 18:17:25.081 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:17:25.422 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:17:25.773 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:17:26.102 - CustomFuction [INFO    ] [Empty] Empty Folder : .\\Data\\Source
+2023-07-07 18:17:26.104 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 18:17:26.106 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 18:17:26.221 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 18:17:29.306 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 18:17:55.737 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:17:55.738 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 18:17:55.738 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:17:55.739 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 18:17:55.754 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 18:17:55.755 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 18:17:55.755 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 18:17:58.974 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-07 18:17:59.434 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 18:17:59.446 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 18:17:55.713929
+2023-07-07 18:18:02.603 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 18:18:02.700 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:18:03.055 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:18:03.418 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:18:03.779 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 18:18:03.799 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:18:03.809 - CustomFuction [ERROR   ] DPI-1043: invalid number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RAW.py", line 22, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: DPI-1043: invalid number
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:18:03.826 - CustomFuction [INFO    ] [ERROR] Defect_Recipe.csv
+2023-07-07 18:18:03.828 - CustomFuction [INFO    ] Move file: Defect_Recipe.csv to ERROR folder: Data\Source\Defect_Recipe.csv.
+2023-07-07 18:18:06.937 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 18:18:06.938 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 18:18:07.052 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 18:18:10.071 - __init__   [INFO    ] Set process status code: 5.
+2023-07-07 18:22:37.796 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:22:37.796 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 18:22:37.797 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:22:37.798 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 18:22:37.811 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 18:22:37.811 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 18:22:37.812 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 18:22:41.050 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-07 18:22:41.556 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 18:22:41.562 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 18:22:37.788012
+2023-07-07 18:22:44.691 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 18:22:44.782 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:22:45.110 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:22:45.472 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:22:45.812 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 18:22:45.828 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:22:45.833 - CustomFuction [ERROR   ] parameters should be a list of sequences/dictionaries or an integer specifying the number of times to execute the statement
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 22, in do_file
+    db_tgt.executemany(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+TypeError: parameters should be a list of sequences/dictionaries or an integer specifying the number of times to execute the statement
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:22:45.853 - CustomFuction [INFO    ] [ERROR] Defect_Recipe.csv
+2023-07-07 18:22:45.855 - CustomFuction [INFO    ] Move file: Defect_Recipe.csv to ERROR folder: Data\Source\Defect_Recipe.csv.
+2023-07-07 18:22:49.002 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 18:22:49.004 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 18:22:49.117 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 18:22:52.165 - __init__   [INFO    ] Set process status code: 5.
+2023-07-07 18:33:36.082 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:33:36.082 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 18:33:36.082 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:33:36.083 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 18:33:36.095 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 18:33:36.096 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 18:33:36.096 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 18:33:39.367 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-07 18:33:39.800 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 18:33:39.803 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 18:33:36.073260
+2023-07-07 18:33:42.900 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 18:33:42.990 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:33:43.308 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:33:44.159 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:33:44.514 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 18:33:44.568 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:33:44.572 - CustomFuction [ERROR   ] DPI-1043: invalid number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 22, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: DPI-1043: invalid number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:33:44.590 - CustomFuction [INFO    ] [ERROR] Defect_Recipe.csv
+2023-07-07 18:33:44.590 - CustomFuction [INFO    ] Move file: Defect_Recipe.csv to ERROR folder: Data\Source\Defect_Recipe.csv.
+2023-07-07 18:33:47.672 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 18:33:47.674 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 18:33:47.788 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 18:33:50.831 - __init__   [INFO    ] Set process status code: 5.
+2023-07-07 18:41:08.883 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:41:08.883 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 18:41:08.884 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 18:41:08.885 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 18:41:08.896 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 18:41:08.896 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-07 18:41:08.897 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-07 18:41:12.040 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-07 18:41:12.466 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py.*
+2023-07-07 18:41:12.468 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 18:41:08.874060
+2023-07-07 18:41:15.686 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 18:41:15.776 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:41:16.125 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:41:16.444 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 18:41:16.753 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 18:41:16.774 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:41:16.778 - CustomFuction [ERROR   ] ORA-01036: illegal variable name/number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 23, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_REGION, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: ORA-01036: illegal variable name/number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:41:16.796 - CustomFuction [INFO    ] [ERROR] Defect_Recipe.csv
+2023-07-07 18:41:16.797 - CustomFuction [INFO    ] Move file: Defect_Recipe.csv to ERROR folder: Data\Source\Defect_Recipe.csv.
+2023-07-07 18:41:19.950 - TEST_INA_DEFECT_RAW [INFO    ] Csv File
+2023-07-07 18:41:23.007 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:41:23.115 - CustomFuction [ERROR   ] ORA-01036: illegal variable name/number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 23, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_REGION, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: ORA-01036: illegal variable name/number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:41:23.192 - CustomFuction [INFO    ] [ERROR] Defect_Region.csv
+2023-07-07 18:41:23.207 - CustomFuction [INFO    ] Move file: Defect_Region.csv to ERROR folder: Data\Source\Defect_Region.csv.
+2023-07-07 18:41:26.568 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-07 18:41:26.568 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-07 18:41:26.791 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 18:41:29.756 - __init__   [INFO    ] Set process status code: 5.

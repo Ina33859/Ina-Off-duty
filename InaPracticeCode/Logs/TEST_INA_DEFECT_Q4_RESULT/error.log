@@ -1,0 +1,18 @@
+2023-07-07 10:19:50.530 - CustomFuction [ERROR   ] ORA-00904: "UPDATE_TIME": 标识符无效
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 103, in db2db_his_init_fullUpdate
+    main_logic(db_src, db_tgt)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q4_RESULT.py", line 114, in main_logic
+    db_tgt.executemanyfordataframe(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: ORA-00904: "UPDATE_TIME": 标识符无效
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q4_RESULT.py", line 127, in <module>
+    XdmLib.CustomFuction.db2db_his_init_fullUpdate(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 118, in db2db_his_init_fullUpdate
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 10:19:55.987 - __init__   [ERROR   ] 程序运行错误,错误见明细
+                                                Error: ORA-00904: "UPDATE_TIME": 标识符无效

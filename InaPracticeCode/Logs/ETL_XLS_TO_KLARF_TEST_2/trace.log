@@ -1,0 +1,189 @@
+2023-09-27 16:09:34.668 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-27 16:09:34.669 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-09-27 16:09:34.670 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-27 16:09:34.671 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-09-27 16:09:34.684 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-09-27 16:09:34.685 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-09-27 16:09:34.685 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-09-27 16:09:37.759 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-09-27 16:09:38.157 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py.*
+2023-09-27 16:09:38.175 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-09-27 16:09:34.660859
+2023-09-27 16:09:41.274 - __init__   [INFO    ] Set process status code: 0.
+2023-09-27 16:09:41.346 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-27 16:09:41.604 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-27 16:09:41.909 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-27 16:09:42.267 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:42.290 - CustomFuction [INFO    ] [ERROR] 4N46-BI05823_2023_08_11_10_33_15.klarf
+2023-09-27 16:09:42.293 - CustomFuction [INFO    ] Move file: 4N46-BI05823_2023_08_11_10_33_15.klarf to ERROR folder: Data\Source\4N46-BI05823_2023_08_11_10_33_15.klarf.
+2023-09-27 16:09:45.292 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:45.307 - CustomFuction [INFO    ] [ERROR] 4N46-DX04804_2023_08_12_16_25_51.klarf
+2023-09-27 16:09:45.308 - CustomFuction [INFO    ] Move file: 4N46-DX04804_2023_08_12_16_25_51.klarf to ERROR folder: Data\Source\4N46-DX04804_2023_08_12_16_25_51.klarf.
+2023-09-27 16:09:48.302 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:48.317 - CustomFuction [INFO    ] [ERROR] 4N46-EJ08806_2023_08_12_14_30_22.klarf
+2023-09-27 16:09:48.319 - CustomFuction [INFO    ] Move file: 4N46-EJ08806_2023_08_12_14_30_22.klarf to ERROR folder: Data\Source\4N46-EJ08806_2023_08_12_14_30_22.klarf.
+2023-09-27 16:09:51.326 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:51.342 - CustomFuction [INFO    ] [ERROR] 4N46-EJ08808_2023_08_12_12_27_35.klarf
+2023-09-27 16:09:51.343 - CustomFuction [INFO    ] Move file: 4N46-EJ08808_2023_08_12_12_27_35.klarf to ERROR folder: Data\Source\4N46-EJ08808_2023_08_12_12_27_35.klarf.
+2023-09-27 16:09:54.301 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:54.317 - CustomFuction [INFO    ] [ERROR] 4N46-EJ08810_2023_08_12_10_34_41.klarf
+2023-09-27 16:09:54.326 - CustomFuction [INFO    ] Move file: 4N46-EJ08810_2023_08_12_10_34_41.klarf to ERROR folder: Data\Source\4N46-EJ08810_2023_08_12_10_34_41.klarf.
+2023-09-27 16:09:57.243 - CustomFuction [ERROR   ] index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 22, in do_file
+    DefectCodesDict[row[1].upper()] = row[2]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 955, in __getitem__
+    return self._values[key]
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 119, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-27 16:09:57.259 - CustomFuction [INFO    ] [ERROR] 4N46-EV04717_2023_08_11_13_08_04.klarf
+2023-09-27 16:09:57.261 - CustomFuction [INFO    ] Move file: 4N46-EV04717_2023_08_11_13_08_04.klarf to ERROR folder: Data\Source\4N46-EV04717_2023_08_11_13_08_04.klarf.
+2023-09-27 16:10:01.305 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-27 16:10:01.306 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-09-27 16:10:01.306 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-27 16:10:01.307 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-09-27 16:10:01.320 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-09-27 16:10:01.320 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-09-27 16:10:01.321 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-09-27 16:10:04.428 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-09-27 16:10:04.430 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-09-27 16:10:04.813 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py.*
+2023-09-27 16:10:04.819 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-09-27 16:10:01.297896
+2023-09-27 16:10:07.858 - __init__   [INFO    ] Set process status code: 0.
+2023-09-27 16:10:07.945 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-27 16:10:08.251 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-27 16:10:08.563 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-27 16:10:08.872 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:08.887 - CustomFuction [INFO    ] [Archive] 4N46-BI05823_2023_08_11_10_33_15.klarf
+2023-09-27 16:10:08.888 - CustomFuction [INFO    ] Move file: 4N46-BI05823_2023_08_11_10_33_15.klarf to Archive folder: Data\Source\4N46-BI05823_2023_08_11_10_33_15.klarf.
+2023-09-27 16:10:08.891 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:08.905 - CustomFuction [INFO    ] [Archive] 4N46-DX04804_2023_08_12_16_25_51.klarf
+2023-09-27 16:10:08.906 - CustomFuction [INFO    ] Move file: 4N46-DX04804_2023_08_12_16_25_51.klarf to Archive folder: Data\Source\4N46-DX04804_2023_08_12_16_25_51.klarf.
+2023-09-27 16:10:08.909 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:08.923 - CustomFuction [INFO    ] [Archive] 4N46-EJ08806_2023_08_12_14_30_22.klarf
+2023-09-27 16:10:08.924 - CustomFuction [INFO    ] Move file: 4N46-EJ08806_2023_08_12_14_30_22.klarf to Archive folder: Data\Source\4N46-EJ08806_2023_08_12_14_30_22.klarf.
+2023-09-27 16:10:08.927 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:08.941 - CustomFuction [INFO    ] [Archive] 4N46-EJ08808_2023_08_12_12_27_35.klarf
+2023-09-27 16:10:08.942 - CustomFuction [INFO    ] Move file: 4N46-EJ08808_2023_08_12_12_27_35.klarf to Archive folder: Data\Source\4N46-EJ08808_2023_08_12_12_27_35.klarf.
+2023-09-27 16:10:08.945 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:08.959 - CustomFuction [INFO    ] [Archive] 4N46-EJ08810_2023_08_12_10_34_41.klarf
+2023-09-27 16:10:08.959 - CustomFuction [INFO    ] Move file: 4N46-EJ08810_2023_08_12_10_34_41.klarf to Archive folder: Data\Source\4N46-EJ08810_2023_08_12_10_34_41.klarf.
+2023-09-27 16:10:08.963 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:08.977 - CustomFuction [INFO    ] [Archive] 4N46-EV04717_2023_08_11_13_08_04.klarf
+2023-09-27 16:10:08.978 - CustomFuction [INFO    ] Move file: 4N46-EV04717_2023_08_11_13_08_04.klarf to Archive folder: Data\Source\4N46-EV04717_2023_08_11_13_08_04.klarf.
+2023-09-27 16:10:08.982 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:08.995 - CustomFuction [INFO    ] [Archive] 4N46-EV04719_2023_08_11_12_04_56.klarf
+2023-09-27 16:10:08.996 - CustomFuction [INFO    ] Move file: 4N46-EV04719_2023_08_11_12_04_56.klarf to Archive folder: Data\Source\4N46-EV04719_2023_08_11_12_04_56.klarf.
+2023-09-27 16:10:09.000 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.014 - CustomFuction [INFO    ] [Archive] 4N46-GW06602_2023_08_13_09_39_51.klarf
+2023-09-27 16:10:09.015 - CustomFuction [INFO    ] Move file: 4N46-GW06602_2023_08_13_09_39_51.klarf to Archive folder: Data\Source\4N46-GW06602_2023_08_13_09_39_51.klarf.
+2023-09-27 16:10:09.018 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.032 - CustomFuction [INFO    ] [Archive] 4N46-GW06613_2023_08_13_12_28_11.klarf
+2023-09-27 16:10:09.033 - CustomFuction [INFO    ] Move file: 4N46-GW06613_2023_08_13_12_28_11.klarf to Archive folder: Data\Source\4N46-GW06613_2023_08_13_12_28_11.klarf.
+2023-09-27 16:10:09.036 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.055 - CustomFuction [INFO    ] [Archive] 4N46-LB02802_2023_08_13_17_19_10.klarf
+2023-09-27 16:10:09.056 - CustomFuction [INFO    ] Move file: 4N46-LB02802_2023_08_13_17_19_10.klarf to Archive folder: Data\Source\4N46-LB02802_2023_08_13_17_19_10.klarf.
+2023-09-27 16:10:09.059 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.074 - CustomFuction [INFO    ] [Archive] 4N46-MS04103_2023_08_13_15_47_29.klarf
+2023-09-27 16:10:09.075 - CustomFuction [INFO    ] Move file: 4N46-MS04103_2023_08_13_15_47_29.klarf to Archive folder: Data\Source\4N46-MS04103_2023_08_13_15_47_29.klarf.
+2023-09-27 16:10:09.078 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.092 - CustomFuction [INFO    ] [Archive] 4N46-N103829_2023_08_13_22_28_18.klarf
+2023-09-27 16:10:09.093 - CustomFuction [INFO    ] Move file: 4N46-N103829_2023_08_13_22_28_18.klarf to Archive folder: Data\Source\4N46-N103829_2023_08_13_22_28_18.klarf.
+2023-09-27 16:10:09.096 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.110 - CustomFuction [INFO    ] [Archive] 4N46-NS04512_2023_08_11_08_48_37.klarf
+2023-09-27 16:10:09.111 - CustomFuction [INFO    ] Move file: 4N46-NS04512_2023_08_11_08_48_37.klarf to Archive folder: Data\Source\4N46-NS04512_2023_08_11_08_48_37.klarf.
+2023-09-27 16:10:09.114 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.127 - CustomFuction [INFO    ] [Archive] 4N46-NU04515_2023_08_13_14_19_28.klarf
+2023-09-27 16:10:09.128 - CustomFuction [INFO    ] Move file: 4N46-NU04515_2023_08_13_14_19_28.klarf to Archive folder: Data\Source\4N46-NU04515_2023_08_13_14_19_28.klarf.
+2023-09-27 16:10:09.132 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.146 - CustomFuction [INFO    ] [Archive] 4N46-NU04516_2023_08_13_09_29_49.klarf
+2023-09-27 16:10:09.147 - CustomFuction [INFO    ] Move file: 4N46-NU04516_2023_08_13_09_29_49.klarf to Archive folder: Data\Source\4N46-NU04516_2023_08_13_09_29_49.klarf.
+2023-09-27 16:10:09.150 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.165 - CustomFuction [INFO    ] [Archive] 4N46-NU04517_2023_08_13_09_23_03.klarf
+2023-09-27 16:10:09.166 - CustomFuction [INFO    ] Move file: 4N46-NU04517_2023_08_13_09_23_03.klarf to Archive folder: Data\Source\4N46-NU04517_2023_08_13_09_23_03.klarf.
+2023-09-27 16:10:09.171 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.185 - CustomFuction [INFO    ] [Archive] 4N46-NU04518_2023_08_12_18_23_16.klarf
+2023-09-27 16:10:09.187 - CustomFuction [INFO    ] Move file: 4N46-NU04518_2023_08_12_18_23_16.klarf to Archive folder: Data\Source\4N46-NU04518_2023_08_12_18_23_16.klarf.
+2023-09-27 16:10:09.191 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.205 - CustomFuction [INFO    ] [Archive] 4N46-RY00503_2023_08_13_22_00_09.klarf
+2023-09-27 16:10:09.205 - CustomFuction [INFO    ] Move file: 4N46-RY00503_2023_08_13_22_00_09.klarf to Archive folder: Data\Source\4N46-RY00503_2023_08_13_22_00_09.klarf.
+2023-09-27 16:10:09.209 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.223 - CustomFuction [INFO    ] [Archive] 4N46-RY00504_2023_08_13_19_57_55.klarf
+2023-09-27 16:10:09.224 - CustomFuction [INFO    ] Move file: 4N46-RY00504_2023_08_13_19_57_55.klarf to Archive folder: Data\Source\4N46-RY00504_2023_08_13_19_57_55.klarf.
+2023-09-27 16:10:09.229 - ETL_XLS_TO_KLARF_TEST_2 [INFO    ] Not Any File
+2023-09-27 16:10:09.243 - CustomFuction [INFO    ] [Archive] 4N46-UV00402_2023_08_11_08_54_22.klarf
+2023-09-27 16:10:09.244 - CustomFuction [INFO    ] Move file: 4N46-UV00402_2023_08_11_08_54_22.klarf to Archive folder: Data\Source\4N46-UV00402_2023_08_11_08_54_22.klarf.
+2023-09-27 16:10:09.245 - CustomFuction [INFO    ] ========[ File End ]========
+2023-09-27 16:10:09.245 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-09-27 16:10:09.341 - CustomFuction [INFO    ] ========== Finally ==========
+2023-09-27 16:10:12.214 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

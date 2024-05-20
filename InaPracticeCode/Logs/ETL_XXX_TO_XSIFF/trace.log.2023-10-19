@@ -1,0 +1,64 @@
+2023-10-19 14:27:54.995 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-19 14:27:54.995 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-19 14:27:54.995 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-19 14:27:54.995 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-19 14:27:55.011 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-19 14:27:55.011 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-19 14:27:55.011 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-19 14:27:55.027 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-10-19 15:10:53.998 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-19 15:10:53.998 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-19 15:10:53.998 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-19 15:10:53.998 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-19 15:10:54.014 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-19 15:10:54.014 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-19 15:10:54.014 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-19 15:10:57.511 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-10-19 15:10:57.621 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_INA\ETL_XXX_TO_XSIFF.py.*
+2023-10-19 15:10:57.621 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-19 15:10:53.983309
+2023-10-19 15:11:00.932 - __init__   [INFO    ] Set process status code: 0.
+2023-10-19 15:11:01.026 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-19 15:11:01.370 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-19 15:11:01.703 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-19 15:11:03.161 - CustomFuction [ERROR   ] name 'logger' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_INA\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_INA\ETL_XXX_TO_XSIFF.py", line 303, in do_file
+    logger.info(f'Read source file:{e_t - s_t}')
+NameError: name 'logger' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_INA\ETL_XXX_TO_XSIFF.py", line 436, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_INA\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-19 15:11:03.193 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-19 15:11:03.193 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: Data\Source\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-19 15:11:06.359 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-19 15:11:06.359 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-19 15:11:06.516 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-19 15:11:09.699 - __init__   [INFO    ] Set process status code: 5.
+2023-10-19 15:12:12.158 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-19 15:12:12.158 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-19 15:12:12.158 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-19 15:12:12.158 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-19 15:12:12.174 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-19 15:12:12.174 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-19 15:12:12.174 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-19 15:12:15.449 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-10-19 15:12:19.407 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_INA\ETL_XXX_TO_XSIFF.py.*
+2023-10-19 15:12:19.422 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-19 15:12:12.143202
+2023-10-19 15:12:22.712 - __init__   [INFO    ] Set process status code: 0.
+2023-10-19 15:12:22.806 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-19 15:12:23.206 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-19 15:12:23.589 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-19 15:12:25.047 - ETL_XXX_TO_XSIFF [INFO    ] Read source file:0:00:01.051346
+2023-10-19 15:12:25.047 - ETL_XXX_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-10-19 15:12:25.074 - ETL_XXX_TO_XSIFF [INFO    ] Export xsiff:0:00:00.027261
+2023-10-19 15:12:25.074 - ETL_XXX_TO_XSIFF [INFO    ] Converter XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to FT_GD600MLS100L6S_XWECYQH62_FT1_20230705045013.xsiff ;Total Used:0:00:01.078607
+2023-10-19 15:12:25.106 - CustomFuction [INFO    ] [Archive] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-10-19 15:12:25.106 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to Archive folder: Data\Source\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-10-19 15:12:25.106 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-19 15:12:25.106 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-19 15:12:25.220 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-19 15:12:28.336 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

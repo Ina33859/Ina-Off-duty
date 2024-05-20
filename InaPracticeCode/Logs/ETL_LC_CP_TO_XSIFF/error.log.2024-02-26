@@ -1,0 +1,90 @@
+2024-02-26 09:55:16.454 - ETL_LC_CP_TO_XSIFF [ERROR   ] name 'current_block' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 245, in do_file
+    print(current_block.HeaderList)
+NameError: name 'current_block' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 410, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 310, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-02-26 09:55:19.222 - __init__   [ERROR   ] File:23GD0101_240120152703.csv Move To Error Folder
+                                                Error: None
+2024-02-26 09:55:20.508 - ETL_LC_CP_TO_XSIFF [ERROR   ] name 'current_block' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 245, in do_file
+    print(current_block.HeaderList)
+NameError: name 'current_block' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 410, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 310, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-02-26 09:55:20.690 - __init__   [ERROR   ] File:23GD0110_240120140549.csv Move To Error Folder
+                                                Error: None
+2024-02-26 09:55:21.640 - ETL_LC_CP_TO_XSIFF [ERROR   ] name 'current_block' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 245, in do_file
+    print(current_block.HeaderList)
+NameError: name 'current_block' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 410, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 310, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-02-26 09:55:21.816 - __init__   [ERROR   ] File:23GD0119_240120171105.csv Move To Error Folder
+                                                Error: None
+2024-02-26 10:00:33.231 - ETL_LC_CP_TO_XSIFF [ERROR   ] 'list' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 154, in do_file
+    result = process_csv(file_path)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 124, in process_csv
+    current_block.HeaderList.append(row.strip())
+AttributeError: 'list' object has no attribute 'strip'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 410, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 157, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-02-26 10:00:33.371 - __init__   [ERROR   ] File:23GD0141_240218152432.csv Move To Error Folder
+                                                Error: None
+2024-02-26 10:00:33.382 - ETL_LC_CP_TO_XSIFF [ERROR   ] 'list' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 154, in do_file
+    result = process_csv(file_path)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 124, in process_csv
+    current_block.HeaderList.append(row.strip())
+AttributeError: 'list' object has no attribute 'strip'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 410, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 157, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-02-26 10:00:33.543 - __init__   [ERROR   ] File:23GD0142_240218153534.csv Move To Error Folder
+                                                Error: None
+2024-02-26 10:00:33.559 - ETL_LC_CP_TO_XSIFF [ERROR   ] 'list' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 154, in do_file
+    result = process_csv(file_path)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 124, in process_csv
+    current_block.HeaderList.append(row.strip())
+AttributeError: 'list' object has no attribute 'strip'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 410, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 157, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-02-26 10:00:33.710 - __init__   [ERROR   ] File:23GD0143_240218141511.csv Move To Error Folder
+                                                Error: None

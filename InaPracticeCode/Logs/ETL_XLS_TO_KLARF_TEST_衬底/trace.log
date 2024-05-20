@@ -1,0 +1,519 @@
+2023-08-21 09:18:29.156 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-21 09:18:29.157 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-21 09:18:29.157 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-21 09:18:29.158 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-21 09:18:29.172 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-21 09:18:29.172 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-21 09:18:29.172 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-21 09:18:32.358 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-08-21 09:18:32.827 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py.*
+2023-08-21 09:18:32.838 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-21 09:18:29.146019
+2023-08-21 09:18:36.060 - __init__   [INFO    ] Set process status code: 0.
+2023-08-21 09:18:36.147 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-21 09:18:36.512 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-21 09:18:36.892 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-21 09:18:37.255 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:18:37.299 - CustomFuction [INFO    ] [ERROR] Slot02__4N46-DM06422_6inch_BarePl_6S000_20230428_101134.csv
+2023-08-21 09:18:37.301 - CustomFuction [INFO    ] Move file: Slot02__4N46-DM06422_6inch_BarePl_6S000_20230428_101134.csv to ERROR folder: Data\Source\Slot02__4N46-DM06422_6inch_BarePl_6S000_20230428_101134.csv.
+2023-08-21 09:18:42.907 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:18:42.926 - CustomFuction [INFO    ] [ERROR] Slot02__4N46-GM03817_6inch_BarePl_6S000_20230424_100502.csv
+2023-08-21 09:18:42.935 - CustomFuction [INFO    ] Move file: Slot02__4N46-GM03817_6inch_BarePl_6S000_20230424_100502.csv to ERROR folder: Data\Source\Slot02__4N46-GM03817_6inch_BarePl_6S000_20230424_100502.csv.
+2023-08-21 09:18:48.578 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:18:48.596 - CustomFuction [INFO    ] [ERROR] Slot04__4N46-NZ03219_6inch_BarePl_6S000_20230429_160559.csv
+2023-08-21 09:18:48.605 - CustomFuction [INFO    ] Move file: Slot04__4N46-NZ03219_6inch_BarePl_6S000_20230429_160559.csv to ERROR folder: Data\Source\Slot04__4N46-NZ03219_6inch_BarePl_6S000_20230429_160559.csv.
+2023-08-21 09:18:54.081 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:18:54.099 - CustomFuction [INFO    ] [ERROR] Slot05__4N46-L904326_6inch_BarePl_6S000_20230429_161348.csv
+2023-08-21 09:18:54.109 - CustomFuction [INFO    ] Move file: Slot05__4N46-L904326_6inch_BarePl_6S000_20230429_161348.csv to ERROR folder: Data\Source\Slot05__4N46-L904326_6inch_BarePl_6S000_20230429_161348.csv.
+2023-08-21 09:18:59.665 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:18:59.686 - CustomFuction [INFO    ] [ERROR] Slot06__4N46-D207615_6inch_BarePl_6S000_20230501_120832.csv
+2023-08-21 09:18:59.689 - CustomFuction [INFO    ] Move file: Slot06__4N46-D207615_6inch_BarePl_6S000_20230501_120832.csv to ERROR folder: Data\Source\Slot06__4N46-D207615_6inch_BarePl_6S000_20230501_120832.csv.
+2023-08-21 09:19:05.242 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:05.267 - CustomFuction [INFO    ] [ERROR] Slot09__4N46-FI04523_6inch_BarePl_6S000_20230429_164506.csv
+2023-08-21 09:19:05.271 - CustomFuction [INFO    ] Move file: Slot09__4N46-FI04523_6inch_BarePl_6S000_20230429_164506.csv to ERROR folder: Data\Source\Slot09__4N46-FI04523_6inch_BarePl_6S000_20230429_164506.csv.
+2023-08-21 09:19:10.875 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:10.897 - CustomFuction [INFO    ] [ERROR] Slot09__4N46-GQ04615_6inch_BarePl_6S000_20230423_143022.csv
+2023-08-21 09:19:10.903 - CustomFuction [INFO    ] Move file: Slot09__4N46-GQ04615_6inch_BarePl_6S000_20230423_143022.csv to ERROR folder: Data\Source\Slot09__4N46-GQ04615_6inch_BarePl_6S000_20230423_143022.csv.
+2023-08-21 09:19:16.514 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:16.531 - CustomFuction [INFO    ] [ERROR] Slot11__4N46-E305222_6inch_BarePl_6S000_20230423_143930.csv
+2023-08-21 09:19:16.540 - CustomFuction [INFO    ] Move file: Slot11__4N46-E305222_6inch_BarePl_6S000_20230423_143930.csv to ERROR folder: Data\Source\Slot11__4N46-E305222_6inch_BarePl_6S000_20230423_143930.csv.
+2023-08-21 09:19:22.051 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:22.071 - CustomFuction [INFO    ] [ERROR] Slot12__4N46-E305013_6inch_BarePl_6S000_20230501_123558.csv
+2023-08-21 09:19:22.075 - CustomFuction [INFO    ] Move file: Slot12__4N46-E305013_6inch_BarePl_6S000_20230501_123558.csv to ERROR folder: Data\Source\Slot12__4N46-E305013_6inch_BarePl_6S000_20230501_123558.csv.
+2023-08-21 09:19:27.682 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:27.699 - CustomFuction [INFO    ] [ERROR] Slot12__4N46-NV03933_6inch_BarePl_6S000_20230417_173739.csv
+2023-08-21 09:19:27.708 - CustomFuction [INFO    ] Move file: Slot12__4N46-NV03933_6inch_BarePl_6S000_20230417_173739.csv to ERROR folder: Data\Source\Slot12__4N46-NV03933_6inch_BarePl_6S000_20230417_173739.csv.
+2023-08-21 09:19:33.249 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:33.268 - CustomFuction [INFO    ] [ERROR] Slot14__4N46-HY02016_6inch_BarePl_6S000_20230416_202135.csv
+2023-08-21 09:19:33.270 - CustomFuction [INFO    ] Move file: Slot14__4N46-HY02016_6inch_BarePl_6S000_20230416_202135.csv to ERROR folder: Data\Source\Slot14__4N46-HY02016_6inch_BarePl_6S000_20230416_202135.csv.
+2023-08-21 09:19:39.057 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:39.076 - CustomFuction [INFO    ] [ERROR] Slot14__4N46-NT03319_6inch_BarePl_6S000_20230423_153341.csv
+2023-08-21 09:19:39.086 - CustomFuction [INFO    ] Move file: Slot14__4N46-NT03319_6inch_BarePl_6S000_20230423_153341.csv to ERROR folder: Data\Source\Slot14__4N46-NT03319_6inch_BarePl_6S000_20230423_153341.csv.
+2023-08-21 09:19:44.608 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:44.626 - CustomFuction [INFO    ] [ERROR] Slot15__4N46-J301923_6inch_BarePl_6S000_20230416_202612.csv
+2023-08-21 09:19:44.637 - CustomFuction [INFO    ] Move file: Slot15__4N46-J301923_6inch_BarePl_6S000_20230416_202612.csv to ERROR folder: Data\Source\Slot15__4N46-J301923_6inch_BarePl_6S000_20230416_202612.csv.
+2023-08-21 09:19:50.145 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:50.162 - CustomFuction [INFO    ] [ERROR] Slot17__4N46-MS02814_6inch_BarePl_6S000_20230421_001842.csv
+2023-08-21 09:19:50.163 - CustomFuction [INFO    ] Move file: Slot17__4N46-MS02814_6inch_BarePl_6S000_20230421_001842.csv to ERROR folder: Data\Source\Slot17__4N46-MS02814_6inch_BarePl_6S000_20230421_001842.csv.
+2023-08-21 09:19:55.726 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_POC_XLS_TO_KLARF\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py", line 138, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:19:55.742 - CustomFuction [INFO    ] [ERROR] Slot19__4N46-EG06313_6inch_BarePl_6S000_20230417_183208.csv
+2023-08-21 09:19:55.743 - CustomFuction [INFO    ] Move file: Slot19__4N46-EG06313_6inch_BarePl_6S000_20230417_183208.csv to ERROR folder: Data\Source\Slot19__4N46-EG06313_6inch_BarePl_6S000_20230417_183208.csv.
+2023-08-21 09:20:02.712 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-21 09:20:02.712 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-21 09:20:02.713 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-21 09:20:02.714 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-21 09:20:02.725 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-21 09:20:02.726 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-21 09:20:02.726 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-21 09:20:05.814 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-08-21 09:20:05.816 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-08-21 09:20:06.286 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_衬底\ETL_XLS_TO_KLARF_TEST_衬底.py.*
+2023-08-21 09:20:06.291 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-21 09:20:02.704377
+2023-08-21 09:20:09.539 - __init__   [INFO    ] Set process status code: 0.
+2023-08-21 09:20:09.637 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-21 09:20:10.056 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-21 09:20:10.417 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-21 09:20:10.840 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.015972
+2023-08-21 09:20:10.853 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot02__4N46-DM06422_6inch_BarePl_6S000_20230428_101134.csv to KLA-Tencor_None_LOT01_02_4N46-DM06422_2023-08-21-09-20-10.001 ;Total Used:0:00:00.062607
+2023-08-21 09:20:10.875 - CustomFuction [INFO    ] [Archive] Slot02__4N46-DM06422_6inch_BarePl_6S000_20230428_101134.csv
+2023-08-21 09:20:10.878 - CustomFuction [INFO    ] Move file: Slot02__4N46-DM06422_6inch_BarePl_6S000_20230428_101134.csv to Archive folder: Data\Source\Slot02__4N46-DM06422_6inch_BarePl_6S000_20230428_101134.csv.
+2023-08-21 09:20:10.907 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.017052
+2023-08-21 09:20:10.976 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot02__4N46-GM03817_6inch_BarePl_6S000_20230424_100502.csv to KLA-Tencor_None_LOT01_02_4N46-GM03817_2023-08-21-09-20-10.001 ;Total Used:0:00:00.096999
+2023-08-21 09:20:10.994 - CustomFuction [INFO    ] [Archive] Slot02__4N46-GM03817_6inch_BarePl_6S000_20230424_100502.csv
+2023-08-21 09:20:10.996 - CustomFuction [INFO    ] Move file: Slot02__4N46-GM03817_6inch_BarePl_6S000_20230424_100502.csv to Archive folder: Data\Source\Slot02__4N46-GM03817_6inch_BarePl_6S000_20230424_100502.csv.
+2023-08-21 09:20:11.009 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.007048
+2023-08-21 09:20:11.019 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot04__4N46-NZ03219_6inch_BarePl_6S000_20230429_160559.csv to KLA-Tencor_None_LOT01_04_4N46-NZ03219_2023-08-21-09-20-11.001 ;Total Used:0:00:00.023050
+2023-08-21 09:20:11.038 - CustomFuction [INFO    ] [Archive] Slot04__4N46-NZ03219_6inch_BarePl_6S000_20230429_160559.csv
+2023-08-21 09:20:11.040 - CustomFuction [INFO    ] Move file: Slot04__4N46-NZ03219_6inch_BarePl_6S000_20230429_160559.csv to Archive folder: Data\Source\Slot04__4N46-NZ03219_6inch_BarePl_6S000_20230429_160559.csv.
+2023-08-21 09:20:11.070 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.016986
+2023-08-21 09:20:11.110 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot05__4N46-L904326_6inch_BarePl_6S000_20230429_161348.csv to KLA-Tencor_None_LOT01_05_4N46-L904326_2023-08-21-09-20-11.001 ;Total Used:0:00:00.068959
+2023-08-21 09:20:11.128 - CustomFuction [INFO    ] [Archive] Slot05__4N46-L904326_6inch_BarePl_6S000_20230429_161348.csv
+2023-08-21 09:20:11.128 - CustomFuction [INFO    ] Move file: Slot05__4N46-L904326_6inch_BarePl_6S000_20230429_161348.csv to Archive folder: Data\Source\Slot05__4N46-L904326_6inch_BarePl_6S000_20230429_161348.csv.
+2023-08-21 09:20:11.136 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.004995
+2023-08-21 09:20:11.156 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot06__4N46-D207615_6inch_BarePl_6S000_20230501_120832.csv to KLA-Tencor_None_LOT01_06_4N46-D207615_2023-08-21-09-20-11.001 ;Total Used:0:00:00.026994
+2023-08-21 09:20:11.177 - CustomFuction [INFO    ] [Archive] Slot06__4N46-D207615_6inch_BarePl_6S000_20230501_120832.csv
+2023-08-21 09:20:11.179 - CustomFuction [INFO    ] Move file: Slot06__4N46-D207615_6inch_BarePl_6S000_20230501_120832.csv to Archive folder: Data\Source\Slot06__4N46-D207615_6inch_BarePl_6S000_20230501_120832.csv.
+2023-08-21 09:20:11.209 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.014922
+2023-08-21 09:20:11.274 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot09__4N46-FI04523_6inch_BarePl_6S000_20230429_164506.csv to KLA-Tencor_None_LOT01_09_4N46-FI04523_2023-08-21-09-20-11.001 ;Total Used:0:00:00.093017
+2023-08-21 09:20:11.291 - CustomFuction [INFO    ] [Archive] Slot09__4N46-FI04523_6inch_BarePl_6S000_20230429_164506.csv
+2023-08-21 09:20:11.292 - CustomFuction [INFO    ] Move file: Slot09__4N46-FI04523_6inch_BarePl_6S000_20230429_164506.csv to Archive folder: Data\Source\Slot09__4N46-FI04523_6inch_BarePl_6S000_20230429_164506.csv.
+2023-08-21 09:20:11.304 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.007959
+2023-08-21 09:20:11.357 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot09__4N46-GQ04615_6inch_BarePl_6S000_20230423_143022.csv to KLA-Tencor_None_LOT01_09_4N46-GQ04615_2023-08-21-09-20-11.001 ;Total Used:0:00:00.064023
+2023-08-21 09:20:11.375 - CustomFuction [INFO    ] [Archive] Slot09__4N46-GQ04615_6inch_BarePl_6S000_20230423_143022.csv
+2023-08-21 09:20:11.376 - CustomFuction [INFO    ] Move file: Slot09__4N46-GQ04615_6inch_BarePl_6S000_20230423_143022.csv to Archive folder: Data\Source\Slot09__4N46-GQ04615_6inch_BarePl_6S000_20230423_143022.csv.
+2023-08-21 09:20:11.384 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.005000
+2023-08-21 09:20:11.392 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot11__4N46-E305222_6inch_BarePl_6S000_20230423_143930.csv to KLA-Tencor_None_LOT01_11_4N46-E305222_2023-08-21-09-20-11.001 ;Total Used:0:00:00.016025
+2023-08-21 09:20:11.409 - CustomFuction [INFO    ] [Archive] Slot11__4N46-E305222_6inch_BarePl_6S000_20230423_143930.csv
+2023-08-21 09:20:11.410 - CustomFuction [INFO    ] Move file: Slot11__4N46-E305222_6inch_BarePl_6S000_20230423_143930.csv to Archive folder: Data\Source\Slot11__4N46-E305222_6inch_BarePl_6S000_20230423_143930.csv.
+2023-08-21 09:20:11.418 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.004028
+2023-08-21 09:20:11.436 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot12__4N46-E305013_6inch_BarePl_6S000_20230501_123558.csv to KLA-Tencor_None_LOT01_12_4N46-E305013_2023-08-21-09-20-11.001 ;Total Used:0:00:00.025027
+2023-08-21 09:20:11.454 - CustomFuction [INFO    ] [Archive] Slot12__4N46-E305013_6inch_BarePl_6S000_20230501_123558.csv
+2023-08-21 09:20:11.455 - CustomFuction [INFO    ] Move file: Slot12__4N46-E305013_6inch_BarePl_6S000_20230501_123558.csv to Archive folder: Data\Source\Slot12__4N46-E305013_6inch_BarePl_6S000_20230501_123558.csv.
+2023-08-21 09:20:11.462 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.004031
+2023-08-21 09:20:11.470 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot12__4N46-NV03933_6inch_BarePl_6S000_20230417_173739.csv to KLA-Tencor_None_LOT01_12_4N46-NV03933_2023-08-21-09-20-11.001 ;Total Used:0:00:00.013992
+2023-08-21 09:20:11.487 - CustomFuction [INFO    ] [Archive] Slot12__4N46-NV03933_6inch_BarePl_6S000_20230417_173739.csv
+2023-08-21 09:20:11.488 - CustomFuction [INFO    ] Move file: Slot12__4N46-NV03933_6inch_BarePl_6S000_20230417_173739.csv to Archive folder: Data\Source\Slot12__4N46-NV03933_6inch_BarePl_6S000_20230417_173739.csv.
+2023-08-21 09:20:11.505 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.014035
+2023-08-21 09:20:11.869 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot14__4N46-HY02016_6inch_BarePl_6S000_20230416_202135.csv to KLA-Tencor_None_LOT01_14_4N46-HY02016_2023-08-21-09-20-11.001 ;Total Used:0:00:00.379957
+2023-08-21 09:20:11.888 - CustomFuction [INFO    ] [Archive] Slot14__4N46-HY02016_6inch_BarePl_6S000_20230416_202135.csv
+2023-08-21 09:20:11.889 - CustomFuction [INFO    ] Move file: Slot14__4N46-HY02016_6inch_BarePl_6S000_20230416_202135.csv to Archive folder: Data\Source\Slot14__4N46-HY02016_6inch_BarePl_6S000_20230416_202135.csv.
+2023-08-21 09:20:11.896 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.004000
+2023-08-21 09:20:11.900 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot14__4N46-NT03319_6inch_BarePl_6S000_20230423_153341.csv to KLA-Tencor_None_LOT01_14_4N46-NT03319_2023-08-21-09-20-11.001 ;Total Used:0:00:00.011031
+2023-08-21 09:20:11.918 - CustomFuction [INFO    ] [Archive] Slot14__4N46-NT03319_6inch_BarePl_6S000_20230423_153341.csv
+2023-08-21 09:20:11.920 - CustomFuction [INFO    ] Move file: Slot14__4N46-NT03319_6inch_BarePl_6S000_20230423_153341.csv to Archive folder: Data\Source\Slot14__4N46-NT03319_6inch_BarePl_6S000_20230423_153341.csv.
+2023-08-21 09:20:11.931 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.006997
+2023-08-21 09:20:11.958 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot15__4N46-J301923_6inch_BarePl_6S000_20230416_202612.csv to KLA-Tencor_None_LOT01_15_4N46-J301923_2023-08-21-09-20-11.001 ;Total Used:0:00:00.038030
+2023-08-21 09:20:11.976 - CustomFuction [INFO    ] [Archive] Slot15__4N46-J301923_6inch_BarePl_6S000_20230416_202612.csv
+2023-08-21 09:20:11.977 - CustomFuction [INFO    ] Move file: Slot15__4N46-J301923_6inch_BarePl_6S000_20230416_202612.csv to Archive folder: Data\Source\Slot15__4N46-J301923_6inch_BarePl_6S000_20230416_202612.csv.
+2023-08-21 09:20:11.984 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.004033
+2023-08-21 09:20:11.993 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot17__4N46-MS02814_6inch_BarePl_6S000_20230421_001842.csv to KLA-Tencor_None_LOT01_17_4N46-MS02814_2023-08-21-09-20-11.001 ;Total Used:0:00:00.016030
+2023-08-21 09:20:12.011 - CustomFuction [INFO    ] [Archive] Slot17__4N46-MS02814_6inch_BarePl_6S000_20230421_001842.csv
+2023-08-21 09:20:12.012 - CustomFuction [INFO    ] Move file: Slot17__4N46-MS02814_6inch_BarePl_6S000_20230421_001842.csv to Archive folder: Data\Source\Slot17__4N46-MS02814_6inch_BarePl_6S000_20230421_001842.csv.
+2023-08-21 09:20:12.024 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.007998
+2023-08-21 09:20:12.090 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot19__4N46-EG06313_6inch_BarePl_6S000_20230417_183208.csv to KLA-Tencor_None_LOT01_19_4N46-EG06313_2023-08-21-09-20-12.001 ;Total Used:0:00:00.077983
+2023-08-21 09:20:12.108 - CustomFuction [INFO    ] [Archive] Slot19__4N46-EG06313_6inch_BarePl_6S000_20230417_183208.csv
+2023-08-21 09:20:12.109 - CustomFuction [INFO    ] Move file: Slot19__4N46-EG06313_6inch_BarePl_6S000_20230417_183208.csv to Archive folder: Data\Source\Slot19__4N46-EG06313_6inch_BarePl_6S000_20230417_183208.csv.
+2023-08-21 09:20:12.116 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.004978
+2023-08-21 09:20:12.139 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot21__4N46-D905217_6inch_BarePl_6S000_20230418_184505.csv to KLA-Tencor_None_LOT01_21_4N46-D905217_2023-08-21-09-20-12.001 ;Total Used:0:00:00.029971
+2023-08-21 09:20:12.158 - CustomFuction [INFO    ] [Archive] Slot21__4N46-D905217_6inch_BarePl_6S000_20230418_184505.csv
+2023-08-21 09:20:12.158 - CustomFuction [INFO    ] Move file: Slot21__4N46-D905217_6inch_BarePl_6S000_20230418_184505.csv to Archive folder: Data\Source\Slot21__4N46-D905217_6inch_BarePl_6S000_20230418_184505.csv.
+2023-08-21 09:20:12.166 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.004033
+2023-08-21 09:20:12.178 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot21__4N46-DF06414_6inch_BarePl_6S000_20230501_131659.csv to KLA-Tencor_None_LOT01_21_4N46-DF06414_2023-08-21-09-20-12.001 ;Total Used:0:00:00.019026
+2023-08-21 09:20:12.195 - CustomFuction [INFO    ] [Archive] Slot21__4N46-DF06414_6inch_BarePl_6S000_20230501_131659.csv
+2023-08-21 09:20:12.196 - CustomFuction [INFO    ] Move file: Slot21__4N46-DF06414_6inch_BarePl_6S000_20230501_131659.csv to Archive folder: Data\Source\Slot21__4N46-DF06414_6inch_BarePl_6S000_20230501_131659.csv.
+2023-08-21 09:20:12.203 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.004031
+2023-08-21 09:20:12.221 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot21__4N46-DR05626_6inch_BarePl_6S000_20230427_170637.csv to KLA-Tencor_None_LOT01_21_4N46-DR05626_2023-08-21-09-20-12.001 ;Total Used:0:00:00.024025
+2023-08-21 09:20:12.238 - CustomFuction [INFO    ] [Archive] Slot21__4N46-DR05626_6inch_BarePl_6S000_20230427_170637.csv
+2023-08-21 09:20:12.239 - CustomFuction [INFO    ] Move file: Slot21__4N46-DR05626_6inch_BarePl_6S000_20230427_170637.csv to Archive folder: Data\Source\Slot21__4N46-DR05626_6inch_BarePl_6S000_20230427_170637.csv.
+2023-08-21 09:20:12.247 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.005030
+2023-08-21 09:20:12.272 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot21__4N46-N303426_6inch_BarePl_6S000_20230424_121141.csv to KLA-Tencor_None_LOT01_21_4N46-N303426_2023-08-21-09-20-12.001 ;Total Used:0:00:00.032021
+2023-08-21 09:20:12.289 - CustomFuction [INFO    ] [Archive] Slot21__4N46-N303426_6inch_BarePl_6S000_20230424_121141.csv
+2023-08-21 09:20:12.290 - CustomFuction [INFO    ] Move file: Slot21__4N46-N303426_6inch_BarePl_6S000_20230424_121141.csv to Archive folder: Data\Source\Slot21__4N46-N303426_6inch_BarePl_6S000_20230424_121141.csv.
+2023-08-21 09:20:12.301 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.007998
+2023-08-21 09:20:12.377 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot23__4N46-E304416_6inch_BarePl_6S000_20230422_042129.csv to KLA-Tencor_None_LOT01_23_4N46-E304416_2023-08-21-09-20-12.001 ;Total Used:0:00:00.085998
+2023-08-21 09:20:12.395 - CustomFuction [INFO    ] [Archive] Slot23__4N46-E304416_6inch_BarePl_6S000_20230422_042129.csv
+2023-08-21 09:20:12.396 - CustomFuction [INFO    ] Move file: Slot23__4N46-E304416_6inch_BarePl_6S000_20230422_042129.csv to Archive folder: Data\Source\Slot23__4N46-E304416_6inch_BarePl_6S000_20230422_042129.csv.
+2023-08-21 09:20:12.428 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.029993
+2023-08-21 09:20:13.722 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot23__4N46-GF03310_6inch_BarePl_6S000_20230426_032535.csv to KLA-Tencor_None_LOT01_23_4N46-GF03310_2023-08-21-09-20-12.001 ;Total Used:0:00:01.324715
+2023-08-21 09:20:13.750 - CustomFuction [INFO    ] [Archive] Slot23__4N46-GF03310_6inch_BarePl_6S000_20230426_032535.csv
+2023-08-21 09:20:13.750 - CustomFuction [INFO    ] Move file: Slot23__4N46-GF03310_6inch_BarePl_6S000_20230426_032535.csv to Archive folder: Data\Source\Slot23__4N46-GF03310_6inch_BarePl_6S000_20230426_032535.csv.
+2023-08-21 09:20:13.761 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.007969
+2023-08-21 09:20:13.807 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot25__4N46-D107019_6inch_BarePl_6S000_20230427_182519.csv to KLA-Tencor_None_LOT01_25_4N46-D107019_2023-08-21-09-20-13.001 ;Total Used:0:00:00.055946
+2023-08-21 09:20:13.824 - CustomFuction [INFO    ] [Archive] Slot25__4N46-D107019_6inch_BarePl_6S000_20230427_182519.csv
+2023-08-21 09:20:13.825 - CustomFuction [INFO    ] Move file: Slot25__4N46-D107019_6inch_BarePl_6S000_20230427_182519.csv to Archive folder: Data\Source\Slot25__4N46-D107019_6inch_BarePl_6S000_20230427_182519.csv.
+2023-08-21 09:20:13.834 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.005998
+2023-08-21 09:20:13.881 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter Slot25__4N46-HY01724_6inch_BarePl_6S000_20230421_012035.csv to KLA-Tencor_None_LOT01_25_4N46-HY01724_2023-08-21-09-20-13.001 ;Total Used:0:00:00.054941
+2023-08-21 09:20:13.898 - CustomFuction [INFO    ] [Archive] Slot25__4N46-HY01724_6inch_BarePl_6S000_20230421_012035.csv
+2023-08-21 09:20:13.899 - CustomFuction [INFO    ] Move file: Slot25__4N46-HY01724_6inch_BarePl_6S000_20230421_012035.csv to Archive folder: Data\Source\Slot25__4N46-HY01724_6inch_BarePl_6S000_20230421_012035.csv.
+2023-08-21 09:20:13.917 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Read Source File:0:00:00.014036
+2023-08-21 09:20:13.923 - ETL_XLS_TO_KLARF_TEST_衬底 [INFO    ] Converter SUB_6INCH_20230311-3-SX6-150_6K001_Sub_01_4N46-CB07527_13_DefectAttributes.csv to KLA-Tencor_None_LOT01_01_4N46-CB07527_2023-08-21-09-20-13.001 ;Total Used:0:00:00.022983
+2023-08-21 09:20:13.939 - CustomFuction [INFO    ] [Archive] SUB_6INCH_20230311-3-SX6-150_6K001_Sub_01_4N46-CB07527_13_DefectAttributes.csv
+2023-08-21 09:20:13.940 - CustomFuction [INFO    ] Move file: SUB_6INCH_20230311-3-SX6-150_6K001_Sub_01_4N46-CB07527_13_DefectAttributes.csv to Archive folder: Data\Source\SUB_6INCH_20230311-3-SX6-150_6K001_Sub_01_4N46-CB07527_13_DefectAttributes.csv.
+2023-08-21 09:20:13.941 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-21 09:20:13.941 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-21 09:20:14.062 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-21 09:20:17.109 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

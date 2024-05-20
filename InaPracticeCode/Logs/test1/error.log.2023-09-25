@@ -1,0 +1,426 @@
+2023-09-25 09:25:33.407 - CustomFuction [ERROR   ] '1'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 378, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 324, in do_file
+    x_y_no[current_n].append({"waferno": waferno, 'die_x': die_x, 'die_y': die_y})
+KeyError: '1'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 518, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 09:43:35.626 - CustomFuction [ERROR   ] '1'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 380, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 325, in do_file
+    x_y_no[current_n].append({"waferno": waferno, 'die_x': die_x, 'die_y': die_y})
+KeyError: '1'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 520, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:26:27.563 - CustomFuction [ERROR   ] '1'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 383, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 328, in do_file
+    x_y_no[current_n].append({"waferno": waferno, 'die_x': die_x, 'die_y': die_y})
+KeyError: '1'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 523, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:30:07.744 - CustomFuction [ERROR   ] local variable 'after_colon' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 376, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 331, in do_file
+    print(after_colon)
+UnboundLocalError: local variable 'after_colon' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 516, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:34:48.054 - CustomFuction [ERROR   ] string index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 377, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 307, in do_file
+    lot = after_colon[28]+after_colon[29]+after_colon[30]+after_colon[31]+after_colon[11]+after_colon[12]
+IndexError: string index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 517, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:39:31.880 - CustomFuction [ERROR   ] string index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 381, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 311, in do_file
+    lot = after_colon[28]+after_colon[29]+after_colon[30]+after_colon[31]+after_colon[11]+after_colon[12]
+IndexError: string index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 521, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:40:18.607 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 381, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 311, in do_file
+    lot = after_colon[28]+after_colon[29]+after_colon[30]+after_colon[31]+after_colon[11]+after_colon[12]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 521, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:41:37.880 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 382, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 311, in do_file
+    lot = after_colon[28]+after_colon[29]+after_colon[30]+after_colon[31]+after_colon[11]+after_colon[12]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 522, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:43:56.992 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 382, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 311, in do_file
+    lot = after_colon[28]+after_colon[29]+after_colon[30]+after_colon[31]+after_colon[11]+after_colon[12]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 522, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:44:34.872 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 382, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 311, in do_file
+    lot = after_colon[28]+after_colon[29]+after_colon[30]+after_colon[31]+after_colon[11]+after_colon[12]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 522, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:55:14.909 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 382, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 311, in do_file
+    lot = after_colon[28]+after_colon[29]+after_colon[30]+after_colon[31]+after_colon[11]+after_colon[12]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 522, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 10:56:32.248 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 385, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 314, in do_file
+    lot = after_colon[28]+after_colon[29]+after_colon[30]+after_colon[31]+after_colon[11]+after_colon[12]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 525, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 13:20:59.115 - CustomFuction [ERROR   ] write_lot_number() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 384, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 320, in do_file
+    part_id = write_lot_number(memory, lot)
+TypeError: write_lot_number() takes 1 positional argument but 2 were given
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 524, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 13:48:52.743 - CustomFuction [ERROR   ] write_sub_lot_number() missing 1 required positional argument: 'sub_lot_number'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 404, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 191, in do_file
+    print(write_sub_lot_number(sub_lot))
+TypeError: write_sub_lot_number() missing 1 required positional argument: 'sub_lot_number'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 544, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 14:49:41.620 - CustomFuction [ERROR   ] write_lot_number() missing 1 required positional argument: 'lot'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 399, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 334, in do_file
+    id = write_lot_number(lot)
+TypeError: write_lot_number() missing 1 required positional argument: 'lot'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 539, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 15:29:22.986 - CustomFuction [ERROR   ] name 'memory' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 393, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 328, in do_file
+    id = write_lot_number(memory,lot)
+NameError: name 'memory' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 533, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 15:29:52.457 - CustomFuction [ERROR   ] name 'memory' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 393, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 328, in do_file
+    id = write_lot_number(memory,lot)
+NameError: name 'memory' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 533, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 15:30:17.300 - CustomFuction [ERROR   ] name 'memory' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 393, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 328, in do_file
+    id = write_lot_number(memory,lot)
+NameError: name 'memory' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 533, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 15:35:18.646 - CustomFuction [ERROR   ] local variable 'after_colon' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 393, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 310, in do_file
+    part_id =''.join(after_colon)
+UnboundLocalError: local variable 'after_colon' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 533, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 15:46:16.669 - CustomFuction [ERROR   ] ord() expected string of length 1, but int found
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 394, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 305, in do_file
+    after_colon.append(ord(int(split_data[1].strip(),16))) # '：'后面的数据
+TypeError: ord() expected string of length 1, but int found
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 534, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 15:46:44.929 - CustomFuction [ERROR   ] ord() expected string of length 1, but int found
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 394, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 305, in do_file
+    after_colon.append(ord(int(split_data[1].strip(),16))) # '：'后面的数据
+TypeError: ord() expected string of length 1, but int found
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 534, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 16:07:17.627 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 400, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 332, in do_file
+    lot = after_colon[28]+after_colon[29]+after_colon[30]+after_colon[31]+after_colon[11]+after_colon[12]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 540, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 16:07:38.642 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 400, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 350, in do_file
+    waferno = f"{int(after_colon[13].strip()):02d}"
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 540, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 16:44:59.241 - CustomFuction [ERROR   ] list indices must be integers or slices, not list
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 370, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 336, in do_file
+    elements[columns_to_convert] = elements[columns_to_convert].apply(pd.to_numeric,
+TypeError: list indices must be integers or slices, not list
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 510, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 16:51:14.378 - CustomFuction [ERROR   ] list indices must be integers or slices, not list
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 367, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 333, in do_file
+    elements[columns_to_convert] = elements[columns_to_convert].apply(pd.to_numeric,
+TypeError: list indices must be integers or slices, not list
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 507, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 17:03:04.679 - CustomFuction [ERROR   ] Shape of passed values is (161, 1), indices imply (161, 15)
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 368, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 316, in do_file
+    df = pd.DataFrame(long_elements, columns=['Number', 'Site', 'Result', 'Test Name', 'Pin', 'Channel',
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\frame.py", line 737, in __init__
+    mgr = ndarray_to_mgr(
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 351, in ndarray_to_mgr
+    _check_values_indices_shape_match(values, index, columns)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 422, in _check_values_indices_shape_match
+    raise ValueError(f"Shape of passed values is {passed}, indices imply {implied}")
+ValueError: Shape of passed values is (161, 1), indices imply (161, 15)
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 508, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 17:12:34.675 - CustomFuction [ERROR   ] name 'elements' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 378, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 352, in do_file
+    outer_key = elements[1]
+NameError: name 'elements' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 518, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 17:22:03.183 - CustomFuction [ERROR   ] name 'elements' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 369, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 345, in do_file
+    outer_key = elements[1]
+NameError: name 'elements' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 509, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 17:42:07.455 - CustomFuction [ERROR   ] float() argument must be a string or a number, not 'list'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 376, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 339, in do_file
+    value = float(elements)
+TypeError: float() argument must be a string or a number, not 'list'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 516, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-25 17:44:18.872 - CustomFuction [ERROR   ] float() argument must be a string or a number, not 'list'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 373, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 339, in do_file
+    value = float(elements)
+TypeError: float() argument must be a string or a number, not 'list'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\test1.py", line 513, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

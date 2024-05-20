@@ -1,0 +1,298 @@
+2023-11-03 09:52:25.256 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-11-03 09:53:14.332 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-11-03 09:54:53.743 - ETL_LOT_XML_TO_XSIFF [ERROR   ] If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 274, in do_file
+    df = pd.DataFrame(data)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 468, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 283, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 78, in arrays_to_mgr
+    index = extract_index(arrays)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 387, in extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 448, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 09:54:54.710 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 10:28:12.974 - ETL_LOT_XML_TO_XSIFF [ERROR   ] 18 columns passed, passed data had 28 columns
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 564, in _list_to_arrays
+    columns = _validate_or_indexify_columns(content, columns)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 689, in _validate_or_indexify_columns
+    f"{len(columns)} columns passed, passed data had "
+AssertionError: 18 columns passed, passed data had 28 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 265, in do_file
+    df = pd.DataFrame(df_data, columns=columns)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 509, in __init__
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 524, in to_arrays
+    return _list_to_arrays(data, columns, coerce_float=coerce_float, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 567, in _list_to_arrays
+    raise ValueError(e) from e
+ValueError: 18 columns passed, passed data had 28 columns
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 436, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 10:28:13.192 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 10:28:23.405 - ETL_LOT_XML_TO_XSIFF [ERROR   ] 18 columns passed, passed data had 28 columns
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 564, in _list_to_arrays
+    columns = _validate_or_indexify_columns(content, columns)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 689, in _validate_or_indexify_columns
+    f"{len(columns)} columns passed, passed data had "
+AssertionError: 18 columns passed, passed data had 28 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 265, in do_file
+    df = pd.DataFrame(df_data, columns=columns)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 509, in __init__
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 524, in to_arrays
+    return _list_to_arrays(data, columns, coerce_float=coerce_float, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 567, in _list_to_arrays
+    raise ValueError(e) from e
+ValueError: 18 columns passed, passed data had 28 columns
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 436, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 10:28:23.590 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 13:27:54.368 - ETL_LOT_XML_TO_XSIFF [ERROR   ] name 'no_name_dict' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 236, in do_file
+    no_name_dict[lim.get('Desc')] = lim.get('ID')
+NameError: name 'no_name_dict' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 440, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 13:27:57.154 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 13:37:49.246 - ETL_LOT_XML_TO_XSIFF [ERROR   ] name 'parameter_name_value_dict' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 258, in do_file
+    parameter_name_value_dict[parameter_name] = value
+NameError: name 'parameter_name_value_dict' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 448, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 13:37:49.423 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 13:46:28.071 - ETL_LOT_XML_TO_XSIFF [ERROR   ] unhashable type: 'list'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 249, in do_file
+    data_dict[[site_id,site_x,site_y]]={}
+TypeError: unhashable type: 'list'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 448, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 13:46:28.241 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:00:31.498 - ETL_LOT_XML_TO_XSIFF [ERROR   ] name 'np' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 317, in do_file
+    data_df.replace(np.NaN, '', inplace=True)
+NameError: name 'np' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 470, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 355, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:00:31.626 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:07:13.445 - ETL_LOT_XML_TO_XSIFF [ERROR   ] name 'site_id' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 281, in do_file
+    data_dict[site_id][parameter_name] = parameter_value
+NameError: name 'site_id' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 472, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:07:13.666 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:10:33.119 - ETL_LOT_XML_TO_XSIFF [ERROR   ] string indices must be integers
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 281, in do_file
+    data_dict['SiteID'][site_info][parameter_name] = parameter_value
+TypeError: string indices must be integers
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 472, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:10:33.288 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:13:55.347 - ETL_LOT_XML_TO_XSIFF [ERROR   ] name 'site_info' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 271, in do_file
+    data_dict['SiteID'][site_info] = {"SiteX": site_x, "SiteY": site_y}
+NameError: name 'site_info' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 472, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:13:55.547 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:17:52.792 - ETL_LOT_XML_TO_XSIFF [ERROR   ] name 'site_id' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 267, in do_file
+    site_info = {'SiteID':site_id,"SiteX": site_x, "SiteY": site_y}
+NameError: name 'site_id' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 472, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:17:52.993 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:18:14.562 - ETL_LOT_XML_TO_XSIFF [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 281, in do_file
+    data_dict[site_info][parameter_name] = parameter_value
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 472, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:18:14.757 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:19:17.684 - ETL_LOT_XML_TO_XSIFF [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 281, in do_file
+    data_dict[site_info][parameter_name] = parameter_value
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 472, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:19:17.840 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:19:34.285 - ETL_LOT_XML_TO_XSIFF [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 281, in do_file
+    data_dict[site_info][parameter_name] = parameter_value
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 472, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:19:34.509 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:37:22.134 - ETL_LOT_XML_TO_XSIFF [ERROR   ] name 'np' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 340, in do_file
+    data_df.replace(np.NaN, '', inplace=True)
+NameError: name 'np' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 493, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 378, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:37:22.312 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 14:39:20.529 - ETL_LOT_XML_TO_XSIFF [ERROR   ] name 'np' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 297, in do_file
+    df = df.replace(np.NaN, '', inplace=True)
+NameError: name 'np' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 493, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 324, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 14:39:20.730 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 15:33:47.294 - ETL_LOT_XML_TO_XSIFF [ERROR   ] 'Parameters'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 292, in do_file
+    for parameter_name in limits_dict["Parameters"]:
+KeyError: 'Parameters'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 499, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 330, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 15:33:47.459 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 17:41:43.782 - ETL_LOT_XML_TO_XSIFF [ERROR   ] 'ParaometerName'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 279, in do_file
+    for parameter_name in limits_dict["ParaometerName"]:
+KeyError: 'ParaometerName'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 443, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 328, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-03 17:41:44.027 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 17:42:03.543 - ETL_LOT_XML_TO_XSIFF [ERROR   ] SiteID does not exist
+2023-11-03 17:42:03.795 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-03 17:43:02.215 - ETL_LOT_XML_TO_XSIFF [ERROR   ] Parameter in row_data_df and spec_df are not equal.
+2023-11-03 17:43:02.447 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None

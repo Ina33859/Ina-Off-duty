@@ -1,0 +1,725 @@
+2024-01-11 14:56:52.290 - CustomFuction [ERROR   ] 'NO.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'NO.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 58, in do_file
+    row['NO.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'NO.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 14:56:52.576 - CustomFuction [ERROR   ] 'NO.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'NO.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 58, in do_file
+    row['NO.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'NO.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 14:58:06.104 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 58, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 14:58:06.367 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 58, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 14:58:07.029 - CustomFuction [ERROR   ] 'AREA(UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA(UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 64, in do_file
+    row['AREA(UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA(UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 14:58:07.280 - CustomFuction [ERROR   ] 'AREA(UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA(UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 64, in do_file
+    row['AREA(UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA(UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:00:28.351 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 58, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:00:28.603 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 58, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:00:29.198 - CustomFuction [ERROR   ] 'AREA(UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA(UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 64, in do_file
+    row['AREA(UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA(UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:00:29.427 - CustomFuction [ERROR   ] 'AREA(UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA(UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 64, in do_file
+    row['AREA(UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA(UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 130, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:15:33.123 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 59, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 131, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:15:33.345 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 59, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 131, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:15:34.045 - CustomFuction [ERROR   ] 'AREA(UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA(UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 65, in do_file
+    row['AREA(UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA(UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 131, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:15:34.257 - CustomFuction [ERROR   ] 'AREA(UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA(UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 65, in do_file
+    row['AREA(UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA(UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 131, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:19:13.515 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 59, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 131, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:19:57.303 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 59, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:19:57.545 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 59, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:19:58.172 - CustomFuction [ERROR   ] 'AREA(UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA(UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 66, in do_file
+    row['AREA(UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA(UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:19:58.413 - CustomFuction [ERROR   ] 'AREA(UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA(UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 66, in do_file
+    row['AREA(UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA(UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:21:11.254 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 59, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:21:11.499 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 59, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:21:12.133 - CustomFuction [ERROR   ] 'AREA（UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA（UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 66, in do_file
+    row['AREA（UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA（UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:21:12.328 - CustomFuction [ERROR   ] 'AREA（UM2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'AREA（UM2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 66, in do_file
+    row['AREA（UM2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'AREA（UM2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:21:43.260 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 59, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-11 15:21:43.529 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 59, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 132, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

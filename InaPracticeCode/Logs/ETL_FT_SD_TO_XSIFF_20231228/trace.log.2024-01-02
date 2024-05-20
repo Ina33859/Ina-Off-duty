@@ -1,0 +1,269 @@
+2024-01-02 14:57:59.910 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:57:59.910 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:57:59.910 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:57:59.912 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:57:59.922 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:57:59.922 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:57:59.922 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:58:00.172 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 14:58:00.218 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 14:58:00.231 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-02 14:58:00.232 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:57:59.901031
+2024-01-02 14:58:00.426 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:58:00.436 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:58:00.526 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:58:00.588 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:58:00.675 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:58:04.348 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:03.673326
+2024-01-02 14:58:04.353 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.005034
+2024-01-02 14:58:04.429 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.076065
+2024-01-02 14:58:04.429 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.754425
+2024-01-02 14:58:04.435 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:58:04.436 - CustomFuction [ERROR   ] Move File Error
+2024-01-02 14:58:04.438 - CustomFuction [ERROR   ] 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' -> 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 553, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:58:04.540 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:58:04.541 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Failed to read file: ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:58:04.542 - ETL_FT_SD_TO_XSIFF_20231228 [ERROR   ] [Errno 13] Permission denied: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 120, in do_file
+    excel_data = pd.read_excel(file_path, header=None)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 553, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 367, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:58:04.708 - __init__   [ERROR   ] File:~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:58:04.717 - CustomFuction [INFO    ] [ERROR] ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:58:04.718 - CustomFuction [ERROR   ] Move File Error
+2024-01-02 14:58:04.718 - CustomFuction [ERROR   ] 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' -> 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 553, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:58:04.750 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 14:58:04.750 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 14:58:04.761 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 14:58:04.940 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-02 14:58:41.681 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:58:41.681 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:58:41.681 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:58:41.682 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:58:41.694 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:58:41.694 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:58:41.694 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:58:41.957 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 14:58:41.993 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 14:58:42.004 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-02 14:58:42.005 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:58:41.674982
+2024-01-02 14:58:42.182 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:58:42.191 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:58:42.277 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:58:42.350 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:58:42.411 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:58:46.340 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:03.928857
+2024-01-02 14:58:46.346 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.005001
+2024-01-02 14:58:46.430 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.083998
+2024-01-02 14:58:46.430 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:04.018854
+2024-01-02 14:58:46.437 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:58:46.439 - CustomFuction [ERROR   ] Move File Error
+2024-01-02 14:58:46.445 - CustomFuction [ERROR   ] 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' -> 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 553, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:58:46.515 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:58:46.516 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Failed to read file: ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:58:46.517 - ETL_FT_SD_TO_XSIFF_20231228 [ERROR   ] [Errno 13] Permission denied: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 120, in do_file
+    excel_data = pd.read_excel(file_path, header=None)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 553, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 367, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:58:46.672 - __init__   [ERROR   ] File:~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:58:46.680 - CustomFuction [INFO    ] [ERROR] ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:58:46.681 - CustomFuction [ERROR   ] Move File Error
+2024-01-02 14:58:46.682 - CustomFuction [ERROR   ] 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' -> 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 553, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:58:46.713 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 14:58:46.713 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 14:58:46.722 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 14:58:46.858 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-02 14:58:58.272 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:58:58.272 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:58:58.272 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:58:58.273 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:58:58.285 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:58:58.285 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:58:58.285 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:58:58.584 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 14:58:58.620 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 14:58:58.633 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-02 14:58:58.634 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:58:58.265859
+2024-01-02 14:58:58.806 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:58:58.815 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:58:58.893 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:58:58.969 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:58:59.063 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:59:02.865 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:03.802013
+2024-01-02 14:59:02.870 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.005012
+2024-01-02 14:59:02.956 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.085964
+2024-01-02 14:59:02.956 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.892989
+2024-01-02 14:59:02.963 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:59:02.964 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-02 14:59:03.060 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 14:59:03.061 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 14:59:03.070 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 14:59:03.222 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-02 15:15:59.187 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 15:15:59.188 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 15:15:59.188 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 15:15:59.189 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 15:15:59.200 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 15:15:59.200 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 15:15:59.200 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 15:15:59.442 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 15:15:59.475 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 15:15:59.484 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-02 15:15:59.485 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 15:15:59.180331
+2024-01-02 15:15:59.644 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 15:15:59.652 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:15:59.733 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:15:59.807 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:15:59.890 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 15:16:03.236 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] iterrows方法循环时长:0:00:00.027002
+2024-01-02 15:16:03.740 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:03.850015
+2024-01-02 15:16:03.744 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.004000
+2024-01-02 15:16:03.814 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.070012
+2024-01-02 15:16:03.815 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.924992
+2024-01-02 15:16:03.822 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 15:16:03.822 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-02 15:16:03.925 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 15:16:03.926 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 15:16:03.942 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 15:16:04.129 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

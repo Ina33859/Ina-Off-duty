@@ -1,0 +1,16 @@
+2023-10-17 15:24:14.831 - CustomFuction [ERROR   ] 'FTProduct'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py", line 456, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py", line 454, in do_file
+    xsiff_file_name = export_cp_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py", line 70, in export_cp_xsiff
+    file_name = f"FT_{header['FTProduct']}_{header['FTLot']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+KeyError: 'FTProduct'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py", line 515, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

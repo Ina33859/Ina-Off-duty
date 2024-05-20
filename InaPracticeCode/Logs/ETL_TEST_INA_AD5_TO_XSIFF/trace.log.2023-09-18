@@ -1,0 +1,54 @@
+2023-09-18 17:36:08.534 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-18 17:36:08.535 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-09-18 17:36:08.535 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-18 17:36:08.536 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-09-18 17:36:08.549 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-09-18 17:36:08.549 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-09-18 17:36:08.549 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-09-18 17:36:11.786 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-09-18 17:36:12.213 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-09-18 17:36:12.228 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-09-18 17:36:08.517385
+2023-09-18 17:36:15.433 - __init__   [INFO    ] Set process status code: 0.
+2023-09-18 17:36:15.530 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-18 17:36:15.893 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-18 17:36:16.269 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-18 17:36:16.885 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.282992
+2023-09-18 17:36:16.918 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-09-18 17:36:16.919 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\Source\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-09-18 17:36:16.920 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Not ad5 File
+2023-09-18 17:36:16.937 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-09-18 17:36:16.938 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-09-18 17:36:16.939 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Not ad5 File
+2023-09-18 17:36:16.957 - CustomFuction [INFO    ] [SKIP] FMGDM7009A1_A509537.01.txt
+2023-09-18 17:36:16.960 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to SKIP folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-09-18 17:36:16.962 - CustomFuction [INFO    ] ========[ File End ]========
+2023-09-18 17:36:16.964 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-09-18 17:36:17.079 - CustomFuction [INFO    ] ========== Finally ==========
+2023-09-18 17:36:20.174 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-09-18 17:40:57.701 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-18 17:40:57.701 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-09-18 17:40:57.702 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-18 17:40:57.703 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-09-18 17:40:57.715 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-09-18 17:40:57.715 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-09-18 17:40:57.715 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-09-18 17:41:00.923 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-09-18 17:41:01.324 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-09-18 17:41:01.326 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-09-18 17:40:57.693397
+2023-09-18 17:41:04.574 - __init__   [INFO    ] Set process status code: 0.
+2023-09-18 17:41:04.670 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-18 17:41:05.030 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-18 17:41:05.403 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-18 17:41:05.961 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.205981
+2023-09-18 17:41:05.998 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-09-18 17:41:05.999 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\Source\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-09-18 17:41:05.999 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Not ad5 File
+2023-09-18 17:41:06.017 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-09-18 17:41:06.018 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-09-18 17:41:06.018 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Not ad5 File
+2023-09-18 17:41:06.039 - CustomFuction [INFO    ] [SKIP] FMGDM7009A1_A509537.01.txt
+2023-09-18 17:41:06.042 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to SKIP folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-09-18 17:41:06.043 - CustomFuction [INFO    ] ========[ File End ]========
+2023-09-18 17:41:06.044 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-09-18 17:41:06.166 - CustomFuction [INFO    ] ========== Finally ==========
+2023-09-18 17:41:09.213 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

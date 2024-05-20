@@ -1,0 +1,370 @@
+2023-07-25 09:26:29.803 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 09:26:29.805 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 09:26:29.805 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 09:26:29.806 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 09:26:29.818 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 09:26:29.819 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 09:26:29.819 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 09:26:51.073 - Database   [WARNING ] (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+(Background on this error at: https://sqlalche.me/e/14/4xp6)
+2023-07-25 09:26:51.074 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-07-25 09:27:17.114 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 09:27:17.114 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 09:27:17.114 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 09:27:17.115 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 09:27:17.127 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 09:27:17.127 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 09:27:17.127 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 09:27:20.536 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-25 09:27:20.996 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 09:27:21.005 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 09:27:17.107115
+2023-07-25 09:27:24.188 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 09:27:24.281 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 09:27:24.652 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 09:27:24.971 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 09:27:25.824 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.239114
+2023-07-25 09:27:25.824 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.0X2_INLINE_M2_20221116182205.xsiff ;Total Used:0:00:00.554122
+2023-07-25 09:27:25.848 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 09:27:25.849 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\ARCHIVE\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 09:27:25.849 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Not ad5 File
+2023-07-25 09:27:25.867 - CustomFuction [INFO    ] [SKIP] ETL_ad5_TO_XSIFF.py
+2023-07-25 09:27:25.868 - CustomFuction [INFO    ] Move file: ETL_ad5_TO_XSIFF.py to SKIP folder: Data\Skip\ETL_ad5_TO_XSIFF.py.
+2023-07-25 09:27:25.868 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 09:27:25.869 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 09:27:25.982 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 09:27:28.991 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-25 10:07:25.226 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:07:25.226 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 10:07:25.226 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:07:25.227 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 10:07:25.240 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 10:07:25.241 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 10:07:25.241 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 10:07:28.941 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-25 10:07:32.128 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 10:07:32.141 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 10:07:25.217820
+2023-07-25 10:07:35.343 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 10:07:35.437 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:07:35.845 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:07:36.230 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:07:37.104 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.225003
+2023-07-25 10:07:37.104 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.0X2_INLINE_M2_20221116182205.xsiff ;Total Used:0:00:00.486909
+2023-07-25 10:07:37.129 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 10:07:37.130 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\ARCHIVE\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 10:07:37.130 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 10:07:37.130 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 10:07:37.248 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 10:07:40.596 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-25 10:14:42.633 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:14:42.633 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 10:14:42.633 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:14:42.634 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 10:14:42.646 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 10:14:42.646 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 10:14:42.646 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 10:14:45.891 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-25 10:14:49.098 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 10:14:49.104 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 10:14:42.625783
+2023-07-25 10:14:52.369 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 10:14:52.466 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:14:52.838 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:14:53.204 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:14:53.850 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.254957
+2023-07-25 10:14:54.091 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.224048
+2023-07-25 10:14:54.091 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.0X2_INLINE_M2_20221116182205.xsiff ;Total Used:0:00:00.496010
+2023-07-25 10:14:54.114 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 10:14:54.115 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\ARCHIVE\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 10:14:54.115 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 10:14:54.116 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 10:14:54.235 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 10:14:57.375 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-25 10:43:08.986 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:43:08.986 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 10:43:08.987 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:43:08.988 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 10:43:09.000 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 10:43:09.000 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 10:43:09.001 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 10:43:12.119 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-25 10:43:12.540 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 10:43:12.545 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 10:43:08.979889
+2023-07-25 10:43:15.758 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 10:43:15.846 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:43:16.213 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:43:16.562 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:43:17.128 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.208012
+2023-07-25 10:43:17.141 - CustomFuction [ERROR   ] 'design_id'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 321, in do_file
+    'Product': parameter_dict['design_id'],
+KeyError: 'design_id'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 449, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-25 10:43:17.159 - CustomFuction [INFO    ] [ERROR] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 10:43:17.160 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to ERROR folder: Data\ERROR\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 10:43:20.329 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 10:43:20.330 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 10:43:20.448 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 10:43:23.507 - __init__   [INFO    ] Set process status code: 5.
+2023-07-25 10:46:34.190 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:46:34.190 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 10:46:34.190 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:46:34.191 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 10:46:34.206 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 10:46:34.207 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 10:46:34.207 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 10:46:37.374 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-25 10:46:37.859 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 10:46:37.862 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 10:46:34.181955
+2023-07-25 10:46:41.020 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 10:46:41.113 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:46:41.461 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:46:41.822 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:46:42.459 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.262167
+2023-07-25 10:46:42.470 - CustomFuction [ERROR   ] 'design_id'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 323, in do_file
+    'Product': parameter_dict['design_id'],
+KeyError: 'design_id'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 451, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-25 10:46:42.489 - CustomFuction [INFO    ] [ERROR] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 10:46:42.489 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to ERROR folder: Data\ERROR\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 10:46:45.662 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 10:46:45.664 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 10:46:45.785 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 10:46:48.867 - __init__   [INFO    ] Set process status code: 5.
+2023-07-25 10:48:31.349 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:48:31.349 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 10:48:31.349 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 10:48:31.351 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 10:48:31.364 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 10:48:31.364 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 10:48:31.364 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 10:48:34.536 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-25 10:48:35.004 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 10:48:35.011 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 10:48:31.340516
+2023-07-25 10:48:38.226 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 10:48:38.325 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:48:38.731 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:48:39.081 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 10:48:39.689 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.241005
+2023-07-25 10:48:39.707 - CustomFuction [ERROR   ] 'wafer_id'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 326, in do_file
+    'Scribeld': parameter_dict['wafer_id'],
+KeyError: 'wafer_id'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 451, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-25 10:48:39.728 - CustomFuction [INFO    ] [ERROR] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 10:48:39.729 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to ERROR folder: Data\ERROR\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 10:48:42.879 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 10:48:42.881 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 10:48:42.998 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 10:48:46.136 - __init__   [INFO    ] Set process status code: 5.
+2023-07-25 13:05:55.648 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:05:55.648 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 13:05:55.649 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:05:55.649 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 13:05:55.666 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 13:05:55.667 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 13:05:55.667 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 13:05:58.849 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-25 13:05:59.264 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 13:05:59.278 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 13:05:55.638764
+2023-07-25 13:06:02.432 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 13:06:02.518 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:06:02.863 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:06:03.203 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:06:03.576 - CustomFuction [INFO    ] [Empty] Empty Folder : .\\Data\\Source
+2023-07-25 13:06:03.577 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 13:06:03.577 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 13:06:03.694 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 13:06:06.915 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-25 13:06:31.443 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:06:31.444 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 13:06:31.444 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:06:31.445 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 13:06:31.456 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 13:06:31.457 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 13:06:31.457 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 13:06:34.658 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-25 13:06:35.135 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 13:06:35.140 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 13:06:31.436170
+2023-07-25 13:06:38.388 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 13:06:38.491 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:06:38.873 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:06:39.227 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:06:39.836 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.280989
+2023-07-25 13:06:39.840 - CustomFuction [ERROR   ] 'file_creation_datetime'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 329, in do_file
+    'MeasTime': parameter_dict['file_creation_datetime'],
+KeyError: 'file_creation_datetime'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 450, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-25 13:06:39.857 - CustomFuction [INFO    ] [ERROR] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 13:06:39.858 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to ERROR folder: Data\ERROR\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 13:06:42.967 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 13:06:42.968 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 13:06:43.077 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 13:06:46.191 - __init__   [INFO    ] Set process status code: 5.
+2023-07-25 13:14:56.043 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:14:56.044 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 13:14:56.044 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:14:56.045 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 13:14:56.056 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 13:14:56.057 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 13:14:56.057 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 13:14:59.333 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-25 13:14:59.782 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 13:14:59.785 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 13:14:56.035824
+2023-07-25 13:15:03.033 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 13:15:03.133 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:15:03.474 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:15:03.841 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:15:04.450 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.235009
+2023-07-25 13:15:04.452 - CustomFuction [ERROR   ] 'file_creation_datetime'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 329, in do_file
+    'MeasTime': parameter_dict['file_creation_datetime'],
+KeyError: 'file_creation_datetime'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 450, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-25 13:15:04.470 - CustomFuction [INFO    ] [ERROR] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 13:15:04.470 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to ERROR folder: Data\ERROR\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 13:15:07.554 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 13:15:07.555 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 13:15:07.666 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 13:15:10.758 - __init__   [INFO    ] Set process status code: 5.
+2023-07-25 13:17:56.082 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:17:56.083 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 13:17:56.083 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:17:56.084 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 13:17:56.095 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 13:17:56.095 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 13:17:56.095 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 13:17:59.227 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-25 13:17:59.721 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 13:17:59.726 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 13:17:56.073078
+2023-07-25 13:18:02.992 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 13:18:03.088 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:18:03.454 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:18:03.835 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:18:04.475 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.247947
+2023-07-25 13:18:04.698 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.206010
+2023-07-25 13:18:04.699 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.0X2_INLINE_M2_20221116182205.xsiff ;Total Used:0:00:00.471916
+2023-07-25 13:18:04.722 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 13:18:04.723 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\ARCHIVE\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 13:18:04.724 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 13:18:04.724 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 13:18:04.833 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 13:18:07.932 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-25 13:20:31.873 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:20:31.874 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 13:20:31.874 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:20:31.875 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 13:20:31.886 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 13:20:31.887 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 13:20:31.887 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 13:20:35.068 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-25 13:20:35.498 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 13:20:35.504 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 13:20:31.866811
+2023-07-25 13:20:38.745 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 13:20:38.841 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:20:39.200 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:22:10.070 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:22:10.070 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 13:22:10.071 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 13:22:10.072 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 13:22:10.083 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 13:22:10.084 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 13:22:10.084 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 13:22:13.228 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-07-25 13:22:13.229 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-07-25 13:22:13.645 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 13:22:13.647 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 13:22:10.062367
+2023-07-25 13:22:16.814 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 13:22:16.909 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:22:17.250 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:22:17.575 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 13:22:18.122 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.237969
+2023-07-25 13:22:18.367 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.224960
+2023-07-25 13:22:18.368 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.0X2_INLINE_M2_20221116182205.xsiff ;Total Used:0:00:00.483970
+2023-07-25 13:22:18.392 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 13:22:18.393 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\ARCHIVE\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 13:22:18.394 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 13:22:18.394 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 13:22:18.501 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 13:22:21.487 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-25 17:48:51.580 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 17:48:51.580 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 17:48:51.580 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 17:48:51.581 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 17:48:51.596 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 17:48:51.597 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 17:48:51.597 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 17:48:57.662 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-25 17:48:58.172 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 17:48:58.174 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 17:48:51.568999
+2023-07-25 17:49:04.072 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 17:49:04.169 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 17:49:04.489 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 17:49:04.838 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 17:49:05.395 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.193967
+2023-07-25 17:49:05.672 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.248989
+2023-07-25 17:49:05.673 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.0X2_INLINE_M2_20221116182205.xsiff ;Total Used:0:00:00.471997
+2023-07-25 17:49:05.692 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 17:49:05.693 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\ARCHIVE\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 17:49:05.694 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 17:49:05.694 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 17:49:05.796 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 17:49:11.582 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-25 17:51:39.744 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 17:51:39.744 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-25 17:51:39.744 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-25 17:51:39.745 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-25 17:51:39.762 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-25 17:51:39.763 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-25 17:51:39.763 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-25 17:51:42.956 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-25 17:51:43.404 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py.*
+2023-07-25 17:51:43.411 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-25 17:51:39.732142
+2023-07-25 17:51:46.515 - __init__   [INFO    ] Set process status code: 0.
+2023-07-25 17:51:46.602 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 17:51:46.960 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 17:51:47.294 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-25 17:51:47.806 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Read source file:0:00:00.193993
+2023-07-25 17:51:48.041 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.215999
+2023-07-25 17:51:48.041 - ETL_TEST_INA_AD5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.0X2_INLINE_M2_20221116182205.xsiff ;Total Used:0:00:00.428960
+2023-07-25 17:51:48.060 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-07-25 17:51:48.061 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\Source\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-07-25 17:51:48.061 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-25 17:51:48.062 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-25 17:51:48.163 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-25 17:51:51.277 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

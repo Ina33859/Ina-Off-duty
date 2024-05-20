@@ -1,0 +1,196 @@
+2024-01-17 16:13:27.974 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'fromtimestamp'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 75, in do_file
+    creation_time = datetime.fromtimestamp(timestamp)
+AttributeError: module 'datetime' has no attribute 'fromtimestamp'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 150, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 16:20:28.397 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'fromtimestamp'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 75, in do_file
+    creation_time = datetime.fromtimestamp(timestamp)
+AttributeError: module 'datetime' has no attribute 'fromtimestamp'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 151, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 16:20:47.507 - CustomFuction [ERROR   ] descriptor 'strftime' requires a 'datetime.date' object but received a 'float'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 77, in do_file
+    formatted_time = datetime.datetime.strftime(timestamp, "%m-%d-%Y %H:%M:%S")
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'float'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 151, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 16:23:16.746 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'fromtimestamp'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 74, in do_file
+    creation_time = datetime.fromtimestamp(timestamp)
+AttributeError: module 'datetime' has no attribute 'fromtimestamp'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 148, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 16:25:55.103 - CustomFuction [ERROR   ] descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 90, in do_file
+    klarfFileName = klarfFile.GetKlarfFileName()
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\KlarfExportLib.py", line 285, in GetKlarfFileName
+    datetime.datetime.strftime(self.ResultTimestamp, "%Y-%m-%d-%H-%M-%S")
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 148, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 16:27:42.968 - CustomFuction [ERROR   ] descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 90, in do_file
+    klarfFileName = klarfFile.GetKlarfFileName()
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\KlarfExportLib.py", line 285, in GetKlarfFileName
+    datetime.datetime.strftime(self.ResultTimestamp, "%Y-%m-%d-%H-%M-%S")
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 148, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 16:51:13.734 - CustomFuction [ERROR   ] __init__() missing 1 required positional argument: 'file_path'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 42, in do_file
+    klarfFile = KlarfExportLib.KlarfSetting()
+TypeError: __init__() missing 1 required positional argument: 'file_path'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 148, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 16:52:23.946 - CustomFuction [ERROR   ] descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 90, in do_file
+    klarfFileName = klarfFile.GetKlarfFileName()
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\KlarfExportLib.py", line 294, in GetKlarfFileName
+    datetime.datetime.strftime(self.ResultTimestamp, "%Y-%m-%d-%H-%M-%S")
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 148, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 16:54:18.481 - CustomFuction [ERROR   ] descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 94, in do_file
+    fi.write(klarfFile.GetKlarfString())
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\KlarfExportLib.py", line 230, in GetKlarfString
+    strList.extend(["FileTimestamp {0};".format(datetime.datetime.strftime(self.FileTimestamp, "%m-%d-%y %H:%M:%S"))])  ### file time stam
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 148, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 17:04:03.553 - CustomFuction [ERROR   ] name 'file_path' is not defined
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 42, in do_file
+    klarfFile = KlarfExportLib.KlarfSetting()
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\KlarfExportLib.py", line 187, in __init__
+    self.FileTimestamp = self.get_file_creation_time(file_path)
+NameError: name 'file_path' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 147, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 17:04:57.806 - CustomFuction [ERROR   ] __init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 42, in do_file
+    klarfFile = KlarfExportLib.KlarfSetting(file_path)
+TypeError: __init__() takes 1 positional argument but 2 were given
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 147, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 17:05:40.387 - CustomFuction [ERROR   ] __init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 42, in do_file
+    klarfFile = KlarfExportLib.KlarfSetting(file_path)
+TypeError: __init__() takes 1 positional argument but 2 were given
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 17:58:24.262 - CustomFuction [ERROR   ] descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 89, in do_file
+    klarfFileName = klarfFile.GetKlarfFileName()
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\KlarfExportLib.py", line 286, in GetKlarfFileName
+    datetime.datetime.strftime(self.ResultTimestamp, "%Y-%m-%d-%H-%M-%S")
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 147, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 18:00:50.983 - CustomFuction [ERROR   ] 'str' object has no attribute 'date'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 89, in do_file
+    klarfFileName = klarfFile.GetKlarfFileName()
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\KlarfExportLib.py", line 279, in GetKlarfFileName
+    formatted_result_time = self.ResultTimestamp.date().strftime("%Y-%m-%d-%H-%M-%S")
+AttributeError: 'str' object has no attribute 'date'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 147, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-17 18:01:15.186 - CustomFuction [ERROR   ] 'str' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 89, in do_file
+    klarfFileName = klarfFile.GetKlarfFileName()
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\KlarfExportLib.py", line 279, in GetKlarfFileName
+    formatted_result_time = self.ResultTimestamp.strftime("%Y-%m-%d-%H-%M-%S")
+AttributeError: 'str' object has no attribute 'strftime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 147, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

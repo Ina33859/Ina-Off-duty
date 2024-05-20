@@ -1,0 +1,1304 @@
+2023-11-01 16:08:08.415 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:08:08.415 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:08:08.415 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:08:08.416 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:08:08.431 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:08:08.431 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:08:08.431 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:08:09.523 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-11-01 16:08:09.599 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:08:09.608 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:08:08.406883
+2023-11-01 16:08:10.423 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:08:10.510 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:08:10.926 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:08:11.312 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:08:11.678 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:08:11.682 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 16:08:11.695 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:08:12.606 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:08:12.685 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:08:12.686 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\ERROR\A22100029.05_1.lot.
+2023-11-01 16:08:12.686 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:08:12.686 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:08:12.790 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:08:13.602 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:11:49.409 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:11:49.409 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:11:49.409 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:11:49.410 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:11:49.421 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:11:49.421 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:11:49.421 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:11:50.341 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:11:50.737 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:11:50.738 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:11:49.402201
+2023-11-01 16:11:51.642 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:11:51.727 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:11:52.131 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:11:52.508 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:11:52.877 - CustomFuction [INFO    ] [Empty] Empty Folder : ./Data/Source
+2023-11-01 16:11:52.877 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:11:52.878 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:11:52.990 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:12:43.294 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:12:43.294 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:12:43.294 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:12:43.295 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:12:43.307 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:12:43.308 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:12:43.308 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:12:44.297 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-11-01 16:12:44.297 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-11-01 16:12:44.682 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:12:44.684 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:12:43.287083
+2023-11-01 16:12:45.637 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:12:45.717 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:12:46.078 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:12:46.443 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:12:46.822 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:12:46.824 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 16:12:46.832 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:12:47.672 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:12:47.760 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:12:47.762 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 16:12:47.763 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:12:47.763 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:12:47.870 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:12:48.796 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:16:08.201 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:16:08.201 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:16:08.201 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:16:08.202 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:16:08.213 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:16:08.214 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:16:08.214 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:16:09.159 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:16:09.536 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:16:09.540 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:16:08.191611
+2023-11-01 16:16:10.504 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:16:10.590 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:16:10.989 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:16:11.356 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:16:11.768 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:16:11.769 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 16:16:11.776 - ETL_LOT_XML_TO_XSIFF [ERROR   ] [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_name)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 587, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:16:12.858 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:16:12.958 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:16:12.960 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 16:16:12.961 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:16:12.961 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:16:13.079 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:16:13.863 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:16:43.277 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:16:43.277 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:16:43.278 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:16:43.278 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:16:43.290 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:16:43.290 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:16:43.290 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:16:44.209 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:16:44.616 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:16:44.617 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:16:43.270532
+2023-11-01 16:16:45.499 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:16:45.583 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:16:45.981 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:16:46.342 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:16:46.743 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:16:46.745 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 16:16:46.753 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:16:47.612 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:16:47.704 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:16:47.706 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 16:16:47.707 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:16:47.707 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:16:47.813 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:16:48.634 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:23:31.399 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:23:31.399 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:23:31.399 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:23:31.401 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:23:31.412 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:23:31.412 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:23:31.412 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:23:32.329 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:23:32.673 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:23:32.677 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:23:31.391859
+2023-11-01 16:23:33.645 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:23:33.726 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:23:34.120 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:23:34.518 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:23:34.874 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:23:34.874 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00
+2023-11-01 16:23:34.874 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 16:23:34.875 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to export xsiff: A22100029.05_1.lot 
+2023-11-01 16:23:34.877 - ETL_LOT_XML_TO_XSIFF [ERROR   ] 'Product'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 174, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 48, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+KeyError: 'Product'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 267, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 202, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:23:35.718 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:23:35.811 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:23:35.813 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 16:23:35.814 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:23:35.815 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:23:35.918 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:23:36.811 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:24:32.193 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:24:32.193 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:24:32.193 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:24:32.194 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:24:32.206 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:24:32.206 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:24:32.206 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:24:33.104 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:24:33.427 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:24:33.429 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:24:32.184817
+2023-11-01 16:24:34.361 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:24:34.446 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:24:34.865 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:24:35.256 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:24:35.646 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:24:35.647 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.001001
+2023-11-01 16:24:35.648 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 16:24:35.664 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 16:24:35.665 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Archive\A22100029.05_1.lot.
+2023-11-01 16:24:35.665 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:24:35.665 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:24:35.760 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:24:36.505 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:26:43.537 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:26:43.537 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:26:43.537 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:26:43.538 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:26:43.549 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:26:43.550 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:26:43.550 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:26:44.524 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:26:44.903 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:26:44.907 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:26:43.530097
+2023-11-01 16:26:45.925 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:26:46.011 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:26:46.392 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:26:46.709 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:26:47.039 - CustomFuction [INFO    ] [Empty] Empty Folder : ./Data/Source
+2023-11-01 16:26:47.039 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:26:47.039 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:26:47.131 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:26:48.020 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:27:32.568 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:27:32.568 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:27:32.568 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:27:32.570 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:27:32.583 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:27:32.583 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:27:32.583 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:27:33.503 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:27:33.868 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:27:33.871 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:27:32.561610
+2023-11-01 16:27:34.871 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:27:34.961 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:27:35.362 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:27:35.748 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:27:36.164 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:27:36.178 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 16:27:36.198 - ETL_LOT_XML_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 1 fields in line 75, saw 2
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 133, in do_file
+    source_data_df = pd.read_csv(file_path)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 75, saw 2
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:27:37.002 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:27:37.104 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:27:37.106 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 16:27:37.106 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:27:37.107 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:27:37.213 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:27:38.052 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:32:54.105 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:32:54.105 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:32:54.105 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:32:54.106 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:32:54.118 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:32:54.119 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:32:54.119 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:32:55.189 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:32:55.539 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:32:55.542 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:32:54.098910
+2023-11-01 16:32:56.450 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:32:56.531 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:32:56.929 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:32:57.311 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:32:57.681 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:32:57.774 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 16:32:57.780 - ETL_LOT_XML_TO_XSIFF [ERROR   ] [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 137, in do_file
+    DOMTree = xml.dom.minidom.parse(file_name)
+  File "D:\Python37\lib\xml\dom\minidom.py", line 1958, in parse
+    return expatbuilder.parse(file)
+  File "D:\Python37\lib\xml\dom\expatbuilder.py", line 910, in parse
+    with open(file, 'rb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 273, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 145, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:32:58.612 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:32:58.690 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:32:58.691 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 16:32:58.691 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:32:58.691 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:32:58.778 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:32:59.632 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:34:34.377 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:34:34.377 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:34:34.377 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:34:34.378 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:34:34.390 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:34:34.391 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:34:34.391 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:34:35.382 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:34:35.765 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:34:35.768 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:34:34.370741
+2023-11-01 16:34:36.622 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:34:36.696 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:34:37.069 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:34:37.457 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:34:37.848 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:34:37.873 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 16:34:37.877 - ETL_LOT_XML_TO_XSIFF [ERROR   ] [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 137, in do_file
+    DOMTree = xml.dom.minidom.parse('A22100029.05_1.lot')
+  File "D:\Python37\lib\xml\dom\minidom.py", line 1958, in parse
+    return expatbuilder.parse(file)
+  File "D:\Python37\lib\xml\dom\expatbuilder.py", line 910, in parse
+    with open(file, 'rb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 273, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 145, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:34:38.675 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:34:38.761 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:34:38.762 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 16:34:38.763 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:34:38.763 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:34:38.855 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:34:39.694 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:47:25.400 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:47:25.400 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:47:25.400 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:47:25.401 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:47:25.412 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:47:25.412 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:47:25.412 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:47:26.373 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:47:26.754 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:47:26.757 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:47:25.392711
+2023-11-01 16:47:27.658 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:47:27.743 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:47:28.170 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:47:28.564 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:47:28.977 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:47:28.978 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 16:47:28.987 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 282, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 154, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:47:29.841 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:47:29.920 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:47:29.921 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 16:47:29.921 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:47:29.921 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:47:30.035 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:47:30.844 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 16:50:53.365 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:50:53.365 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 16:50:53.365 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 16:50:53.366 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 16:50:53.378 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 16:50:53.378 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 16:50:53.378 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 16:50:54.286 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 16:50:54.639 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 16:50:54.642 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 16:50:53.357477
+2023-11-01 16:50:55.541 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 16:50:55.629 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:50:56.013 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:50:56.406 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 16:50:56.819 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 16:50:56.821 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 16:50:56.827 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:50:57.661 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:50:57.749 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 16:50:57.750 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 16:50:57.751 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 16:50:57.751 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 16:50:57.853 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 16:50:58.728 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:02:23.122 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:02:23.122 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:02:23.122 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:02:23.124 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:02:23.143 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:02:23.144 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:02:23.144 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:02:24.209 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:02:24.821 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:02:24.825 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:02:23.106554
+2023-11-01 17:02:25.841 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:02:25.932 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:02:26.346 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:02:26.787 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:02:27.180 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:02:27.182 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:02:27.191 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:02:28.034 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:02:28.122 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:02:28.124 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:02:28.124 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:02:28.125 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:02:28.223 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:02:29.126 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:06:31.332 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:06:31.333 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:06:31.333 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:06:31.335 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:06:31.350 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:06:31.351 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:06:31.351 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:06:32.452 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:06:32.844 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:06:32.848 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:06:31.317537
+2023-11-01 17:06:33.855 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:06:33.940 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:06:34.336 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:06:34.731 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:06:35.128 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:06:35.130 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:06:35.137 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:06:35.998 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:06:36.084 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:06:36.085 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:06:36.086 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:06:36.086 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:06:36.191 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:06:37.118 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:09:08.273 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:09:08.274 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:09:08.274 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:09:08.277 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:09:08.300 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:09:08.301 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:09:08.302 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:09:09.442 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:09:09.859 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:09:09.864 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:09:08.226066
+2023-11-01 17:09:10.973 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:09:11.089 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:09:11.633 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:09:12.212 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:09:12.998 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:10:06.393 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:10:06.405 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:10:07.398 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:10:07.508 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:10:07.509 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:10:07.510 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:10:07.510 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:10:07.680 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:10:08.817 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:12:22.688 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:12:22.689 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:12:22.689 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:12:22.691 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:12:22.717 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:12:22.718 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:12:22.718 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:12:23.837 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:12:24.232 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:12:24.237 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:12:22.669441
+2023-11-01 17:12:25.184 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:12:25.261 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:12:25.645 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:12:26.035 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:12:26.440 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:12:26.443 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:12:26.450 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:12:27.295 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:12:27.379 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:12:27.381 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:12:27.382 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:12:27.382 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:12:27.485 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:12:28.406 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:15:50.846 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:15:50.847 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:15:50.847 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:15:50.852 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:15:50.892 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:15:50.893 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:15:50.893 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:15:52.061 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:15:52.441 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:15:52.446 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:15:50.807303
+2023-11-01 17:15:53.479 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:15:53.567 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:15:53.958 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:15:54.344 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:15:54.758 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:15:54.760 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.002001
+2023-11-01 17:15:54.761 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 17:15:54.779 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 17:15:54.780 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:15:54.781 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:15:54.781 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:15:54.885 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:15:55.771 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:16:29.125 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:16:29.125 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:16:29.125 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:16:29.129 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:16:29.161 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:16:29.162 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:16:29.162 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:16:30.272 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:16:30.652 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:16:30.656 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:16:29.098067
+2023-11-01 17:16:31.623 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:16:31.710 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:16:32.125 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:16:32.497 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:16:32.914 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:16:32.916 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:16:32.923 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:16:33.755 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:16:33.840 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:16:33.841 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:16:33.842 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:16:33.843 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:16:33.949 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:16:34.849 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:16:57.204 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:16:57.205 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:16:57.205 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:16:57.210 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:16:57.249 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:16:57.249 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:16:57.250 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:16:58.335 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:16:58.717 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:16:58.720 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:16:57.173394
+2023-11-01 17:16:59.685 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:16:59.773 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:17:00.161 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:17:00.567 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:17:00.928 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:17:00.930 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.001999
+2023-11-01 17:17:00.930 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 17:17:00.946 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 17:17:00.946 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:17:00.946 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:17:00.946 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:17:01.036 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:17:01.850 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:17:18.815 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:17:18.815 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:17:18.815 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:17:18.818 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:17:18.846 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:17:18.847 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:17:18.847 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:17:19.887 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:17:20.237 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:17:20.240 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:17:18.791375
+2023-11-01 17:17:21.153 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:17:21.234 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:17:21.609 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:17:21.955 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:17:22.304 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:17:22.308 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.003999
+2023-11-01 17:17:22.309 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 17:17:22.325 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 17:17:22.326 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:17:22.326 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:17:22.326 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:17:22.424 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:17:23.248 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:17:51.151 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:17:51.152 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:17:51.152 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:17:51.155 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:17:51.181 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:17:51.181 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:17:51.181 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:17:52.183 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:17:52.690 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:17:52.694 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:17:51.133224
+2023-11-01 17:17:54.268 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:17:54.395 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:17:54.983 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:17:55.675 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:17:56.300 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:17:56.301 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:17:56.307 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:17:57.273 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:17:57.360 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:17:57.362 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:17:57.363 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:17:57.364 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:17:57.466 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:17:58.313 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:18:18.892 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:18:18.893 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:18:18.893 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:18:18.897 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:18:18.934 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:18:18.934 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:18:18.935 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:18:20.076 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:18:20.446 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:18:20.448 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:18:18.864801
+2023-11-01 17:18:21.409 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:18:21.495 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:18:21.880 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:18:22.287 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:18:22.693 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:18:22.697 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.003995
+2023-11-01 17:18:22.698 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001004
+2023-11-01 17:18:22.716 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 17:18:22.717 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:18:22.718 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:18:22.718 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:18:22.823 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:18:23.714 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:18:38.970 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:18:38.970 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:18:38.970 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:18:38.972 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:18:38.991 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:18:38.992 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:18:38.992 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:18:40.028 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:18:40.403 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:18:40.407 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:18:38.956502
+2023-11-01 17:18:41.338 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:18:41.423 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:18:41.824 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:18:42.243 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:18:42.652 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:18:42.654 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:18:42.662 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 30, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 30, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:18:43.538 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:18:43.625 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:18:43.626 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:18:43.627 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:18:43.627 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:18:43.729 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:18:44.571 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:19:01.239 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:19:01.240 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:19:01.240 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:19:01.243 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:19:01.267 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:19:01.268 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:19:01.268 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:19:02.403 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:19:02.780 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:19:02.785 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:19:01.220617
+2023-11-01 17:19:03.737 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:19:03.824 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:19:04.234 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:19:04.613 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:19:04.995 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:19:04.998 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.003051
+2023-11-01 17:19:04.999 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 17:19:05.016 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 17:19:05.017 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:19:05.018 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:19:05.018 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:19:05.118 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:19:06.010 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:20:34.898 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:20:34.899 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:20:34.899 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:20:34.900 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:20:34.915 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:20:34.915 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:20:34.915 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:20:36.028 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:20:36.456 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:20:36.463 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:20:34.869732
+2023-11-01 17:20:37.693 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:20:37.813 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:20:38.384 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:20:38.988 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:20:39.572 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:21:14.877 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:21:14.877 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:21:14.878 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:21:14.880 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:21:14.905 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:21:14.905 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:21:14.905 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:21:15.945 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-11-01 17:21:15.946 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-11-01 17:21:16.320 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:21:16.324 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:21:14.859549
+2023-11-01 17:21:17.356 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:21:17.443 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:21:17.884 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:21:18.248 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:21:18.661 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:21:18.663 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:21:18.669 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:21:19.520 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:21:19.606 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:21:19.608 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:21:19.608 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:21:19.609 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:21:19.707 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:21:20.613 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:30:58.721 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:30:58.721 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:30:58.721 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:30:58.723 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:30:58.733 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:30:58.733 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:30:58.733 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:30:59.652 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:31:00.029 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:31:00.031 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:30:58.714913
+2023-11-01 17:31:01.138 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:31:01.212 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:31:01.546 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:31:01.923 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:31:02.284 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:31:02.319 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:31:02.327 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 137, in do_file
+    dom = xml.dom.minidom.parseString(xml_string)
+  File "D:\Python37\lib\xml\dom\minidom.py", line 1968, in parseString
+    return expatbuilder.parseString(string)
+  File "D:\Python37\lib\xml\dom\expatbuilder.py", line 925, in parseString
+    return builder.parseString(string)
+  File "D:\Python37\lib\xml\dom\expatbuilder.py", line 223, in parseString
+    parser.Parse(string, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 271, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 143, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:31:03.198 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:31:03.286 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:31:03.288 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:31:03.288 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:31:03.289 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:31:03.396 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:31:04.182 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:31:19.640 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:31:19.640 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:31:19.641 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:31:19.642 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:31:19.651 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:31:19.651 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:31:19.652 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:31:20.550 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:31:20.912 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:31:20.916 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:31:19.632317
+2023-11-01 17:31:21.874 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:31:21.959 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:31:22.337 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:31:22.689 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:31:23.104 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:31:23.104 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00
+2023-11-01 17:31:23.104 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 17:31:23.118 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 17:31:23.119 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:31:23.119 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:31:23.119 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:31:23.216 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:31:24.141 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:47:35.207 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:47:35.207 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:47:35.207 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:47:35.208 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:47:35.220 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:47:35.220 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:47:35.220 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:47:36.279 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:47:36.661 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:47:36.666 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:47:35.200226
+2023-11-01 17:47:37.638 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:47:37.723 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:47:38.173 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:47:38.575 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:47:38.981 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:47:38.986 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:47:38.988 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 1, column 0
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 146, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 1, column 0
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 278, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 150, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:47:39.856 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:47:39.944 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:47:39.946 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:47:39.946 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:47:39.947 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:47:40.041 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:47:40.933 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:50:58.419 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:50:58.420 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:50:58.420 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:50:58.421 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:50:58.433 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:50:58.433 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:50:58.433 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:50:59.416 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:50:59.759 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:50:59.761 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:50:58.412514
+2023-11-01 17:51:00.638 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:51:00.712 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:51:01.042 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:51:01.394 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:51:01.727 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:51:01.728 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:51:01.730 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 30, column 17
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 148, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 30, column 17
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 152, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:51:02.536 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:51:02.622 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:51:02.624 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:51:02.624 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:51:02.625 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:51:02.730 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:51:03.574 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:51:50.102 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:51:50.103 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:51:50.103 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:51:50.104 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:51:50.115 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:51:50.115 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:51:50.116 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:51:51.048 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:51:51.418 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:51:51.422 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:51:50.095894
+2023-11-01 17:51:52.348 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:51:52.428 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:51:52.814 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:51:53.214 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:51:53.615 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:51:53.618 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:51:53.626 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 148, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 152, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:51:54.821 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:51:54.904 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:51:54.906 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:51:54.906 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:51:54.907 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:51:55.002 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:51:55.823 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:53:13.620 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:53:13.621 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:53:13.621 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:53:13.622 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:53:13.633 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:53:13.634 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:53:13.634 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:53:14.632 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:53:14.980 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:53:14.984 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:53:13.611979
+2023-11-01 17:53:15.943 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:53:16.024 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:53:16.350 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:53:16.726 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:53:17.139 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:53:17.142 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:53:17.150 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 148, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 152, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:53:18.018 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:53:18.098 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:53:18.098 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:53:18.099 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:53:18.099 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:53:18.192 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:53:19.093 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:55:19.908 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:55:19.908 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:55:19.908 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:55:19.909 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:55:19.921 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:55:19.921 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:55:19.921 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:55:20.841 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:55:21.225 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:55:21.229 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:55:19.900012
+2023-11-01 17:55:22.172 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:55:22.256 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:55:22.640 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:55:23.019 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:55:23.429 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:55:23.430 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.000999
+2023-11-01 17:55:23.430 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 17:55:23.451 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 17:55:23.451 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:55:23.451 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:55:23.451 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:55:23.550 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:55:24.441 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:55:36.323 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:55:36.323 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:55:36.323 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:55:36.324 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:55:36.334 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:55:36.335 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:55:36.335 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:55:37.281 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:55:37.650 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:55:37.654 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:55:36.316846
+2023-11-01 17:55:38.591 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:55:38.676 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:55:39.057 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:55:39.438 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:55:39.830 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:55:39.832 - ETL_LOT_XML_TO_XSIFF [INFO    ] Failed to read file: A22100029.05_1.lot 
+2023-11-01 17:55:39.841 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 30, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 148, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 30, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 152, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:55:40.729 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:55:40.809 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-01 17:55:40.810 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:55:40.811 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:55:40.811 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:55:40.914 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:55:41.793 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 17:55:53.012 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:55:53.013 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 17:55:53.013 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 17:55:53.014 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 17:55:53.024 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 17:55:53.024 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 17:55:53.024 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 17:55:54.013 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 17:55:54.401 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 17:55:54.405 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 17:55:53.005823
+2023-11-01 17:55:55.361 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 17:55:55.445 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:55:55.848 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:55:56.257 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 17:55:56.652 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 17:55:56.654 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.001996
+2023-11-01 17:55:56.654 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 17:55:56.671 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 17:55:56.672 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 17:55:56.673 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 17:55:56.673 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 17:55:56.774 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 17:55:57.702 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 18:05:24.594 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 18:05:24.594 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 18:05:24.594 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 18:05:24.595 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 18:05:24.607 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 18:05:24.608 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 18:05:24.608 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 18:05:25.578 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 18:05:25.917 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 18:05:25.920 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 18:05:24.587480
+2023-11-01 18:05:26.817 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 18:05:26.901 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 18:05:27.295 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 18:05:27.683 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 18:05:28.082 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 18:05:28.083 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.001001
+2023-11-01 18:05:28.083 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 18:05:28.098 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 18:05:28.098 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 18:05:28.098 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 18:05:28.098 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 18:05:28.195 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 18:05:29.096 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 18:07:26.067 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 18:07:26.068 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 18:07:26.068 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 18:07:26.069 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 18:07:26.079 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 18:07:26.080 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 18:07:26.080 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 18:07:27.055 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-01 18:07:27.441 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-01 18:07:27.444 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-01 18:07:26.060919
+2023-11-01 18:07:28.410 - __init__   [INFO    ] Set process status code: 0.
+2023-11-01 18:07:28.494 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 18:07:28.884 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 18:07:29.266 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-01 18:07:29.653 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-01 18:07:29.656 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.004008
+2023-11-01 18:07:29.657 - ETL_LOT_XML_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-11-01 18:07:29.672 - CustomFuction [INFO    ] [Archive] A22100029.05_1.lot
+2023-11-01 18:07:29.673 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to Archive folder: Data\Source\A22100029.05_1.lot.
+2023-11-01 18:07:29.674 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-01 18:07:29.674 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-01 18:07:29.773 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-01 18:07:30.555 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-01 18:07:58.475 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 18:07:58.475 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-01 18:07:58.475 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-01 18:07:58.476 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-01 18:07:58.487 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-01 18:07:58.487 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-01 18:07:58.488 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-01 18:07:59.450 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.

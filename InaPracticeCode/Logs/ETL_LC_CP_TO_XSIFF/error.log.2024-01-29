@@ -1,0 +1,72 @@
+2024-01-29 10:23:57.357 - ETL_LC_CP_TO_XSIFF [ERROR   ] Index(['DieX', 'DieY'], dtype='object')
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 235, in do_file
+    data_df = data_df.drop_duplicates(subset=['DieX', 'DieY'], keep='last')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5248, in duplicated
+    raise KeyError(diff)
+KeyError: Index(['DieX', 'DieY'], dtype='object')
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 409, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 309, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-29 10:23:57.586 - __init__   [ERROR   ] File:23GD0102_240118172252.csv Move To Error Folder
+                                                Error: None
+2024-01-29 10:23:57.634 - ETL_LC_CP_TO_XSIFF [ERROR   ] Index(['DieX', 'DieY'], dtype='object')
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 235, in do_file
+    data_df = data_df.drop_duplicates(subset=['DieX', 'DieY'], keep='last')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5248, in duplicated
+    raise KeyError(diff)
+KeyError: Index(['DieX', 'DieY'], dtype='object')
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 409, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 309, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-29 10:23:57.750 - __init__   [ERROR   ] File:23GD0111_240119133314.csv Move To Error Folder
+                                                Error: None
+2024-01-29 10:23:57.789 - ETL_LC_CP_TO_XSIFF [ERROR   ] Index(['DieX', 'DieY'], dtype='object')
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 235, in do_file
+    data_df = data_df.drop_duplicates(subset=['DieX', 'DieY'], keep='last')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5248, in duplicated
+    raise KeyError(diff)
+KeyError: Index(['DieX', 'DieY'], dtype='object')
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 409, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 309, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-29 10:23:57.945 - __init__   [ERROR   ] File:23GD0112_240119140458.csv Move To Error Folder
+                                                Error: None
+2024-01-29 10:23:57.985 - ETL_LC_CP_TO_XSIFF [ERROR   ] Index(['DieX', 'DieY'], dtype='object')
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 235, in do_file
+    data_df = data_df.drop_duplicates(subset=['DieX', 'DieY'], keep='last')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5248, in duplicated
+    raise KeyError(diff)
+KeyError: Index(['DieX', 'DieY'], dtype='object')
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 409, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 309, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-29 10:23:58.168 - __init__   [ERROR   ] File:23GD0113_240119143605.csv Move To Error Folder
+                                                Error: None

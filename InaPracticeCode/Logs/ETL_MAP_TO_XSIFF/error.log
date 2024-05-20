@@ -1,0 +1,551 @@
+2023-11-10 11:17:02.339 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-11-10 11:18:04.382 - ETL_MAP_TO_XSIFF [ERROR   ] name 'data' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 135, in do_file
+    lines = data.split('\n')
+NameError: name 'data' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 334, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 158, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 11:18:07.966 - __init__   [ERROR   ] File:AT00034.06#02.txt Move To Error Folder
+                                                Error: None
+2023-11-10 11:18:08.065 - ETL_MAP_TO_XSIFF [ERROR   ] name 'data' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 135, in do_file
+    lines = data.split('\n')
+NameError: name 'data' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 334, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 158, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 11:18:08.982 - __init__   [ERROR   ] File:AT00034.06#04.txt Move To Error Folder
+                                                Error: None
+2023-11-10 11:18:09.089 - ETL_MAP_TO_XSIFF [ERROR   ] name 'data' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 135, in do_file
+    lines = data.split('\n')
+NameError: name 'data' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 334, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 158, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 11:18:10.021 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 11:19:17.037 - ETL_MAP_TO_XSIFF [ERROR   ] '_io.TextIOWrapper' object has no attribute 'split'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 135, in do_file
+    lines = data.split('\n')
+AttributeError: '_io.TextIOWrapper' object has no attribute 'split'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 334, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 158, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 11:19:18.065 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 11:21:44.131 - ETL_MAP_TO_XSIFF [ERROR   ] [Errno 2] No such file or directory: 'your_file.txt'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 134, in do_file
+    with open('your_file.txt', 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'your_file.txt'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 337, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 161, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 11:21:45.166 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 11:22:15.366 - ETL_MAP_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 143, in do_file
+    key, value = map(str.strip, line.split(':'))
+ValueError: not enough values to unpack (expected 2, got 1)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 337, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 161, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 11:22:16.386 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 11:24:43.263 - ETL_MAP_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 143, in do_file
+    key, value = line.split(':')
+ValueError: not enough values to unpack (expected 2, got 1)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 342, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 166, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 11:24:44.333 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 13:17:51.886 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 196, in do_file
+    s_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 13:44:14.715 - ETL_MAP_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 503 elements, new values have 4 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 215, in do_file
+    bin_def_df.columns = ["RecordType", "BinName", "BinType", "BinDesc"]
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 503 elements, new values have 4 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 370, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 255, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 13:44:15.726 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 13:49:28.977 - ETL_MAP_TO_XSIFF [ERROR   ] name 'bin_def_df' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 171, in do_file
+    print(bin_def_df)
+NameError: name 'bin_def_df' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 377, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 181, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 13:49:29.922 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 14:54:29.057 - ETL_MAP_TO_XSIFF [ERROR   ] name 'np' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 251, in do_file
+    data_df.replace(np.NaN, '', inplace=True)
+NameError: name 'np' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 409, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 294, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 14:54:30.027 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 14:58:22.462 - ETL_MAP_TO_XSIFF [ERROR   ] time data '？？？' does not match format '%Y-%m-%d %H:%M:%S'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 291, in do_file
+    xsiff_file_name = export_cp_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 75, in export_cp_xsiff
+    file_name = f"CP_{header['Product']}_{header['Lot']}_{header['CpType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+  File "D:\Python37\lib\_strptime.py", line 571, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "D:\Python37\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '？？？' does not match format '%Y-%m-%d %H:%M:%S'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 360, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 295, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 14:58:23.403 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 15:11:12.043 - ETL_MAP_TO_XSIFF [ERROR   ] WATType does not exist
+2023-11-10 15:11:12.984 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 15:38:18.641 - ETL_MAP_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 9 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 247, in do_file
+    "ControlHigh",  "Target", 'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 9 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 385, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 285, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 15:38:19.551 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 15:39:58.247 - ETL_MAP_TO_XSIFF [ERROR   ] WATType does not exist
+2023-11-10 15:39:59.230 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 15:43:39.549 - ETL_MAP_TO_XSIFF [ERROR   ] module 'datetime' has no attribute 'strptime'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 272, in do_file
+    datetime.strptime(header[variable_name], date_format)
+AttributeError: module 'datetime' has no attribute 'strptime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 386, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 286, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 15:43:40.487 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:26:18.070 - ETL_MAP_TO_XSIFF [ERROR   ] module 'datetime' has no attribute 'fromtimestamp'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 152, in do_file
+    ctime_string = datetime.fromtimestamp(int(ctime))
+AttributeError: module 'datetime' has no attribute 'fromtimestamp'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 365, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 190, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:26:19.027 - __init__   [ERROR   ] File:AT00034.06#02.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:26:19.134 - ETL_MAP_TO_XSIFF [ERROR   ] module 'datetime' has no attribute 'fromtimestamp'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 152, in do_file
+    ctime_string = datetime.fromtimestamp(int(ctime))
+AttributeError: module 'datetime' has no attribute 'fromtimestamp'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 365, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 190, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:26:20.091 - __init__   [ERROR   ] File:AT00034.06#04.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:26:20.187 - ETL_MAP_TO_XSIFF [ERROR   ] module 'datetime' has no attribute 'fromtimestamp'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 152, in do_file
+    ctime_string = datetime.fromtimestamp(int(ctime))
+AttributeError: module 'datetime' has no attribute 'fromtimestamp'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 365, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 190, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:26:21.063 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:27:04.482 - ETL_MAP_TO_XSIFF [ERROR   ] time data '2023/11/10 11:04:47' does not match format '%Y-%m-%d %H:%M:%S'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 296, in do_file
+    xsiff_file_name = export_cp_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 75, in export_cp_xsiff
+    file_name = f"CP_{header['Product']}_{header['Lot']}_{header['CpType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+  File "D:\Python37\lib\_strptime.py", line 571, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "D:\Python37\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2023/11/10 11:04:47' does not match format '%Y-%m-%d %H:%M:%S'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 365, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 300, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:27:05.407 - __init__   [ERROR   ] File:AT00034.06#02.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:27:05.522 - ETL_MAP_TO_XSIFF [ERROR   ] time data '2023/11/10 11:04:45' does not match format '%Y-%m-%d %H:%M:%S'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 296, in do_file
+    xsiff_file_name = export_cp_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 75, in export_cp_xsiff
+    file_name = f"CP_{header['Product']}_{header['Lot']}_{header['CpType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+  File "D:\Python37\lib\_strptime.py", line 571, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "D:\Python37\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2023/11/10 11:04:45' does not match format '%Y-%m-%d %H:%M:%S'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 365, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 300, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:27:06.458 - __init__   [ERROR   ] File:AT00034.06#04.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:27:06.611 - ETL_MAP_TO_XSIFF [ERROR   ] time data '2023/11/10 15:49:19' does not match format '%Y-%m-%d %H:%M:%S'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 296, in do_file
+    xsiff_file_name = export_cp_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 75, in export_cp_xsiff
+    file_name = f"CP_{header['Product']}_{header['Lot']}_{header['CpType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+  File "D:\Python37\lib\_strptime.py", line 571, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "D:\Python37\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2023/11/10 15:49:19' does not match format '%Y-%m-%d %H:%M:%S'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 365, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 300, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:27:07.574 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:28:18.590 - ETL_MAP_TO_XSIFF [ERROR   ] module 'datetime' has no attribute 'fromtimestamp'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 152, in do_file
+    ctime_string = datetime.fromtimestamp(int(ctime))
+AttributeError: module 'datetime' has no attribute 'fromtimestamp'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 365, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 190, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:28:19.570 - __init__   [ERROR   ] File:AT00034.06#02.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:28:19.690 - ETL_MAP_TO_XSIFF [ERROR   ] module 'datetime' has no attribute 'fromtimestamp'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 152, in do_file
+    ctime_string = datetime.fromtimestamp(int(ctime))
+AttributeError: module 'datetime' has no attribute 'fromtimestamp'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 365, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 190, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:28:20.680 - __init__   [ERROR   ] File:AT00034.06#04.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:28:20.797 - ETL_MAP_TO_XSIFF [ERROR   ] module 'datetime' has no attribute 'fromtimestamp'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 152, in do_file
+    ctime_string = datetime.fromtimestamp(int(ctime))
+AttributeError: module 'datetime' has no attribute 'fromtimestamp'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 365, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 190, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:28:21.776 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:30:12.668 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 130, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:30:13.734 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 130, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:30:14.866 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 130, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:31:25.455 - ETL_MAP_TO_XSIFF [ERROR   ] Tuple or struct_time argument required
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 154, in do_file
+    File_Time = time.strftime("%Y-%m-%d %H:%M:%S", ctime_string)
+TypeError: Tuple or struct_time argument required
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:31:26.420 - __init__   [ERROR   ] File:AT00034.06#02.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:31:26.542 - ETL_MAP_TO_XSIFF [ERROR   ] Tuple or struct_time argument required
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 154, in do_file
+    File_Time = time.strftime("%Y-%m-%d %H:%M:%S", ctime_string)
+TypeError: Tuple or struct_time argument required
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:31:27.579 - __init__   [ERROR   ] File:AT00034.06#04.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:31:27.700 - ETL_MAP_TO_XSIFF [ERROR   ] Tuple or struct_time argument required
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 154, in do_file
+    File_Time = time.strftime("%Y-%m-%d %H:%M:%S", ctime_string)
+TypeError: Tuple or struct_time argument required
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:31:28.704 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:38:54.258 - ETL_MAP_TO_XSIFF [ERROR   ] Tuple or struct_time argument required
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 154, in do_file
+    File_Time = time.strftime("%Y-%m-%d %H:%M:%S", creation_time_struct)
+TypeError: Tuple or struct_time argument required
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:38:55.256 - __init__   [ERROR   ] File:AT00034.06#02.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:38:55.355 - ETL_MAP_TO_XSIFF [ERROR   ] Tuple or struct_time argument required
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 154, in do_file
+    File_Time = time.strftime("%Y-%m-%d %H:%M:%S", creation_time_struct)
+TypeError: Tuple or struct_time argument required
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:38:56.274 - __init__   [ERROR   ] File:AT00034.06#04.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:38:56.398 - ETL_MAP_TO_XSIFF [ERROR   ] Tuple or struct_time argument required
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 154, in do_file
+    File_Time = time.strftime("%Y-%m-%d %H:%M:%S", creation_time_struct)
+TypeError: Tuple or struct_time argument required
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:38:57.390 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:39:47.888 - ETL_MAP_TO_XSIFF [ERROR   ] time() takes no arguments (1 given)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 153, in do_file
+    creation_time_struct = time.time(creation_time)
+TypeError: time() takes no arguments (1 given)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:39:48.897 - __init__   [ERROR   ] File:AT00034.06#02.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:39:49.008 - ETL_MAP_TO_XSIFF [ERROR   ] time() takes no arguments (1 given)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 153, in do_file
+    creation_time_struct = time.time(creation_time)
+TypeError: time() takes no arguments (1 given)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:39:50.019 - __init__   [ERROR   ] File:AT00034.06#04.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:39:50.141 - ETL_MAP_TO_XSIFF [ERROR   ] time() takes no arguments (1 given)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 153, in do_file
+    creation_time_struct = time.time(creation_time)
+TypeError: time() takes no arguments (1 given)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:39:51.147 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None
+2023-11-10 16:40:24.994 - ETL_MAP_TO_XSIFF [ERROR   ] time() takes no arguments (1 given)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 153, in do_file
+    creation_time_struct = time.time(creation_time)
+TypeError: time() takes no arguments (1 given)
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 366, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_MAP_TO_XSIFF/ETL_MAP_TO_XSIFF.py", line 191, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-10 16:40:25.946 - __init__   [ERROR   ] File:AT00034.06#08.txt Move To Error Folder
+                                                Error: None

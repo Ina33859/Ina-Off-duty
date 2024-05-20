@@ -1,0 +1,364 @@
+2024-01-12 11:18:13.636 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:18:13.819 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:13.969 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:18:14.140 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:14.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.522 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 466, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 554, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 489, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:18:14.710 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:14.868 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:18:15.041 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:19.865 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] [Serial no.]列无法正确取值，例如遇到的第一个错误值为：200041 D12740000000;文件名为：XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:18:20.051 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:20.385 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:18:20.611 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:21.299 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:18:21.299 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:18:21.300 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:18:21.300 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:18:21.308 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.317 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.325 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.325 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.335 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.385 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为@
+2024-01-12 11:18:21.411 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 466, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 554, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 489, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:18:21.612 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:07.713 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:20:07.942 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:08.107 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:20:08.290 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:08.651 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.653 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.653 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.653 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.653 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.654 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.654 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.720 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 464, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 552, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 487, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:20:08.916 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:09.222 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:20:09.479 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:14.180 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] [Serial no.]列无法正确取值，例如遇到的第一个错误值为：200041 D12740000000;文件名为：XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:20:14.296 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:14.598 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:20:14.759 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:15.471 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:20:15.471 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:20:15.471 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:20:15.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:20:15.481 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.490 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.499 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.499 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.508 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.563 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为@
+2024-01-12 11:20:15.591 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 464, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 552, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 487, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:20:15.741 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:04.779 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:21:04.908 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:05.041 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:21:05.198 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:05.463 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.465 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.465 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.465 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.516 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 462, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 550, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 485, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:21:05.690 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:05.866 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:21:06.021 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:10.716 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] [Serial no.]列无法正确取值，例如遇到的第一个错误值为：200041 D12740000000;文件名为：XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:21:10.896 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:11.197 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:21:11.401 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:12.090 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:21:12.090 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:21:12.090 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:21:12.091 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:21:12.099 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.107 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.115 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.115 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.127 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.176 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为@
+2024-01-12 11:21:12.201 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 462, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 550, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 485, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:21:12.412 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:23.880 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:24:24.080 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:24.215 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:24:24.353 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:24.605 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.605 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.607 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.607 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.660 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 462, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 550, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 485, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:24:24.832 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:25.013 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:24:25.202 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:29.977 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] [Serial no.]列无法正确取值，例如遇到的第一个错误值为：200041 D12740000000;文件名为：XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:24:30.195 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:30.507 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:24:30.668 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:31.453 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为预测试
+2024-01-12 11:24:31.453 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为预测试
+2024-01-12 11:24:31.453 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为预测试
+2024-01-12 11:24:31.453 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为预测试
+2024-01-12 11:24:31.461 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.481 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.482 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.490 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.539 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为@
+2024-01-12 11:24:31.567 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 462, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 550, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 485, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:24:31.774 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx Move To Error Folder
+                                                Error: None

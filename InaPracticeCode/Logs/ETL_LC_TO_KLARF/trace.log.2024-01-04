@@ -1,0 +1,156 @@
+2024-01-04 14:24:16.040 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:24:16.041 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-04 14:24:16.041 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:24:16.042 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-04 14:24:16.056 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-04 14:24:16.057 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-04 14:24:16.057 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-04 14:24:19.228 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2024-01-04 14:24:19.270 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-04 14:24:19.280 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-04 14:24:16.014622
+2024-01-04 14:24:22.323 - __init__   [INFO    ] Set process status code: 0.
+2024-01-04 14:24:22.337 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:24:22.445 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:24:22.581 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:25:03.647 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:25:03.647 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-04 14:25:03.647 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:25:03.648 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-04 14:25:03.662 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-04 14:25:03.662 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-04 14:25:03.662 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-04 14:25:06.631 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-04 14:25:06.631 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-04 14:25:09.353 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-04 14:25:09.357 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-04 14:25:03.639983
+2024-01-04 14:25:12.148 - __init__   [INFO    ] Set process status code: 0.
+2024-01-04 14:25:12.158 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:25:12.254 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:25:12.336 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:25:12.420 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.013956
+2024-01-04 14:25:12.425 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to KLA-Tencor_None_Lot_01_24_24_2024-01-04-14-25-12.001 ;Total Used:0:00:00.019021
+2024-01-04 14:25:12.428 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv
+2024-01-04 14:25:12.429 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to Archive folder: Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv.
+2024-01-04 14:25:12.429 - ETL_LC_TO_KLARF [INFO    ] Move EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to Archive folder 
+2024-01-04 14:25:12.431 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf
+2024-01-04 14:25:12.432 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to Archive folder: Data\Source\EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf.
+2024-01-04 14:25:12.432 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-04 14:25:12.432 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-04 14:25:12.441 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-04 14:25:15.251 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-04 14:35:02.741 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:35:02.741 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-04 14:35:02.741 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:35:02.743 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-04 14:35:02.757 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-04 14:35:02.757 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-04 14:35:02.757 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-04 14:35:05.664 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-04 14:35:05.717 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-04 14:35:05.718 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-04 14:35:02.732668
+2024-01-04 14:35:08.507 - __init__   [INFO    ] Set process status code: 0.
+2024-01-04 14:35:08.519 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:35:08.607 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:35:08.689 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:35:08.760 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.004999
+2024-01-04 14:35:08.762 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to KLA-Tencor_None_EPI_6INCH_L87-477_10_L87-477__TKZ75EEN13_2024-01-04-14-35-08.001 ;Total Used:0:00:00.006997
+2024-01-04 14:35:08.764 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv
+2024-01-04 14:35:08.764 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to Archive folder: Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv.
+2024-01-04 14:35:08.765 - ETL_LC_TO_KLARF [INFO    ] Move EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to Archive folder 
+2024-01-04 14:35:08.766 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf
+2024-01-04 14:35:08.766 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to Archive folder: Data\Source\EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf.
+2024-01-04 14:35:08.766 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-04 14:35:08.766 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-04 14:35:08.777 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-04 14:35:08.910 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-04 14:43:27.318 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:43:27.318 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-04 14:43:27.318 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:43:27.319 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-04 14:43:27.329 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-04 14:43:27.330 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-04 14:43:27.330 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-04 14:43:27.705 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-04 14:43:27.802 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-04 14:43:27.804 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-04 14:43:27.311105
+2024-01-04 14:43:27.968 - __init__   [INFO    ] Set process status code: 0.
+2024-01-04 14:43:27.975 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:43:28.044 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:43:28.123 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:43:28.204 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.008988
+2024-01-04 14:43:28.211 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_10_L87-477__TKZ75EEN13_2024-01-04-14-43-28.001 ;Total Used:0:00:00.016041
+2024-01-04 14:43:28.214 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv
+2024-01-04 14:43:28.215 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to Archive folder: Data\Source\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv.
+2024-01-04 14:43:28.216 - ETL_LC_TO_KLARF [INFO    ] Move EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to Archive folder 
+2024-01-04 14:43:28.218 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf
+2024-01-04 14:43:28.219 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to Archive folder: Data\Source\EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf.
+2024-01-04 14:43:28.219 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-04 14:43:28.219 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-04 14:43:28.230 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-04 14:43:28.385 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-04 14:51:11.856 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:51:11.856 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-04 14:51:11.856 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 14:51:11.857 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-04 14:51:11.869 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-04 14:51:11.869 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-04 14:51:11.869 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-04 14:51:12.184 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-04 14:51:12.227 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-04 14:51:12.228 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-04 14:51:11.848063
+2024-01-04 14:51:12.389 - __init__   [INFO    ] Set process status code: 0.
+2024-01-04 14:51:12.399 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:51:12.476 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:51:12.546 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 14:51:12.599 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.002999
+2024-01-04 14:51:12.601 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_10_L87-477__TKZ75EEN13_2024-01-04-14-51-12.001 ;Total Used:0:00:00.004999
+2024-01-04 14:51:12.602 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv
+2024-01-04 14:51:12.603 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to Archive folder: Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv.
+2024-01-04 14:51:12.603 - ETL_LC_TO_KLARF [INFO    ] Move EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to Archive folder 
+2024-01-04 14:51:12.604 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf
+2024-01-04 14:51:12.605 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf to Archive folder: Data\Archive\EPI_6INCH_L87-496_L87-496__TKAM4EG105_2023_08_25_17_16_38.klarf.
+2024-01-04 14:51:12.605 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-04 14:51:12.605 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-04 14:51:12.613 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-04 14:51:12.748 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-04 15:12:34.389 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 15:12:34.390 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-04 15:12:34.390 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 15:12:34.391 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-04 15:12:34.402 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-04 15:12:34.402 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-04 15:12:34.402 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-04 15:12:34.663 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-04 15:12:34.702 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-04 15:12:34.703 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-04 15:12:34.380803
+2024-01-04 15:12:34.975 - __init__   [INFO    ] Set process status code: 0.
+2024-01-04 15:12:34.990 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 15:12:35.095 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 15:12:35.146 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 15:12:35.198 - CustomFuction [INFO    ] [Empty] Empty Folder : ./Data/Source
+2024-01-04 15:12:35.198 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-04 15:12:35.198 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-04 15:12:35.207 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-04 15:12:35.404 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-04 15:12:45.777 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 15:12:45.777 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-04 15:12:45.777 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-04 15:12:45.778 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-04 15:12:45.789 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-04 15:12:45.789 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-04 15:12:45.789 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-04 15:12:46.051 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-04 15:12:46.118 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_TO_KLARF\ETL_LC_TO_KLARF.py.*
+2024-01-04 15:12:46.120 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-04 15:12:45.765471
+2024-01-04 15:12:46.285 - __init__   [INFO    ] Set process status code: 0.
+2024-01-04 15:12:46.294 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 15:12:46.369 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 15:12:46.511 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-04 15:12:46.607 - ETL_LC_TO_KLARF [INFO    ] Read Source File:0:00:00.008964
+2024-01-04 15:12:46.612 - ETL_LC_TO_KLARF [INFO    ] Converter EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to KLA-Tencor_6_INCH_EPI_6INCH_L87-477_10_L87-477__TKZ75EEN13_2024-01-04-15-12-46.001 ;Total Used:0:00:00.014004
+2024-01-04 15:12:46.614 - CustomFuction [INFO    ] [Archive] EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv
+2024-01-04 15:12:46.614 - CustomFuction [INFO    ] Move file: EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv to Archive folder: Data\Archive\EPI_6INCH_L87-477_6K026_Epi_10um_C-T-M-BPD_2x2_01_L87-477__TKZ75EEN13_10_DefectAttributes.csv.
+2024-01-04 15:12:46.615 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-04 15:12:46.615 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-04 15:12:46.626 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-04 15:12:46.763 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

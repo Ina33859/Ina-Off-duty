@@ -1,0 +1,55 @@
+2024-05-10 10:00:59.672 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-05-10 10:00:59.675 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-05-10 10:00:59.675 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-05-10 10:00:59.678 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-05-10 10:00:59.712 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-05-10 10:00:59.713 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-05-10 10:00:59.713 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-05-10 10:01:00.539 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-05-10 10:01:00.860 - __init__   [INFO    ] Debug mode enable!
+2024-05-10 10:01:00.894 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20240102.py.*
+2024-05-10 10:01:00.904 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-05-10 10:00:59.641499
+2024-05-10 10:01:01.316 - __init__   [INFO    ] Set process status code: 0.
+2024-05-10 10:01:01.337 - Database   [INFO    ] Non set logging! Using default logging.
+2024-05-10 10:01:01.436 - Database   [INFO    ] Non set logging! Using default logging.
+2024-05-10 10:01:01.558 - Database   [INFO    ] Non set logging! Using default logging.
+2024-05-10 10:01:01.700 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-05-10 10:01:03.010 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Successfully organize document data formats
+2024-05-10 10:01:03.072 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Time of successful formatting
+2024-05-10 10:01:03.170 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Successfully collated the BIN information into a list
+2024-05-10 10:01:03.170 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] The time of the cycle after converting to a dictionary list:0:00:00.000996
+2024-05-10 10:01:03.172 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Successfully organize row_data_df
+2024-05-10 10:01:03.175 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] The BIN SUMMARY information is successfully organized into a dictionary
+2024-05-10 10:01:03.541 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] The parameter name is successfully concatenated
+2024-05-10 10:01:03.542 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:01.841761
+2024-05-10 10:01:03.561 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.017996
+2024-05-10 10:01:03.629 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Export xsiff:0:00:00.068003
+2024-05-10 10:01:03.629 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Converter AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to FT_GD800HFA120C2S_B20_AWECGQI56_GW_20230927092756.xsiff ;Total Used:0:00:01.928759
+2024-05-10 10:01:03.635 - CustomFuction [INFO    ] [Archive] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-05-10 10:01:03.636 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-05-10 10:01:03.892 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Currently working on files: AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx 
+2024-05-10 10:01:05.386 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Successfully organize document data formats
+2024-05-10 10:01:05.403 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Time of successful formatting
+2024-05-10 10:01:05.513 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] [Serial no.] Length does not meet the requirements
+2024-05-10 10:01:05.683 - __init__   [ERROR   ] File:AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx Move To Error Folder
+                                                Error: None
+2024-05-10 10:01:05.693 - CustomFuction [INFO    ] [ERROR] AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx
+2024-05-10 10:01:05.695 - CustomFuction [INFO    ] Move file: AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx.
+2024-05-10 10:01:05.738 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Currently working on files: XZECZQ957-CW_GD200FYS100F6S-CW-D128043.xlsx 
+2024-05-10 10:01:11.584 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Successfully organize document data formats
+2024-05-10 10:01:11.625 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Time of successful formatting
+2024-05-10 10:01:12.186 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Successfully collated the BIN information into a list
+2024-05-10 10:01:12.187 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] The time of the cycle after converting to a dictionary list:0:00:00.002221
+2024-05-10 10:01:12.189 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Successfully organize row_data_df
+2024-05-10 10:01:12.191 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] The BIN SUMMARY information is successfully organized into a dictionary
+2024-05-10 10:01:12.749 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] The parameter name is successfully concatenated
+2024-05-10 10:01:12.751 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:07.012929
+2024-05-10 10:01:12.755 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.003995
+2024-05-10 10:01:12.877 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Export xsiff:0:00:00.121261
+2024-05-10 10:01:12.877 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Converter XZECZQ957-CW_GD200FYS100F6S-CW-D128043.xlsx to FT_[]_XZECZQ957_GW_20231101082036.xsiff ;Total Used:0:00:07.139184
+2024-05-10 10:01:12.890 - CustomFuction [INFO    ] [Archive] XZECZQ957-CW_GD200FYS100F6S-CW-D128043.xlsx
+2024-05-10 10:01:12.891 - CustomFuction [INFO    ] Move file: XZECZQ957-CW_GD200FYS100F6S-CW-D128043.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XZECZQ957-CW_GD200FYS100F6S-CW-D128043.xlsx.
+2024-05-10 10:01:12.929 - CustomFuction [INFO    ] ========[ File End ]========
+2024-05-10 10:01:12.930 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-05-10 10:01:12.947 - CustomFuction [INFO    ] ========== Finally ==========
+2024-05-10 10:01:13.193 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

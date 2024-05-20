@@ -1,0 +1,841 @@
+2024-01-19 12:25:48.793 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.028 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.177 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.383 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.634 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:49.881 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.073 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.287 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.499 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.636 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.810 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:50.972 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.148 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.296 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.489 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.696 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:51.867 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:52.075 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:52.425 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:25:52.734 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:16.876 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.076 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.277 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.446 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.641 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:17.812 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:18.068 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:18.374 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-19 12:27:18.759 - CustomFuction [ERROR   ] 'BinNumber'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'BinNumber'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 83, in do_file
+    int(row['BinNumber'])
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'BinNumber'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 144, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

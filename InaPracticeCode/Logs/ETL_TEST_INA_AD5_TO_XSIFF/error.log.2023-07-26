@@ -1,0 +1,85 @@
+2023-07-26 09:18:29.977 - ETL_TEST_INA_AD5_TO_XSIFF [ERROR   ] Read file and parse error
+2023-07-26 09:18:29.982 - CustomFuction [ERROR   ] local variable 'target' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 315, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 280, in do_file
+    [parameter_no, parameter_name, unit_value, target, '', '', '', '', valid_low_value,
+UnboundLocalError: local variable 'target' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 452, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-26 09:27:26.776 - ETL_TEST_INA_AD5_TO_XSIFF [ERROR   ] Read file and parse error
+2023-07-26 09:27:26.784 - CustomFuction [ERROR   ] local variable 'target' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 315, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 280, in do_file
+    [parameter_no, parameter_name, unit_value, target, '', '', '', '', valid_low_value,
+UnboundLocalError: local variable 'target' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 452, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-26 09:59:04.940 - ETL_TEST_INA_AD5_TO_XSIFF [ERROR   ] Read file and parse error
+2023-07-26 09:59:04.949 - CustomFuction [ERROR   ] local variable 'target' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_TEST_INA_WAT_TO_XSIFF/ETL_TEST_INA_AD5_TO_XSIFF.py", line 323, in do_file
+    raise ex
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_TEST_INA_WAT_TO_XSIFF/ETL_TEST_INA_AD5_TO_XSIFF.py", line 288, in do_file
+    [parameter_no, parameter_name, unit_value, target, '', '', '', '', valid_low_value,
+UnboundLocalError: local variable 'target' referenced before assignment
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_TEST_INA_WAT_TO_XSIFF/ETL_TEST_INA_AD5_TO_XSIFF.py", line 460, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-26 10:00:10.755 - ETL_TEST_INA_AD5_TO_XSIFF [ERROR   ] Read file and parse error
+2023-07-26 10:00:10.764 - CustomFuction [ERROR   ] local variable 'target' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 323, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 288, in do_file
+    [parameter_no, parameter_name, unit_value, target, '', '', '', '', valid_low_value,
+UnboundLocalError: local variable 'target' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 460, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-26 10:10:32.561 - ETL_TEST_INA_AD5_TO_XSIFF [ERROR   ] Read file and parse error
+2023-07-26 10:10:32.571 - CustomFuction [ERROR   ] name 'target' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 324, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 289, in do_file
+    [parameter_no, parameter_name, unit_value, target, '', '', '', '', valid_low_value,
+NameError: name 'target' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TEST_INA_AD5_TO_XSIFF.py", line 461, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

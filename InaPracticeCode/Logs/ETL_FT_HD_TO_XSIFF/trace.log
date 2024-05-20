@@ -1,0 +1,36 @@
+2023-11-10 17:22:08.123 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-10 17:22:08.124 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-10 17:22:08.124 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-10 17:22:08.125 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-10 17:22:08.136 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-10 17:22:08.137 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-10 17:22:08.137 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-10 17:22:09.258 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-10 17:22:09.691 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py.*
+2023-11-10 17:22:09.696 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-10 17:22:08.115334
+2023-11-10 17:22:10.780 - __init__   [INFO    ] Set process status code: 0.
+2023-11-10 17:22:10.880 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-10 17:22:11.333 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-10 17:22:11.796 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-10 17:22:12.429 - ETL_FT_HD_TO_XSIFF [INFO    ] Read source file:0:00:00.190932
+2023-11-10 17:22:12.442 - ETL_FT_HD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.012021
+2023-11-10 17:22:12.484 - ETL_FT_HD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.041980
+2023-11-10 17:22:12.484 - ETL_FT_HD_TO_XSIFF [INFO    ] Converter FT1_7HDW31134.000_KY2022009_H2247-0001_R1.txt to FT_CIU9872B_01_QFN32_7HDW31134.000_20221118043242.xsiff ;Total Used:0:00:00.245934
+2023-11-10 17:22:12.503 - CustomFuction [INFO    ] [Archive] FT1_7HDW31134.000_KY2022009_H2247-0001_R1.txt
+2023-11-10 17:22:12.504 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2022009_H2247-0001_R1.txt to Archive folder: Data\Source\FT1_7HDW31134.000_KY2022009_H2247-0001_R1.txt.
+2023-11-10 17:22:12.522 - ETL_FT_HD_TO_XSIFF [INFO    ] Read source file:0:00:00.016997
+2023-11-10 17:22:12.528 - ETL_FT_HD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.006005
+2023-11-10 17:22:12.546 - ETL_FT_HD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.017992
+2023-11-10 17:22:12.547 - ETL_FT_HD_TO_XSIFF [INFO    ] Converter FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt to FT_CIU9872B_01_QFN32_7HDW31134.000_20230716234314.xsiff ;Total Used:0:00:00.041963
+2023-11-10 17:22:12.565 - CustomFuction [INFO    ] [Archive] FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt
+2023-11-10 17:22:12.566 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt to Archive folder: Data\Source\FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt.
+2023-11-10 17:23:20.456 - ETL_FT_HD_TO_XSIFF [INFO    ] Read source file:0:01:07.880840
+2023-11-10 17:23:35.942 - ETL_FT_HD_TO_XSIFF [INFO    ] Create xsiff:0:00:15.472365
+2023-11-10 17:23:49.253 - ETL_FT_HD_TO_XSIFF [INFO    ] Export xsiff:0:00:13.305338
+2023-11-10 17:23:49.253 - ETL_FT_HD_TO_XSIFF [INFO    ] Converter FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt to FT_CIU9872B_01_QFN32_7HDW31134.000_20230715120401.xsiff ;Total Used:0:01:36.687356
+2023-11-10 17:23:51.303 - CustomFuction [INFO    ] [Archive] FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt
+2023-11-10 17:23:51.305 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt to Archive folder: Data\Source\FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt.
+2023-11-10 17:23:51.305 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-10 17:23:51.306 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-10 17:23:51.486 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-10 17:23:52.577 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

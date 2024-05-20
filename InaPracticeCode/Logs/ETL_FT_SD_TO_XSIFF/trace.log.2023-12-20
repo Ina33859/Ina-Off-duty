@@ -1,0 +1,422 @@
+2023-12-20 10:53:14.011 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 10:53:14.012 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 10:53:14.012 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 10:53:14.013 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 10:53:14.028 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 10:53:14.028 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 10:53:14.028 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 10:53:14.398 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-20 10:53:14.470 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 10:53:37.070 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 10:53:37.070 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 10:53:37.070 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 10:53:37.071 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 10:53:37.084 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 10:53:37.085 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 10:53:37.085 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 10:53:37.390 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-12-20 10:53:37.391 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-12-20 10:53:37.503 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 10:53:37.510 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 10:53:37.061969
+2023-12-20 10:53:37.747 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 10:53:37.755 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 10:53:37.849 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 10:53:37.946 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 10:53:38.002 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx 
+2023-12-20 10:53:39.969 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.967463
+2023-12-20 10:53:40.008 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.038067
+2023-12-20 10:53:40.101 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.092991
+2023-12-20 10:53:40.101 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx to FT_XWECZQB06-GW_GD600MJS100L6S_XWECZQB06_GW_20231105093424.xsiff ;Total Used:0:00:02.099523
+2023-12-20 10:53:40.104 - CustomFuction [INFO    ] [Archive] XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx
+2023-12-20 10:53:40.105 - CustomFuction [INFO    ] Move file: XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx to Archive folder: Data\ARCHIVE\GW\XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx.
+2023-12-20 10:53:40.105 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-20 10:53:40.105 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-20 10:53:40.106 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-12-20 10:53:40.115 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-20 10:53:40.304 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-20 11:00:55.300 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:00:55.301 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 11:00:55.301 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:00:55.302 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 11:00:55.315 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 11:00:55.316 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 11:00:55.316 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 11:00:55.632 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-20 11:00:55.681 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 11:00:55.682 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 11:00:55.291206
+2023-12-20 11:00:55.880 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 11:00:55.891 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:00:55.981 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:00:56.033 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:00:56.118 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-20 11:01:05.881 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:09.762872
+2023-12-20 11:01:05.895 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.013850
+2023-12-20 11:01:06.131 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.236138
+2023-12-20 11:01:06.132 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_XWECIQ743-CW_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:10.013860
+2023-12-20 11:01:06.139 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2023-12-20 11:01:06.140 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: Data\ARCHIVE\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2023-12-20 11:01:06.140 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-20 11:01:06.140 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-20 11:01:06.141 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-12-20 11:01:06.151 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-20 11:01:06.312 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-20 11:20:54.251 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:20:54.252 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 11:20:54.252 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:20:54.253 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 11:20:54.266 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 11:20:54.267 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 11:20:54.267 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 11:20:54.713 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-20 11:20:54.784 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 11:21:27.880 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:21:27.880 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 11:21:27.880 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:21:27.881 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 11:21:27.893 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 11:21:27.894 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 11:21:27.894 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 11:21:28.181 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-12-20 11:21:28.181 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-12-20 11:21:28.231 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 11:21:28.232 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 11:21:27.872749
+2023-12-20 11:21:28.375 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 11:21:28.384 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:21:28.460 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:21:28.536 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:21:28.602 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-20 11:21:36.723 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:08.121169
+2023-12-20 11:21:36.738 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.013375
+2023-12-20 11:21:36.913 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.174966
+2023-12-20 11:21:36.913 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_XWECIQ743-CW_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:08.310511
+2023-12-20 11:21:36.919 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2023-12-20 11:21:36.920 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: Data\ARCHIVE\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2023-12-20 11:21:36.920 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-20 11:21:36.920 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-20 11:21:36.921 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-12-20 11:21:36.932 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-20 11:21:37.136 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-20 11:22:54.606 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:22:54.606 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 11:22:54.607 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:22:54.608 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 11:22:54.620 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 11:22:54.621 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 11:22:54.621 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 11:22:54.907 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-20 11:22:54.964 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 11:22:54.966 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 11:22:54.581904
+2023-12-20 11:22:55.190 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 11:22:55.202 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:22:55.325 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:22:55.439 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:22:55.578 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-20 11:23:22.705 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:23:22.705 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 11:23:22.705 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:23:22.706 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 11:23:22.720 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 11:23:22.720 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 11:23:22.720 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 11:23:23.020 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-12-20 11:23:23.020 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-12-20 11:23:23.080 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 11:23:23.082 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 11:23:22.679789
+2023-12-20 11:23:23.322 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 11:23:23.334 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:23:23.469 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:23:23.648 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:23:23.834 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-20 11:39:55.292 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:39:55.292 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 11:39:55.292 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:39:55.293 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 11:39:55.308 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 11:39:55.308 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 11:39:55.308 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 11:39:58.703 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-12-20 11:39:58.705 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-12-20 11:39:58.784 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 11:39:58.787 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 11:39:55.267891
+2023-12-20 11:40:02.142 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 11:40:02.165 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:40:02.330 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:40:02.475 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:40:02.642 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-20 11:40:45.974 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:40:45.974 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 11:40:45.974 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 11:40:45.976 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 11:40:45.987 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 11:40:45.988 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 11:40:45.988 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 11:40:49.861 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-12-20 11:40:49.861 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-12-20 11:40:50.231 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 11:40:50.235 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 11:40:45.949083
+2023-12-20 11:40:53.627 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 11:40:53.654 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:40:53.812 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:40:53.945 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 11:40:54.105 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-20 11:41:18.583 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:24.478253
+2023-12-20 11:41:18.605 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.021032
+2023-12-20 11:41:18.900 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.294969
+2023-12-20 11:41:18.900 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:24.795254
+2023-12-20 11:41:18.906 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2023-12-20 11:41:18.907 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: Data\ARCHIVE\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2023-12-20 11:41:18.909 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECZS889-GW_新阳光GD600MLS100L6S-GW.xlsx 
+2023-12-20 11:41:21.565 - ETL_FT_SD_TO_XSIFF [ERROR   ] The correct parameter value could not be obtained:
+2023-12-20 11:41:21.881 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-20 11:41:21.893 - CustomFuction [INFO    ] [ERROR] XWECZS889-GW_新阳光GD600MLS100L6S-GW.xlsx
+2023-12-20 11:41:21.894 - CustomFuction [INFO    ] Move file: XWECZS889-GW_新阳光GD600MLS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZS889-GW_新阳光GD600MLS100L6S-GW.xlsx.
+2023-12-20 11:41:21.895 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-20 11:41:21.895 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-20 11:41:21.917 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-20 11:41:22.173 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-20 14:35:43.610 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 14:35:43.611 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 14:35:43.611 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 14:35:43.612 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 14:35:43.625 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 14:35:43.625 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 14:35:43.626 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 14:35:43.899 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-20 14:35:47.035 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 14:35:47.045 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 14:35:43.593996
+2023-12-20 14:35:47.229 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 14:35:47.240 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 14:35:47.328 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 14:35:47.418 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 14:35:47.494 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx 
+2023-12-20 14:35:47.675 - ETL_FT_SD_TO_XSIFF [ERROR   ] The correct parameter value could not be obtained:
+2023-12-20 14:35:47.865 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-20 14:35:47.874 - CustomFuction [INFO    ] [ERROR] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx
+2023-12-20 14:35:47.875 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx.
+2023-12-20 14:35:47.876 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-20 14:35:47.876 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-20 14:35:47.886 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-20 14:35:48.082 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-20 14:52:05.418 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 14:52:05.419 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 14:52:05.419 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 14:52:05.420 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 14:52:05.431 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 14:52:05.431 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 14:52:05.431 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 14:52:05.686 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-20 14:52:08.835 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 14:52:08.836 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 14:52:05.411516
+2023-12-20 14:52:09.042 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 14:52:09.057 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 14:52:09.140 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 14:52:09.219 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 14:52:09.308 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx 
+2023-12-20 14:52:09.765 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.456978
+2023-12-20 14:52:09.774 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.009007
+2023-12-20 14:52:09.817 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.043006
+2023-12-20 14:52:09.817 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx to FT_GD200FYS100L6S_XLECHQ122_GW_20231107063731.xsiff ;Total Used:0:00:00.508991
+2023-12-20 14:52:09.819 - CustomFuction [INFO    ] [Archive] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx
+2023-12-20 14:52:09.819 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx to Archive folder: Data\ARCHIVE\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx.
+2023-12-20 14:52:09.820 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-20 14:52:18.081 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:08.261277
+2023-12-20 14:52:18.083 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002000
+2023-12-20 14:52:18.309 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.226565
+2023-12-20 14:52:18.309 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:08.489842
+2023-12-20 14:52:18.315 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2023-12-20 14:52:18.316 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: Data\ARCHIVE\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2023-12-20 14:52:18.317 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx 
+2023-12-20 14:52:19.006 - ETL_FT_SD_TO_XSIFF [ERROR   ] The correct parameter value could not be obtained:
+2023-12-20 14:52:19.155 - __init__   [ERROR   ] File:XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-20 14:52:19.176 - CustomFuction [INFO    ] [ERROR] XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx
+2023-12-20 14:52:19.177 - CustomFuction [INFO    ] Move file: XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx.
+2023-12-20 14:52:19.177 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-20 14:52:19.177 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-20 14:52:19.189 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-20 14:52:19.344 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-20 16:17:30.852 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:17:30.853 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 16:17:30.853 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:17:30.855 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 16:17:30.873 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 16:17:30.874 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 16:17:30.874 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 16:17:31.208 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-20 16:17:31.272 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 16:17:31.275 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 16:17:30.828938
+2023-12-20 16:17:31.499 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 16:17:31.513 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:17:31.649 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:17:31.742 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:17:31.892 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx 
+2023-12-20 16:22:34.626 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:22:34.627 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 16:22:34.627 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:22:34.628 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 16:22:34.638 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 16:22:34.638 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 16:22:34.638 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 16:22:34.900 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-12-20 16:22:34.901 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-12-20 16:22:34.953 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 16:22:34.954 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 16:22:34.617921
+2023-12-20 16:22:35.097 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 16:22:35.105 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:22:35.168 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:22:35.272 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:22:35.328 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx 
+2023-12-20 16:22:36.003 - ETL_FT_SD_TO_XSIFF [ERROR   ] The correct parameter value could not be obtained:
+2023-12-20 16:22:36.232 - __init__   [ERROR   ] File:XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-20 16:22:36.243 - CustomFuction [INFO    ] [ERROR] XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx
+2023-12-20 16:22:36.244 - CustomFuction [INFO    ] Move file: XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx.
+2023-12-20 16:22:36.244 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-20 16:22:36.244 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-20 16:22:36.254 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-20 16:22:36.426 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-20 16:23:34.081 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:23:34.081 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 16:23:34.081 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:23:34.083 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 16:23:34.094 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 16:23:34.094 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 16:23:34.094 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 16:23:34.362 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-20 16:23:34.428 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 16:23:34.429 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 16:23:34.074968
+2023-12-20 16:23:34.639 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 16:23:34.648 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:23:34.722 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:23:34.815 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:23:34.918 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-12-20 16:23:35.300 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.382973
+2023-12-20 16:23:35.312 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.011114
+2023-12-20 16:23:35.375 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.061970
+2023-12-20 16:23:35.375 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to FT_GD200FYS100L6S_TLECGQG81_GW_20230720135416.xsiff ;Total Used:0:00:00.457055
+2023-12-20 16:23:35.377 - CustomFuction [INFO    ] [Archive] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-12-20 16:23:35.378 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-12-20 16:23:35.378 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx 
+2023-12-20 16:23:35.866 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.486994
+2023-12-20 16:23:35.867 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.000995
+2023-12-20 16:23:35.917 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.050000
+2023-12-20 16:23:35.918 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx to FT_GD200FYS100L6S_XLECHQ122_GW_20231107063731.xsiff ;Total Used:0:00:00.539996
+2023-12-20 16:23:35.919 - CustomFuction [INFO    ] [Archive] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx
+2023-12-20 16:23:35.920 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx to Archive folder: Data\ARCHIVE\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx.
+2023-12-20 16:23:35.920 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-20 16:23:44.378 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:08.457926
+2023-12-20 16:23:44.379 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001965
+2023-12-20 16:23:44.610 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.230997
+2023-12-20 16:23:44.610 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:08.690888
+2023-12-20 16:23:44.619 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2023-12-20 16:23:44.620 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: Data\ARCHIVE\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2023-12-20 16:23:44.621 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-12-20 16:23:46.589 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.967031
+2023-12-20 16:23:46.590 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.000997
+2023-12-20 16:23:46.641 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.050971
+2023-12-20 16:23:46.641 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707055041.xsiff ;Total Used:0:00:02.020000
+2023-12-20 16:23:46.644 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-12-20 16:23:46.645 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-12-20 16:23:46.646 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx 
+2023-12-20 16:23:48.644 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.997225
+2023-12-20 16:23:48.646 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001964
+2023-12-20 16:23:48.701 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.055003
+2023-12-20 16:23:48.701 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707055041.xsiff ;Total Used:0:00:02.054192
+2023-12-20 16:23:48.704 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx
+2023-12-20 16:23:48.705 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx.
+2023-12-20 16:23:48.706 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-12-20 16:23:50.281 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.575025
+2023-12-20 16:23:50.282 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.000999
+2023-12-20 16:23:50.338 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.055971
+2023-12-20 16:23:50.339 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to FT_GD600MLS100L6S_XWECYQH62_GW_20230704232641.xsiff ;Total Used:0:00:01.633000
+2023-12-20 16:23:50.341 - CustomFuction [INFO    ] [Archive] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-12-20 16:23:50.342 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-12-20 16:23:50.343 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx 
+2023-12-20 16:23:50.968 - ETL_FT_SD_TO_XSIFF [ERROR   ] The correct parameter value could not be obtained:
+2023-12-20 16:23:51.159 - __init__   [ERROR   ] File:XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-20 16:23:51.168 - CustomFuction [INFO    ] [ERROR] XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx
+2023-12-20 16:23:51.169 - CustomFuction [INFO    ] Move file: XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZQB06-GW_新GD600MJS100L6S-GW.xlsx.
+2023-12-20 16:23:51.170 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-20 16:23:51.170 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-20 16:23:51.180 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-20 16:23:51.353 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-20 16:28:22.741 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:28:22.741 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 16:28:22.741 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:28:22.742 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 16:28:22.757 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 16:28:22.758 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 16:28:22.758 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 16:28:23.061 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-20 16:28:23.118 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 16:28:23.120 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 16:28:22.715683
+2023-12-20 16:28:23.366 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 16:28:23.377 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:28:23.492 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:28:23.634 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:28:23.752 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-12-20 16:32:43.378 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:32:43.379 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-20 16:32:43.379 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-20 16:32:43.380 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-20 16:32:43.390 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-20 16:32:43.390 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-20 16:32:43.391 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-20 16:32:43.719 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-12-20 16:32:43.720 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-12-20 16:32:43.787 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-20 16:32:43.788 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-20 16:32:43.371430
+2023-12-20 16:32:43.971 - __init__   [INFO    ] Set process status code: 0.
+2023-12-20 16:32:43.981 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:32:44.057 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:32:44.167 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-20 16:32:44.261 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-12-20 16:32:44.482 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.221047
+2023-12-20 16:32:44.493 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.011186
+2023-12-20 16:32:44.519 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.024972
+2023-12-20 16:32:44.519 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to FT_GD200FYS100L6S_TLECGQG81_GW_20230720135416.xsiff ;Total Used:0:00:00.258205
+2023-12-20 16:32:44.521 - CustomFuction [INFO    ] [Archive] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-12-20 16:32:44.521 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-12-20 16:32:44.522 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx 
+2023-12-20 16:32:44.759 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.237000
+2023-12-20 16:32:44.762 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002998
+2023-12-20 16:32:44.801 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.039000
+2023-12-20 16:32:44.801 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx to FT_GD200FYS100L6S_XLECHQ122_GW_20231107063731.xsiff ;Total Used:0:00:00.278998
+2023-12-20 16:32:44.803 - CustomFuction [INFO    ] [Archive] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx
+2023-12-20 16:32:44.804 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx to Archive folder: Data\ARCHIVE\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx.
+2023-12-20 16:32:44.805 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-20 16:32:52.596 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:07.790977
+2023-12-20 16:32:52.598 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.000999
+2023-12-20 16:32:52.763 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.164962
+2023-12-20 16:32:52.763 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:07.957938
+2023-12-20 16:32:52.770 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2023-12-20 16:32:52.770 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: Data\ARCHIVE\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2023-12-20 16:32:52.771 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-12-20 16:32:53.724 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.953023
+2023-12-20 16:32:53.727 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002974
+2023-12-20 16:32:53.774 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.047000
+2023-12-20 16:32:53.774 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707055041.xsiff ;Total Used:0:00:01.002997
+2023-12-20 16:32:53.778 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-12-20 16:32:53.779 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-12-20 16:32:53.780 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx 
+2023-12-20 16:32:54.873 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.092969
+2023-12-20 16:32:54.875 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001001
+2023-12-20 16:32:54.919 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.043999
+2023-12-20 16:32:54.919 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707055041.xsiff ;Total Used:0:00:01.138969
+2023-12-20 16:32:54.924 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx
+2023-12-20 16:32:54.925 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx.
+2023-12-20 16:32:54.926 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-12-20 16:32:55.829 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.903006
+2023-12-20 16:32:55.832 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002998
+2023-12-20 16:32:55.873 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.039997
+2023-12-20 16:32:55.874 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to FT_GD600MLS100L6S_XWECYQH62_GW_20230704232641.xsiff ;Total Used:0:00:00.947000
+2023-12-20 16:32:55.876 - CustomFuction [INFO    ] [Archive] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-12-20 16:32:55.877 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-12-20 16:32:55.877 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-20 16:32:55.877 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-20 16:32:55.877 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-12-20 16:32:55.899 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-20 16:32:56.068 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

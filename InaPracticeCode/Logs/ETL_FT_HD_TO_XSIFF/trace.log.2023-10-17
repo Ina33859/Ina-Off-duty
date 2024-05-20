@@ -1,0 +1,62 @@
+2023-10-17 15:22:40.664 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-17 15:22:40.664 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-17 15:22:40.664 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-17 15:22:40.664 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-17 15:22:40.680 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-17 15:22:40.696 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-17 15:22:40.696 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-17 15:22:44.323 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-10-17 15:22:44.452 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py.*
+2023-10-17 15:22:44.452 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-17 15:22:40.649345
+2023-10-17 15:22:48.117 - __init__   [INFO    ] Set process status code: 0.
+2023-10-17 15:22:48.258 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-17 15:22:48.744 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-17 15:22:49.220 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-17 15:23:43.049 - ETL_FT_HD_TO_XSIFF [INFO    ] Read source file:0:00:53.351497
+2023-10-17 15:23:57.666 - ETL_FT_HD_TO_XSIFF [INFO    ] Create xsiff:0:00:14.616533
+2023-10-17 15:24:14.831 - CustomFuction [ERROR   ] 'FTProduct'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py", line 456, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py", line 454, in do_file
+    xsiff_file_name = export_cp_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py", line 70, in export_cp_xsiff
+    file_name = f"FT_{header['FTProduct']}_{header['FTLot']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+KeyError: 'FTProduct'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py", line 515, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-17 15:24:14.878 - CustomFuction [INFO    ] [ERROR] FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt
+2023-10-17 15:24:14.878 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt to ERROR folder: Data\Source\FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt.
+2023-10-17 15:24:18.684 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-17 15:24:18.684 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-17 15:24:18.841 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-17 15:24:22.351 - __init__   [INFO    ] Set process status code: 5.
+2023-10-17 15:24:41.556 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-17 15:24:41.556 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-17 15:24:41.556 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-17 15:24:41.556 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-17 15:24:41.571 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-17 15:24:41.571 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-17 15:24:41.571 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-17 15:24:45.156 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-10-17 15:24:49.258 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_FT_HD_TO_XSIFF.py.*
+2023-10-17 15:24:49.258 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-17 15:24:41.556094
+2023-10-17 15:24:52.842 - __init__   [INFO    ] Set process status code: 0.
+2023-10-17 15:24:52.970 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-17 15:24:53.483 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-17 15:24:54.223 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-17 15:25:44.728 - ETL_FT_HD_TO_XSIFF [INFO    ] Read source file:0:00:50.020233
+2023-10-17 15:25:56.466 - ETL_FT_HD_TO_XSIFF [INFO    ] Create xsiff:0:00:11.738173
+2023-10-17 15:26:15.585 - ETL_FT_HD_TO_XSIFF [INFO    ] Export xsiff:0:00:19.119138
+2023-10-17 15:26:15.585 - ETL_FT_HD_TO_XSIFF [INFO    ] Converter FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt to FT_CIU9872B_01_QFN32_7HDW31134.000_20230715120401.xsiff ;Total Used:0:01:20.877544
+2023-10-17 15:26:17.044 - CustomFuction [INFO    ] [Archive] FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt
+2023-10-17 15:26:17.044 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt to Archive folder: Data\Source\FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt.
+2023-10-17 15:26:17.044 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-17 15:26:17.044 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-17 15:26:17.263 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-17 15:26:20.974 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

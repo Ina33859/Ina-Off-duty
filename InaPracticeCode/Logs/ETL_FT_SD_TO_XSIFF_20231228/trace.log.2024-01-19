@@ -1,0 +1,26 @@
+2024-01-19 13:51:44.851 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 13:51:44.852 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-19 13:51:44.852 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-19 13:51:44.853 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-19 13:51:44.869 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-19 13:51:44.869 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-19 13:51:44.870 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-19 13:51:47.643 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-19 13:51:47.763 - __init__   [INFO    ] Debug mode enable!
+2024-01-19 13:51:47.798 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-19 13:51:47.805 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-19 13:51:44.844662
+2024-01-19 13:51:50.419 - __init__   [INFO    ] Set process status code: 0.
+2024-01-19 13:51:50.435 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 13:51:50.553 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 13:51:50.644 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-19 13:51:50.734 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECZQF73-CW_GD800HFA120C2S_B20-CW.xlsx 
+2024-01-19 13:51:51.770 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:01.036745
+2024-01-19 13:51:51.777 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.006956
+2024-01-19 13:51:51.840 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.063043
+2024-01-19 13:51:51.840 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter AWECZQF73-CW_GD800HFA120C2S_B20-CW.xlsx to FT_GD800HFA120C2S_B20_AWECZQF73_GW_20231031141557.xsiff ;Total Used:0:00:01.106744
+2024-01-19 13:51:51.843 - CustomFuction [INFO    ] [Archive] AWECZQF73-CW_GD800HFA120C2S_B20-CW.xlsx
+2024-01-19 13:51:51.843 - CustomFuction [INFO    ] Move file: AWECZQF73-CW_GD800HFA120C2S_B20-CW.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECZQF73-CW_GD800HFA120C2S_B20-CW.xlsx.
+2024-01-19 13:51:54.363 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-19 13:51:54.364 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-19 13:51:54.382 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-19 13:51:57.035 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

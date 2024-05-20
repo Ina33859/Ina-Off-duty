@@ -1,0 +1,58 @@
+2023-11-10 16:54:49.498 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-10 16:54:49.499 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-10 16:54:49.499 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-10 16:54:49.500 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-10 16:54:49.513 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-10 16:54:49.514 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-10 16:54:49.514 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-10 16:54:50.639 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-10 16:54:51.081 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-10 16:54:51.084 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-10 16:54:49.490824
+2023-11-10 16:54:52.128 - __init__   [INFO    ] Set process status code: 0.
+2023-11-10 16:54:52.227 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-10 16:54:52.670 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-10 16:54:53.135 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-10 16:54:53.557 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-10 16:54:53.570 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.011950
+2023-11-10 16:54:53.631 - ETL_LOT_XML_TO_XSIFF [INFO    ] There is no time-related information in the header section.
+2023-11-10 16:54:53.631 - ETL_LOT_XML_TO_XSIFF [INFO    ] There is no time-related information in the header section.
+2023-11-10 16:54:53.631 - ETL_LOT_XML_TO_XSIFF [INFO    ] There is no time-related information in the header section.
+2023-11-10 16:54:53.631 - ETL_LOT_XML_TO_XSIFF [INFO    ] There is no time-related information in the header section.
+2023-11-10 16:54:53.632 - ETL_LOT_XML_TO_XSIFF [ERROR   ] Parameter in row_data_df and spec_df are not equal.
+2023-11-10 16:54:54.592 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-10 16:54:54.699 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-10 16:54:54.701 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-10 16:54:54.701 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-10 16:54:54.702 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-10 16:54:54.827 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-10 16:54:55.836 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-10 16:56:24.793 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-10 16:56:24.793 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-10 16:56:24.794 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-10 16:56:24.795 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-10 16:56:24.806 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-10 16:56:24.806 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-10 16:56:24.806 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-10 16:56:25.946 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-10 16:56:26.386 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LOT_XML_TO_XSIFF\ETL_LOT_XML_TO_XSIFF.py.*
+2023-11-10 16:56:26.391 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-10 16:56:24.786424
+2023-11-10 16:56:27.412 - __init__   [INFO    ] Set process status code: 0.
+2023-11-10 16:56:27.510 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-10 16:56:27.920 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-10 16:56:28.311 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-10 16:56:28.746 - ETL_LOT_XML_TO_XSIFF [INFO    ] Currently working on files: A22100029.05_1.lot 
+2023-11-10 16:56:28.753 - ETL_LOT_XML_TO_XSIFF [INFO    ] Read source file:0:00:00.006957
+2023-11-10 16:56:28.792 - ETL_LOT_XML_TO_XSIFF [INFO    ] There is no time-related information in the header section.
+2023-11-10 16:56:28.792 - ETL_LOT_XML_TO_XSIFF [INFO    ] There is no time-related information in the header section.
+2023-11-10 16:56:28.792 - ETL_LOT_XML_TO_XSIFF [INFO    ] There is no time-related information in the header section.
+2023-11-10 16:56:28.792 - ETL_LOT_XML_TO_XSIFF [INFO    ] There is no time-related information in the header section.
+2023-11-10 16:56:28.793 - ETL_LOT_XML_TO_XSIFF [ERROR   ] Parameter in row_data_df and spec_df are not equal.
+2023-11-10 16:56:29.779 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-10 16:56:29.883 - CustomFuction [INFO    ] [ERROR] A22100029.05_1.lot
+2023-11-10 16:56:29.885 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to ERROR folder: Data\Source\A22100029.05_1.lot.
+2023-11-10 16:56:29.886 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-10 16:56:29.886 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-10 16:56:30.011 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-10 16:56:31.007 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

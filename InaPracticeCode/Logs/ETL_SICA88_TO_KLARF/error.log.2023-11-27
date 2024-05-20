@@ -1,0 +1,610 @@
+2023-11-27 20:20:55.565 - CustomFuction [ERROR   ] read_excel() got an unexpected keyword argument 'enqine'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 25, in do_file
+    Data = pd.read_excel(file_path,enqine = "openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+TypeError: read_excel() got an unexpected keyword argument 'enqine'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 20:22:46.633 - CustomFuction [ERROR   ] read_excel() got an unexpected keyword argument 'enqine'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 27, in do_file
+    Data = pd.read_excel(file_path,enqine = "openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+TypeError: read_excel() got an unexpected keyword argument 'enqine'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 20:25:00.865 - CustomFuction [ERROR   ] Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 27, in do_file
+    Data = pd.read_excel(file_path,engine = "openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_openpyxl.py", line 479, in __init__
+    import_optional_dependency("openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\compat\_optional.py", line 110, in import_optional_dependency
+    raise ImportError(msg) from None
+ImportError: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 20:30:47.329 - CustomFuction [ERROR   ] 'No.'
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'No.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['No.'],
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 958, in __getitem__
+    return self._get_value(key)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 1069, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'No.'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_SICA88_TO_KLARF.py", line 116, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 20:35:30.182 - CustomFuction [ERROR   ] Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 27, in do_file
+    Data = pd.read_excel(file_path,engine = "openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_openpyxl.py", line 479, in __init__
+    import_optional_dependency("openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\compat\_optional.py", line 110, in import_optional_dependency
+    raise ImportError(msg) from None
+ImportError: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 20:38:09.264 - CustomFuction [ERROR   ] Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 27, in do_file
+    Data = pd.read_excel(file_path,engine = "openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_openpyxl.py", line 479, in __init__
+    import_optional_dependency("openpyxl")
+  File "D:\Python37\lib\site-packages\pandas\compat\_optional.py", line 110, in import_optional_dependency
+    raise ImportError(msg) from None
+ImportError: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 20:46:45.419 - CustomFuction [ERROR   ] 'No.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'No.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['No.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'No.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 20:50:20.986 - CustomFuction [ERROR   ] 'NO.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'NO.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['NO.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'NO.'
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 21:33:49.664 - base       [ERROR   ] Exception during reset or similar
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 46, in do_file
+    int((row['X(mm)'] + 75) * 10000)/10.0,# 统一单位成um
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 46, in do_file
+    int((row['X(mm)'] + 75) * 10000)/10.0,# 统一单位成um
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 1179, in _pydevd_bundle.pydevd_cython_win32_37_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 620, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 929, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 920, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.do_wait_suspend
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1155, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1169, in _do_wait_suspend
+    self.process_internal_commands()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 792, in process_internal_commands
+    all_threads = threadingEnumerate()
+  File "D:\Python37\lib\threading.py", line 1244, in enumerate
+    with _active_limbo_lock:
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 697, in _finalize_fairy
+    fairy._reset(pool)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 893, in _reset
+    pool._dialect.do_rollback(self)
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\default.py", line 559, in do_rollback
+    dbapi_connection.rollback()
+cx_Oracle.DatabaseError: DPI-1080: connection was closed by ORA-3135
+2023-11-27 21:33:49.847 - base       [ERROR   ] Exception closing connection <cx_Oracle.Connection to vidatest@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.73)(PORT=1521))(CONNECT_DATA=(SID=demodb)))>
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 46, in do_file
+    int((row['X(mm)'] + 75) * 10000)/10.0,# 统一单位成um
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 46, in do_file
+    int((row['X(mm)'] + 75) * 10000)/10.0,# 统一单位成um
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 1179, in _pydevd_bundle.pydevd_cython_win32_37_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 620, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 929, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 920, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.do_wait_suspend
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1155, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1169, in _do_wait_suspend
+    self.process_internal_commands()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 792, in process_internal_commands
+    all_threads = threadingEnumerate()
+  File "D:\Python37\lib\threading.py", line 1244, in enumerate
+    with _active_limbo_lock:
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 270, in _close_connection
+    self._dialect.do_close(connection)
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\default.py", line 565, in do_close
+    dbapi_connection.close()
+cx_Oracle.DatabaseError: DPI-1080: connection was closed by ORA-3135
+2023-11-27 21:33:49.909 - base       [ERROR   ] Exception during reset or similar
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 46, in do_file
+    int((row['X(mm)'] + 75) * 10000)/10.0,# 统一单位成um
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 46, in do_file
+    int((row['X(mm)'] + 75) * 10000)/10.0,# 统一单位成um
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 1179, in _pydevd_bundle.pydevd_cython_win32_37_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 620, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 929, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 920, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.do_wait_suspend
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1155, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1169, in _do_wait_suspend
+    self.process_internal_commands()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 792, in process_internal_commands
+    all_threads = threadingEnumerate()
+  File "D:\Python37\lib\threading.py", line 1244, in enumerate
+    with _active_limbo_lock:
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 697, in _finalize_fairy
+    fairy._reset(pool)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 893, in _reset
+    pool._dialect.do_rollback(self)
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\default.py", line 559, in do_rollback
+    dbapi_connection.rollback()
+cx_Oracle.DatabaseError: DPI-1080: connection was closed by ORA-3135
+2023-11-27 21:33:49.923 - base       [ERROR   ] Exception closing connection <cx_Oracle.Connection to vidatest@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.73)(PORT=1521))(CONNECT_DATA=(SID=demodb)))>
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 46, in do_file
+    int((row['X(mm)'] + 75) * 10000)/10.0,# 统一单位成um
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 46, in do_file
+    int((row['X(mm)'] + 75) * 10000)/10.0,# 统一单位成um
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 1179, in _pydevd_bundle.pydevd_cython_win32_37_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 620, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 929, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 920, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_37_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_win32_37_64.PyDBFrame.do_wait_suspend
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1155, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1169, in _do_wait_suspend
+    self.process_internal_commands()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 792, in process_internal_commands
+    all_threads = threadingEnumerate()
+  File "D:\Python37\lib\threading.py", line 1244, in enumerate
+    with _active_limbo_lock:
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 270, in _close_connection
+    self._dialect.do_close(connection)
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\default.py", line 565, in do_close
+    dbapi_connection.close()
+cx_Oracle.DatabaseError: DPI-1080: connection was closed by ORA-3135
+2023-11-27 21:35:02.648 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 21:35:06.551 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 21:35:11.741 - CustomFuction [ERROR   ] 'N0.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'N0.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['N0.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'N0.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 21:39:47.142 - CustomFuction [ERROR   ] 'NO.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'NO.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['NO.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'NO.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 21:39:48.486 - CustomFuction [ERROR   ] 'NO.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'NO.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['NO.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'NO.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 21:39:50.512 - CustomFuction [ERROR   ] 'NO.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'NO.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['NO.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'NO.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 21:39:51.791 - CustomFuction [ERROR   ] 'NO.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'NO.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['NO.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'NO.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 21:41:36.245 - CustomFuction [ERROR   ] 'No.'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'No.'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 45, in do_file
+    row['No.'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'No.'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 117, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 22:47:38.854 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-11-27 22:47:58.560 - CustomFuction [ERROR   ] 'Area(um2)'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Area(um2)'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 57, in do_file
+    row['Area(um2)'],
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Area(um2)'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 123, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 22:50:32.811 - CustomFuction [ERROR   ] 'Class'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Class'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 58, in do_file
+    int(row['Class']),
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Class'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_SICA88_TO_KLARF.py", line 123, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

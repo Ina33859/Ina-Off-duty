@@ -1,0 +1,36 @@
+2023-12-22 16:49:42.928 - CustomFuction [ERROR   ] name 'file_extension' is not defined
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XXX_TO_XSIFF/ETL_XXX_TO_XSIFF.py", line 29, in do_file
+    if file_extension.upper() == '.CSV':
+NameError: name 'file_extension' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XXX_TO_XSIFF/ETL_XXX_TO_XSIFF.py", line 113, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-22 16:53:01.325 - CustomFuction [ERROR   ] AddDefect() takes 8 positional arguments but 9 were given
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XXX_TO_XSIFF/ETL_XXX_TO_XSIFF.py", line 51, in do_file
+    0
+TypeError: AddDefect() takes 8 positional arguments but 9 were given
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XXX_TO_XSIFF/ETL_XXX_TO_XSIFF.py", line 113, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-22 17:01:02.717 - CustomFuction [ERROR   ] module 'config' has no attribute 'KLARF_FOLDER'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XXX_TO_XSIFF/ETL_XXX_TO_XSIFF.py", line 55, in do_file
+    outputFolder = config.KLARF_FOLDER
+AttributeError: module 'config' has no attribute 'KLARF_FOLDER'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XXX_TO_XSIFF/ETL_XXX_TO_XSIFF.py", line 113, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

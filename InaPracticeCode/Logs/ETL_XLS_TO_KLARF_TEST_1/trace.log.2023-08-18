@@ -1,0 +1,21 @@
+2023-08-18 17:42:45.396 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 17:42:45.397 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-18 17:42:45.397 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-18 17:42:45.398 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-18 17:42:45.409 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-18 17:42:45.409 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-18 17:42:45.410 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-18 17:42:48.601 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-08-18 17:42:48.690 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_1.py.*
+2023-08-18 17:42:48.702 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-18 17:42:45.388853
+2023-08-18 17:42:51.891 - __init__   [INFO    ] Set process status code: 0.
+2023-08-18 17:42:51.986 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 17:42:52.353 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 17:42:52.711 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-18 17:42:53.204 - ETL_XLS_TO_KLARF_TEST_1 [INFO    ] Read Source File:0:00:00.108280
+2023-08-18 17:42:53.534 - CustomFuction [INFO    ] [Archive] BN06772ㄗ俋晊疪釴梓ㄘ.xls
+2023-08-18 17:42:53.535 - CustomFuction [INFO    ] Move file: BN06772ㄗ俋晊疪釴梓ㄘ.xls to Archive folder: Data\Source\BN06772ㄗ俋晊疪釴梓ㄘ.xls.
+2023-08-18 17:42:53.535 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-18 17:42:53.535 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-18 17:42:53.647 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-18 17:42:56.728 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

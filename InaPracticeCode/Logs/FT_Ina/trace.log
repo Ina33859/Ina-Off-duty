@@ -1,0 +1,21 @@
+2023-10-18 14:19:46.925 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-18 14:19:46.925 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-18 14:19:46.925 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-18 14:19:46.925 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-18 14:19:46.941 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-18 14:19:46.941 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-18 14:19:46.941 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-18 14:19:50.774 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-10-18 14:19:50.927 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\FT_Ina.py.*
+2023-10-18 14:19:50.943 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-18 14:19:46.910240
+2023-10-18 14:19:54.543 - __init__   [INFO    ] Set process status code: 0.
+2023-10-18 14:19:54.666 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-18 14:19:55.169 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-18 14:19:55.686 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-18 14:19:56.193 - FT_Ina     [INFO    ] Not XXX File
+2023-10-18 14:19:56.209 - CustomFuction [INFO    ] [SKIP] FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt
+2023-10-18 14:19:56.224 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt to SKIP folder: Data\Source\FT1_7HDW31134.000_KY2023005_H2326-0005_T1.txt.
+2023-10-18 14:19:56.224 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-18 14:19:56.224 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-18 14:19:56.404 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-18 14:19:59.932 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

@@ -1,0 +1,321 @@
+2023-08-18 16:51:38.762 - CustomFuction [ERROR   ] Move File Error
+2023-08-18 16:51:38.764 - CustomFuction [ERROR   ] '.\\\\Data\\\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' and 'Data\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' are the same file
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\shutil.py", line 823, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: '.\\\\Data\\\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' -> 'Data\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 1035, in move_file
+    msg = shutil.move(os.path.join(source_path, fileName),
+  File "D:\soft\anaconda3\lib\shutil.py", line 843, in move
+    copy_function(src, real_dst)
+  File "D:\soft\anaconda3\lib\shutil.py", line 444, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\soft\anaconda3\lib\shutil.py", line 244, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: '.\\\\Data\\\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' and 'Data\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' are the same file
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_2.py", line 154, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 16:54:39.428 - CustomFuction [ERROR   ] local variable 'klarfFileName' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_2.py", line 79, in do_file
+    log.info(f'Converter {file_name} to {klarfFileName} ;Total Used:{te_t-ts_t}')
+UnboundLocalError: local variable 'klarfFileName' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\ETL_XLS_TO_KLARF_TEST_2.py", line 128, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 17:29:50.998 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: '.\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '.\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 122, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 17:29:54.082 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: '.\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 23, in do_file
+    DefectCodes = pd.read_csv(sourcePath + '\\' + 'distinct_defect_codes_v3.csv', engine='python')
+  File "D:\soft\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "D:\soft\anaconda3\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '.\\Data\\DefectCodes\\distinct_defect_codes_v3.csv'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 122, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:01:21.194 - CustomFuction [ERROR   ] name 'klarfFileName' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 76, in do_file
+    log.info(f'Converter {file_name} to {klarfFileName} ;Total Used:{te_t-ts_t}')
+NameError: name 'klarfFileName' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 125, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:01:21.212 - CustomFuction [ERROR   ] Move File Error
+2023-08-18 18:01:21.213 - CustomFuction [ERROR   ] '.\\\\Data\\\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' and 'Data\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' are the same file
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 76, in do_file
+    log.info(f'Converter {file_name} to {klarfFileName} ;Total Used:{te_t-ts_t}')
+NameError: name 'klarfFileName' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\shutil.py", line 823, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: '.\\\\Data\\\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' -> 'Data\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 1035, in move_file
+    msg = shutil.move(os.path.join(source_path, fileName),
+  File "D:\soft\anaconda3\lib\shutil.py", line 843, in move
+    copy_function(src, real_dst)
+  File "D:\soft\anaconda3\lib\shutil.py", line 444, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\soft\anaconda3\lib\shutil.py", line 244, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: '.\\\\Data\\\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' and 'Data\\Source\\BN06772ㄗ俋晊\uf7fb疪釴梓ㄘ.xls' are the same file
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 125, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 646, in file2db_init
+    move_file_self(move_file_info)
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:21:02.072 - CustomFuction [ERROR   ] 'defect_code'
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 144, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index_class_helper.pxi", line 41, in pandas._libs.index.Int64Engine._check_type
+KeyError: 'defect_code'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 46, in do_file
+    print(row['defect_code'])
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 958, in __getitem__
+    return self._get_value(key)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 1069, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'defect_code'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 146, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:28:14.326 - CustomFuction [ERROR   ] .iloc requires numeric indexers, got ['4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527']
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 48, in do_file
+    print(WaferDF.iloc[4, row])
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1458, in _getitem_tuple
+    tup = self._validate_tuple_indexer(tup)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexing.py", line 769, in _validate_tuple_indexer
+    self._validate_key(k, i)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1372, in _validate_key
+    raise IndexError(f".iloc requires numeric indexers, got {arr}")
+IndexError: .iloc requires numeric indexers, got ['4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527' '4N46-CB07527' '4N46-CB07527'
+ '4N46-CB07527' '4N46-CB07527']
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 149, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:34:18.535 - CustomFuction [ERROR   ] .iloc requires numeric indexers, got ['4N46-CB07527' 8 -67.98 19.08 'SF']
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 56, in do_file
+    DefectCodes[WaferDF.iloc[4, row]],
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1458, in _getitem_tuple
+    tup = self._validate_tuple_indexer(tup)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexing.py", line 769, in _validate_tuple_indexer
+    self._validate_key(k, i)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1372, in _validate_key
+    raise IndexError(f".iloc requires numeric indexers, got {arr}")
+IndexError: .iloc requires numeric indexers, got ['4N46-CB07527' 8 -67.98 19.08 'SF']
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 150, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:36:33.761 - CustomFuction [ERROR   ] 'SF'
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'SF'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 56, in do_file
+    DefectCodes[row['defect_code']],
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'SF'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 150, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:37:29.788 - CustomFuction [ERROR   ] 'SF'
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'SF'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 56, in do_file
+    DefectCodes[row['defect_code']],
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'SF'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 151, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:38:13.331 - CustomFuction [ERROR   ] 'str' object has no attribute 'tostring'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 56, in do_file
+    DefectCodes[row['defect_code'].tostring()],
+AttributeError: 'str' object has no attribute 'tostring'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 151, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:41:12.585 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-18-18-41-12.001'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 88, in do_file
+    with open(klarfFileName, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-18-18-41-12.001'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 151, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-18 18:42:28.897 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-18-18-42-28.001'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 88, in do_file
+    with open(klarfFileName, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-18-18-42-28.001'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 151, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

@@ -1,0 +1,172 @@
+2024-01-03 10:46:00.446 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 155, in do_file
+    s_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:46:00.623 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 155, in do_file
+    s_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:47:23.990 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 138, in do_file
+    ts_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:47:24.203 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 138, in do_file
+    ts_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:48:04.499 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 138, in do_file
+    ts_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:48:04.693 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 138, in do_file
+    ts_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:48:31.518 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] module 'config_sql' has no attribute 'SQL_GET_LOTTYPE'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 229, in do_file
+    lottype = db_tgt.execute(config_sql.SQL_GET_LOTTYPE, corr_lot=Header['Corrlot']).fetchall()
+AttributeError: module 'config_sql' has no attribute 'SQL_GET_LOTTYPE'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 292, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:48:31.703 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:48:31.958 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] module 'config_sql' has no attribute 'SQL_GET_LOTTYPE'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 229, in do_file
+    lottype = db_tgt.execute(config_sql.SQL_GET_LOTTYPE, corr_lot=Header['Corrlot']).fetchall()
+AttributeError: module 'config_sql' has no attribute 'SQL_GET_LOTTYPE'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 292, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:48:32.194 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:50:53.551 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] 'Product'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 314, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 49, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+KeyError: 'Product'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 318, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:50:53.740 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:50:55.500 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] 'Product'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 314, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 49, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+KeyError: 'Product'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 318, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:50:55.711 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:52:04.788 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] strptime() argument 0 must be str, not <class 'datetime.datetime'>
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 314, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 49, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+  File "D:\Python37\lib\_strptime.py", line 571, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "D:\Python37\lib\_strptime.py", line 326, in _strptime
+    raise TypeError(msg.format(index, type(arg)))
+TypeError: strptime() argument 0 must be str, not <class 'datetime.datetime'>
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 318, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:52:04.976 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:52:06.734 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] strptime() argument 0 must be str, not <class 'datetime.datetime'>
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 314, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 49, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+  File "D:\Python37\lib\_strptime.py", line 571, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "D:\Python37\lib\_strptime.py", line 326, in _strptime
+    raise TypeError(msg.format(index, type(arg)))
+TypeError: strptime() argument 0 must be str, not <class 'datetime.datetime'>
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 318, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:52:06.934 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None

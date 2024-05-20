@@ -1,0 +1,14 @@
+2024-01-05 16:42:09.160 - ETL_GKW_CP_TO_XSIFF [ERROR   ] name 'df' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 174, in do_file
+    parameter_names = df['ParameterName'].tolist()
+NameError: name 'df' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 329, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 227, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-05 16:42:09.336 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None

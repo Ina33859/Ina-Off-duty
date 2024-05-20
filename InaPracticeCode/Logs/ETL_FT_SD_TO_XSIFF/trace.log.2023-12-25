@@ -1,0 +1,61 @@
+2023-12-25 17:32:59.946 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-25 17:32:59.947 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-25 17:32:59.947 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-25 17:32:59.948 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-25 17:32:59.970 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-25 17:32:59.970 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-25 17:32:59.970 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-25 17:33:00.268 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-25 17:33:03.465 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py.*
+2023-12-25 17:33:03.474 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-25 17:32:59.939607
+2023-12-25 17:33:03.719 - __init__   [INFO    ] Set process status code: 0.
+2023-12-25 17:33:03.730 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-25 17:33:03.811 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-25 17:33:03.873 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-25 17:33:03.925 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx 
+2023-12-25 17:33:04.217 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.292015
+2023-12-25 17:33:04.221 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.004002
+2023-12-25 17:33:04.253 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.031991
+2023-12-25 17:33:04.253 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to FT_GD200FYS100L6S_TLECGQG81_GW_20230720135416.xsiff ;Total Used:0:00:00.328008
+2023-12-25 17:33:04.255 - CustomFuction [INFO    ] [Archive] TLECGQG81-CW_阳光GD200FYS100L6S.xlsx
+2023-12-25 17:33:04.256 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\TLECGQG81-CW_阳光GD200FYS100L6S.xlsx.
+2023-12-25 17:33:04.256 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx 
+2023-12-25 17:33:04.491 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.234997
+2023-12-25 17:33:04.493 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002004
+2023-12-25 17:33:04.535 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.041974
+2023-12-25 17:33:04.536 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx to FT_GD200FYS100L6S_XLECHQ122_GW_20231107063731.xsiff ;Total Used:0:00:00.279973
+2023-12-25 17:33:04.538 - CustomFuction [INFO    ] [Archive] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx
+2023-12-25 17:33:04.538 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx to Archive folder: Data\ARCHIVE\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW.xlsx.
+2023-12-25 17:33:04.539 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2023-12-25 17:33:13.561 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:09.021989
+2023-12-25 17:33:13.563 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002001
+2023-12-25 17:33:13.766 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.203001
+2023-12-25 17:33:13.766 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:09.226991
+2023-12-25 17:33:13.772 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2023-12-25 17:33:13.773 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: Data\ARCHIVE\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2023-12-25 17:33:13.773 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S.xlsx 
+2023-12-25 17:33:14.881 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.108000
+2023-12-25 17:33:14.882 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001000
+2023-12-25 17:33:14.927 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.045001
+2023-12-25 17:33:14.927 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707055041.xsiff ;Total Used:0:00:01.154001
+2023-12-25 17:33:14.930 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S.xlsx
+2023-12-25 17:33:14.931 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S.xlsx.
+2023-12-25 17:33:14.932 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx 
+2023-12-25 17:33:16.057 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:01.125001
+2023-12-25 17:33:16.058 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.001002
+2023-12-25 17:33:16.107 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.048996
+2023-12-25 17:33:16.107 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx to FT_GD600MLS100L6S_XWECYQH20_GW_20230707055041.xsiff ;Total Used:0:00:01.174999
+2023-12-25 17:33:16.110 - CustomFuction [INFO    ] [Archive] XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx
+2023-12-25 17:33:16.111 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH20-CW_GD600MLS100L6S_少前两行测试.xlsx.
+2023-12-25 17:33:16.111 - ETL_FT_SD_TO_XSIFF [INFO    ] Currently working on files: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2023-12-25 17:33:16.978 - ETL_FT_SD_TO_XSIFF [INFO    ] Read source file:0:00:00.867001
+2023-12-25 17:33:16.980 - ETL_FT_SD_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002000
+2023-12-25 17:33:17.022 - ETL_FT_SD_TO_XSIFF [INFO    ] Export xsiff:0:00:00.042006
+2023-12-25 17:33:17.023 - ETL_FT_SD_TO_XSIFF [INFO    ] Converter XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to FT_GD600MLS100L6S_XWECYQH62_GW_20230704232641.xsiff ;Total Used:0:00:00.912032
+2023-12-25 17:33:17.026 - CustomFuction [INFO    ] [Archive] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2023-12-25 17:33:17.026 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to Archive folder: Data\ARCHIVE\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2023-12-25 17:33:17.026 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-25 17:33:17.027 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-25 17:33:17.027 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW
+2023-12-25 17:33:17.038 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-25 17:33:17.271 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

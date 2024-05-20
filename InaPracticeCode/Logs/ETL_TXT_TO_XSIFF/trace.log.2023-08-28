@@ -1,0 +1,285 @@
+2023-08-28 14:59:33.357 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 14:59:33.358 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-28 14:59:33.358 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 14:59:33.360 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-28 14:59:33.380 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-28 14:59:33.381 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-28 14:59:33.381 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-28 14:59:36.644 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-08-28 14:59:37.158 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-08-28 14:59:37.172 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-28 14:59:33.344992
+2023-08-28 14:59:40.386 - __init__   [INFO    ] Set process status code: 0.
+2023-08-28 14:59:40.484 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 14:59:40.840 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 14:59:41.191 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 14:59:41.526 - ETL_TXT_TO_XSIFF [INFO    ] Not Target File
+2023-08-28 14:59:41.545 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-08-28 14:59:41.548 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-08-28 14:59:41.566 - CustomFuction [ERROR   ] local variable 'header_row' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 242, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 127, in do_file
+    DataDF = pd.read_csv(file_path, skiprows=header_row)
+UnboundLocalError: local variable 'header_row' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 360, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-28 14:59:41.586 - CustomFuction [INFO    ] [ERROR] FMGDM7009A1_A509537.01.txt
+2023-08-28 14:59:41.588 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to ERROR folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-08-28 14:59:44.664 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-28 14:59:44.665 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-28 14:59:44.762 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-28 14:59:47.912 - __init__   [INFO    ] Set process status code: 5.
+2023-08-28 15:01:13.540 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:01:13.540 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-28 15:01:13.540 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:01:13.541 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-28 15:01:13.556 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-28 15:01:13.557 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-28 15:01:13.557 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-28 15:01:16.777 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-28 15:01:17.196 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-08-28 15:01:17.197 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-28 15:01:13.526952
+2023-08-28 15:01:20.382 - __init__   [INFO    ] Set process status code: 0.
+2023-08-28 15:01:20.476 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:01:20.820 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:01:21.117 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:01:21.462 - ETL_TXT_TO_XSIFF [INFO    ] Not Target File
+2023-08-28 15:01:21.481 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-08-28 15:01:21.482 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-08-28 15:01:21.592 - CustomFuction [ERROR   ] local variable 'Product' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 243, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 220, in do_file
+    'Product': Product,
+UnboundLocalError: local variable 'Product' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 361, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-28 15:01:21.611 - CustomFuction [INFO    ] [ERROR] FMGDM7009A1_A509537.01.txt
+2023-08-28 15:01:21.612 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to ERROR folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-08-28 15:01:24.672 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-28 15:01:24.673 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-28 15:01:24.771 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-28 15:01:27.740 - __init__   [INFO    ] Set process status code: 5.
+2023-08-28 15:02:46.618 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:02:46.619 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-28 15:02:46.619 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:02:46.621 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-28 15:02:46.640 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-28 15:02:46.641 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-28 15:02:46.641 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-28 15:02:49.775 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-28 15:02:50.239 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-08-28 15:02:50.245 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-28 15:02:46.607717
+2023-08-28 15:02:53.440 - __init__   [INFO    ] Set process status code: 0.
+2023-08-28 15:02:53.532 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:02:53.912 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:02:54.265 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:02:54.612 - ETL_TXT_TO_XSIFF [INFO    ] Not Target File
+2023-08-28 15:02:54.630 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-08-28 15:02:54.634 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-08-28 15:02:54.715 - CustomFuction [ERROR   ] local variable 'Product' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 243, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 220, in do_file
+    'Product': Product,
+UnboundLocalError: local variable 'Product' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 361, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-28 15:02:54.732 - CustomFuction [INFO    ] [ERROR] FMGDM7009A1_A509537.01.txt
+2023-08-28 15:02:54.733 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to ERROR folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-08-28 15:02:57.820 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-28 15:02:57.821 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-28 15:02:57.928 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-28 15:03:01.022 - __init__   [INFO    ] Set process status code: 5.
+2023-08-28 15:07:21.627 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:07:21.627 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-28 15:07:21.628 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:07:21.629 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-28 15:07:21.642 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-28 15:07:21.642 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-28 15:07:21.643 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-28 15:07:24.794 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-28 15:07:25.241 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-08-28 15:07:25.246 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-28 15:07:21.620459
+2023-08-28 15:07:28.414 - __init__   [INFO    ] Set process status code: 0.
+2023-08-28 15:07:28.508 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:07:28.847 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:07:29.152 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:07:29.506 - ETL_TXT_TO_XSIFF [INFO    ] Not Target File
+2023-08-28 15:07:29.523 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-08-28 15:07:29.527 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-08-28 15:07:29.637 - CustomFuction [ERROR   ] local variable 'Product' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 244, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 221, in do_file
+    'Product': Product,
+UnboundLocalError: local variable 'Product' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 362, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-28 15:07:29.653 - CustomFuction [INFO    ] [ERROR] FMGDM7009A1_A509537.01.txt
+2023-08-28 15:07:29.654 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to ERROR folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-08-28 15:07:32.789 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-28 15:07:32.790 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-28 15:07:32.914 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-28 15:07:36.010 - __init__   [INFO    ] Set process status code: 5.
+2023-08-28 15:08:58.826 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:08:58.826 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-28 15:08:58.827 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:08:58.828 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-28 15:08:58.839 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-28 15:08:58.840 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-28 15:08:58.840 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-28 15:09:02.591 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-28 15:09:02.983 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-08-28 15:09:02.985 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-28 15:08:58.818189
+2023-08-28 15:09:06.541 - __init__   [INFO    ] Set process status code: 0.
+2023-08-28 15:09:06.631 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:09:07.224 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:09:07.782 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:09:08.343 - ETL_TXT_TO_XSIFF [INFO    ] Not Target File
+2023-08-28 15:09:08.373 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-08-28 15:09:08.378 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-08-28 15:09:08.513 - CustomFuction [ERROR   ] local variable 'Product' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 241, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 218, in do_file
+    'Product': Product,
+UnboundLocalError: local variable 'Product' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 359, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-28 15:09:08.561 - CustomFuction [INFO    ] [ERROR] FMGDM7009A1_A509537.01.txt
+2023-08-28 15:09:08.561 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to ERROR folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-08-28 15:09:12.614 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-28 15:09:12.615 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-28 15:09:12.731 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-28 15:09:15.817 - __init__   [INFO    ] Set process status code: 5.
+2023-08-28 15:11:04.725 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:11:04.725 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-28 15:11:04.725 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:11:04.726 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-28 15:11:04.737 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-28 15:11:04.737 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-28 15:11:04.738 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-28 15:11:07.876 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-28 15:11:08.276 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-08-28 15:11:08.281 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-28 15:11:04.716836
+2023-08-28 15:11:11.542 - __init__   [INFO    ] Set process status code: 0.
+2023-08-28 15:11:11.630 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:11:12.393 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:11:12.771 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:11:13.097 - ETL_TXT_TO_XSIFF [INFO    ] Not Target File
+2023-08-28 15:11:13.116 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-08-28 15:11:13.118 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-08-28 15:11:13.210 - CustomFuction [ERROR   ] local variable 'Product' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 242, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 219, in do_file
+    'Product': Product,
+UnboundLocalError: local variable 'Product' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 360, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-28 15:11:13.227 - CustomFuction [INFO    ] [ERROR] FMGDM7009A1_A509537.01.txt
+2023-08-28 15:11:13.227 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to ERROR folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-08-28 15:11:16.352 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-28 15:11:16.352 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-28 15:11:16.469 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-28 15:11:19.565 - __init__   [INFO    ] Set process status code: 5.
+2023-08-28 15:12:38.438 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:12:38.438 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-28 15:12:38.438 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:12:38.440 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-28 15:12:38.450 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-28 15:12:38.451 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-28 15:12:38.451 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-28 15:12:41.553 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-28 15:12:42.017 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-08-28 15:12:42.025 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-28 15:12:38.430710
+2023-08-28 15:12:45.224 - __init__   [INFO    ] Set process status code: 0.
+2023-08-28 15:12:45.312 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:12:45.656 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:12:46.015 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:12:46.360 - ETL_TXT_TO_XSIFF [INFO    ] Not Target File
+2023-08-28 15:12:46.379 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-08-28 15:12:46.382 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-08-28 15:12:46.560 - CustomFuction [ERROR   ] local variable 'Product' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 254, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 230, in do_file
+    'Product': Product,
+UnboundLocalError: local variable 'Product' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 374, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-28 15:12:46.578 - CustomFuction [INFO    ] [ERROR] FMGDM7009A1_A509537.01.txt
+2023-08-28 15:12:46.580 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to ERROR folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-08-28 15:12:49.929 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-28 15:12:49.930 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-28 15:12:50.058 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-28 15:12:53.482 - __init__   [INFO    ] Set process status code: 5.
+2023-08-28 15:14:01.464 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:14:01.464 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-08-28 15:14:01.465 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-08-28 15:14:01.466 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-08-28 15:14:01.477 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-08-28 15:14:01.477 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-08-28 15:14:01.477 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-08-28 15:14:04.593 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-08-28 15:14:05.107 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_INA_WAT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-08-28 15:14:05.113 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-08-28 15:14:01.455545
+2023-08-28 15:14:08.268 - __init__   [INFO    ] Set process status code: 0.
+2023-08-28 15:14:08.358 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:14:08.680 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:14:09.006 - Database   [INFO    ] Non set logging! Using default logging.
+2023-08-28 15:14:09.373 - ETL_TXT_TO_XSIFF [INFO    ] Not Target File
+2023-08-28 15:14:09.950 - CustomFuction [INFO    ] [SKIP] A22100029.05_1.lot
+2023-08-28 15:14:09.951 - CustomFuction [INFO    ] Move file: A22100029.05_1.lot to SKIP folder: Data\Source\A22100029.05_1.lot.
+2023-08-28 15:14:09.998 - ETL_TXT_TO_XSIFF [INFO    ] Read source file:0:00:00.045796
+2023-08-28 15:14:09.998 - ETL_TXT_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-08-28 15:14:10.091 - ETL_TXT_TO_XSIFF [INFO    ] Export xsiff:0:00:00.093029
+2023-08-28 15:14:10.109 - CustomFuction [INFO    ] [Archive] FMGDM7009A1_A509537.01.txt
+2023-08-28 15:14:10.112 - CustomFuction [INFO    ] Move file: FMGDM7009A1_A509537.01.txt to Archive folder: Data\Source\FMGDM7009A1_A509537.01.txt.
+2023-08-28 15:14:10.113 - CustomFuction [INFO    ] ========[ File End ]========
+2023-08-28 15:14:10.114 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-08-28 15:14:10.223 - CustomFuction [INFO    ] ========== Finally ==========
+2023-08-28 15:14:13.309 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

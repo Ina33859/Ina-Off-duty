@@ -1,0 +1,60 @@
+2024-01-23 15:01:56.311 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 15:01:56.521 - __init__   [ERROR   ] File:AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 15:08:59.223 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 15:08:59.396 - __init__   [ERROR   ] File:AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 15:09:13.168 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为DoublePulse
+2024-01-23 15:09:13.262 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 463, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 551, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 486, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-23 15:09:13.417 - __init__   [ERROR   ] File:AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 15:13:04.241 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为DoublePulse
+2024-01-23 15:33:25.659 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] name 'replacement_log' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 103, in process_value
+    float(value)
+ValueError: could not convert string to float: 'DoublePulse'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 356, in do_file
+    parameter_values = parameter_values.apply(process_value)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 4213, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas\_libs\lib.pyx", line 2403, in pandas._libs.lib.map_infer
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 105, in process_value
+    replacement_log.append({'original_value': value})
+NameError: name 'replacement_log' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 552, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 360, in do_file
+    log.error(e, exc_info=True, stack_info=True)
+2024-01-23 15:33:26.143 - __init__   [ERROR   ] File:AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx Move To Error Folder
+                                                Error: None

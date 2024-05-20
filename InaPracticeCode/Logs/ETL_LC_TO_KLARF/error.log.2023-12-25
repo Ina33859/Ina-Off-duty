@@ -1,0 +1,12 @@
+2023-12-25 10:40:13.808 - CustomFuction [ERROR   ] 'int' object has no attribute 'is_integer'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XXX_TO_XSIFF/ETL_LC_TO_KLARF.py", line 46, in do_file
+    x = int(x) if x.is_integer() else x
+AttributeError: 'int' object has no attribute 'is_integer'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XXX_TO_XSIFF/ETL_LC_TO_KLARF.py", line 118, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

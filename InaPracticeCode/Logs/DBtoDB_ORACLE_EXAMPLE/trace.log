@@ -1,0 +1,18 @@
+2023-07-06 11:52:40.509 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-06 11:52:40.509 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-06 11:52:40.509 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-06 11:52:40.510 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-06 11:52:40.524 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-06 11:52:40.524 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-06 11:52:40.524 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-06 11:52:49.229 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-07-06 11:52:49.335 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_ORACLE_EXAMPLE\DBtoDB_ORACLE_EXAMPLE.py.*
+2023-07-06 11:52:49.348 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-06 11:52:40.498891
+2023-07-06 11:52:57.608 - __init__   [INFO    ] Set process status code: 0.
+2023-07-06 11:52:57.747 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-06 11:53:00.319 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-06 11:53:10.936 - __init__   [ERROR   ] Parse query time Error
+                                                Error: Can't get max_data_time_db for operating query_end_time, program fail! Please check config_sql.SQL_GET_MAX_RUN_CONTEXT_TIME.
+    Or    Can't get query_start_time, program fail! Please check latest.json[DataTimeFlg] or check xdm_prog_control[data_time_flg].
+2023-07-06 11:53:16.423 - __init__   [INFO    ] Set process status code: 5.
+2023-07-06 11:53:16.522 - CustomFuction [INFO    ] ========== Finally ==========

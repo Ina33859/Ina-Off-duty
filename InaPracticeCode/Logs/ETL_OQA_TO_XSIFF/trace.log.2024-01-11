@@ -1,0 +1,45 @@
+2024-01-11 14:54:37.633 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-11 14:54:37.635 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-11 14:54:37.635 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-11 14:54:37.636 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-11 14:54:37.652 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-11 14:54:37.652 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-11 14:54:37.652 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-11 14:54:37.921 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-11 14:54:37.978 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN(map)_CP_TO_XSIFF\ETL_OQA_TO_XSIFF.py.*
+2024-01-11 14:54:37.980 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-11 14:54:37.622733
+2024-01-11 14:54:38.123 - __init__   [INFO    ] Set process status code: 0.
+2024-01-11 14:54:38.133 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-11 14:54:38.194 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-11 14:54:38.266 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-11 14:54:38.384 - ETL_OQA_TO_XSIFF [INFO    ] Currently working on files: AT00034.06#04.txt 
+2024-01-11 14:54:38.394 - ETL_OQA_TO_XSIFF [INFO    ] Read source file:0:00:00.009005
+2024-01-11 14:54:38.399 - ETL_OQA_TO_XSIFF [INFO    ] Create xsiff:0:00:00.004995
+2024-01-11 14:54:38.434 - ETL_OQA_TO_XSIFF [INFO    ] Export xsiff:0:00:00.034092
+2024-01-11 14:54:38.434 - ETL_OQA_TO_XSIFF [INFO    ] Converter AT00034.06#04.txt to CP_M000101_AT00034.06_04_OQA_20231110085301.xsiff ;Total Used:0:00:00.050002
+2024-01-11 14:54:38.439 - CustomFuction [INFO    ] [Archive] AT00034.06#04.txt
+2024-01-11 14:54:38.439 - CustomFuction [INFO    ] Move file: AT00034.06#04.txt to Archive folder: Data\Source\AT00034.06#04.txt.
+2024-01-11 14:54:38.442 - ETL_OQA_TO_XSIFF [INFO    ] Currently working on files: AT00034.06#08.txt 
+2024-01-11 14:54:38.446 - ETL_OQA_TO_XSIFF [INFO    ] Read source file:0:00:00.003995
+2024-01-11 14:54:38.449 - ETL_OQA_TO_XSIFF [INFO    ] Create xsiff:0:00:00.003000
+2024-01-11 14:54:38.460 - ETL_OQA_TO_XSIFF [INFO    ] Export xsiff:0:00:00.011005
+2024-01-11 14:54:38.460 - ETL_OQA_TO_XSIFF [INFO    ] Converter AT00034.06#08.txt to CP_M000101_AT00034.06_08_OQA_20231110085300.xsiff ;Total Used:0:00:00.018000
+2024-01-11 14:54:38.461 - CustomFuction [INFO    ] [Archive] AT00034.06#08.txt
+2024-01-11 14:54:38.462 - CustomFuction [INFO    ] Move file: AT00034.06#08.txt to Archive folder: Data\Source\AT00034.06#08.txt.
+2024-01-11 14:54:38.462 - ETL_OQA_TO_XSIFF [INFO    ] Not File
+2024-01-11 14:54:38.465 - CustomFuction [INFO    ] [SKIP] 1-T17601236105.xlsx
+2024-01-11 14:54:38.465 - CustomFuction [INFO    ] Move file: 1-T17601236105.xlsx to SKIP folder: Data\Skip\AT00057\1-T17601236105.xlsx.
+2024-01-11 14:54:38.465 - ETL_OQA_TO_XSIFF [INFO    ] Not File
+2024-01-11 14:54:38.467 - CustomFuction [INFO    ] [SKIP] 2-T06709236J25.xls
+2024-01-11 14:54:38.467 - CustomFuction [INFO    ] Move file: 2-T06709236J25.xls to SKIP folder: Data\Skip\AT00057\2-T06709236J25.xls.
+2024-01-11 14:54:38.468 - ETL_OQA_TO_XSIFF [INFO    ] Not File
+2024-01-11 14:54:38.469 - CustomFuction [INFO    ] [SKIP] 82-TKZ76DN316.xlsx
+2024-01-11 14:54:38.470 - CustomFuction [INFO    ] Move file: 82-TKZ76DN316.xlsx to SKIP folder: Data\Skip\AT00057\82-TKZ76DN316.xlsx.
+2024-01-11 14:54:38.470 - ETL_OQA_TO_XSIFF [INFO    ] Not File
+2024-01-11 14:54:38.471 - CustomFuction [INFO    ] [SKIP] 83-TKZ76DN317.xlsx
+2024-01-11 14:54:38.474 - CustomFuction [INFO    ] Move file: 83-TKZ76DN317.xlsx to SKIP folder: Data\Skip\AT00057\83-TKZ76DN317.xlsx.
+2024-01-11 14:54:38.474 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-11 14:54:38.474 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-11 14:54:38.474 - CustomFuction [INFO    ] [Delete] Delete Empty Folder : Data\Source\AT00057
+2024-01-11 14:54:38.485 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-11 14:54:38.669 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

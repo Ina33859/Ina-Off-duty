@@ -1,0 +1,22 @@
+2023-11-30 14:46:51.423 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-30 14:46:51.424 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-30 14:46:51.424 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-30 14:46:51.425 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-30 14:46:51.438 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-30 14:46:51.438 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-30 14:46:51.438 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-30 14:46:51.812 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-30 14:46:55.067 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_SICA88_TO_KLARF.py.*
+2023-11-30 14:46:55.071 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-30 14:46:51.415928
+2023-11-30 14:46:55.337 - __init__   [INFO    ] Set process status code: 0.
+2023-11-30 14:46:55.352 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-30 14:46:55.445 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-30 14:46:55.543 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-30 14:46:55.643 - ETL_SICA88_TO_KLARF [INFO    ] Read Source File:0:00:00.012994
+2023-11-30 14:46:55.661 - ETL_SICA88_TO_KLARF [INFO    ] Converter ./Data/Source\5-HB07FYQ6CIB5 to KLA-Tencor_None_HB07FYQ6CIB5_01_HB07FYQ6CIB5_2023-11-30-14-46-55.001 ;Total Used:0:00:00.030994
+2023-11-30 14:46:55.663 - CustomFuction [INFO    ] [Archive] 5_HB07FYQ6CIB5.csv
+2023-11-30 14:46:55.664 - CustomFuction [INFO    ] Move file: 5_HB07FYQ6CIB5.csv to Archive folder: Data\Archive\5_HB07FYQ6CIB5.csv.
+2023-11-30 14:46:55.664 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-30 14:46:55.664 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-30 14:46:55.681 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-30 14:46:55.921 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

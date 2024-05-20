@@ -1,0 +1,96 @@
+2023-12-08 17:33:38.785 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-08 17:33:38.785 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-08 17:33:38.785 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-08 17:33:38.786 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-08 17:33:38.801 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-08 17:33:38.801 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-08 17:33:38.801 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-08 17:33:39.227 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-12-08 17:33:39.239 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN(map)_CP_TO_XSIFF\ETL_OQA_TO_XSIFF.py.*
+2023-12-08 17:33:39.240 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-08 17:33:38.777375
+2023-12-08 17:33:39.442 - __init__   [INFO    ] Set process status code: 0.
+2023-12-08 17:33:39.451 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-08 17:33:39.514 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-08 17:33:39.575 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-08 17:33:39.721 - ETL_OQA_TO_XSIFF [INFO    ] Currently working on files: AT00034.06#04.txt 
+2023-12-08 17:33:39.747 - ETL_OQA_TO_XSIFF [INFO    ] Read source file:0:00:00.025279
+2023-12-08 17:33:39.769 - ETL_OQA_TO_XSIFF [INFO    ] Create xsiff:0:00:00.021200
+2023-12-08 17:33:39.806 - ETL_OQA_TO_XSIFF [INFO    ] Export xsiff:0:00:00.036327
+2023-12-08 17:33:39.806 - ETL_OQA_TO_XSIFF [INFO    ] Converter AT00034.06#04.txt to CP_M000101_AT00034.06_4D_OQA_20231110085301.xsiff ;Total Used:0:00:00.084847
+2023-12-08 17:33:39.808 - CustomFuction [INFO    ] [Archive] AT00034.06#04.txt
+2023-12-08 17:33:39.809 - CustomFuction [INFO    ] Move file: AT00034.06#04.txt to Archive folder: Data\Source\AT00034.06#04.txt.
+2023-12-08 17:33:39.811 - ETL_OQA_TO_XSIFF [INFO    ] Currently working on files: AT00034.06#08.txt 
+2023-12-08 17:33:39.816 - ETL_OQA_TO_XSIFF [INFO    ] Read source file:0:00:00.004969
+2023-12-08 17:33:39.820 - ETL_OQA_TO_XSIFF [INFO    ] Create xsiff:0:00:00.004033
+2023-12-08 17:33:39.830 - ETL_OQA_TO_XSIFF [INFO    ] Export xsiff:0:00:00.010006
+2023-12-08 17:33:39.830 - ETL_OQA_TO_XSIFF [INFO    ] Converter AT00034.06#08.txt to CP_M000101_AT00034.06_8D_OQA_20231110085300.xsiff ;Total Used:0:00:00.019008
+2023-12-08 17:33:39.832 - CustomFuction [INFO    ] [Archive] AT00034.06#08.txt
+2023-12-08 17:33:39.832 - CustomFuction [INFO    ] Move file: AT00034.06#08.txt to Archive folder: Data\Source\AT00034.06#08.txt.
+2023-12-08 17:33:39.833 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-08 17:33:39.833 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-08 17:33:39.846 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-08 17:33:40.094 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-08 17:34:18.612 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-08 17:34:18.612 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-08 17:34:18.612 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-08 17:34:18.614 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-08 17:34:18.625 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-08 17:34:18.625 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-08 17:34:18.625 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-08 17:34:18.941 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-08 17:34:19.007 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN(map)_CP_TO_XSIFF\ETL_OQA_TO_XSIFF.py.*
+2023-12-08 17:34:19.008 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-08 17:34:18.604709
+2023-12-08 17:34:19.193 - __init__   [INFO    ] Set process status code: 0.
+2023-12-08 17:34:19.203 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-08 17:34:19.263 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-08 17:34:19.335 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-08 17:34:19.465 - ETL_OQA_TO_XSIFF [INFO    ] Currently working on files: AT00034.06#04.txt 
+2023-12-08 17:34:19.475 - ETL_OQA_TO_XSIFF [INFO    ] Read source file:0:00:00.009998
+2023-12-08 17:34:19.481 - ETL_OQA_TO_XSIFF [INFO    ] Create xsiff:0:00:00.006033
+2023-12-08 17:34:19.499 - ETL_OQA_TO_XSIFF [INFO    ] Export xsiff:0:00:00.017968
+2023-12-08 17:34:19.499 - ETL_OQA_TO_XSIFF [INFO    ] Converter AT00034.06#04.txt to CP_M000101_AT00034.06_4D_OQA_20231110085301.xsiff ;Total Used:0:00:00.033999
+2023-12-08 17:34:19.501 - CustomFuction [INFO    ] [Archive] AT00034.06#04.txt
+2023-12-08 17:34:19.502 - CustomFuction [INFO    ] Move file: AT00034.06#04.txt to Archive folder: Data\Source\AT00034.06#04.txt.
+2023-12-08 17:34:19.504 - ETL_OQA_TO_XSIFF [INFO    ] Currently working on files: AT00034.06#08.txt 
+2023-12-08 17:34:19.508 - ETL_OQA_TO_XSIFF [INFO    ] Read source file:0:00:00.003001
+2023-12-08 17:34:19.511 - ETL_OQA_TO_XSIFF [INFO    ] Create xsiff:0:00:00.002999
+2023-12-08 17:34:19.527 - ETL_OQA_TO_XSIFF [INFO    ] Export xsiff:0:00:00.016002
+2023-12-08 17:34:19.527 - ETL_OQA_TO_XSIFF [INFO    ] Converter AT00034.06#08.txt to CP_M000101_AT00034.06_8D_OQA_20231110085300.xsiff ;Total Used:0:00:00.023003
+2023-12-08 17:34:19.529 - CustomFuction [INFO    ] [Archive] AT00034.06#08.txt
+2023-12-08 17:34:19.530 - CustomFuction [INFO    ] Move file: AT00034.06#08.txt to Archive folder: Data\Source\AT00034.06#08.txt.
+2023-12-08 17:34:19.530 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-08 17:34:19.530 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-08 17:34:19.541 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-08 17:34:19.726 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-12-08 17:37:35.345 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-08 17:37:35.345 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-08 17:37:35.345 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-08 17:37:35.347 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-08 17:37:35.358 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-08 17:37:35.358 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-08 17:37:35.358 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-08 17:37:35.667 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-12-08 17:37:35.737 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN(map)_CP_TO_XSIFF\ETL_OQA_TO_XSIFF.py.*
+2023-12-08 17:37:35.739 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-08 17:37:35.336384
+2023-12-08 17:37:36.022 - __init__   [INFO    ] Set process status code: 0.
+2023-12-08 17:37:36.037 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-08 17:37:36.107 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-08 17:37:36.197 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-08 17:37:36.284 - ETL_OQA_TO_XSIFF [INFO    ] Currently working on files: AT00034.06#04.txt 
+2023-12-08 17:37:36.294 - ETL_OQA_TO_XSIFF [INFO    ] Read source file:0:00:00.009998
+2023-12-08 17:37:36.308 - ETL_OQA_TO_XSIFF [INFO    ] Create xsiff:0:00:00.012148
+2023-12-08 17:37:36.346 - ETL_OQA_TO_XSIFF [INFO    ] Export xsiff:0:00:00.038590
+2023-12-08 17:37:36.346 - ETL_OQA_TO_XSIFF [INFO    ] Converter AT00034.06#04.txt to CP_M000101_AT00034.06_04_OQA_20231110085301.xsiff ;Total Used:0:00:00.061959
+2023-12-08 17:37:36.348 - CustomFuction [INFO    ] [Archive] AT00034.06#04.txt
+2023-12-08 17:37:36.348 - CustomFuction [INFO    ] Move file: AT00034.06#04.txt to Archive folder: Data\Source\AT00034.06#04.txt.
+2023-12-08 17:37:36.351 - ETL_OQA_TO_XSIFF [INFO    ] Currently working on files: AT00034.06#08.txt 
+2023-12-08 17:37:36.354 - ETL_OQA_TO_XSIFF [INFO    ] Read source file:0:00:00.003004
+2023-12-08 17:37:36.358 - ETL_OQA_TO_XSIFF [INFO    ] Create xsiff:0:00:00.003969
+2023-12-08 17:37:36.371 - ETL_OQA_TO_XSIFF [INFO    ] Export xsiff:0:00:00.013033
+2023-12-08 17:37:36.371 - ETL_OQA_TO_XSIFF [INFO    ] Converter AT00034.06#08.txt to CP_M000101_AT00034.06_08_OQA_20231110085300.xsiff ;Total Used:0:00:00.020006
+2023-12-08 17:37:36.373 - CustomFuction [INFO    ] [Archive] AT00034.06#08.txt
+2023-12-08 17:37:36.374 - CustomFuction [INFO    ] Move file: AT00034.06#08.txt to Archive folder: Data\Source\AT00034.06#08.txt.
+2023-12-08 17:37:36.374 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-08 17:37:36.374 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-08 17:37:36.386 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-08 17:37:36.565 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

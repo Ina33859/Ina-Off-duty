@@ -1,0 +1,113 @@
+2024-01-08 17:45:00.168 - ETL_GKW_CP_TO_XSIFF [ERROR   ] ORA-00942: table or view does not exist
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 172, in do_file
+    header['Product'] = db_tgt.execute(config_sql.SQL_GET_PRODUCT_ID, waferid=waferid).fetchall()
+  File "../..\XdmLib\Database.py", line 248, in execute
+    return self.cursor.execute(statement , *parameters,**keywordParameters)
+cx_Oracle.DatabaseError: ORA-00942: table or view does not exist
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 354, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 252, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 17:45:00.386 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None
+2024-01-08 17:50:05.121 - CustomFuction [ERROR   ] (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+(Background on this error at: http://sqlalche.me/e/13/4xp6)
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 304, in unique_connection
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "D:\Python37\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "D:\Python37\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "D:\Python37\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "D:\Python37\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\default.py", line 509, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+cx_Oracle.DatabaseError: ORA-12170: TNS:Connect timeout occurred
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 529, in file2db_init
+    encoding="utf8")
+  File "../..\XdmLib\Database.py", line 199, in __init__
+    raise e
+  File "../..\XdmLib\Database.py", line 105, in __init__
+    self._dbEngine.connect()
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\base.py", line 2263, in connect
+    return self._connection_cls(self, **kwargs)
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\base.py", line 104, in __init__
+    else engine.raw_connection()
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\base.py", line 2370, in raw_connection
+    self.pool.unique_connection, _connection
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\base.py", line 2340, in _wrap_pool_connect
+    e, dialect, self
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\base.py", line 1584, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "D:\Python37\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 304, in unique_connection
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "D:\Python37\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "D:\Python37\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "D:\Python37\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "D:\Python37\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "D:\Python37\lib\site-packages\sqlalchemy\pool\base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python37\lib\site-packages\sqlalchemy\engine\default.py", line 509, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.DatabaseError: (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+(Background on this error at: http://sqlalche.me/e/13/4xp6)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 354, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 667, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

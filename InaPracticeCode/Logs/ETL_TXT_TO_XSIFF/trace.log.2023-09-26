@@ -1,0 +1,56 @@
+2023-09-26 09:38:45.307 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-26 09:38:45.308 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-09-26 09:38:45.309 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-26 09:38:45.310 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-09-26 09:38:45.321 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-09-26 09:38:45.322 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-09-26 09:38:45.322 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-09-26 09:38:48.449 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-09-26 09:38:48.877 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-09-26 09:38:48.888 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-09-26 09:38:45.290378
+2023-09-26 09:38:52.022 - __init__   [INFO    ] Set process status code: 0.
+2023-09-26 09:38:52.105 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-26 09:38:52.437 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-26 09:38:52.749 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-26 09:38:53.121 - CustomFuction [ERROR   ] local variable 'pattern' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 294, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 204, in do_file
+    elif re.match(pattern, line) and not line.startswith('Number'):
+UnboundLocalError: local variable 'pattern' referenced before assignment
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 444, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-09-26 09:38:53.146 - CustomFuction [INFO    ] [ERROR] FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt
+2023-09-26 09:38:53.149 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt to ERROR folder: Data\Source\FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt.
+2023-09-26 09:38:56.298 - CustomFuction [INFO    ] ========[ File End ]========
+2023-09-26 09:38:56.299 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-09-26 09:38:56.418 - CustomFuction [INFO    ] ========== Finally ==========
+2023-09-26 09:38:59.470 - __init__   [INFO    ] Set process status code: 5.
+2023-09-26 09:39:41.892 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-26 09:39:41.892 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-09-26 09:39:41.892 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-09-26 09:39:41.893 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-09-26 09:39:41.904 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-09-26 09:39:41.904 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-09-26 09:39:41.904 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-09-26 09:39:45.349 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-09-26 09:39:45.786 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-09-26 09:39:45.791 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-09-26 09:39:41.882672
+2023-09-26 09:39:48.953 - __init__   [INFO    ] Set process status code: 0.
+2023-09-26 09:39:49.044 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-26 09:39:49.377 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-26 09:39:49.733 - Database   [INFO    ] Non set logging! Using default logging.
+2023-09-26 09:40:22.173 - ETL_TXT_TO_XSIFF [INFO    ] Read source file:0:00:32.110306
+2023-09-26 09:40:22.174 - ETL_TXT_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-09-26 09:40:22.194 - CustomFuction [INFO    ] [Archive] FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt
+2023-09-26 09:40:22.195 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt to Archive folder: Data\Source\FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt.
+2023-09-26 09:40:22.195 - CustomFuction [INFO    ] ========[ File End ]========
+2023-09-26 09:40:22.196 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-09-26 09:40:22.339 - CustomFuction [INFO    ] ========== Finally ==========
+2023-09-26 09:40:25.645 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

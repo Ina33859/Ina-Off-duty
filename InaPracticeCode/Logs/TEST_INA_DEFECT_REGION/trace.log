@@ -1,0 +1,55 @@
+2023-07-10 09:34:47.454 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-10 09:34:47.455 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-10 09:34:47.455 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-10 09:34:47.456 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-10 09:34:47.475 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-10 09:34:47.476 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-10 09:34:47.476 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-10 09:34:50.896 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-07-10 09:34:51.001 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_REGION.py.*
+2023-07-10 09:34:51.008 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-10 09:34:47.443099
+2023-07-10 09:46:17.537 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-10 09:46:17.538 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-10 09:46:17.538 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-10 09:46:17.539 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-10 09:46:17.553 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-10 09:46:17.555 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-10 09:46:17.555 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-10 09:46:21.025 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-07-10 09:46:21.027 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-07-10 09:46:21.538 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_REGION.py.*
+2023-07-10 09:46:21.549 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-10 09:46:17.529012
+2023-07-10 09:46:24.826 - __init__   [INFO    ] Set process status code: 0.
+2023-07-10 09:46:24.921 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-10 09:46:25.256 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-10 09:46:25.594 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-10 09:46:25.963 - TEST_INA_DEFECT_REGION [INFO    ] Csv File
+2023-07-10 09:46:44.644 - TEST_INA_DEFECT_REGION [INFO    ] Get Data!
+2023-07-10 09:46:44.699 - CustomFuction [INFO    ] [Archive] Defect_Region.csv
+2023-07-10 09:46:44.701 - CustomFuction [INFO    ] Move file: Defect_Region.csv to Archive folder: Data\Source\Defect_Region.csv.
+2023-07-10 09:46:44.701 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-10 09:46:44.701 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-10 09:46:45.136 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-10 09:46:48.353 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-10 09:50:23.925 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-10 09:50:23.925 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-10 09:50:23.925 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-10 09:50:23.926 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-10 09:50:23.946 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-10 09:50:23.947 - __init__   [INFO    ] Load Archive setting - Type: Last 30 days.
+2023-07-10 09:50:23.948 - __init__   [INFO    ] Load Error setting - Type: Last 30 days.
+2023-07-10 09:50:27.168 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-07-10 09:50:27.634 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_REGION.py.*
+2023-07-10 09:50:27.647 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-10 09:50:23.914010
+2023-07-10 09:50:30.833 - __init__   [INFO    ] Set process status code: 0.
+2023-07-10 09:50:30.928 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-10 09:50:31.274 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-10 09:50:31.593 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-10 09:50:31.928 - TEST_INA_DEFECT_REGION [INFO    ] Csv File
+2023-07-10 09:50:47.281 - TEST_INA_DEFECT_REGION [INFO    ] Get Data!
+2023-07-10 09:50:47.315 - CustomFuction [INFO    ] [Archive] Defect_Region.csv
+2023-07-10 09:50:47.317 - CustomFuction [INFO    ] Move file: Defect_Region.csv to Archive folder: Data\ARCHIVE\Defect_Region.csv.
+2023-07-10 09:50:47.318 - CustomFuction [INFO    ] ========[ File End ]========
+2023-07-10 09:50:47.318 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-07-10 09:50:47.709 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-10 09:50:50.872 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

@@ -1,0 +1,790 @@
+2024-01-02 09:51:50.108 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 09:51:50.109 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 09:51:50.109 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 09:51:50.111 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 09:51:50.124 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 09:51:50.124 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 09:51:50.124 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 09:51:53.471 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 09:51:56.565 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 09:51:56.613 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 09:51:56.619 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 09:51:50.082048
+2024-01-02 09:51:59.645 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 09:51:59.662 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 09:51:59.809 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 09:51:59.938 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 09:52:00.112 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-02 09:52:00.201 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 09:52:00.605 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 09:52:00.620 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 09:52:00.623 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-02 09:52:00.708 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-02 09:52:00.944 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 09:52:01.098 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 09:52:01.105 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 09:52:01.106 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-02 09:52:01.148 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 09:52:01.443 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 09:52:01.461 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 09:52:01.502 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 09:52:01.505 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 09:52:01.507 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 09:53:29.416 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 09:53:29.416 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 09:53:29.417 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 09:53:29.418 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 09:53:29.430 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 09:53:29.431 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 09:53:29.431 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 09:53:32.394 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-02 09:53:32.395 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-02 09:53:35.051 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 09:53:35.067 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 09:53:35.069 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 09:53:29.391435
+2024-01-02 09:53:37.856 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 09:53:37.872 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 09:53:38.019 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 09:53:38.141 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 09:53:38.312 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-02 09:53:38.358 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 09:53:38.607 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 09:53:38.616 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 09:53:38.617 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-02 09:53:38.659 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-02 09:53:38.828 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 09:53:39.013 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 09:53:39.025 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 09:53:39.026 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-02 09:53:39.072 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 09:53:39.328 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 09:53:39.343 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 09:53:39.378 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 09:53:39.380 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 09:53:39.382 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 09:59:13.119 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 09:59:13.120 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 09:59:13.120 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 09:59:13.121 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 09:59:13.133 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 09:59:13.133 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 09:59:13.133 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 09:59:13.388 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-02 09:59:13.388 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-02 09:59:16.062 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 09:59:16.084 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 09:59:16.087 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 09:59:13.092873
+2024-01-02 09:59:16.421 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 09:59:16.436 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 09:59:16.590 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 09:59:16.712 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 09:59:16.849 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-02 09:59:16.896 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 09:59:17.125 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 09:59:17.139 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 09:59:17.140 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-02 09:59:17.178 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-02 09:59:17.347 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 09:59:17.493 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 09:59:17.505 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 09:59:17.506 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-02 09:59:17.545 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 09:59:17.814 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 09:59:17.828 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 09:59:17.874 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 09:59:17.876 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 09:59:17.878 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 10:00:15.892 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 10:00:15.892 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 10:00:15.892 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 10:00:15.894 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 10:00:15.907 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 10:00:15.907 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 10:00:15.907 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 10:00:16.147 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-02 10:00:16.147 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-02 10:00:18.821 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 10:00:18.836 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 10:00:18.838 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 10:00:15.865897
+2024-01-02 10:00:19.104 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 10:00:19.116 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:00:19.259 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:00:19.405 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:00:19.606 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-02 10:00:19.656 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 10:00:19.929 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 10:00:19.936 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 10:00:19.937 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-02 10:00:19.974 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-02 10:00:20.187 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 10:00:20.317 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 10:00:20.324 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 10:00:20.325 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-02 10:00:20.360 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 10:00:20.674 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 10:00:20.688 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 10:00:20.724 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 10:00:20.726 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 10:00:20.728 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 10:19:14.221 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 10:19:14.222 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 10:19:14.222 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 10:19:14.223 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 10:19:14.239 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 10:19:14.240 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 10:19:14.241 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 10:19:14.577 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-02 10:19:14.578 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-02 10:19:17.296 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 10:19:17.320 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 10:19:17.327 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 10:19:14.197739
+2024-01-02 10:19:17.567 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 10:19:17.580 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:19:17.724 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:19:17.857 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:19:17.992 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-02 10:19:18.048 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 10:19:18.259 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 10:19:18.275 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 10:19:18.276 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-02 10:19:18.314 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-02 10:19:18.503 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 10:19:18.640 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 10:19:18.650 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 10:19:18.652 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-02 10:19:18.699 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 10:20:29.140 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 10:20:29.140 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 10:20:29.140 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 10:20:29.142 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 10:20:29.166 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 10:20:29.167 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 10:20:29.168 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 10:20:29.571 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-02 10:20:29.572 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-02 10:20:29.641 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 10:20:29.679 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 10:20:29.684 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 10:20:29.093574
+2024-01-02 10:20:29.918 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 10:20:29.939 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:20:30.098 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:20:30.236 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:20:30.363 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-02 10:20:30.469 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 10:20:30.715 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 10:20:30.725 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 10:20:30.726 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-02 10:20:30.773 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-02 10:20:31.017 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 10:20:31.203 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 10:20:31.213 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 10:20:31.214 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-02 10:20:31.260 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 10:20:31.589 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 10:20:31.605 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 10:20:31.649 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 10:20:31.652 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 10:20:31.654 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 14:28:29.877 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:28:29.878 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:28:29.878 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:28:29.879 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:28:29.892 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:28:29.892 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:28:29.892 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:28:30.201 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-02 14:28:30.201 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-02 14:28:30.233 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 14:28:30.244 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 14:28:30.247 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:28:29.868943
+2024-01-02 14:28:30.424 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:28:30.433 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:28:30.506 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:28:30.583 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:28:30.654 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-02 14:28:30.732 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 14:28:30.889 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:28:30.896 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 14:28:30.897 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-02 14:28:30.970 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-02 14:28:31.028 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 14:28:31.163 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:28:31.171 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 14:28:31.172 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-02 14:28:31.204 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 14:28:31.328 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:28:31.336 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Failed to read file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 14:28:31.338 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] local variable 'start_time_obj' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 213, in do_file
+    start_time = start_time_obj.strftime(output_time_format)
+UnboundLocalError: local variable 'start_time_obj' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 535, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 356, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:28:31.509 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:28:31.524 - CustomFuction [INFO    ] [ERROR] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx
+2024-01-02 14:28:31.525 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx.
+2024-01-02 14:28:31.563 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx 
+2024-01-02 14:28:31.728 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-02 14:28:31.870 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:28:31.879 - CustomFuction [INFO    ] [ERROR] XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-02 14:28:31.889 - CustomFuction [INFO    ] Move file: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx.
+2024-01-02 14:28:31.917 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:28:35.229 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:28:35.245 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Failed to read file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:28:35.245 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] local variable 'start_time_obj' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 213, in do_file
+    start_time = start_time_obj.strftime(output_time_format)
+UnboundLocalError: local variable 'start_time_obj' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 535, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 356, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:28:35.411 - __init__   [ERROR   ] File:XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:28:35.422 - CustomFuction [INFO    ] [ERROR] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:28:35.423 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-02 14:28:35.460 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx 
+2024-01-02 14:28:36.064 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:28:36.114 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Failed to read file: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx 
+2024-01-02 14:28:36.114 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] local variable 'start_time_obj' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 213, in do_file
+    start_time = start_time_obj.strftime(output_time_format)
+UnboundLocalError: local variable 'start_time_obj' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 535, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 356, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:28:36.294 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:28:36.303 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-02 14:28:36.305 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx.
+2024-01-02 14:28:36.341 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2024-01-02 14:28:36.627 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-02 14:28:36.785 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:28:36.796 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-02 14:28:36.797 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2024-01-02 14:28:36.834 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-02 14:28:37.506 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:28:37.511 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Failed to read file: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-02 14:28:37.511 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] local variable 'start_time_obj' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 213, in do_file
+    start_time = start_time_obj.strftime(output_time_format)
+UnboundLocalError: local variable 'start_time_obj' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 535, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 356, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:28:37.707 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:28:37.718 - CustomFuction [INFO    ] [ERROR] XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx
+2024-01-02 14:28:37.718 - CustomFuction [INFO    ] Move file: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx.
+2024-01-02 14:28:37.752 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 14:28:37.753 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 14:28:37.769 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 14:30:14.932 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:30:14.932 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:30:14.932 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:30:14.933 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:30:14.944 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:30:14.944 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:30:14.944 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:30:15.192 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-02 14:30:15.192 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-02 14:30:15.228 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 14:30:15.249 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 14:30:15.250 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:30:14.925101
+2024-01-02 14:30:15.438 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:30:15.447 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:30:15.527 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:30:15.597 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:30:15.689 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-02 14:30:15.727 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 14:30:15.872 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:30:15.879 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 14:30:15.880 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-02 14:30:15.972 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-02 14:30:16.022 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 14:30:16.184 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:30:16.192 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 14:30:16.193 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-02 14:30:16.224 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 14:30:16.322 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:30:16.327 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 14:30:16.338 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 14:30:16.339 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 14:30:16.341 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 14:30:16.435 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-02 14:30:16.436 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Read source file:0:00:00.211998
+2024-01-02 14:30:16.444 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Create xsiff:0:00:00.008001
+2024-01-02 14:30:16.506 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Export xsiff:0:00:00.061967
+2024-01-02 14:30:16.506 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Converter XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx to FT_GD200FYS100L6S_XLECHQ122_GW_20231107063731.xsiff ;Total Used:0:00:00.281966
+2024-01-02 14:30:16.508 - CustomFuction [INFO    ] [Archive] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx
+2024-01-02 14:30:16.508 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx.
+2024-01-02 14:30:16.547 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx 
+2024-01-02 14:30:16.679 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-02 14:30:16.838 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:30:16.847 - CustomFuction [INFO    ] [ERROR] XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-02 14:30:16.848 - CustomFuction [INFO    ] Move file: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx.
+2024-01-02 14:30:16.879 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:30:19.789 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:30:19.811 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 14:30:20.045 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 14:30:20.046 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 14:30:20.047 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 14:30:20.297 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-02 14:30:20.298 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Read source file:0:00:03.418804
+2024-01-02 14:30:20.300 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Create xsiff:0:00:00.002029
+2024-01-02 14:30:20.386 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Export xsiff:0:00:00.085224
+2024-01-02 14:30:20.386 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.507030
+2024-01-02 14:30:20.394 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:30:20.394 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-02 14:30:20.424 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx 
+2024-01-02 14:30:21.015 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:30:21.047 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 14:30:21.085 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] [Serial no.]列无法正确取值，例如遇到的第一个错误值为：200041 D12740000000;文件名为：XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-02 14:30:21.267 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:30:21.278 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-02 14:30:21.279 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx.
+2024-01-02 14:30:21.323 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2024-01-02 14:30:21.572 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-02 14:30:21.759 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:30:21.770 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-02 14:30:21.772 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2024-01-02 14:30:21.812 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-02 14:30:22.409 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:30:22.417 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 14:30:22.462 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 14:30:22.463 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 14:30:22.464 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 14:30:22.558 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-02 14:30:22.558 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Read source file:0:00:00.746021
+2024-01-02 14:30:22.560 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Create xsiff:0:00:00.002000
+2024-01-02 14:30:22.616 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Export xsiff:0:00:00.055972
+2024-01-02 14:30:22.616 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Converter XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx to FT_GD600MLS100L6S_XWECZS889_GW_20231104203520.xsiff ;Total Used:0:00:00.803993
+2024-01-02 14:30:22.619 - CustomFuction [INFO    ] [Archive] XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx
+2024-01-02 14:30:22.620 - CustomFuction [INFO    ] Move file: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx.
+2024-01-02 14:30:22.646 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 14:30:22.646 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 14:30:22.656 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 14:30:22.784 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-02 14:36:10.286 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:36:10.286 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:36:10.286 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:36:10.288 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:36:10.299 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:36:10.300 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:36:10.300 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:36:10.541 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 14:36:10.588 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 14:36:10.607 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 14:36:10.609 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:36:10.251698
+2024-01-02 14:36:10.802 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:36:10.812 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:36:10.929 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:36:11.041 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:36:11.145 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-02 14:36:11.208 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 14:36:11.377 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:36:11.384 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-02 14:36:11.384 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-02 14:36:11.415 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-02 14:36:11.600 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 14:36:11.713 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:36:11.720 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-02 14:36:11.720 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-02 14:36:11.756 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-02 14:36:12.050 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:36:12.064 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 14:36:12.108 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 14:36:12.112 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 14:36:12.115 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 14:43:56.769 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:43:56.770 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:43:56.770 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:43:56.772 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:43:56.786 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:43:56.786 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:43:56.786 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:43:57.071 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-02 14:43:57.071 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-02 14:43:57.113 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 14:43:57.128 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 14:43:57.131 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:43:56.744410
+2024-01-02 14:43:57.344 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:43:57.356 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:43:57.501 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:43:57.649 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:43:57.804 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:44:07.614 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:44:07.648 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 14:44:08.336 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 14:44:08.338 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 14:44:08.341 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 14:55:17.969 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:55:17.969 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:55:17.969 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:55:17.970 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:55:17.981 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:55:17.981 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:55:17.982 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:55:18.282 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-02 14:55:18.283 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-02 14:55:18.341 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 14:55:18.367 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 14:55:18.371 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:55:17.961012
+2024-01-02 14:55:18.609 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:55:18.624 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:55:18.725 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:55:18.825 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:55:18.919 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:55:21.984 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:55:22.003 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 14:55:22.243 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 14:55:22.244 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 14:55:22.246 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 14:55:22.495 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-02 14:55:22.496 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Read source file:0:00:03.576981
+2024-01-02 14:55:22.504 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Create xsiff:0:00:00.008001
+2024-01-02 14:55:22.594 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Export xsiff:0:00:00.090001
+2024-01-02 14:55:22.594 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.674983
+2024-01-02 14:55:22.602 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:55:22.602 - CustomFuction [ERROR   ] Move File Error
+2024-01-02 14:55:22.604 - CustomFuction [ERROR   ] 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' -> 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 539, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:55:22.691 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:55:22.692 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Failed to read file: ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:55:22.692 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] [Errno 13] Permission denied: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 154, in do_file
+    excel_data = pd.read_excel(file_path, header=None)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 539, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 360, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:55:22.879 - __init__   [ERROR   ] File:~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:55:22.888 - CustomFuction [INFO    ] [ERROR] ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:55:22.890 - CustomFuction [ERROR   ] Move File Error
+2024-01-02 14:55:22.890 - CustomFuction [ERROR   ] 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' -> 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 539, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:55:22.928 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 14:55:22.928 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 14:55:22.938 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 14:55:23.092 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-02 14:56:30.393 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:56:30.393 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:56:30.394 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:56:30.395 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:56:30.405 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:56:30.405 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:56:30.405 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:56:30.660 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 14:56:30.693 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 14:56:30.705 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 14:56:30.706 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:56:30.386259
+2024-01-02 14:56:30.912 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:56:30.924 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:56:30.986 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:56:31.055 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:56:31.137 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:56:34.189 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 14:56:34.207 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 14:56:34.442 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 14:56:34.443 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 14:56:34.444 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 14:56:34.717 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-02 14:56:34.717 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Read source file:0:00:03.579446
+2024-01-02 14:56:34.722 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Create xsiff:0:00:00.005001
+2024-01-02 14:56:34.804 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Export xsiff:0:00:00.081974
+2024-01-02 14:56:34.804 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.666421
+2024-01-02 14:56:34.812 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:56:34.812 - CustomFuction [ERROR   ] Move File Error
+2024-01-02 14:56:34.814 - CustomFuction [ERROR   ] 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' -> 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 540, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:56:34.872 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:56:34.873 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Failed to read file: ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 14:56:34.873 - ETL_FT_SD_TO_XSIFF_20231229 [ERROR   ] [Errno 13] Permission denied: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 154, in do_file
+    excel_data = pd.read_excel(file_path, header=None)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 540, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 361, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:56:35.029 - __init__   [ERROR   ] File:~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx Move To Error Folder
+                                                Error: None
+2024-01-02 14:56:35.039 - CustomFuction [INFO    ] [ERROR] ~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 14:56:35.040 - CustomFuction [ERROR   ] Move File Error
+2024-01-02 14:56:35.040 - CustomFuction [ERROR   ] 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' -> 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' and 'D:\\Ina\\ETL_XdmLib_2.A.13\\ETL_XdmLib_2.A.13\\EDAETL\\ETL_TABLE\\ETL_FT_SD_TO_XSIFF\\Data\\Source\\StarPower\\FT\\Module\\UNISIC\\Dynamic\\GW\\~$XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231229.py", line 540, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:56:35.067 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 14:56:35.067 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 14:56:35.076 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 14:56:35.215 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-02 15:00:05.491 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 15:00:05.491 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 15:00:05.492 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 15:00:05.493 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 15:00:05.503 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 15:00:05.503 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 15:00:05.503 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 15:00:05.759 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 15:00:05.794 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 15:00:05.817 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 15:00:05.818 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 15:00:05.484912
+2024-01-02 15:00:06.021 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 15:00:06.029 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:00:06.105 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:00:06.177 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:00:06.255 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 15:00:09.532 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 15:00:09.552 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 15:00:09.783 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 15:00:09.785 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 15:00:09.785 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 15:00:10.045 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-02 15:00:10.046 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Read source file:0:00:03.791248
+2024-01-02 15:00:10.050 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Create xsiff:0:00:00.004003
+2024-01-02 15:00:10.126 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Export xsiff:0:00:00.076004
+2024-01-02 15:00:10.126 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.871255
+2024-01-02 15:00:10.135 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 15:00:10.135 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-02 15:00:10.247 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 15:00:10.248 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 15:00:10.261 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 15:00:10.438 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-02 15:13:49.212 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 15:13:49.212 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 15:13:49.212 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 15:13:49.213 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 15:13:49.224 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 15:13:49.224 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 15:13:49.224 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 15:13:49.524 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 15:13:49.582 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 15:13:49.603 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 15:13:49.608 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 15:13:49.204552
+2024-01-02 15:13:49.834 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 15:13:49.842 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:13:49.952 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:13:50.038 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:13:50.097 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 15:13:53.147 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 15:13:53.170 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 15:13:53.422 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 15:13:53.422 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Read source file:0:00:00
+2024-01-02 15:13:53.423 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 15:13:53.432 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 15:13:53.693 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-02 15:13:53.693 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Read source file:0:00:03.596373
+2024-01-02 15:13:53.700 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Create xsiff:0:00:00.006001
+2024-01-02 15:13:53.784 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Export xsiff:0:00:00.084043
+2024-01-02 15:13:53.785 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.688350
+2024-01-02 15:13:53.792 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 15:13:53.793 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-02 15:13:53.876 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 15:13:53.876 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 15:13:53.884 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 15:13:54.050 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-02 15:15:12.026 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 15:15:12.027 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 15:15:12.027 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 15:15:12.028 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 15:15:12.038 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 15:15:12.039 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 15:15:12.039 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 15:15:12.323 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 15:15:12.362 - __init__   [INFO    ] Debug mode enable!
+2024-01-02 15:15:12.375 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231229.py.*
+2024-01-02 15:15:12.377 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 15:15:12.019552
+2024-01-02 15:15:12.561 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 15:15:12.569 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:15:12.651 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:15:12.728 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 15:15:12.795 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-02 15:15:15.708 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理文档数据格式
+2024-01-02 15:15:15.727 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功格式化时间
+2024-01-02 15:15:15.962 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN信息为列表
+2024-01-02 15:15:15.962 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 转字典列表后循环时长:0:00:00.001030
+2024-01-02 15:15:15.963 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理row_data_df
+2024-01-02 15:15:15.964 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-02 15:15:16.226 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-02 15:15:16.226 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Read source file:0:00:03.430328
+2024-01-02 15:15:16.231 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Create xsiff:0:00:00.004007
+2024-01-02 15:15:16.310 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Export xsiff:0:00:00.078963
+2024-01-02 15:15:16.311 - ETL_FT_SD_TO_XSIFF_20231229 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.515298
+2024-01-02 15:15:16.317 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-02 15:15:16.318 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-02 15:15:16.426 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 15:15:16.426 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 15:15:16.435 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 15:15:16.626 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

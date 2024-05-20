@@ -1,0 +1,28 @@
+2023-12-27 16:04:03.449 - ETL_LC_CP_TO_XSIFF [ERROR   ] local variable 'variable_name' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 273, in do_file
+    temp = header.get(variable_name,'')
+UnboundLocalError: local variable 'variable_name' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 405, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 305, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-27 16:04:03.663 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2023-12-27 16:04:03.760 - ETL_LC_CP_TO_XSIFF [ERROR   ] local variable 'variable_name' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 273, in do_file
+    temp = header.get(variable_name,'')
+UnboundLocalError: local variable 'variable_name' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 405, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 305, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-27 16:04:03.983 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None

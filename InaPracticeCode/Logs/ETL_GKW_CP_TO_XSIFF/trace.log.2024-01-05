@@ -1,0 +1,134 @@
+2024-01-05 16:41:19.266 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:41:19.268 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-05 16:41:19.269 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:41:19.270 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-05 16:41:19.286 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-05 16:41:19.287 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-05 16:41:19.287 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-05 16:41:22.404 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-05 16:41:25.136 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_CP_TO_XSIFF\ETL_GKW_CP_TO_XSIFF.py.*
+2024-01-05 16:41:25.142 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-05 16:41:19.238471
+2024-01-05 16:41:28.047 - __init__   [INFO    ] Set process status code: 0.
+2024-01-05 16:41:28.062 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:41:28.194 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:41:28.325 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:41:28.434 - ETL_GKW_CP_TO_XSIFF [INFO    ] Currently working on files: TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML 
+2024-01-05 16:41:28.528 - ETL_GKW_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.094034
+2024-01-05 16:41:28.529 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create Header:0:00:00.001000
+2024-01-05 16:42:01.190 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:42:01.190 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-05 16:42:01.190 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:42:01.191 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-05 16:42:01.206 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-05 16:42:01.207 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-05 16:42:01.207 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-05 16:42:01.519 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-05 16:42:01.520 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-05 16:42:04.188 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_CP_TO_XSIFF\ETL_GKW_CP_TO_XSIFF.py.*
+2024-01-05 16:42:04.189 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-05 16:42:01.179089
+2024-01-05 16:42:04.417 - __init__   [INFO    ] Set process status code: 0.
+2024-01-05 16:42:04.424 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:42:04.491 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:42:04.555 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:42:04.619 - ETL_GKW_CP_TO_XSIFF [INFO    ] Currently working on files: TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML 
+2024-01-05 16:42:04.717 - ETL_GKW_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.097963
+2024-01-05 16:42:04.718 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create Header:0:00:00
+2024-01-05 16:42:09.158 - ETL_GKW_CP_TO_XSIFF [INFO    ] Failed to create xsiff: TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML 
+2024-01-05 16:42:09.160 - ETL_GKW_CP_TO_XSIFF [ERROR   ] name 'df' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 174, in do_file
+    parameter_names = df['ParameterName'].tolist()
+NameError: name 'df' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 329, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 227, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-05 16:42:09.336 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None
+2024-01-05 16:42:09.350 - CustomFuction [INFO    ] [ERROR] TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML
+2024-01-05 16:42:09.361 - CustomFuction [INFO    ] Move file: TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML to ERROR folder: Data\ERROR\TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML.
+2024-01-05 16:42:09.362 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-05 16:42:09.363 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-05 16:42:09.380 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-05 16:42:09.563 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-05 16:43:16.785 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:43:16.785 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-05 16:43:16.785 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:43:16.787 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-05 16:43:16.798 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-05 16:43:16.798 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-05 16:43:16.798 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-05 16:43:17.288 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-05 16:43:19.972 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_CP_TO_XSIFF\ETL_GKW_CP_TO_XSIFF.py.*
+2024-01-05 16:43:19.973 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-05 16:43:16.776170
+2024-01-05 16:43:20.121 - __init__   [INFO    ] Set process status code: 0.
+2024-01-05 16:43:20.131 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:43:20.195 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:43:20.254 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:43:20.315 - CustomFuction [INFO    ] [Empty] Empty Folder : ./Data/Source
+2024-01-05 16:43:20.316 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-05 16:43:20.316 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-05 16:43:20.328 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-05 16:43:20.489 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-05 16:43:38.223 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:43:38.223 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-05 16:43:38.223 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:43:38.225 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-05 16:43:38.236 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-05 16:43:38.236 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-05 16:43:38.237 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-05 16:43:38.525 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-05 16:43:41.252 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_CP_TO_XSIFF\ETL_GKW_CP_TO_XSIFF.py.*
+2024-01-05 16:43:41.255 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-05 16:43:38.195567
+2024-01-05 16:43:41.491 - __init__   [INFO    ] Set process status code: 0.
+2024-01-05 16:43:41.510 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:43:41.626 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:43:41.717 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:43:41.814 - CustomFuction [INFO    ] [Empty] Empty Folder : ./Data/Source
+2024-01-05 16:43:41.814 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-05 16:43:41.814 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-05 16:43:41.833 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-05 16:43:42.051 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-05 16:44:01.591 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:44:01.591 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-05 16:44:01.591 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-05 16:44:01.592 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-05 16:44:01.605 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-05 16:44:01.606 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-05 16:44:01.606 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-05 16:44:01.887 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-05 16:44:04.517 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_CP_TO_XSIFF\ETL_GKW_CP_TO_XSIFF.py.*
+2024-01-05 16:44:04.519 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-05 16:44:01.583194
+2024-01-05 16:44:04.670 - __init__   [INFO    ] Set process status code: 0.
+2024-01-05 16:44:04.688 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:44:04.797 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:44:04.869 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-05 16:44:04.980 - ETL_GKW_CP_TO_XSIFF [INFO    ] Currently working on files: TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML 
+2024-01-05 16:44:05.064 - ETL_GKW_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.084012
+2024-01-05 16:44:05.065 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create Header:0:00:00
+2024-01-05 16:44:08.716 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create spec limits:0:00:03.651191
+2024-01-05 16:44:09.357 - ETL_GKW_CP_TO_XSIFF [INFO    ] 创建行数据：0:00:00.640152
+2024-01-05 16:44:11.073 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create bin defection:0:00:01.715935
+2024-01-05 16:44:11.073 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:06.008280
+2024-01-05 16:44:12.466 - ETL_GKW_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:01.392536
+2024-01-05 16:44:12.466 - ETL_GKW_CP_TO_XSIFF [INFO    ] Converter TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML to CP_TEST_B001451_CP1_20230905173627.xsiff ;Total Used:0:00:07.485827
+2024-01-05 16:44:12.558 - CustomFuction [INFO    ] [Archive] TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML
+2024-01-05 16:44:12.558 - CustomFuction [INFO    ] Move file: TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML to Archive folder: Data\Archive\TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML.
+2024-01-05 16:44:12.559 - ETL_GKW_CP_TO_XSIFF [INFO    ] Currently working on files: TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML 
+2024-01-05 16:44:12.648 - ETL_GKW_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.089159
+2024-01-05 16:44:12.648 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create Header:0:00:00
+2024-01-05 16:44:16.234 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create spec limits:0:00:03.585788
+2024-01-05 16:44:16.808 - ETL_GKW_CP_TO_XSIFF [INFO    ] 创建行数据：0:00:00.574001
+2024-01-05 16:44:18.505 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create bin defection:0:00:01.696083
+2024-01-05 16:44:18.505 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:05.856873
+2024-01-05 16:44:19.915 - ETL_GKW_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:01.409611
+2024-01-05 16:44:19.916 - ETL_GKW_CP_TO_XSIFF [INFO    ] Converter TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML to CP_TEST_BS00098_CP1_20231021125618.xsiff ;Total Used:0:00:07.356643
+2024-01-05 16:44:20.017 - CustomFuction [INFO    ] [Archive] TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML
+2024-01-05 16:44:20.018 - CustomFuction [INFO    ] Move file: TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML to Archive folder: Data\Archive\TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML.
+2024-01-05 16:44:20.018 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-05 16:44:20.018 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-05 16:44:20.028 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-05 16:44:20.216 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

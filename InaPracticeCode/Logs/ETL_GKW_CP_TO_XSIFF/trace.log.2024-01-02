@@ -1,0 +1,40 @@
+2024-01-02 10:32:58.160 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 10:32:58.161 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 10:32:58.161 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 10:32:58.163 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 10:32:58.177 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 10:32:58.177 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 10:32:58.177 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 10:32:58.432 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-02 10:32:58.481 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_CP_TO_XSIFF\ETL_GKW_CP_TO_XSIFF.py.*
+2024-01-02 10:32:58.484 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 10:32:58.150633
+2024-01-02 10:32:58.618 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 10:32:58.626 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:32:58.702 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:32:58.759 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 10:32:58.815 - ETL_GKW_CP_TO_XSIFF [INFO    ] Currently working on files: TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML 
+2024-01-02 10:32:58.904 - ETL_GKW_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.089011
+2024-01-02 10:32:58.905 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create Header:0:00:00.000999
+2024-01-02 10:33:02.403 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create spec limits:0:00:03.497977
+2024-01-02 10:33:02.469 - ETL_GKW_CP_TO_XSIFF [INFO    ] 创建行数据：0:00:00.066034
+2024-01-02 10:33:04.105 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create bin defection:0:00:01.635990
+2024-01-02 10:33:04.106 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:05.201999
+2024-01-02 10:33:04.139 - ETL_GKW_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.032979
+2024-01-02 10:33:04.139 - ETL_GKW_CP_TO_XSIFF [INFO    ] Converter TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML to CP_TEST_B001451_CP1_20230905173627.xsiff ;Total Used:0:00:05.323989
+2024-01-02 10:33:04.143 - CustomFuction [INFO    ] [Archive] TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML
+2024-01-02 10:33:04.143 - CustomFuction [INFO    ] Move file: TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML to Archive folder: Data\Archive\TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML.
+2024-01-02 10:33:04.144 - ETL_GKW_CP_TO_XSIFF [INFO    ] Currently working on files: TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML 
+2024-01-02 10:33:04.216 - ETL_GKW_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.072003
+2024-01-02 10:33:04.216 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create Header:0:00:00
+2024-01-02 10:33:07.395 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create spec limits:0:00:03.178987
+2024-01-02 10:33:07.457 - ETL_GKW_CP_TO_XSIFF [INFO    ] 创建行数据：0:00:00.060999
+2024-01-02 10:33:08.938 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create bin defection:0:00:01.480997
+2024-01-02 10:33:08.939 - ETL_GKW_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:04.722988
+2024-01-02 10:33:08.961 - ETL_GKW_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.021982
+2024-01-02 10:33:08.961 - ETL_GKW_CP_TO_XSIFF [INFO    ] Converter TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML to CP_TEST_BS00098_CP1_20231021125618.xsiff ;Total Used:0:00:04.816973
+2024-01-02 10:33:08.967 - CustomFuction [INFO    ] [Archive] TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML
+2024-01-02 10:33:08.967 - CustomFuction [INFO    ] Move file: TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML to Archive folder: Data\Archive\TryNewXML_GC08A8-BSI-Sample_BS00098_09_2_20231021125619.XML.
+2024-01-02 10:33:08.967 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 10:33:08.968 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 10:33:08.977 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 10:33:09.187 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

@@ -1,0 +1,1270 @@
+2024-01-03 10:45:59.555 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:45:59.555 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 10:45:59.555 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:45:59.556 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 10:45:59.567 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 10:45:59.567 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 10:45:59.567 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 10:45:59.942 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2024-01-03 10:45:59.952 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 10:45:59.953 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 10:45:59.548020
+2024-01-03 10:46:00.117 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 10:46:00.124 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:46:00.194 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:46:00.255 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:46:00.344 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B002617_20230925092618.lot 
+2024-01-03 10:46:00.444 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.100012
+2024-01-03 10:46:00.446 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 155, in do_file
+    s_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:46:00.448 - CustomFuction [INFO    ] [ERROR] B002617_20230925092618.lot
+2024-01-03 10:46:00.448 - CustomFuction [INFO    ] Move file: B002617_20230925092618.lot to ERROR folder: Data\Source\B002617_20230925092618.lot.
+2024-01-03 10:46:00.575 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B003007_20231009153042.lot 
+2024-01-03 10:46:00.623 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.048013
+2024-01-03 10:46:00.623 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 155, in do_file
+    s_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:46:00.625 - CustomFuction [INFO    ] [ERROR] B003007_20231009153042.lot
+2024-01-03 10:46:00.625 - CustomFuction [INFO    ] Move file: B003007_20231009153042.lot to ERROR folder: Data\Source\B003007_20231009153042.lot.
+2024-01-03 10:46:00.776 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-03 10:46:00.776 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-03 10:46:00.786 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-03 10:46:00.926 - __init__   [INFO    ] Set process status code: 5.
+2024-01-03 10:47:23.181 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:47:23.181 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 10:47:23.181 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:47:23.182 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 10:47:23.192 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 10:47:23.193 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 10:47:23.193 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 10:47:23.406 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2024-01-03 10:47:23.541 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 10:47:23.545 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 10:47:23.173905
+2024-01-03 10:47:23.694 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 10:47:23.702 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:47:23.805 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:47:23.924 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:47:23.990 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 138, in do_file
+    ts_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:47:23.992 - CustomFuction [INFO    ] [ERROR] B002617_20230925092618.lot
+2024-01-03 10:47:23.993 - CustomFuction [INFO    ] Move file: B002617_20230925092618.lot to ERROR folder: Data\Source\B002617_20230925092618.lot.
+2024-01-03 10:47:24.203 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 138, in do_file
+    ts_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:47:24.204 - CustomFuction [INFO    ] [ERROR] B003007_20231009153042.lot
+2024-01-03 10:47:24.205 - CustomFuction [INFO    ] Move file: B003007_20231009153042.lot to ERROR folder: Data\Source\B003007_20231009153042.lot.
+2024-01-03 10:47:24.437 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-03 10:47:24.437 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-03 10:47:24.453 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-03 10:47:24.657 - __init__   [INFO    ] Set process status code: 5.
+2024-01-03 10:48:03.698 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:48:03.699 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 10:48:03.699 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:48:03.700 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 10:48:03.711 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 10:48:03.711 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 10:48:03.711 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 10:48:04.014 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2024-01-03 10:48:04.133 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 10:48:04.135 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 10:48:03.691704
+2024-01-03 10:48:04.301 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 10:48:04.310 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:48:04.381 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:48:04.446 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:48:04.499 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 138, in do_file
+    ts_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:48:04.500 - CustomFuction [INFO    ] [ERROR] B002617_20230925092618.lot
+2024-01-03 10:48:04.501 - CustomFuction [INFO    ] Move file: B002617_20230925092618.lot to ERROR folder: Data\Source\B002617_20230925092618.lot.
+2024-01-03 10:48:04.693 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 138, in do_file
+    ts_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 382, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:48:04.694 - CustomFuction [INFO    ] [ERROR] B003007_20231009153042.lot
+2024-01-03 10:48:04.695 - CustomFuction [INFO    ] Move file: B003007_20231009153042.lot to ERROR folder: Data\Source\B003007_20231009153042.lot.
+2024-01-03 10:48:04.861 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-03 10:48:04.861 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-03 10:48:04.870 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-03 10:48:05.030 - __init__   [INFO    ] Set process status code: 5.
+2024-01-03 10:48:29.839 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:48:29.839 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 10:48:29.839 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:48:29.841 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 10:48:29.853 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 10:48:29.853 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 10:48:29.853 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 10:48:30.419 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2024-01-03 10:48:30.473 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 10:48:30.475 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 10:48:29.826886
+2024-01-03 10:48:30.669 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 10:48:30.677 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:48:30.758 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:48:30.810 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:48:30.900 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B002617_20230925092618.lot 
+2024-01-03 10:48:30.991 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.090953
+2024-01-03 10:48:31.415 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:48:31.516 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Failed to create xsiff: B002617_20230925092618.lot 
+2024-01-03 10:48:31.518 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] module 'config_sql' has no attribute 'SQL_GET_LOTTYPE'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 229, in do_file
+    lottype = db_tgt.execute(config_sql.SQL_GET_LOTTYPE, corr_lot=Header['Corrlot']).fetchall()
+AttributeError: module 'config_sql' has no attribute 'SQL_GET_LOTTYPE'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 292, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:48:31.703 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:48:31.716 - CustomFuction [INFO    ] [ERROR] B002617_20230925092618.lot
+2024-01-03 10:48:31.717 - CustomFuction [INFO    ] Move file: B002617_20230925092618.lot to ERROR folder: Data\Source\B002617_20230925092618.lot.
+2024-01-03 10:48:31.717 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B003007_20231009153042.lot 
+2024-01-03 10:48:31.759 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.041999
+2024-01-03 10:48:31.910 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:48:31.958 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Failed to create xsiff: B003007_20231009153042.lot 
+2024-01-03 10:48:31.958 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] module 'config_sql' has no attribute 'SQL_GET_LOTTYPE'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 229, in do_file
+    lottype = db_tgt.execute(config_sql.SQL_GET_LOTTYPE, corr_lot=Header['Corrlot']).fetchall()
+AttributeError: module 'config_sql' has no attribute 'SQL_GET_LOTTYPE'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 292, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:48:32.194 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:48:32.204 - CustomFuction [INFO    ] [ERROR] B003007_20231009153042.lot
+2024-01-03 10:48:32.205 - CustomFuction [INFO    ] Move file: B003007_20231009153042.lot to ERROR folder: Data\Source\B003007_20231009153042.lot.
+2024-01-03 10:48:32.205 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-03 10:48:32.205 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-03 10:48:32.216 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-03 10:48:32.377 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-03 10:50:49.323 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:50:49.323 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 10:50:49.323 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:50:49.324 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 10:50:49.335 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 10:50:49.335 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 10:50:49.335 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 10:50:49.650 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-03 10:50:49.702 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 10:50:49.703 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 10:50:49.316758
+2024-01-03 10:50:49.916 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 10:50:49.925 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:50:50.032 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:50:50.130 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:50:50.195 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B002617_20230925092618.lot 
+2024-01-03 10:50:50.279 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.083998
+2024-01-03 10:50:50.675 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:50:50.816 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 10:50:50.816 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.142106
+2024-01-03 10:50:50.816 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 10:50:50.926 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 10:50:50.927 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.110010
+2024-01-03 10:50:50.927 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 10:50:51.043 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 10:50:51.043 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.115978
+2024-01-03 10:50:51.043 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 10:50:51.157 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 10:50:51.157 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.113998
+2024-01-03 10:50:51.157 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 10:50:51.271 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 10:50:51.271 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.114033
+2024-01-03 10:50:51.271 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 10:50:51.379 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 10:50:51.380 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.107998
+2024-01-03 10:50:51.380 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 10:50:51.499 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 10:50:51.499 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.118954
+2024-01-03 10:50:51.499 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 10:50:51.612 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 10:50:51.612 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.113023
+2024-01-03 10:50:51.612 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 10:50:51.726 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 10:50:51.726 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.113971
+2024-01-03 10:50:51.726 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 10:50:51.838 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 10:50:51.838 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.111995
+2024-01-03 10:50:51.839 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 10:50:51.953 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 10:50:51.953 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.114019
+2024-01-03 10:50:51.953 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 10:50:52.066 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 10:50:52.067 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.112994
+2024-01-03 10:50:52.067 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 10:50:52.184 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 10:50:52.184 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.116999
+2024-01-03 10:50:52.184 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 10:50:52.296 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 10:50:52.296 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.112732
+2024-01-03 10:50:52.296 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 10:50:52.415 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 10:50:52.415 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.118996
+2024-01-03 10:50:52.415 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 10:50:52.522 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 10:50:52.522 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.106992
+2024-01-03 10:50:52.522 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 10:50:52.638 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 10:50:52.638 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.116008
+2024-01-03 10:50:52.639 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 10:50:52.747 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 10:50:52.747 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.107956
+2024-01-03 10:50:52.748 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 10:50:52.864 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 10:50:52.865 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.116017
+2024-01-03 10:50:52.865 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 10:50:52.975 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 10:50:52.975 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.109976
+2024-01-03 10:50:52.976 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 10:50:53.091 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 10:50:53.091 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.115001
+2024-01-03 10:50:53.091 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 10:50:53.200 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 10:50:53.201 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.108997
+2024-01-03 10:50:53.201 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 10:50:53.311 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 10:50:53.311 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.109991
+2024-01-03 10:50:53.312 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 10:50:53.423 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 10:50:53.423 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.111002
+2024-01-03 10:50:53.423 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 10:50:53.534 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 10:50:53.534 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.110996
+2024-01-03 10:50:53.534 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:03.255733
+2024-01-03 10:50:53.549 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Failed to export xsiff: B002617_20230925092618.lot 
+2024-01-03 10:50:53.551 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] 'Product'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 314, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 49, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+KeyError: 'Product'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 318, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:50:53.740 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:50:53.754 - CustomFuction [INFO    ] [ERROR] B002617_20230925092618.lot
+2024-01-03 10:50:53.755 - CustomFuction [INFO    ] Move file: B002617_20230925092618.lot to ERROR folder: Data\Source\B002617_20230925092618.lot.
+2024-01-03 10:50:53.756 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B003007_20231009153042.lot 
+2024-01-03 10:50:53.797 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.040992
+2024-01-03 10:50:53.959 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:50:54.019 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 10:50:54.019 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.059998
+2024-01-03 10:50:54.019 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 10:50:54.076 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 10:50:54.076 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.056985
+2024-01-03 10:50:54.076 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 10:50:54.133 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 10:50:54.133 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.057009
+2024-01-03 10:50:54.133 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 10:50:54.190 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 10:50:54.190 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.056994
+2024-01-03 10:50:54.190 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 10:50:54.258 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 10:50:54.258 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.067969
+2024-01-03 10:50:54.258 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 10:50:54.320 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 10:50:54.321 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.061998
+2024-01-03 10:50:54.321 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 10:50:54.383 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 10:50:54.383 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.061991
+2024-01-03 10:50:54.383 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 10:50:54.445 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 10:50:54.445 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.061250
+2024-01-03 10:50:54.445 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 10:50:54.509 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 10:50:54.509 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.064005
+2024-01-03 10:50:54.509 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 10:50:54.572 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 10:50:54.572 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.062985
+2024-01-03 10:50:54.572 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 10:50:54.634 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 10:50:54.634 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.061974
+2024-01-03 10:50:54.634 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 10:50:54.698 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 10:50:54.698 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.063995
+2024-01-03 10:50:54.698 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 10:50:54.762 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 10:50:54.762 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.064001
+2024-01-03 10:50:54.762 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 10:50:54.826 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 10:50:54.826 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.064033
+2024-01-03 10:50:54.826 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 10:50:54.881 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 10:50:54.881 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.054987
+2024-01-03 10:50:54.881 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 10:50:54.942 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 10:50:54.942 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.060973
+2024-01-03 10:50:54.942 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 10:50:55.004 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 10:50:55.005 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.062028
+2024-01-03 10:50:55.005 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 10:50:55.066 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 10:50:55.067 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.060995
+2024-01-03 10:50:55.067 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 10:50:55.125 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 10:50:55.125 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.058001
+2024-01-03 10:50:55.125 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 10:50:55.185 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 10:50:55.185 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.059993
+2024-01-03 10:50:55.185 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 10:50:55.249 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 10:50:55.249 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.064009
+2024-01-03 10:50:55.249 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 10:50:55.309 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 10:50:55.309 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.059954
+2024-01-03 10:50:55.310 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 10:50:55.366 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 10:50:55.366 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.056030
+2024-01-03 10:50:55.366 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 10:50:55.435 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 10:50:55.435 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.069003
+2024-01-03 10:50:55.436 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 10:50:55.496 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 10:50:55.496 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.060002
+2024-01-03 10:50:55.496 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:01.699266
+2024-01-03 10:50:55.499 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Failed to export xsiff: B003007_20231009153042.lot 
+2024-01-03 10:50:55.500 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] 'Product'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 314, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 49, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+KeyError: 'Product'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 318, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:50:55.711 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:50:55.720 - CustomFuction [INFO    ] [ERROR] B003007_20231009153042.lot
+2024-01-03 10:50:55.720 - CustomFuction [INFO    ] Move file: B003007_20231009153042.lot to ERROR folder: Data\Source\B003007_20231009153042.lot.
+2024-01-03 10:50:55.720 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-03 10:50:55.720 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-03 10:50:55.728 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-03 10:50:55.951 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-03 10:52:00.668 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:52:00.668 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 10:52:00.668 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:52:00.669 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 10:52:00.680 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 10:52:00.680 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 10:52:00.680 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 10:52:00.921 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-03 10:52:00.966 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 10:52:00.967 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 10:52:00.661489
+2024-01-03 10:52:01.145 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 10:52:01.153 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:52:01.218 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:52:01.284 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:52:01.363 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B002617_20230925092618.lot 
+2024-01-03 10:52:01.455 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.092020
+2024-01-03 10:52:01.862 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:52:01.986 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 10:52:01.986 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.122994
+2024-01-03 10:52:01.986 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 10:52:02.110 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 10:52:02.110 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.124040
+2024-01-03 10:52:02.110 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 10:52:02.230 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 10:52:02.231 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.119954
+2024-01-03 10:52:02.231 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 10:52:02.349 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 10:52:02.349 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.117997
+2024-01-03 10:52:02.349 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 10:52:02.464 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 10:52:02.464 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.115032
+2024-01-03 10:52:02.464 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 10:52:02.582 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 10:52:02.582 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.117990
+2024-01-03 10:52:02.582 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 10:52:02.704 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 10:52:02.704 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.121974
+2024-01-03 10:52:02.704 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 10:52:02.822 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 10:52:02.823 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.118992
+2024-01-03 10:52:02.823 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 10:52:02.938 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 10:52:02.938 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.114996
+2024-01-03 10:52:02.938 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 10:52:03.056 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 10:52:03.056 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.117995
+2024-01-03 10:52:03.056 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 10:52:03.180 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 10:52:03.180 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.123997
+2024-01-03 10:52:03.180 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 10:52:03.294 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 10:52:03.294 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.114010
+2024-01-03 10:52:03.294 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 10:52:03.410 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 10:52:03.410 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.115983
+2024-01-03 10:52:03.410 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 10:52:03.522 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 10:52:03.522 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.111994
+2024-01-03 10:52:03.522 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 10:52:03.636 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 10:52:03.636 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.113034
+2024-01-03 10:52:03.636 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 10:52:03.746 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 10:52:03.746 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.109993
+2024-01-03 10:52:03.746 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 10:52:03.864 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 10:52:03.864 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.117965
+2024-01-03 10:52:03.864 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 10:52:03.979 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 10:52:03.979 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.114995
+2024-01-03 10:52:03.979 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 10:52:04.097 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 10:52:04.097 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.117996
+2024-01-03 10:52:04.097 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 10:52:04.213 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 10:52:04.214 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.116010
+2024-01-03 10:52:04.214 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 10:52:04.329 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 10:52:04.329 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.115010
+2024-01-03 10:52:04.329 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 10:52:04.440 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 10:52:04.440 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.110970
+2024-01-03 10:52:04.440 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 10:52:04.556 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 10:52:04.556 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.115994
+2024-01-03 10:52:04.556 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 10:52:04.671 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 10:52:04.671 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.115000
+2024-01-03 10:52:04.671 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 10:52:04.783 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 10:52:04.783 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.112033
+2024-01-03 10:52:04.784 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:03.328889
+2024-01-03 10:52:04.786 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Failed to export xsiff: B002617_20230925092618.lot 
+2024-01-03 10:52:04.788 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] strptime() argument 0 must be str, not <class 'datetime.datetime'>
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 314, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 49, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+  File "D:\Python37\lib\_strptime.py", line 571, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "D:\Python37\lib\_strptime.py", line 326, in _strptime
+    raise TypeError(msg.format(index, type(arg)))
+TypeError: strptime() argument 0 must be str, not <class 'datetime.datetime'>
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 318, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:52:04.976 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:52:04.985 - CustomFuction [INFO    ] [ERROR] B002617_20230925092618.lot
+2024-01-03 10:52:04.985 - CustomFuction [INFO    ] Move file: B002617_20230925092618.lot to ERROR folder: Data\Source\B002617_20230925092618.lot.
+2024-01-03 10:52:04.986 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B003007_20231009153042.lot 
+2024-01-03 10:52:05.030 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.044026
+2024-01-03 10:52:05.178 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:52:05.242 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 10:52:05.242 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.064040
+2024-01-03 10:52:05.242 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 10:52:05.303 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 10:52:05.303 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.061039
+2024-01-03 10:52:05.303 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 10:52:05.360 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 10:52:05.361 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.056993
+2024-01-03 10:52:05.361 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 10:52:05.418 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 10:52:05.418 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.055979
+2024-01-03 10:52:05.418 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 10:52:05.478 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 10:52:05.478 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.059007
+2024-01-03 10:52:05.478 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 10:52:05.540 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 10:52:05.540 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.061997
+2024-01-03 10:52:05.540 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 10:52:05.605 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 10:52:05.605 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.065292
+2024-01-03 10:52:05.606 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 10:52:05.668 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 10:52:05.668 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.062015
+2024-01-03 10:52:05.668 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 10:52:05.734 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 10:52:05.734 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.065974
+2024-01-03 10:52:05.735 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 10:52:05.800 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 10:52:05.801 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.065000
+2024-01-03 10:52:05.801 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 10:52:05.862 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 10:52:05.862 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.060954
+2024-01-03 10:52:05.862 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 10:52:05.926 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 10:52:05.926 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.064011
+2024-01-03 10:52:05.926 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 10:52:05.989 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 10:52:05.990 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.062984
+2024-01-03 10:52:05.990 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 10:52:06.057 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 10:52:06.057 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.066996
+2024-01-03 10:52:06.057 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 10:52:06.120 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 10:52:06.120 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.063037
+2024-01-03 10:52:06.120 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 10:52:06.177 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 10:52:06.177 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.056995
+2024-01-03 10:52:06.177 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 10:52:06.246 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 10:52:06.246 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.068971
+2024-01-03 10:52:06.246 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 10:52:06.311 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 10:52:06.311 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.065030
+2024-01-03 10:52:06.311 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 10:52:06.371 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 10:52:06.371 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.059998
+2024-01-03 10:52:06.371 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 10:52:06.427 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 10:52:06.427 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.055991
+2024-01-03 10:52:06.427 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 10:52:06.485 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 10:52:06.485 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.057971
+2024-01-03 10:52:06.485 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 10:52:06.548 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 10:52:06.548 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.062993
+2024-01-03 10:52:06.548 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 10:52:06.612 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 10:52:06.612 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.064034
+2024-01-03 10:52:06.612 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 10:52:06.669 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 10:52:06.669 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.056993
+2024-01-03 10:52:06.669 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 10:52:06.730 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 10:52:06.731 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.060967
+2024-01-03 10:52:06.731 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:01.700251
+2024-01-03 10:52:06.734 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Failed to export xsiff: B003007_20231009153042.lot 
+2024-01-03 10:52:06.734 - ETL_GKW_WAT_TO_XSIFF_SOURCE [ERROR   ] strptime() argument 0 must be str, not <class 'datetime.datetime'>
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 314, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 49, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+  File "D:\Python37\lib\_strptime.py", line 571, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "D:\Python37\lib\_strptime.py", line 326, in _strptime
+    raise TypeError(msg.format(index, type(arg)))
+TypeError: strptime() argument 0 must be str, not <class 'datetime.datetime'>
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 383, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF_SOURCE.py", line 318, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-03 10:52:06.934 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-03 10:52:06.947 - CustomFuction [INFO    ] [ERROR] B003007_20231009153042.lot
+2024-01-03 10:52:06.949 - CustomFuction [INFO    ] Move file: B003007_20231009153042.lot to ERROR folder: Data\Source\B003007_20231009153042.lot.
+2024-01-03 10:52:06.949 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-03 10:52:06.949 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-03 10:52:06.961 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-03 10:52:07.157 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-03 10:54:12.650 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:54:12.650 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 10:54:12.650 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:54:12.651 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 10:54:12.661 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 10:54:12.661 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 10:54:12.662 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 10:54:12.910 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-03 10:54:12.961 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 10:54:12.962 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 10:54:12.643489
+2024-01-03 10:54:13.154 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 10:54:13.163 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:54:13.233 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:54:13.336 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:54:13.430 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B002617_20230925092618.lot 
+2024-01-03 10:54:13.516 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.085991
+2024-01-03 10:54:13.896 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:54:14.012 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 10:54:14.012 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.115983
+2024-01-03 10:54:14.012 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 10:54:14.127 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 10:54:14.127 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.115035
+2024-01-03 10:54:14.127 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 10:54:14.236 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 10:54:14.236 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.108996
+2024-01-03 10:54:14.236 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 10:54:14.344 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 10:54:14.344 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.107984
+2024-01-03 10:54:14.344 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 10:54:14.461 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 10:54:14.462 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.116971
+2024-01-03 10:54:14.462 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 10:54:14.582 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 10:54:14.583 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.119997
+2024-01-03 10:54:14.583 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 10:54:14.698 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 10:54:14.698 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.114961
+2024-01-03 10:54:14.698 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 10:54:14.809 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 10:54:14.810 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.111030
+2024-01-03 10:54:14.810 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 10:54:14.926 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 10:54:14.926 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.115966
+2024-01-03 10:54:14.926 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 10:54:15.044 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 10:54:15.044 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.118144
+2024-01-03 10:54:15.044 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 10:54:15.155 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 10:54:15.155 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.111011
+2024-01-03 10:54:15.155 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 10:54:15.270 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 10:54:15.270 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.115019
+2024-01-03 10:54:15.271 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 10:54:15.384 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 10:54:15.384 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.113012
+2024-01-03 10:54:15.384 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 10:54:15.494 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 10:54:15.494 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.109988
+2024-01-03 10:54:15.494 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 10:54:15.611 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 10:54:15.612 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.117000
+2024-01-03 10:54:15.612 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 10:54:15.718 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 10:54:15.719 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.105993
+2024-01-03 10:54:15.719 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 10:54:15.827 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 10:54:15.827 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.107994
+2024-01-03 10:54:15.828 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 10:54:15.935 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 10:54:15.935 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.108008
+2024-01-03 10:54:15.935 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 10:54:16.049 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 10:54:16.049 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.114000
+2024-01-03 10:54:16.049 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 10:54:16.154 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 10:54:16.154 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.105019
+2024-01-03 10:54:16.155 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 10:54:16.259 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 10:54:16.259 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.103997
+2024-01-03 10:54:16.259 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 10:54:16.374 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 10:54:16.374 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.115006
+2024-01-03 10:54:16.375 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 10:54:16.481 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 10:54:16.482 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.105996
+2024-01-03 10:54:16.482 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 10:54:16.590 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 10:54:16.590 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.107995
+2024-01-03 10:54:16.590 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 10:54:16.710 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 10:54:16.710 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.119127
+2024-01-03 10:54:16.710 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:03.192268
+2024-01-03 10:54:16.716 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Export xsiff:0:00:00.005999
+2024-01-03 10:54:16.716 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Converter B002617_20230925092618.lot to WAT_F0006_B002617_INLINE_20230925070932.xsiff ;Total Used:0:00:03.285266
+2024-01-03 10:54:16.725 - CustomFuction [INFO    ] [Archive] B002617_20230925092618.lot
+2024-01-03 10:54:16.726 - CustomFuction [INFO    ] Move file: B002617_20230925092618.lot to Archive folder: Data\Source\B002617_20230925092618.lot.
+2024-01-03 10:54:16.726 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B003007_20231009153042.lot 
+2024-01-03 10:54:16.762 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.036002
+2024-01-03 10:54:16.926 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:54:16.990 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 10:54:16.990 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.063966
+2024-01-03 10:54:16.990 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 10:54:17.050 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 10:54:17.050 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.059999
+2024-01-03 10:54:17.050 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 10:54:17.106 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 10:54:17.106 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.056034
+2024-01-03 10:54:17.106 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 10:54:17.165 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 10:54:17.166 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.059477
+2024-01-03 10:54:17.166 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 10:54:17.230 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 10:54:17.230 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.064008
+2024-01-03 10:54:17.230 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 10:54:17.291 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 10:54:17.291 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.060976
+2024-01-03 10:54:17.291 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 10:54:17.350 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 10:54:17.350 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.059008
+2024-01-03 10:54:17.350 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 10:54:17.406 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 10:54:17.406 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.055966
+2024-01-03 10:54:17.406 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 10:54:17.468 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 10:54:17.468 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.062030
+2024-01-03 10:54:17.468 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 10:54:17.531 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 10:54:17.531 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.062968
+2024-01-03 10:54:17.531 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 10:54:17.590 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 10:54:17.590 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.058994
+2024-01-03 10:54:17.590 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 10:54:17.656 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 10:54:17.656 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.066041
+2024-01-03 10:54:17.656 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 10:54:17.720 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 10:54:17.720 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.063955
+2024-01-03 10:54:17.720 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 10:54:17.780 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 10:54:17.780 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.060036
+2024-01-03 10:54:17.780 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 10:54:17.838 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 10:54:17.838 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.057962
+2024-01-03 10:54:17.838 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 10:54:17.896 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 10:54:17.896 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.058029
+2024-01-03 10:54:17.896 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 10:54:17.962 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 10:54:17.962 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.065970
+2024-01-03 10:54:17.962 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 10:54:18.021 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 10:54:18.021 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.059021
+2024-01-03 10:54:18.021 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 10:54:18.085 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 10:54:18.085 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.063974
+2024-01-03 10:54:18.085 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 10:54:18.145 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 10:54:18.145 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.060035
+2024-01-03 10:54:18.145 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 10:54:18.211 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 10:54:18.211 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.066002
+2024-01-03 10:54:18.211 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 10:54:18.269 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 10:54:18.269 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.057954
+2024-01-03 10:54:18.269 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 10:54:18.328 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 10:54:18.328 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.057999
+2024-01-03 10:54:18.328 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 10:54:18.388 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 10:54:18.388 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.059998
+2024-01-03 10:54:18.388 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 10:54:18.452 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 10:54:18.452 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.064027
+2024-01-03 10:54:18.452 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:01.690451
+2024-01-03 10:54:18.464 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Export xsiff:0:00:00.011987
+2024-01-03 10:54:18.464 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Converter B003007_20231009153042.lot to WAT_B0015_B003007_FINAL_20231009142616.xsiff ;Total Used:0:00:01.738440
+2024-01-03 10:54:18.470 - CustomFuction [INFO    ] [Archive] B003007_20231009153042.lot
+2024-01-03 10:54:18.470 - CustomFuction [INFO    ] Move file: B003007_20231009153042.lot to Archive folder: Data\Source\B003007_20231009153042.lot.
+2024-01-03 10:54:18.471 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-03 10:54:18.471 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-03 10:54:18.483 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-03 10:54:18.716 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-03 10:56:47.016 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:56:47.017 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 10:56:47.017 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 10:56:47.018 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 10:56:47.028 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 10:56:47.029 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 10:56:47.029 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 10:56:47.276 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-03 10:56:47.328 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 10:56:47.329 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 10:56:47.009403
+2024-01-03 10:56:47.520 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 10:56:47.530 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:56:47.617 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:56:47.730 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 10:56:47.834 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B002617_20230925092618.lot 
+2024-01-03 10:56:47.923 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.088969
+2024-01-03 10:56:48.301 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:56:48.419 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 10:56:48.419 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.117966
+2024-01-03 10:56:48.419 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 10:56:48.533 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 10:56:48.533 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.113994
+2024-01-03 10:56:48.533 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 10:56:48.645 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 10:56:48.645 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.112037
+2024-01-03 10:56:48.645 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 10:56:48.754 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 10:56:48.754 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.108961
+2024-01-03 10:56:48.754 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 10:56:48.864 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 10:56:48.865 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.110022
+2024-01-03 10:56:48.865 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 10:56:48.973 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 10:56:48.973 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.108003
+2024-01-03 10:56:48.973 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 10:56:49.088 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 10:56:49.088 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.114148
+2024-01-03 10:56:49.088 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 10:56:49.197 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 10:56:49.197 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.108992
+2024-01-03 10:56:49.197 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 10:56:49.306 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 10:56:49.306 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.108997
+2024-01-03 10:56:49.306 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 10:56:49.411 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 10:56:49.411 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.105965
+2024-01-03 10:56:49.411 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 10:56:49.522 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 10:56:49.522 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.110998
+2024-01-03 10:56:49.522 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 10:56:49.628 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 10:56:49.628 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.105997
+2024-01-03 10:56:49.629 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 10:56:49.740 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 10:56:49.740 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.109997
+2024-01-03 10:56:49.740 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 10:56:49.846 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 10:56:49.847 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.105038
+2024-01-03 10:56:49.847 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 10:56:49.958 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 10:56:49.958 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.110959
+2024-01-03 10:56:49.958 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 10:56:50.065 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 10:56:50.066 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.107004
+2024-01-03 10:56:50.066 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 10:56:50.176 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 10:56:50.176 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.109227
+2024-01-03 10:56:50.176 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 10:56:50.289 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 10:56:50.289 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.112982
+2024-01-03 10:56:50.289 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 10:56:50.396 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 10:56:50.396 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.106964
+2024-01-03 10:56:50.396 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 10:56:50.509 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 10:56:50.509 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.112037
+2024-01-03 10:56:50.509 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 10:56:50.615 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 10:56:50.615 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.105967
+2024-01-03 10:56:50.616 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 10:56:50.726 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 10:56:50.726 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.110022
+2024-01-03 10:56:50.726 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 10:56:50.832 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 10:56:50.832 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.106114
+2024-01-03 10:56:50.832 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 10:56:50.942 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 10:56:50.942 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.110007
+2024-01-03 10:56:50.942 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 10:56:51.050 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 10:56:51.051 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.107990
+2024-01-03 10:56:51.067 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:03.143840
+2024-01-03 10:56:51.115 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Export xsiff:0:00:00.048007
+2024-01-03 10:56:51.115 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Converter B002617_20230925092618.lot to WAT_F0006_B002617_INLINE_20230925070932.xsiff ;Total Used:0:00:03.280816
+2024-01-03 10:56:51.128 - CustomFuction [INFO    ] [Archive] B002617_20230925092618.lot
+2024-01-03 10:56:51.128 - CustomFuction [INFO    ] Move file: B002617_20230925092618.lot to Archive folder: Data\Source\B002617_20230925092618.lot.
+2024-01-03 10:56:51.129 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B003007_20231009153042.lot 
+2024-01-03 10:56:51.166 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.036958
+2024-01-03 10:56:51.324 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 10:56:51.387 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 10:56:51.387 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.063066
+2024-01-03 10:56:51.387 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 10:56:51.446 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 10:56:51.447 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.058998
+2024-01-03 10:56:51.447 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 10:56:51.504 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 10:56:51.504 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.056999
+2024-01-03 10:56:51.505 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 10:56:51.567 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 10:56:51.567 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.061999
+2024-01-03 10:56:51.568 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 10:56:51.634 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 10:56:51.634 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.065998
+2024-01-03 10:56:51.634 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 10:56:51.698 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 10:56:51.698 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.063998
+2024-01-03 10:56:51.698 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 10:56:51.759 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 10:56:51.759 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.060999
+2024-01-03 10:56:51.759 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 10:56:51.824 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 10:56:51.824 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.064997
+2024-01-03 10:56:51.824 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 10:56:51.888 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 10:56:51.889 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.064031
+2024-01-03 10:56:51.889 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 10:56:51.947 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 10:56:51.947 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.057974
+2024-01-03 10:56:51.947 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 10:56:52.003 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 10:56:52.003 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.055984
+2024-01-03 10:56:52.003 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 10:56:52.070 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 10:56:52.070 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.067038
+2024-01-03 10:56:52.071 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 10:56:52.136 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 10:56:52.136 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.064119
+2024-01-03 10:56:52.136 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 10:56:52.196 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 10:56:52.196 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.060967
+2024-01-03 10:56:52.196 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 10:56:52.256 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 10:56:52.256 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.059996
+2024-01-03 10:56:52.256 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 10:56:52.320 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 10:56:52.320 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.063999
+2024-01-03 10:56:52.320 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 10:56:52.385 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 10:56:52.385 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.065001
+2024-01-03 10:56:52.386 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 10:56:52.447 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 10:56:52.447 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.061029
+2024-01-03 10:56:52.447 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 10:56:52.506 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 10:56:52.506 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.058968
+2024-01-03 10:56:52.506 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 10:56:52.571 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 10:56:52.571 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.064999
+2024-01-03 10:56:52.571 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 10:56:52.634 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 10:56:52.634 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.063031
+2024-01-03 10:56:52.634 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 10:56:52.693 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 10:56:52.693 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.058966
+2024-01-03 10:56:52.694 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 10:56:52.752 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 10:56:52.752 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.057996
+2024-01-03 10:56:52.752 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 10:56:52.810 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 10:56:52.810 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.058001
+2024-01-03 10:56:52.811 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 10:56:52.872 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 10:56:52.872 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.061002
+2024-01-03 10:56:52.877 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:01.711156
+2024-01-03 10:56:52.901 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Export xsiff:0:00:00.023998
+2024-01-03 10:56:52.901 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Converter B003007_20231009153042.lot to WAT_B0015_B003007_FINAL_20231009142616.xsiff ;Total Used:0:00:01.772112
+2024-01-03 10:56:52.907 - CustomFuction [INFO    ] [Archive] B003007_20231009153042.lot
+2024-01-03 10:56:52.907 - CustomFuction [INFO    ] Move file: B003007_20231009153042.lot to Archive folder: Data\Source\B003007_20231009153042.lot.
+2024-01-03 10:56:52.907 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-03 10:56:52.907 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-03 10:56:52.917 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-03 10:56:53.066 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-03 11:02:29.321 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 11:02:29.321 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 11:02:29.321 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 11:02:29.323 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 11:02:29.335 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 11:02:29.336 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 11:02:29.336 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 11:02:29.644 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-03 11:02:29.711 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 11:02:29.713 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 11:02:29.294407
+2024-01-03 11:02:30.082 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 11:02:30.217 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 11:02:30.570 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 11:02:30.684 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 11:02:30.815 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B002617_20230925092618.lot 
+2024-01-03 11:02:30.909 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.093998
+2024-01-03 11:02:31.655 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 11:02:31.914 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 11:02:31.914 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.259019
+2024-01-03 11:02:31.914 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 11:02:32.177 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 11:02:32.177 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.262970
+2024-01-03 11:02:32.177 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 11:02:32.437 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 11:02:32.437 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.259993
+2024-01-03 11:02:32.437 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 11:02:32.695 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 11:02:32.695 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.257994
+2024-01-03 11:02:32.695 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 11:02:32.953 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 11:02:32.953 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.258025
+2024-01-03 11:02:32.953 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 11:02:33.210 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 11:02:33.210 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.256995
+2024-01-03 11:02:33.210 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 11:02:33.490 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 11:02:33.490 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.279997
+2024-01-03 11:02:33.490 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 11:02:33.755 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 11:02:33.755 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.265300
+2024-01-03 11:02:33.755 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 11:02:34.011 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 11:02:34.012 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.255996
+2024-01-03 11:02:34.012 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 11:02:34.268 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 11:02:34.268 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.255023
+2024-01-03 11:02:34.268 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 11:02:34.526 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 11:02:34.526 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.257117
+2024-01-03 11:02:34.526 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 11:02:34.787 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 11:02:34.787 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.260990
+2024-01-03 11:02:34.787 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 11:02:35.045 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 11:02:35.046 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.258003
+2024-01-03 11:02:35.046 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 11:02:35.305 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 11:02:35.306 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.259002
+2024-01-03 11:02:35.306 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 11:02:35.559 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 11:02:35.560 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.252975
+2024-01-03 11:02:35.560 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 11:02:35.822 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 11:02:35.822 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.262105
+2024-01-03 11:02:35.822 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 11:02:36.083 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 11:02:36.083 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.260995
+2024-01-03 11:02:36.083 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 11:02:36.342 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 11:02:36.342 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.258987
+2024-01-03 11:02:36.342 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 11:02:36.601 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 11:02:36.602 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.259002
+2024-01-03 11:02:36.602 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 11:02:36.862 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 11:02:36.862 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.260137
+2024-01-03 11:02:36.862 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 11:02:37.120 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 11:02:37.120 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.256113
+2024-01-03 11:02:37.120 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 11:02:37.376 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 11:02:37.376 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.255956
+2024-01-03 11:02:37.376 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 11:02:37.630 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 11:02:37.630 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.254198
+2024-01-03 11:02:37.631 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 11:02:37.884 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 11:02:37.884 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.253071
+2024-01-03 11:02:37.884 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 11:02:38.140 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 11:02:38.140 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.256038
+2024-01-03 11:05:10.450 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 11:05:10.451 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-03 11:05:10.451 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-03 11:05:10.452 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-03 11:05:10.464 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-03 11:05:10.464 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-03 11:05:10.464 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-03 11:05:10.733 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-03 11:05:10.733 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-03 11:05:10.793 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_GKW_WAT_TO_XSIFF\ETL_GKW_WAT_TO_XSIFF_SOURCE.py.*
+2024-01-03 11:05:10.796 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-03 11:05:10.442092
+2024-01-03 11:05:10.960 - __init__   [INFO    ] Set process status code: 0.
+2024-01-03 11:05:10.969 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 11:05:11.043 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 11:05:11.104 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-03 11:05:11.181 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B002617_20230925092618.lot 
+2024-01-03 11:05:11.268 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.086993
+2024-01-03 11:05:11.643 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 11:05:11.753 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 11:05:11.753 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.110000
+2024-01-03 11:05:11.753 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 11:05:11.861 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 11:05:11.861 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.107956
+2024-01-03 11:05:11.861 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 11:05:11.975 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 11:05:11.975 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.113994
+2024-01-03 11:05:11.975 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 11:05:12.085 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 11:05:12.085 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.110177
+2024-01-03 11:05:12.085 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 11:05:12.201 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 11:05:12.201 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.115969
+2024-01-03 11:05:12.201 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 11:05:12.308 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 11:05:12.308 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.107025
+2024-01-03 11:05:12.308 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 11:05:12.426 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 11:05:12.426 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.117969
+2024-01-03 11:05:12.426 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 11:05:12.539 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 11:05:12.539 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.113143
+2024-01-03 11:05:12.540 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 11:05:12.654 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 11:05:12.654 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.114996
+2024-01-03 11:05:12.654 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 11:05:12.764 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 11:05:12.764 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.109997
+2024-01-03 11:05:12.764 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 11:05:12.881 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 11:05:12.881 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.117123
+2024-01-03 11:05:12.881 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 11:05:12.995 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 11:05:12.995 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.113980
+2024-01-03 11:05:12.996 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 11:05:13.106 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 11:05:13.107 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.110027
+2024-01-03 11:05:13.107 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 11:05:13.218 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 11:05:13.218 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.110960
+2024-01-03 11:05:13.219 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 11:05:13.330 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 11:05:13.330 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.111140
+2024-01-03 11:05:13.330 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 11:05:13.436 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 11:05:13.437 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.105999
+2024-01-03 11:05:13.437 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 11:05:13.548 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 11:05:13.548 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.110975
+2024-01-03 11:05:13.548 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 11:05:13.656 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 11:05:13.656 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.108031
+2024-01-03 11:05:13.656 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 11:05:13.765 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 11:05:13.765 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.108958
+2024-01-03 11:05:13.765 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 11:05:13.872 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 11:05:13.872 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.107131
+2024-01-03 11:05:13.872 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 11:05:13.981 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 11:05:13.981 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.109034
+2024-01-03 11:05:13.981 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 11:05:14.087 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 11:05:14.087 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.105996
+2024-01-03 11:05:14.088 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 11:05:14.201 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 11:05:14.201 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.113010
+2024-01-03 11:05:14.201 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 11:05:14.307 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 11:05:14.308 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.106141
+2024-01-03 11:05:14.308 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 11:05:14.417 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 11:05:14.417 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.108988
+2024-01-03 11:05:14.426 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:03.158745
+2024-01-03 11:05:14.469 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Export xsiff:0:00:00.042958
+2024-01-03 11:05:14.469 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Converter B002617_20230925092618.lot to WAT_F0006_B002617_INLINE_20230925070932.xsiff ;Total Used:0:00:03.288696
+2024-01-03 11:05:14.479 - CustomFuction [INFO    ] [Archive] B002617_20230925092618.lot
+2024-01-03 11:05:14.479 - CustomFuction [INFO    ] Move file: B002617_20230925092618.lot to Archive folder: Data\Source\B002617_20230925092618.lot.
+2024-01-03 11:05:14.480 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Currently working on files: B003007_20231009153042.lot 
+2024-01-03 11:05:14.519 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Read source file:0:00:00.038951
+2024-01-03 11:05:14.680 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis begin
+2024-01-03 11:05:14.742 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis complete
+2024-01-03 11:05:14.742 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer01 analysis time is 0:00:00.060997
+2024-01-03 11:05:14.742 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis begin
+2024-01-03 11:05:14.804 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis complete
+2024-01-03 11:05:14.804 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer02 analysis time is 0:00:00.060989
+2024-01-03 11:05:14.804 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis begin
+2024-01-03 11:05:14.864 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis complete
+2024-01-03 11:05:14.864 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer03 analysis time is 0:00:00.060032
+2024-01-03 11:05:14.864 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis begin
+2024-01-03 11:05:14.927 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis complete
+2024-01-03 11:05:14.927 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer04 analysis time is 0:00:00.062968
+2024-01-03 11:05:14.928 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis begin
+2024-01-03 11:05:14.989 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis complete
+2024-01-03 11:05:14.989 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer05 analysis time is 0:00:00.060995
+2024-01-03 11:05:14.989 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis begin
+2024-01-03 11:05:15.051 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis complete
+2024-01-03 11:05:15.051 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer06 analysis time is 0:00:00.062038
+2024-01-03 11:05:15.051 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis begin
+2024-01-03 11:05:15.110 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis complete
+2024-01-03 11:05:15.110 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer07 analysis time is 0:00:00.058992
+2024-01-03 11:05:15.110 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis begin
+2024-01-03 11:05:15.170 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis complete
+2024-01-03 11:05:15.170 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer08 analysis time is 0:00:00.059974
+2024-01-03 11:05:15.170 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis begin
+2024-01-03 11:05:15.232 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis complete
+2024-01-03 11:05:15.232 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer09 analysis time is 0:00:00.061990
+2024-01-03 11:05:15.232 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis begin
+2024-01-03 11:05:15.293 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis complete
+2024-01-03 11:05:15.294 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer10 analysis time is 0:00:00.060999
+2024-01-03 11:05:15.294 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis begin
+2024-01-03 11:05:15.353 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis complete
+2024-01-03 11:05:15.353 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer11 analysis time is 0:00:00.059041
+2024-01-03 11:05:15.354 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis begin
+2024-01-03 11:05:15.414 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis complete
+2024-01-03 11:05:15.414 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer12 analysis time is 0:00:00.059996
+2024-01-03 11:05:15.414 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis begin
+2024-01-03 11:05:15.476 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis complete
+2024-01-03 11:05:15.476 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer13 analysis time is 0:00:00.062001
+2024-01-03 11:05:15.476 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis begin
+2024-01-03 11:05:15.537 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis complete
+2024-01-03 11:05:15.538 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer14 analysis time is 0:00:00.060959
+2024-01-03 11:05:15.538 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis begin
+2024-01-03 11:05:15.600 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis complete
+2024-01-03 11:05:15.600 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer15 analysis time is 0:00:00.062033
+2024-01-03 11:05:15.600 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis begin
+2024-01-03 11:05:15.661 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis complete
+2024-01-03 11:05:15.661 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer16 analysis time is 0:00:00.060965
+2024-01-03 11:05:15.662 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis begin
+2024-01-03 11:05:15.721 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis complete
+2024-01-03 11:05:15.722 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer17 analysis time is 0:00:00.059028
+2024-01-03 11:05:15.722 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis begin
+2024-01-03 11:05:15.785 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis complete
+2024-01-03 11:05:15.785 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer18 analysis time is 0:00:00.063007
+2024-01-03 11:05:15.786 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis begin
+2024-01-03 11:05:15.847 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis complete
+2024-01-03 11:05:15.847 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer19 analysis time is 0:00:00.061038
+2024-01-03 11:05:15.847 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis begin
+2024-01-03 11:05:15.907 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis complete
+2024-01-03 11:05:15.908 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer20 analysis time is 0:00:00.060013
+2024-01-03 11:05:15.908 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis begin
+2024-01-03 11:05:15.968 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis complete
+2024-01-03 11:05:15.969 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer21 analysis time is 0:00:00.060163
+2024-01-03 11:05:15.969 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis begin
+2024-01-03 11:05:16.032 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis complete
+2024-01-03 11:05:16.032 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer22 analysis time is 0:00:00.062994
+2024-01-03 11:05:16.032 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis begin
+2024-01-03 11:05:16.091 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis complete
+2024-01-03 11:05:16.091 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer23 analysis time is 0:00:00.059007
+2024-01-03 11:05:16.091 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis begin
+2024-01-03 11:05:16.151 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis complete
+2024-01-03 11:05:16.151 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer24 analysis time is 0:00:00.059988
+2024-01-03 11:05:16.151 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis begin
+2024-01-03 11:05:16.214 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis complete
+2024-01-03 11:05:16.214 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Wafer25 analysis time is 0:00:00.063011
+2024-01-03 11:05:16.220 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Create xsiff:0:00:01.701100
+2024-01-03 11:05:16.244 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Export xsiff:0:00:00.024039
+2024-01-03 11:05:16.244 - ETL_GKW_WAT_TO_XSIFF_SOURCE [INFO    ] Converter B003007_20231009153042.lot to WAT_B0015_B003007_FINAL_20231009142616.xsiff ;Total Used:0:00:01.764090
+2024-01-03 11:05:16.250 - CustomFuction [INFO    ] [Archive] B003007_20231009153042.lot
+2024-01-03 11:05:16.250 - CustomFuction [INFO    ] Move file: B003007_20231009153042.lot to Archive folder: Data\Source\B003007_20231009153042.lot.
+2024-01-03 11:05:16.250 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-03 11:05:16.250 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-03 11:05:16.259 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-03 11:05:16.425 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

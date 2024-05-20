@@ -1,0 +1,944 @@
+2023-11-27 09:18:50.941 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 09:18:50.942 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 09:18:50.942 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 09:18:50.943 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 09:18:50.958 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 09:18:50.958 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 09:18:50.958 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 09:18:54.725 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 09:18:58.289 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 09:18:58.292 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 09:18:50.923058
+2023-11-27 09:19:01.763 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 09:19:01.773 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 09:19:01.869 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 09:19:01.944 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 09:19:02.090 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.062964
+2023-11-27 09:19:02.113 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB2 to KLA-Tencor_None_HB0185F0CIB2_None_HB0185F0CIB2_2023-11-27-09-19-02.001 ;Total Used:0:00:00.085959
+2023-11-27 09:19:02.115 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB2.xls
+2023-11-27 09:19:02.116 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB2.xls to Archive folder: Data\Source\1-HB0185F0CIB2.xls.
+2023-11-27 09:19:02.125 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.009002
+2023-11-27 09:19:02.148 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\2-HB019RD5CID2 to KLA-Tencor_None_HB019RD5CID2_None_HB019RD5CID2_2023-11-27-09-19-02.001 ;Total Used:0:00:00.032003
+2023-11-27 09:19:02.151 - CustomFuction [INFO    ] [Archive] 2-HB019RD5CID2.xls
+2023-11-27 09:19:02.151 - CustomFuction [INFO    ] Move file: 2-HB019RD5CID2.xls to Archive folder: Data\Source\2-HB019RD5CID2.xls.
+2023-11-27 09:19:02.158 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.007037
+2023-11-27 09:19:02.166 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\3-HB07F141CIC7 to KLA-Tencor_None_HB07F141CIC7_None_HB07F141CIC7_2023-11-27-09-19-02.001 ;Total Used:0:00:00.015003
+2023-11-27 09:19:02.168 - CustomFuction [INFO    ] [Archive] 3-HB07F141CIC7.xls
+2023-11-27 09:19:02.168 - CustomFuction [INFO    ] Move file: 3-HB07F141CIC7.xls to Archive folder: Data\Source\3-HB07F141CIC7.xls.
+2023-11-27 09:19:02.202 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.033974
+2023-11-27 09:19:02.210 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\4-HB0F3985CIC3 to KLA-Tencor_None_HB0F3985CIC3_None_HB0F3985CIC3_2023-11-27-09-19-02.001 ;Total Used:0:00:00.041974
+2023-11-27 09:19:02.212 - CustomFuction [INFO    ] [Archive] 4-HB0F3985CIC3.xls
+2023-11-27 09:19:02.214 - CustomFuction [INFO    ] Move file: 4-HB0F3985CIC3.xls to Archive folder: Data\Source\4-HB0F3985CIC3.xls.
+2023-11-27 09:19:02.219 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.004968
+2023-11-27 09:19:02.228 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\5_HB07FYQ6CIB5 to KLA-Tencor_None_HB07FYQ6CIB5_None_HB07FYQ6CIB5_2023-11-27-09-19-02.001 ;Total Used:0:00:00.013967
+2023-11-27 09:19:02.230 - CustomFuction [INFO    ] [Archive] 5_HB07FYQ6CIB5.csv
+2023-11-27 09:19:02.230 - CustomFuction [INFO    ] Move file: 5_HB07FYQ6CIB5.csv to Archive folder: Data\Source\5_HB07FYQ6CIB5.csv.
+2023-11-27 09:19:02.230 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 09:19:02.230 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 09:19:02.241 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 09:19:02.570 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 18:24:19.580 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:24:19.581 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:24:19.581 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:24:19.584 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:24:19.623 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:24:19.624 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:24:19.624 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:24:41.249 - Database   [WARNING ] (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+(Background on this error at: http://sqlalche.me/e/13/4xp6)
+2023-11-27 18:24:41.260 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-11-27 18:25:20.921 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:25:20.921 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:25:20.922 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:25:20.924 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:25:20.950 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:25:20.950 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:25:20.950 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:25:22.575 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 18:25:26.718 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:25:26.728 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:25:20.901731
+2023-11-27 18:25:28.597 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:25:28.749 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:25:29.480 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:25:30.167 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:25:31.212 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.251032
+2023-11-27 18:25:31.311 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB2 to KLA-Tencor_None_HB0185F0CIB2_None_HB0185F0CIB2_2023-11-27-18-25-30.001 ;Total Used:0:00:00.350029
+2023-11-27 18:25:31.347 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB2.xls
+2023-11-27 18:25:31.349 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB2.xls to Archive folder: Data\Source\1-HB0185F0CIB2.xls.
+2023-11-27 18:25:31.396 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.045984
+2023-11-27 18:25:31.454 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\2-HB019RD5CID2 to KLA-Tencor_None_HB019RD5CID2_None_HB019RD5CID2_2023-11-27-18-25-31.001 ;Total Used:0:00:00.104988
+2023-11-27 18:25:31.477 - CustomFuction [INFO    ] [Archive] 2-HB019RD5CID2.xls
+2023-11-27 18:25:31.478 - CustomFuction [INFO    ] Move file: 2-HB019RD5CID2.xls to Archive folder: Data\Source\2-HB019RD5CID2.xls.
+2023-11-27 18:25:31.522 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.042396
+2023-11-27 18:25:31.571 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\3-HB07F141CIC7 to KLA-Tencor_None_HB07F141CIC7_None_HB07F141CIC7_2023-11-27-18-25-31.001 ;Total Used:0:00:00.092052
+2023-11-27 18:25:31.588 - CustomFuction [INFO    ] [Archive] 3-HB07F141CIC7.xls
+2023-11-27 18:25:31.590 - CustomFuction [INFO    ] Move file: 3-HB07F141CIC7.xls to Archive folder: Data\Source\3-HB07F141CIC7.xls.
+2023-11-27 18:25:31.749 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.158083
+2023-11-27 18:25:31.777 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\4-HB0F3985CIC3 to KLA-Tencor_None_HB0F3985CIC3_None_HB0F3985CIC3_2023-11-27-18-25-31.001 ;Total Used:0:00:00.185997
+2023-11-27 18:25:31.808 - CustomFuction [INFO    ] [Archive] 4-HB0F3985CIC3.xls
+2023-11-27 18:25:31.820 - CustomFuction [INFO    ] Move file: 4-HB0F3985CIC3.xls to Archive folder: Data\Source\4-HB0F3985CIC3.xls.
+2023-11-27 18:25:31.836 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.014995
+2023-11-27 18:25:31.891 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\5_HB07FYQ6CIB5 to KLA-Tencor_None_HB07FYQ6CIB5_None_HB07FYQ6CIB5_2023-11-27-18-25-31.001 ;Total Used:0:00:00.069994
+2023-11-27 18:25:31.917 - CustomFuction [INFO    ] [Archive] 5_HB07FYQ6CIB5.csv
+2023-11-27 18:25:31.919 - CustomFuction [INFO    ] Move file: 5_HB07FYQ6CIB5.csv to Archive folder: Data\Source\5_HB07FYQ6CIB5.csv.
+2023-11-27 18:25:31.919 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:25:31.919 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:25:32.109 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:25:33.551 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 18:31:02.732 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:31:02.734 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:31:02.734 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:31:02.738 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:31:02.778 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:31:02.779 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:31:02.779 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:31:04.812 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 18:31:08.707 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:31:08.709 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:31:02.700293
+2023-11-27 18:31:10.481 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:31:10.678 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:31:11.602 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:31:12.343 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:31:13.443 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.242159
+2023-11-27 18:31:13.608 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_None_HB0185F0CIB0_2023-11-27-18-31-13.001 ;Total Used:0:00:00.407301
+2023-11-27 18:31:13.680 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 18:31:13.682 - CustomFuction [ERROR   ] Move File Error
+2023-11-27 18:31:13.698 - CustomFuction [ERROR   ] './Data/Source\\1-HB0185F0CIB0.xlsx' and 'Data\\Source\\1-HB0185F0CIB0.xlsx' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\1-HB0185F0CIB0.xlsx' -> 'Data\\Source\\1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: './Data/Source\\1-HB0185F0CIB0.xlsx' and 'Data\\Source\\1-HB0185F0CIB0.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:31:13.798 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.077999
+2023-11-27 18:31:13.989 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB2 to KLA-Tencor_None_HB0185F0CIB2_None_HB0185F0CIB2_2023-11-27-18-31-13.001 ;Total Used:0:00:00.268509
+2023-11-27 18:31:14.028 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB2.xls
+2023-11-27 18:31:14.031 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB2.xls to Archive folder: Data\Source\1-HB0185F0CIB2.xls.
+2023-11-27 18:31:14.087 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.056061
+2023-11-27 18:31:14.195 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\2-HB019RD5CID2 to KLA-Tencor_None_HB019RD5CID2_None_HB019RD5CID2_2023-11-27-18-31-14.001 ;Total Used:0:00:00.164131
+2023-11-27 18:31:14.243 - CustomFuction [INFO    ] [Archive] 2-HB019RD5CID2.xls
+2023-11-27 18:31:14.244 - CustomFuction [INFO    ] Move file: 2-HB019RD5CID2.xls to Archive folder: Data\Source\2-HB019RD5CID2.xls.
+2023-11-27 18:31:14.286 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.041008
+2023-11-27 18:31:14.339 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\3-HB07F141CIC7 to KLA-Tencor_None_HB07F141CIC7_None_HB07F141CIC7_2023-11-27-18-31-14.001 ;Total Used:0:00:00.093621
+2023-11-27 18:31:14.365 - CustomFuction [INFO    ] [Archive] 3-HB07F141CIC7.xls
+2023-11-27 18:31:14.367 - CustomFuction [INFO    ] Move file: 3-HB07F141CIC7.xls to Archive folder: Data\Source\3-HB07F141CIC7.xls.
+2023-11-27 18:31:14.414 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.046086
+2023-11-27 18:31:14.516 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\4-HB0F3985CIC3 to KLA-Tencor_None_HB0F3985CIC3_None_HB0F3985CIC3_2023-11-27-18-31-14.001 ;Total Used:0:00:00.148086
+2023-11-27 18:31:14.560 - CustomFuction [INFO    ] [Archive] 4-HB0F3985CIC3.xls
+2023-11-27 18:31:14.567 - CustomFuction [INFO    ] Move file: 4-HB0F3985CIC3.xls to Archive folder: Data\Source\4-HB0F3985CIC3.xls.
+2023-11-27 18:31:14.572 - CustomFuction [ERROR   ] Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 157, in open_workbook
+    ragged_rows=ragged_rows,
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 92, in open_workbook_xls
+    biff_version = bk.getbof(XL_WORKBOOK_GLOBALS)
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1278, in getbof
+    bof_error('Expected BOF record; found %r' % self.mem[savpos:savpos+8])
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1272, in bof_error
+    raise XLRDError('Unsupported format, or corrupt file: ' + msg)
+xlrd.biffh.XLRDError: Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:31:14.682 - CustomFuction [INFO    ] [ERROR] 5_HB07FYQ6CIB5.csv
+2023-11-27 18:31:14.684 - CustomFuction [INFO    ] Move file: 5_HB07FYQ6CIB5.csv to ERROR folder: Data\Source\5_HB07FYQ6CIB5.csv.
+2023-11-27 18:31:16.800 - CustomFuction [ERROR   ] [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:31:16.825 - CustomFuction [INFO    ] [ERROR] ~$1-HB0185F0CIB0.xlsx
+2023-11-27 18:31:16.827 - CustomFuction [ERROR   ] Move File Error
+2023-11-27 18:31:16.829 - CustomFuction [ERROR   ] './Data/Source\\~$1-HB0185F0CIB0.xlsx' and 'Data\\Source\\~$1-HB0185F0CIB0.xlsx' are the same file
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\~$1-HB0185F0CIB0.xlsx' -> 'Data\\Source\\~$1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: './Data/Source\\~$1-HB0185F0CIB0.xlsx' and 'Data\\Source\\~$1-HB0185F0CIB0.xlsx' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 646, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:31:18.900 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:31:18.900 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:31:19.161 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:31:21.400 - __init__   [INFO    ] Set process status code: 5.
+2023-11-27 18:31:41.544 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:31:41.544 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:31:41.545 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:31:41.548 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:31:41.568 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:31:41.568 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:31:41.568 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:31:43.925 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-27 18:31:48.268 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:31:48.274 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:31:41.528223
+2023-11-27 18:31:50.435 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:31:50.573 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:31:51.362 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:31:52.123 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:31:53.053 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.158360
+2023-11-27 18:31:53.164 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_None_HB0185F0CIB0_2023-11-27-18-31-52.001 ;Total Used:0:00:00.269689
+2023-11-27 18:31:53.328 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 18:31:53.330 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to Archive folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 18:31:53.388 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.057054
+2023-11-27 18:31:53.505 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB2 to KLA-Tencor_None_HB0185F0CIB2_None_HB0185F0CIB2_2023-11-27-18-31-53.001 ;Total Used:0:00:00.174148
+2023-11-27 18:31:53.563 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB2.xls
+2023-11-27 18:31:53.565 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB2.xls to Archive folder: Data\Source\1-HB0185F0CIB2.xls.
+2023-11-27 18:31:53.618 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.052029
+2023-11-27 18:31:53.713 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\2-HB019RD5CID2 to KLA-Tencor_None_HB019RD5CID2_None_HB019RD5CID2_2023-11-27-18-31-53.001 ;Total Used:0:00:00.146997
+2023-11-27 18:31:53.762 - CustomFuction [INFO    ] [Archive] 2-HB019RD5CID2.xls
+2023-11-27 18:31:53.764 - CustomFuction [INFO    ] Move file: 2-HB019RD5CID2.xls to Archive folder: Data\Source\2-HB019RD5CID2.xls.
+2023-11-27 18:31:53.802 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.036982
+2023-11-27 18:31:53.843 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\3-HB07F141CIC7 to KLA-Tencor_None_HB07F141CIC7_None_HB07F141CIC7_2023-11-27-18-31-53.001 ;Total Used:0:00:00.078020
+2023-11-27 18:31:53.883 - CustomFuction [INFO    ] [Archive] 3-HB07F141CIC7.xls
+2023-11-27 18:31:53.889 - CustomFuction [INFO    ] Move file: 3-HB07F141CIC7.xls to Archive folder: Data\Source\3-HB07F141CIC7.xls.
+2023-11-27 18:31:53.934 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.042999
+2023-11-27 18:31:53.979 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\4-HB0F3985CIC3 to KLA-Tencor_None_HB0F3985CIC3_None_HB0F3985CIC3_2023-11-27-18-31-53.001 ;Total Used:0:00:00.089324
+2023-11-27 18:31:54.029 - CustomFuction [INFO    ] [Archive] 4-HB0F3985CIC3.xls
+2023-11-27 18:31:54.031 - CustomFuction [INFO    ] Move file: 4-HB0F3985CIC3.xls to Archive folder: Data\Source\4-HB0F3985CIC3.xls.
+2023-11-27 18:31:54.040 - CustomFuction [ERROR   ] Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 157, in open_workbook
+    ragged_rows=ragged_rows,
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 92, in open_workbook_xls
+    biff_version = bk.getbof(XL_WORKBOOK_GLOBALS)
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1278, in getbof
+    bof_error('Expected BOF record; found %r' % self.mem[savpos:savpos+8])
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1272, in bof_error
+    raise XLRDError('Unsupported format, or corrupt file: ' + msg)
+xlrd.biffh.XLRDError: Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:31:54.096 - CustomFuction [INFO    ] [ERROR] 5_HB07FYQ6CIB5.csv
+2023-11-27 18:31:54.098 - CustomFuction [INFO    ] Move file: 5_HB07FYQ6CIB5.csv to ERROR folder: Data\Source\5_HB07FYQ6CIB5.csv.
+2023-11-27 18:31:56.176 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:31:56.176 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:31:56.353 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:31:58.182 - __init__   [INFO    ] Set process status code: 5.
+2023-11-27 18:33:56.238 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:33:56.239 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:33:56.239 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:33:56.242 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:33:56.281 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:33:56.282 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:33:56.282 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:33:58.529 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-27 18:34:02.715 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:34:02.720 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:33:56.219762
+2023-11-27 18:34:04.565 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:34:04.749 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:34:05.564 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:34:06.361 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:34:07.317 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.149046
+2023-11-27 18:34:07.426 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_None_HB0185F0CIB0_2023-11-27-18-34-07.001 ;Total Used:0:00:00.258012
+2023-11-27 18:34:07.483 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 18:34:07.485 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to Archive folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 18:34:07.486 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:34:07.486 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:34:07.672 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:34:09.395 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 18:35:01.825 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:35:01.825 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:35:01.825 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:35:01.829 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:35:01.854 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:35:01.855 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:35:01.855 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:35:03.932 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 18:35:04.693 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:35:04.697 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:35:01.805401
+2023-11-27 18:35:06.761 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:35:06.915 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:35:07.597 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:35:08.294 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:35:09.251 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.108702
+2023-11-27 18:35:09.302 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\4-HB0F3985CIC3 to KLA-Tencor_None_HB0F3985CIC3_None_HB0F3985CIC3_2023-11-27-18-35-09.001 ;Total Used:0:00:00.159365
+2023-11-27 18:35:09.378 - CustomFuction [INFO    ] [Archive] 4-HB0F3985CIC3.xls
+2023-11-27 18:35:09.379 - CustomFuction [INFO    ] Move file: 4-HB0F3985CIC3.xls to Archive folder: Data\Source\4-HB0F3985CIC3.xls.
+2023-11-27 18:35:09.380 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:35:09.380 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:35:09.586 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:35:11.144 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 18:35:40.324 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:35:40.324 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:35:40.324 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:35:40.327 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:35:40.367 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:35:40.368 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:35:40.368 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:35:47.438 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 18:35:49.148 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:35:49.151 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:35:40.297902
+2023-11-27 18:35:54.764 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:35:54.921 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:35:55.722 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:35:56.523 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:35:57.389 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.042996
+2023-11-27 18:35:57.433 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB2 to KLA-Tencor_None_HB0185F0CIB2_None_HB0185F0CIB2_2023-11-27-18-35-57.001 ;Total Used:0:00:00.088153
+2023-11-27 18:35:57.487 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB2.xls
+2023-11-27 18:35:57.488 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB2.xls to Archive folder: Data\Source\1-HB0185F0CIB2.xls.
+2023-11-27 18:35:57.489 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:35:57.489 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:35:57.746 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:35:59.554 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 18:36:20.486 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:36:20.486 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:36:20.486 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:36:20.488 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:36:20.510 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:36:20.511 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:36:20.511 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:36:26.252 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 18:36:29.688 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:36:29.692 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:36:20.470000
+2023-11-27 18:36:35.010 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:36:35.170 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:36:36.889 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:36:39.995 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:36:44.020 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.102560
+2023-11-27 18:36:44.107 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\2-HB019RD5CID2 to KLA-Tencor_None_HB019RD5CID2_None_HB019RD5CID2_2023-11-27-18-36-43.001 ;Total Used:0:00:00.189613
+2023-11-27 18:36:44.737 - CustomFuction [INFO    ] [Archive] 2-HB019RD5CID2.xls
+2023-11-27 18:36:44.739 - CustomFuction [INFO    ] Move file: 2-HB019RD5CID2.xls to Archive folder: Data\Source\2-HB019RD5CID2.xls.
+2023-11-27 18:36:44.739 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:36:44.740 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:36:44.943 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:36:49.982 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 18:37:06.503 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:37:06.504 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:37:06.504 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:37:06.508 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:37:06.565 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:37:06.565 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:37:06.566 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:37:08.612 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 18:37:09.344 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:37:09.348 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:37:06.470346
+2023-11-27 18:37:11.279 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:37:11.478 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:37:12.243 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:37:12.998 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:37:13.774 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.093033
+2023-11-27 18:37:13.815 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\3-HB07F141CIC7 to KLA-Tencor_None_HB07F141CIC7_None_HB07F141CIC7_2023-11-27-18-37-13.001 ;Total Used:0:00:00.134091
+2023-11-27 18:37:13.852 - CustomFuction [INFO    ] [Archive] 3-HB07F141CIC7.xls
+2023-11-27 18:37:13.854 - CustomFuction [INFO    ] Move file: 3-HB07F141CIC7.xls to Archive folder: Data\Source\3-HB07F141CIC7.xls.
+2023-11-27 18:37:13.854 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:37:13.855 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:37:14.046 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:37:15.762 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 18:41:20.726 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:41:20.727 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:41:20.727 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:41:20.729 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:41:20.747 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:41:20.747 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:41:20.748 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:41:22.597 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 18:41:23.318 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:41:23.321 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:41:20.715446
+2023-11-27 18:41:25.238 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:41:25.379 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:41:26.054 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:41:26.687 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:41:27.774 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.158035
+2023-11-27 18:41:27.868 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_None_HB0185F0CIB0_2023-11-27-18-41-27.001 ;Total Used:0:00:00.252036
+2023-11-27 18:41:27.914 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 18:41:27.916 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to Archive folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 18:41:27.965 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.047998
+2023-11-27 18:41:28.084 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB2 to KLA-Tencor_None_HB0185F0CIB2_None_HB0185F0CIB2_2023-11-27-18-41-27.001 ;Total Used:0:00:00.166886
+2023-11-27 18:41:28.135 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB2.xls
+2023-11-27 18:41:28.136 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB2.xls to Archive folder: Data\Source\1-HB0185F0CIB2.xls.
+2023-11-27 18:41:28.176 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.039003
+2023-11-27 18:41:28.260 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\2-HB019RD5CID2 to KLA-Tencor_None_HB019RD5CID2_None_HB019RD5CID2_2023-11-27-18-41-28.001 ;Total Used:0:00:00.122457
+2023-11-27 18:41:28.315 - CustomFuction [INFO    ] [Archive] 2-HB019RD5CID2.xls
+2023-11-27 18:41:28.318 - CustomFuction [INFO    ] Move file: 2-HB019RD5CID2.xls to Archive folder: Data\Source\2-HB019RD5CID2.xls.
+2023-11-27 18:41:28.365 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.046393
+2023-11-27 18:41:28.412 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\3-HB07F141CIC7 to KLA-Tencor_None_HB07F141CIC7_None_HB07F141CIC7_2023-11-27-18-41-28.001 ;Total Used:0:00:00.094393
+2023-11-27 18:41:28.441 - CustomFuction [INFO    ] [Archive] 3-HB07F141CIC7.xls
+2023-11-27 18:41:28.446 - CustomFuction [INFO    ] Move file: 3-HB07F141CIC7.xls to Archive folder: Data\Source\3-HB07F141CIC7.xls.
+2023-11-27 18:41:28.494 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.047218
+2023-11-27 18:41:28.535 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\4-HB0F3985CIC3 to KLA-Tencor_None_HB0F3985CIC3_None_HB0F3985CIC3_2023-11-27-18-41-28.001 ;Total Used:0:00:00.088396
+2023-11-27 18:41:28.560 - CustomFuction [INFO    ] [Archive] 4-HB0F3985CIC3.xls
+2023-11-27 18:41:28.561 - CustomFuction [INFO    ] Move file: 4-HB0F3985CIC3.xls to Archive folder: Data\Source\4-HB0F3985CIC3.xls.
+2023-11-27 18:41:28.573 - CustomFuction [ERROR   ] Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 23, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 157, in open_workbook
+    ragged_rows=ragged_rows,
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 92, in open_workbook_xls
+    biff_version = bk.getbof(XL_WORKBOOK_GLOBALS)
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1278, in getbof
+    bof_error('Expected BOF record; found %r' % self.mem[savpos:savpos+8])
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1272, in bof_error
+    raise XLRDError('Unsupported format, or corrupt file: ' + msg)
+xlrd.biffh.XLRDError: Unsupported format, or corrupt file: Expected BOF record; found b'No.,X(mm'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 112, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:41:28.625 - CustomFuction [INFO    ] [ERROR] 5_HB07FYQ6CIB5.csv
+2023-11-27 18:41:28.626 - CustomFuction [INFO    ] Move file: 5_HB07FYQ6CIB5.csv to ERROR folder: Data\Source\5_HB07FYQ6CIB5.csv.
+2023-11-27 18:41:30.192 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:41:30.193 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:41:30.333 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:41:31.947 - __init__   [INFO    ] Set process status code: 5.
+2023-11-27 18:53:25.628 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:53:25.629 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:53:25.629 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:53:25.632 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:53:25.665 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:53:25.665 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:53:25.666 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:53:27.810 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-27 18:53:28.483 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:53:28.488 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:53:25.598722
+2023-11-27 18:53:30.620 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:53:30.757 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:53:31.517 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:53:32.176 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:53:32.791 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00
+2023-11-27 18:53:32.809 - CustomFuction [ERROR   ] local variable 'Data' referenced before assignment
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 41, in do_file
+    for item, row in Data.iterrows():
+UnboundLocalError: local variable 'Data' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:53:32.857 - CustomFuction [INFO    ] [ERROR] 1-HB0185F0CIB0.xlsx
+2023-11-27 18:53:32.858 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to ERROR folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 18:53:34.541 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:53:34.541 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:53:34.693 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:53:36.522 - __init__   [INFO    ] Set process status code: 5.
+2023-11-27 18:55:19.674 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:55:19.674 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:55:19.675 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:55:19.679 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:55:19.723 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:55:19.723 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:55:19.723 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:55:21.560 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-27 18:55:22.226 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:55:22.230 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:55:19.646325
+2023-11-27 18:55:23.905 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:55:24.022 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:55:24.900 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:55:25.546 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:55:26.164 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00
+2023-11-27 18:55:26.172 - CustomFuction [ERROR   ] 'str' object has no attribute 'iterrows'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 41, in do_file
+    for item, row in Data.iterrows():
+AttributeError: 'str' object has no attribute 'iterrows'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 18:55:26.199 - CustomFuction [INFO    ] [ERROR] 1-HB0185F0CIB0.xlsx
+2023-11-27 18:55:26.200 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to ERROR folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 18:55:28.151 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:55:28.152 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:55:28.364 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:55:30.283 - __init__   [INFO    ] Set process status code: 5.
+2023-11-27 18:56:05.502 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:56:05.502 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:56:05.502 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:56:05.505 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:56:05.545 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:56:05.546 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:56:05.546 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:56:07.311 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-27 18:56:07.990 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:56:08.000 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:56:05.480079
+2023-11-27 18:56:09.702 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:56:09.839 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:56:10.569 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:56:11.242 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:56:11.943 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.005019
+2023-11-27 18:56:11.947 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-18-56-11.001 ;Total Used:0:00:00.009020
+2023-11-27 18:56:11.969 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 18:56:11.971 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to Archive folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 18:56:11.971 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:56:11.972 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:56:12.133 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:56:13.783 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 18:57:45.236 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:57:45.236 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:57:45.236 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:57:45.238 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:57:45.258 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:57:45.258 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:57:45.258 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:57:47.351 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 18:57:48.098 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:57:48.102 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:57:45.218194
+2023-11-27 18:57:49.952 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:57:50.114 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:57:50.866 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:57:51.508 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:57:52.390 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.186636
+2023-11-27 18:57:52.507 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-18-57-52.001 ;Total Used:0:00:00.302889
+2023-11-27 18:57:52.569 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 18:57:52.570 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to Archive folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 18:57:52.570 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:57:52.571 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:57:52.720 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:57:54.444 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 18:58:55.239 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:58:55.239 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 18:58:55.240 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 18:58:55.242 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 18:58:55.268 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 18:58:55.269 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 18:58:55.269 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 18:58:57.288 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 18:58:58.512 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 18:58:58.514 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 18:58:55.216378
+2023-11-27 18:59:00.114 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 18:59:00.218 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:59:00.791 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:59:01.452 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 18:59:02.187 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.139092
+2023-11-27 18:59:02.291 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-18-59-02.001 ;Total Used:0:00:00.242502
+2023-11-27 18:59:02.327 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 18:59:02.330 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to Archive folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 18:59:02.331 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 18:59:02.332 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 18:59:02.560 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 18:59:04.011 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 19:00:11.307 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:00:11.307 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 19:00:11.307 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:00:11.309 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 19:00:11.335 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 19:00:11.335 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 19:00:11.336 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 19:00:13.203 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 19:00:13.831 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 19:00:13.835 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 19:00:11.283064
+2023-11-27 19:00:15.587 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 19:00:15.718 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:00:16.334 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:00:17.024 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:00:17.896 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.207104
+2023-11-27 19:00:18.031 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-00-17.001 ;Total Used:0:00:00.341833
+2023-11-27 19:00:18.086 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 19:00:18.088 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to Archive folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 19:00:18.089 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 19:00:18.089 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 19:00:18.382 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 19:00:19.917 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 19:01:39.528 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:01:39.528 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 19:01:39.528 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:01:39.531 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 19:01:39.557 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 19:01:39.557 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 19:01:39.558 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 19:01:41.476 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 19:01:42.280 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 19:01:42.283 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 19:01:39.513052
+2023-11-27 19:01:44.152 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 19:01:44.329 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:01:45.030 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:01:45.673 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:01:46.510 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.142724
+2023-11-27 19:01:46.607 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-01-46.001 ;Total Used:0:00:00.239726
+2023-11-27 19:01:46.650 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 19:01:46.653 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to Archive folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 19:01:46.654 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 19:01:46.655 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 19:01:46.805 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 19:01:48.614 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 19:04:12.629 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:04:12.630 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 19:04:12.630 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:04:12.633 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 19:04:12.667 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 19:04:12.669 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 19:04:12.670 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 19:04:15.148 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 19:04:15.826 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 19:04:15.834 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 19:04:12.548225
+2023-11-27 19:04:17.780 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 19:04:17.957 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:04:18.862 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:04:19.813 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:04:26.265 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:05.474022
+2023-11-27 19:13:11.031 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:13:11.031 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 19:13:11.031 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:13:11.035 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 19:13:11.079 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 19:13:11.081 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 19:13:11.081 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 19:13:12.841 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2023-11-27 19:13:12.842 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2023-11-27 19:13:13.444 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 19:13:13.450 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 19:13:11.012895
+2023-11-27 19:13:15.012 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 19:13:15.220 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:13:16.076 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:13:16.865 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:13:17.705 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.153728
+2023-11-27 19:13:17.798 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\1-HB0185F0CIB0 to KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-13-17.001 ;Total Used:0:00:00.247366
+2023-11-27 19:13:17.869 - CustomFuction [INFO    ] [Archive] 1-HB0185F0CIB0.xlsx
+2023-11-27 19:13:17.870 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to Archive folder: Data\Source\1-HB0185F0CIB0.xlsx.
+2023-11-27 19:13:17.870 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 19:13:17.871 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 19:13:18.065 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 19:13:19.632 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 19:42:40.164 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:42:40.166 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 19:42:40.166 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:42:40.171 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 19:42:40.272 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 19:42:40.272 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 19:42:40.273 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 19:42:43.030 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 19:42:44.042 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 19:42:44.050 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 19:42:40.130731
+2023-11-27 19:42:46.222 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 19:42:46.365 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:42:47.063 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:42:47.701 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:42:48.980 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.361531
+2023-11-27 19:42:49.091 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-42-48.001'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 59, in do_file
+    with open(outputPath, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-42-48.001'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:42:49.153 - CustomFuction [INFO    ] [ERROR] 1-HB0185F0CIB0.xlsx
+2023-11-27 19:42:49.162 - CustomFuction [ERROR   ] Move File Error
+2023-11-27 19:42:49.164 - CustomFuction [ERROR   ] [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\1-HB0185F0CIB0.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 59, in do_file
+    with open(outputPath, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-42-48.001'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\1-HB0185F0CIB0.xlsx' -> 'Data\\ERROR\\1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 572, in move
+    os.unlink(src)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\1-HB0185F0CIB0.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 646, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:42:53.269 - CustomFuction [ERROR   ] [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 25, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:42:53.321 - CustomFuction [INFO    ] [ERROR] ~$1-HB0185F0CIB0.xlsx
+2023-11-27 19:42:53.323 - CustomFuction [ERROR   ] Move File Error
+2023-11-27 19:42:53.324 - CustomFuction [ERROR   ] [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 25, in do_file
+    Data = pd.read_excel(file_path)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\~$1-HB0185F0CIB0.xlsx' -> 'Data\\ERROR\\~$1-HB0185F0CIB0.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 120, in copyfile
+    with open(src, 'rb') as fsrc:
+PermissionError: [Errno 13] Permission denied: './Data/Source\\~$1-HB0185F0CIB0.xlsx'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 646, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:42:55.096 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 19:42:55.097 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 19:42:55.290 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 19:42:56.944 - __init__   [INFO    ] Set process status code: 5.
+2023-11-27 19:43:06.552 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:43:06.552 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 19:43:06.553 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:43:06.555 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 19:43:06.580 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 19:43:06.581 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 19:43:06.581 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 19:43:08.446 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-27 19:43:09.165 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 19:43:09.169 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 19:43:06.533952
+2023-11-27 19:43:10.902 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 19:43:11.030 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:43:12.199 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:43:12.920 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:43:13.809 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.140996
+2023-11-27 19:43:13.910 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-43-13.001'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 59, in do_file
+    with open(outputPath, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: './Data/Klarf\\KLA-Tencor_None_HB0185F0CIB0_01_HB0185F0CIB0_2023-11-27-19-43-13.001'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XYN_XLSX_TO_KLARF/ETL_XYN_XLSX_TO_KLARF.py", line 115, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-27 19:43:13.952 - CustomFuction [INFO    ] [ERROR] 1-HB0185F0CIB0.xlsx
+2023-11-27 19:43:13.956 - CustomFuction [INFO    ] Move file: 1-HB0185F0CIB0.xlsx to ERROR folder: Data\ERROR\1-HB0185F0CIB0.xlsx.
+2023-11-27 19:43:18.893 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 19:43:18.893 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 19:43:19.038 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 19:43:21.017 - __init__   [INFO    ] Set process status code: 5.
+2023-11-27 19:44:15.886 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:44:15.886 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 19:44:15.886 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:44:15.889 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 19:44:15.915 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 19:44:15.915 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 19:44:15.915 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 19:44:17.844 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-11-27 19:44:18.575 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 19:44:18.579 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 19:44:15.867844
+2023-11-27 19:44:20.299 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 19:44:20.455 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:44:21.332 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:44:22.111 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:44:22.666 - CustomFuction [INFO    ] [Empty] Empty Folder : ./Data/Source
+2023-11-27 19:44:22.667 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 19:44:22.667 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 19:44:22.832 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 19:44:24.323 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-11-27 19:44:47.947 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:44:47.947 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-11-27 19:44:47.948 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-11-27 19:44:47.951 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-11-27 19:44:47.974 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-11-27 19:44:47.974 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-11-27 19:44:47.974 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-11-27 19:44:49.936 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-11-27 19:44:50.723 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_XYN_XLSX_TO_KLARF\ETL_XYN_XLSX_TO_KLARF.py.*
+2023-11-27 19:44:50.727 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-11-27 19:44:47.927459
+2023-11-27 19:44:52.433 - __init__   [INFO    ] Set process status code: 0.
+2023-11-27 19:44:52.555 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:44:53.252 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:44:54.001 - Database   [INFO    ] Non set logging! Using default logging.
+2023-11-27 19:44:54.773 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.133607
+2023-11-27 19:44:54.828 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\4-HB0F3985CIC3 to KLA-Tencor_None_HB0F3985CIC3_01_HB0F3985CIC3_2023-11-27-19-44-54.001 ;Total Used:0:00:00.189045
+2023-11-27 19:44:54.854 - CustomFuction [INFO    ] [Archive] 4-HB0F3985CIC3.xls
+2023-11-27 19:44:54.856 - CustomFuction [INFO    ] Move file: 4-HB0F3985CIC3.xls to Archive folder: Data\Archive\4-HB0F3985CIC3.xls.
+2023-11-27 19:44:54.876 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Read Source File:0:00:00.019923
+2023-11-27 19:44:54.923 - ETL_XYN_XLSX_TO_KLARF [INFO    ] Converter ./Data/Source\5-HB07FYQ6CIB5 to KLA-Tencor_None_HB07FYQ6CIB5_01_HB07FYQ6CIB5_2023-11-27-19-44-54.001 ;Total Used:0:00:00.066984
+2023-11-27 19:44:54.953 - CustomFuction [INFO    ] [Archive] 5_HB07FYQ6CIB5.csv
+2023-11-27 19:44:54.955 - CustomFuction [INFO    ] Move file: 5_HB07FYQ6CIB5.csv to Archive folder: Data\Archive\5_HB07FYQ6CIB5.csv.
+2023-11-27 19:44:54.956 - CustomFuction [INFO    ] ========[ File End ]========
+2023-11-27 19:44:54.956 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-11-27 19:44:55.146 - CustomFuction [INFO    ] ========== Finally ==========
+2023-11-27 19:44:56.923 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

@@ -1,0 +1,30 @@
+2024-01-02 14:05:00.625 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:05:00.625 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-02 14:05:00.625 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-02 14:05:00.626 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-02 14:05:00.647 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-02 14:05:00.647 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-02 14:05:00.647 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-02 14:05:00.891 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2024-01-02 14:05:00.903 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\WAT_CONVERTER\ETL_WAT_TO_XSIFF.py.*
+2024-01-02 14:05:00.914 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-02 14:05:00.618482
+2024-01-02 14:05:01.098 - __init__   [INFO    ] Set process status code: 0.
+2024-01-02 14:05:01.106 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:05:01.186 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:05:01.280 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-02 14:05:01.336 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-02 14:05:01.336 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-02 14:05:01.340 - CustomFuction [ERROR   ] [WinError 3] 系统找不到指定的路径。: 'D:\\FileHub\\WAT\\WAT_FORMAT1'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 662, in file2db_init
+    delete_empty_folder(config_source, config_source, log)
+  File "../..\XdmLib\CustomFuction.py", line 1007, in delete_empty_folder
+    if (not os.listdir(path)) & (org != path):
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\FileHub\\WAT\\WAT_FORMAT1'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/WAT_CONVERTER/ETL_WAT_TO_XSIFF.py", line 766, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 667, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:05:01.535 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-02 14:05:01.687 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

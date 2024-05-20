@@ -1,0 +1,459 @@
+2023-11-01 16:08:11.695 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:08:12.606 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:12:46.832 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:12:47.672 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:16:11.776 - ETL_LOT_XML_TO_XSIFF [ERROR   ] [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_name)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 587, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:16:12.858 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:16:46.753 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:16:47.612 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:23:34.877 - ETL_LOT_XML_TO_XSIFF [ERROR   ] 'Product'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 174, in do_file
+    xsiff_file_name = export_wat_xsiff(xsiff_dict, config.XSIFF_FOLDER)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 48, in export_wat_xsiff
+    file_name = f"WAT_{header['Product']}_{header['Lot']}_{header['WATType']}_{time.strftime('%Y%m%d%H%M%S', time.strptime(header['MeasTime'], '%Y-%m-%d %H:%M:%S'))}.xsiff"
+KeyError: 'Product'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 267, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 202, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:23:35.718 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:27:36.198 - ETL_LOT_XML_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 1 fields in line 75, saw 2
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 133, in do_file
+    source_data_df = pd.read_csv(file_path)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 75, saw 2
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:27:37.002 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:32:57.780 - ETL_LOT_XML_TO_XSIFF [ERROR   ] [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 137, in do_file
+    DOMTree = xml.dom.minidom.parse(file_name)
+  File "D:\Python37\lib\xml\dom\minidom.py", line 1958, in parse
+    return expatbuilder.parse(file)
+  File "D:\Python37\lib\xml\dom\expatbuilder.py", line 910, in parse
+    with open(file, 'rb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 273, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 145, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:32:58.612 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:34:37.877 - ETL_LOT_XML_TO_XSIFF [ERROR   ] [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 137, in do_file
+    DOMTree = xml.dom.minidom.parse('A22100029.05_1.lot')
+  File "D:\Python37\lib\xml\dom\minidom.py", line 1958, in parse
+    return expatbuilder.parse(file)
+  File "D:\Python37\lib\xml\dom\expatbuilder.py", line 910, in parse
+    with open(file, 'rb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'A22100029.05_1.lot'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 273, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 145, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:34:38.675 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:47:28.987 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 282, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 154, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:47:29.841 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 16:50:56.827 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 16:50:57.661 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:02:27.191 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:02:28.034 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:06:35.137 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:06:35.998 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:10:06.405 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 134, in do_file
+    tree = ET.parse(file_path)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 268, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 140, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:10:07.398 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:12:26.450 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:12:27.295 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:16:32.923 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:16:33.755 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:17:56.307 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:17:57.273 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:18:42.662 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 30, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 30, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:18:43.538 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:21:18.669 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 138, in do_file
+    root = ET.parse(xml_file).getroot()
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 272, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 144, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:21:19.520 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:31:02.327 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 137, in do_file
+    dom = xml.dom.minidom.parseString(xml_string)
+  File "D:\Python37\lib\xml\dom\minidom.py", line 1968, in parseString
+    return expatbuilder.parseString(string)
+  File "D:\Python37\lib\xml\dom\expatbuilder.py", line 925, in parseString
+    return builder.parseString(string)
+  File "D:\Python37\lib\xml\dom\expatbuilder.py", line 223, in parseString
+    parser.Parse(string, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 271, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 143, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:31:03.198 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:47:38.988 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 1, column 0
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 146, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 1, column 0
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 278, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 150, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:47:39.856 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:51:01.730 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 30, column 17
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 148, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 30, column 17
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 152, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:51:02.536 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:51:53.626 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 148, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 152, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:51:54.821 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:53:17.150 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 29, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 148, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 29, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 152, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:53:18.018 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None
+2023-11-01 17:55:39.841 - ETL_LOT_XML_TO_XSIFF [ERROR   ] not well-formed (invalid token): line 30, column 15
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 148, in do_file
+    root = ET.fromstring(lot_content)
+  File "D:\Python37\lib\xml\etree\ElementTree.py", line 1315, in XML
+    parser.feed(text)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 30, column 15
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 280, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LOT_XML_TO_XSIFF/ETL_LOT_XML_TO_XSIFF.py", line 152, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-01 17:55:40.729 - __init__   [ERROR   ] File:A22100029.05_1.lot Move To Error Folder
+                                                Error: None

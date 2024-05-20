@@ -1,0 +1,357 @@
+2023-12-04 10:04:46.192 - ETL_FT_SD_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 395, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target",'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 541, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 445, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:04:46.379 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:04:46.743 - ETL_FT_SD_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 395, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target",'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 541, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 445, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:04:46.919 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:04:47.287 - ETL_FT_SD_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 395, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target",'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 541, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 445, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:04:47.483 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:09:35.294 - ETL_FT_SD_TO_XSIFF [ERROR   ] [Serial no.] This column is numeric only.
+2023-12-04 10:09:35.484 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:09:35.575 - ETL_FT_SD_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 395, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target",'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 541, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 445, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:09:35.745 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:09:36.238 - ETL_FT_SD_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 395, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target",'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 541, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 445, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:09:36.391 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:09:36.945 - ETL_FT_SD_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 395, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target",'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 541, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 445, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:09:37.095 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:13:26.002 - ETL_FT_SD_TO_XSIFF [ERROR   ] [Serial no.] This column is numeric only.
+2023-12-04 10:13:26.216 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:48:22.230 - ETL_FT_SD_TO_XSIFF [ERROR   ] local variable 'parameter' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 302, in do_file
+    parameter_unit = {parameter: unit}
+UnboundLocalError: local variable 'parameter' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 537, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 354, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:48:22.440 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:48:22.793 - ETL_FT_SD_TO_XSIFF [ERROR   ] local variable 'parameter' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 302, in do_file
+    parameter_unit = {parameter: unit}
+UnboundLocalError: local variable 'parameter' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 537, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 354, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:48:22.981 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:48:23.327 - ETL_FT_SD_TO_XSIFF [ERROR   ] local variable 'parameter' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 302, in do_file
+    parameter_unit = {parameter: unit}
+UnboundLocalError: local variable 'parameter' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 537, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 354, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:48:23.535 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:49:19.046 - ETL_FT_SD_TO_XSIFF [ERROR   ] [Serial no.] This column is numeric only.
+2023-12-04 10:49:19.226 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:57:48.972 - ETL_FT_SD_TO_XSIFF [ERROR   ] 'function' object has no attribute 'upper'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 290, in do_file
+    parameter = column_parameter.upper() + '_' + second_row_value.split('(')[-1].split(')')[0]
+AttributeError: 'function' object has no attribute 'upper'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 538, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 355, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:57:49.105 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:57:49.443 - ETL_FT_SD_TO_XSIFF [ERROR   ] 'function' object has no attribute 'upper'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 290, in do_file
+    parameter = column_parameter.upper() + '_' + second_row_value.split('(')[-1].split(')')[0]
+AttributeError: 'function' object has no attribute 'upper'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 538, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 355, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:57:49.679 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 10:57:50.008 - ETL_FT_SD_TO_XSIFF [ERROR   ] 'function' object has no attribute 'upper'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 290, in do_file
+    parameter = column_parameter.upper() + '_' + second_row_value.split('(')[-1].split(')')[0]
+AttributeError: 'function' object has no attribute 'upper'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 538, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 355, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 10:57:50.270 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 11:00:23.659 - ETL_FT_SD_TO_XSIFF [ERROR   ] [Serial no.] This column is numeric only.
+2023-12-04 11:00:23.817 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 11:35:59.319 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'cloumn' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 284, in do_file
+    if '[' in cloumn :
+NameError: name 'cloumn' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 523, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 340, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 11:35:59.519 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 11:35:59.885 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'cloumn' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 284, in do_file
+    if '[' in cloumn :
+NameError: name 'cloumn' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 523, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 340, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 11:36:00.064 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 11:36:00.409 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'cloumn' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 284, in do_file
+    if '[' in cloumn :
+NameError: name 'cloumn' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 523, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 340, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 11:36:00.584 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 11:37:42.642 - ETL_FT_SD_TO_XSIFF [ERROR   ] [Serial no.] This column is numeric only.
+2023-12-04 11:37:42.821 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 11:37:42.904 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'cloumn' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 284, in do_file
+    if '[' in str(cloumn):
+NameError: name 'cloumn' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 523, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 340, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 11:37:43.085 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 11:37:43.507 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'cloumn' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 284, in do_file
+    if '[' in str(cloumn):
+NameError: name 'cloumn' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 523, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 340, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 11:37:43.666 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 11:37:44.048 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'cloumn' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 284, in do_file
+    if '[' in str(cloumn):
+NameError: name 'cloumn' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 523, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 340, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 11:37:44.235 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 13:13:43.249 - ETL_FT_SD_TO_XSIFF [ERROR   ] [Serial no.] This column is numeric only.
+2023-12-04 13:13:43.486 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 13:13:43.593 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'second_row_value' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 283, in do_file
+    if second_row_value == '.':
+NameError: name 'second_row_value' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 535, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 352, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 13:13:43.792 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 13:13:44.170 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'second_row_value' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 283, in do_file
+    if second_row_value == '.':
+NameError: name 'second_row_value' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 535, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 352, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 13:13:44.410 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 13:13:44.765 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'second_row_value' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 283, in do_file
+    if second_row_value == '.':
+NameError: name 'second_row_value' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 535, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF.py", line 352, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-04 13:13:45.009 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-12-04 13:14:53.603 - ETL_FT_SD_TO_XSIFF [ERROR   ] [Serial no.] This column is numeric only.
+2023-12-04 13:14:53.824 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None

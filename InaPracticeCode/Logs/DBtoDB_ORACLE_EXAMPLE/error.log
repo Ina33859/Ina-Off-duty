@@ -1,0 +1,3 @@
+2023-07-06 11:53:10.936 - __init__   [ERROR   ] Parse query time Error
+                                                Error: Can't get max_data_time_db for operating query_end_time, program fail! Please check config_sql.SQL_GET_MAX_RUN_CONTEXT_TIME.
+    Or    Can't get query_start_time, program fail! Please check latest.json[DataTimeFlg] or check xdm_prog_control[data_time_flg].

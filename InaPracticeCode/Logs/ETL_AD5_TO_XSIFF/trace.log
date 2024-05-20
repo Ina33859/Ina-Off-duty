@@ -1,0 +1,91 @@
+2023-12-11 16:58:09.711 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-11 16:58:09.713 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-11 16:58:09.713 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-11 16:58:09.715 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-11 16:58:09.734 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-11 16:58:09.734 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-11 16:58:09.734 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-11 16:58:10.262 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-12-11 16:58:10.274 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_AD5_TO_XSIFF\ETL_ad5_TO_XSIFF.py.*
+2023-12-11 16:58:10.277 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-11 16:58:09.699766
+2023-12-11 16:58:10.465 - __init__   [INFO    ] Set process status code: 0.
+2023-12-11 16:58:10.480 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-11 16:58:10.588 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-11 16:58:10.691 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-11 16:58:10.782 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_TEST_AD5_TO_XSIFF/ETL_ad5_TO_XSIFF.py", line 208, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_TEST_AD5_TO_XSIFF/ETL_ad5_TO_XSIFF.py", line 457, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-11 16:58:10.798 - CustomFuction [INFO    ] [ERROR] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-12-11 16:58:10.800 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to ERROR folder: Data\Source\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-12-11 16:58:11.067 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-11 16:58:11.067 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-11 16:58:11.080 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-11 16:58:11.356 - __init__   [INFO    ] Set process status code: 5.
+2023-12-11 16:59:21.953 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-11 16:59:21.953 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-11 16:59:21.953 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-11 16:59:21.955 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-11 16:59:21.980 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-11 16:59:21.980 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-11 16:59:21.980 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-11 16:59:22.486 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-12-11 16:59:22.554 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_AD5_TO_XSIFF\ETL_ad5_TO_XSIFF.py.*
+2023-12-11 16:59:22.557 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-11 16:59:21.935470
+2023-12-11 16:59:22.771 - __init__   [INFO    ] Set process status code: 0.
+2023-12-11 16:59:22.785 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-11 16:59:22.864 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-11 16:59:22.994 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-11 16:59:23.400 - ETL_ad5_TO_XSIFF [INFO    ] Read source file:0:00:00.291017
+2023-12-11 16:59:23.468 - ETL_ad5_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-12-11 16:59:23.758 - ETL_ad5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.289971
+2023-12-11 16:59:23.760 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_TEST_AD5_TO_XSIFF/ETL_ad5_TO_XSIFF.py", line 402, in do_file
+    te_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_TEST_AD5_TO_XSIFF/ETL_ad5_TO_XSIFF.py", line 457, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-12-11 16:59:23.763 - CustomFuction [INFO    ] [ERROR] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-12-11 16:59:23.764 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to ERROR folder: Data\Source\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-12-11 16:59:23.964 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-11 16:59:23.964 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-11 16:59:23.980 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-11 16:59:24.209 - __init__   [INFO    ] Set process status code: 5.
+2023-12-11 16:59:33.029 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-11 16:59:33.029 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-12-11 16:59:33.030 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-12-11 16:59:33.031 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-12-11 16:59:33.041 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-12-11 16:59:33.042 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-12-11 16:59:33.042 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-12-11 16:59:33.328 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-12-11 16:59:33.397 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TEST_AD5_TO_XSIFF\ETL_ad5_TO_XSIFF.py.*
+2023-12-11 16:59:33.398 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-12-11 16:59:33.021596
+2023-12-11 16:59:33.615 - __init__   [INFO    ] Set process status code: 0.
+2023-12-11 16:59:33.626 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-11 16:59:33.714 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-11 16:59:33.778 - Database   [INFO    ] Non set logging! Using default logging.
+2023-12-11 16:59:34.144 - ETL_ad5_TO_XSIFF [INFO    ] Read source file:0:00:00.274325
+2023-12-11 16:59:34.203 - ETL_ad5_TO_XSIFF [INFO    ] Create xsiff:0:00:00
+2023-12-11 16:59:34.484 - ETL_ad5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.281047
+2023-12-11 16:59:34.484 - ETL_ad5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.0X2_INLINE_M2_20221116182205.xsiff ;Total Used:0:00:00.614357
+2023-12-11 16:59:34.492 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-12-11 16:59:34.492 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\Source\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-12-11 16:59:34.492 - CustomFuction [INFO    ] ========[ File End ]========
+2023-12-11 16:59:34.492 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-12-11 16:59:34.505 - CustomFuction [INFO    ] ========== Finally ==========
+2023-12-11 16:59:34.665 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

@@ -1,0 +1,61 @@
+2023-08-21 09:02:56.129 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-08-21 09:05:23.410 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-21-09-05-23.001'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 88, in do_file
+    with open(klarfFileName, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-21-09-05-23.001'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 151, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:27:02.484 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-21-09-27-02.001'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 61, in do_file
+    with open(klarfFileName, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-21-09-27-02.001'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 122, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:31:34.942 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-21-09-31-34.001'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 61, in do_file
+    with open(klarfFileName, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_        wafer_id  site      x      y defect_code\n0   4N46-CB07527     8 -67.98  19.08          SF\n1   4N46-CB07527    10 -67.14  -5.57          SF\n2   4N46-CB07527    18 -62.88   7.20          SF\n3   4N46-CB07527    20 -61.76 -29.16          SF\n4   4N46-CB07527    21 -59.95  10.52          SF\n..           ...   ...    ...    ...         ...\n57  4N46-CB07527   462  59.57 -23.70          SF\n58  4N46-CB07527   464  60.15 -22.77          SF\n59  4N46-CB07527   465  62.01 -18.94          SF\n60  4N46-CB07527   475  65.40  11.10          SF\n61  4N46-CB07527   492  67.66  21.47          SF\n\n[62 rows x 5 columns]_2023-08-21-09-31-34.001'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 122, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:32:18.831 - CustomFuction [ERROR   ] [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_          wafer_id  site      x      y defect_code\n1813  4N46-NZ03219     9 -67.36   6.00          SF\n1814  4N46-NZ03219    12 -66.03  -1.67          SF\n1815  4N46-NZ03219    14 -64.79   6.49          SF\n1816  4N46-NZ03219    15 -64.28  15.07          SF\n1817  4N46-NZ03219    18 -62.93 -24.81          SF\n...            ...   ...    ...    ...         ...\n1871  4N46-NZ03219   368  60.29   3.76          SF\n1872  4N46-NZ03219   372  61.07 -18.83          SF\n1873  4N46-NZ03219   375  62.02  34.26          SF\n1874  4N46-NZ03219   379  63.84 -33.06          SF\n1875  4N46-NZ03219   386  66.62  12.75          SF\n\n[63 rows x 5 columns]_2023-08-21-09-32-18.001'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 61, in do_file
+    with open(klarfFileName, "w") as fi:
+FileNotFoundError: [Errno 2] No such file or directory: 'KLA-Tencor_None_LOT01_01_          wafer_id  site      x      y defect_code\n1813  4N46-NZ03219     9 -67.36   6.00          SF\n1814  4N46-NZ03219    12 -66.03  -1.67          SF\n1815  4N46-NZ03219    14 -64.79   6.49          SF\n1816  4N46-NZ03219    15 -64.28  15.07          SF\n1817  4N46-NZ03219    18 -62.93 -24.81          SF\n...            ...   ...    ...    ...         ...\n1871  4N46-NZ03219   368  60.29   3.76          SF\n1872  4N46-NZ03219   372  61.07 -18.83          SF\n1873  4N46-NZ03219   375  62.02  34.26          SF\n1874  4N46-NZ03219   379  63.84 -33.06          SF\n1875  4N46-NZ03219   386  66.62  12.75          SF\n\n[63 rows x 5 columns]_2023-08-21-09-32-18.001'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 122, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-08-21 09:47:39.558 - CustomFuction [ERROR   ] 'SF'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 55, in do_file
+    DefectCodesDict[row['defect_code']],
+KeyError: 'SF'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\ETL_XLS_TO_KLARF_TEST_2.py", line 124, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_POC_XLS_TO_KLARF_外延\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

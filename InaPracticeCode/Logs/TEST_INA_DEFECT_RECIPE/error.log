@@ -1,0 +1,114 @@
+2023-07-10 09:13:13.563 - TEST_INA_DEFECT_RECIPE [ERROR   ] Read File Error
+
+2023-07-10 09:13:13.570 - CustomFuction [ERROR   ] DPI-1043: invalid number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RECIPE.py", line 25, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RECIPE.py", line 21, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: DPI-1043: invalid number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RECIPE.py", line 78, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-10 09:52:04.822 - TEST_INA_DEFECT_RECIPE [ERROR   ] Read File Error
+2023-07-10 09:52:04.827 - CustomFuction [ERROR   ] DPI-1043: invalid number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RECIPE.py", line 25, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RECIPE.py", line 21, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: DPI-1043: invalid number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RECIPE.py", line 78, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-10 10:05:10.717 - TEST_INA_DEFECT_RECIPE [ERROR   ] Read File Error
+2023-07-10 10:05:10.721 - CustomFuction [ERROR   ] DPI-1043: invalid number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RECIPE.py", line 26, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RECIPE.py", line 22, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: DPI-1043: invalid number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RECIPE.py", line 79, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-10 10:15:03.324 - base       [ERROR   ] Exception during reset or similar
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RECIPE.py", line 22, in do_file
+    data = data.where(data.notnull(), None)
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RECIPE.py", line 22, in do_file
+    data = data.where(data.notnull(), None)
+  File "_pydevd_bundle\pydevd_cython_win32_39_64.pyx", line 1589, in _pydevd_bundle.pydevd_cython_win32_39_64.ThreadTracer.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_39_64.pyx", line 929, in _pydevd_bundle.pydevd_cython_win32_39_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_39_64.pyx", line 920, in _pydevd_bundle.pydevd_cython_win32_39_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_39_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_win32_39_64.PyDBFrame.do_wait_suspend
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1155, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1170, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\site-packages\sqlalchemy\pool\base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "D:\soft\anaconda3\lib\site-packages\sqlalchemy\pool\base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "D:\soft\anaconda3\lib\site-packages\sqlalchemy\engine\default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+cx_Oracle.DatabaseError: DPI-1080: connection was closed by ORA-3135
+2023-07-10 10:15:03.341 - base       [ERROR   ] Exception during reset or similar
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RECIPE.py", line 22, in do_file
+    data = data.where(data.notnull(), None)
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RECIPE.py", line 22, in do_file
+    data = data.where(data.notnull(), None)
+  File "_pydevd_bundle\pydevd_cython_win32_39_64.pyx", line 1589, in _pydevd_bundle.pydevd_cython_win32_39_64.ThreadTracer.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_39_64.pyx", line 929, in _pydevd_bundle.pydevd_cython_win32_39_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_39_64.pyx", line 920, in _pydevd_bundle.pydevd_cython_win32_39_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_39_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_win32_39_64.PyDBFrame.do_wait_suspend
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1155, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1170, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\site-packages\sqlalchemy\pool\base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "D:\soft\anaconda3\lib\site-packages\sqlalchemy\pool\base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "D:\soft\anaconda3\lib\site-packages\sqlalchemy\engine\default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+cx_Oracle.DatabaseError: DPI-1080: connection was closed by ORA-3135

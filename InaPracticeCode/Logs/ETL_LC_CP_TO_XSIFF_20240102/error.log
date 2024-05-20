@@ -1,0 +1,564 @@
+2024-01-08 10:14:16.648 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] name 'selectedParameterName' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 193, in do_file
+    selected_parameter_name = [param.replace(' ', '_') for param in selectedParameterName]
+NameError: name 'selectedParameterName' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:14:16.800 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 10:14:16.834 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] name 'selectedParameterName' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 193, in do_file
+    selected_parameter_name = [param.replace(' ', '_') for param in selectedParameterName]
+NameError: name 'selectedParameterName' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:14:16.986 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 10:15:04.458 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] name 'selectedParameterName' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 254, in do_file
+    data_df.columns = selectedParameterName
+NameError: name 'selectedParameterName' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:15:04.627 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 10:15:04.728 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] name 'selectedParameterName' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 254, in do_file
+    data_df.columns = selectedParameterName
+NameError: name 'selectedParameterName' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:15:04.861 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 10:15:19.254 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] name 'GoodDie' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 286, in do_file
+    'GoodDie': GoodDie,
+NameError: name 'GoodDie' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:15:19.435 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 10:15:19.541 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] name 'GoodDie' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 286, in do_file
+    'GoodDie': GoodDie,
+NameError: name 'GoodDie' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:15:19.670 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 10:51:09.365 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] module 'datetime' has no attribute 'strptime'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 298, in do_file
+    datetime.strptime(header[variable_name], date_format)
+AttributeError: module 'datetime' has no attribute 'strptime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 420, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 320, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:51:09.524 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 10:51:09.633 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] module 'datetime' has no attribute 'strptime'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 298, in do_file
+    datetime.strptime(header[variable_name], date_format)
+AttributeError: module 'datetime' has no attribute 'strptime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 420, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 320, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:51:09.779 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 10:52:35.698 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 106, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 420, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:52:35.875 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 106, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 420, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:52:37.915 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 106, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 420, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 10:52:38.107 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 106, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 420, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 11:42:17.033 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 106, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 420, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 11:42:17.202 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 106, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 420, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:07:05.346 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] 'str' object has no attribute 'append'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 234, in do_file
+    bin_type.append(bin_type)
+AttributeError: 'str' object has no attribute 'append'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:07:05.497 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 14:07:05.546 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] 'str' object has no attribute 'append'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 234, in do_file
+    bin_type.append(bin_type)
+AttributeError: 'str' object has no attribute 'append'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:07:05.715 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 14:14:23.849 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] arrays must all be same length
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 242, in do_file
+    data1DF = pd.DataFrame(data1)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 468, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 283, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 78, in arrays_to_mgr
+    index = extract_index(arrays)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 397, in extract_index
+    raise ValueError("arrays must all be same length")
+ValueError: arrays must all be same length
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:14:24.071 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 14:14:24.117 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] arrays must all be same length
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 242, in do_file
+    data1DF = pd.DataFrame(data1)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 468, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 283, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 78, in arrays_to_mgr
+    index = extract_index(arrays)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 397, in extract_index
+    raise ValueError("arrays must all be same length")
+ValueError: arrays must all be same length
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:14:24.376 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 14:34:27.533 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] sub() missing 1 required positional argument: 'string'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 208, in do_file
+    temp_df['SpecLow'] = temp_df['SpecLow'].apply(lambda x: re.sub(r'[^a-zA-Z]+',str(x)))
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 4213, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas\_libs\lib.pyx", line 2403, in pandas._libs.lib.map_infer
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 208, in <lambda>
+    temp_df['SpecLow'] = temp_df['SpecLow'].apply(lambda x: re.sub(r'[^a-zA-Z]+',str(x)))
+TypeError: sub() missing 1 required positional argument: 'string'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 327, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:34:27.724 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 14:34:27.762 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] sub() missing 1 required positional argument: 'string'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 208, in do_file
+    temp_df['SpecLow'] = temp_df['SpecLow'].apply(lambda x: re.sub(r'[^a-zA-Z]+',str(x)))
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 4213, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas\_libs\lib.pyx", line 2403, in pandas._libs.lib.map_infer
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 208, in <lambda>
+    temp_df['SpecLow'] = temp_df['SpecLow'].apply(lambda x: re.sub(r'[^a-zA-Z]+',str(x)))
+TypeError: sub() missing 1 required positional argument: 'string'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 327, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:34:27.877 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 14:38:09.271 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] sub() missing 1 required positional argument: 'string'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 211, in do_file
+    temp_df['SpecHigh'] = temp_df['SpecHigh'].apply(lambda x: re.sub(r'[^a-zA-Z]+',str(x)))
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 4213, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas\_libs\lib.pyx", line 2403, in pandas._libs.lib.map_infer
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 211, in <lambda>
+    temp_df['SpecHigh'] = temp_df['SpecHigh'].apply(lambda x: re.sub(r'[^a-zA-Z]+',str(x)))
+TypeError: sub() missing 1 required positional argument: 'string'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 327, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:38:09.454 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 14:38:09.490 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] sub() missing 1 required positional argument: 'string'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 211, in do_file
+    temp_df['SpecHigh'] = temp_df['SpecHigh'].apply(lambda x: re.sub(r'[^a-zA-Z]+',str(x)))
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 4213, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas\_libs\lib.pyx", line 2403, in pandas._libs.lib.map_infer
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 211, in <lambda>
+    temp_df['SpecHigh'] = temp_df['SpecHigh'].apply(lambda x: re.sub(r'[^a-zA-Z]+',str(x)))
+TypeError: sub() missing 1 required positional argument: 'string'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 327, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:38:09.620 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 14:39:00.353 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] 'DataFrame' object has no attribute 'str'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 255, in do_file
+    data_df = data_df.str.replace(r'[^a-zA-Z]+', '')
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5141, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'str'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 327, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:39:00.501 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 14:39:00.546 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] 'DataFrame' object has no attribute 'str'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 255, in do_file
+    data_df = data_df.str.replace(r'[^a-zA-Z]+', '')
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5141, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'str'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 327, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 14:39:00.673 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 17:14:10.359 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] Unable to parse string "1.00+00" at position 0
+Traceback (most recent call last):
+  File "pandas\_libs\lib.pyx", line 2004, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "1.00+00"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 233, in do_file
+    data_df = data_df.apply(pd.to_numeric, errors='raise')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 7552, in apply
+    return op.get_result()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 185, in get_result
+    return self.apply_standard()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 276, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 305, in apply_series_generator
+    results[i] = self.f(v)
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 114, in f
+    return func(x, *args, **kwds)
+  File "D:\Python37\lib\site-packages\pandas\core\tools\numeric.py", line 153, in to_numeric
+    values, set(), coerce_numeric=coerce_numeric
+  File "pandas\_libs\lib.pyx", line 2041, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "1.00+00" at position 0
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 403, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 17:14:10.521 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 17:14:10.605 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] Unable to parse string "1.00+00" at position 0
+Traceback (most recent call last):
+  File "pandas\_libs\lib.pyx", line 2004, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "1.00+00"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 233, in do_file
+    data_df = data_df.apply(pd.to_numeric, errors='raise')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 7552, in apply
+    return op.get_result()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 185, in get_result
+    return self.apply_standard()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 276, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 305, in apply_series_generator
+    results[i] = self.f(v)
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 114, in f
+    return func(x, *args, **kwds)
+  File "D:\Python37\lib\site-packages\pandas\core\tools\numeric.py", line 153, in to_numeric
+    values, set(), coerce_numeric=coerce_numeric
+  File "pandas\_libs\lib.pyx", line 2041, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "1.00+00" at position 0
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 403, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 17:14:10.749 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 17:16:53.639 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] applymap() got an unexpected keyword argument 'errors'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 233, in do_file
+    data_df = data_df.applymap(pd.to_numeric, errors='raise')
+TypeError: applymap() got an unexpected keyword argument 'errors'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 403, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 17:16:53.762 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 17:16:53.834 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] applymap() got an unexpected keyword argument 'errors'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 233, in do_file
+    data_df = data_df.applymap(pd.to_numeric, errors='raise')
+TypeError: applymap() got an unexpected keyword argument 'errors'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 403, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 17:16:53.968 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None
+2024-01-08 17:17:52.078 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] Unable to parse string "1.00+00" at position 0
+Traceback (most recent call last):
+  File "pandas\_libs\lib.pyx", line 2004, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "1.00+00"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 233, in do_file
+    data_df = data_df.apply(pd.to_numeric, errors='raise')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 7552, in apply
+    return op.get_result()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 185, in get_result
+    return self.apply_standard()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 276, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 305, in apply_series_generator
+    results[i] = self.f(v)
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 114, in f
+    return func(x, *args, **kwds)
+  File "D:\Python37\lib\site-packages\pandas\core\tools\numeric.py", line 153, in to_numeric
+    values, set(), coerce_numeric=coerce_numeric
+  File "pandas\_libs\lib.pyx", line 2041, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "1.00+00" at position 0
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 403, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 17:17:52.202 - __init__   [ERROR   ] File:#24.csv Move To Error Folder
+                                                Error: None
+2024-01-08 17:17:52.272 - ETL_LC_CP_TO_XSIFF_20240102 [ERROR   ] Unable to parse string "1.00+00" at position 0
+Traceback (most recent call last):
+  File "pandas\_libs\lib.pyx", line 2004, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "1.00+00"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 233, in do_file
+    data_df = data_df.apply(pd.to_numeric, errors='raise')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 7552, in apply
+    return op.get_result()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 185, in get_result
+    return self.apply_standard()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 276, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 305, in apply_series_generator
+    results[i] = self.f(v)
+  File "D:\Python37\lib\site-packages\pandas\core\apply.py", line 114, in f
+    return func(x, *args, **kwds)
+  File "D:\Python37\lib\site-packages\pandas\core\tools\numeric.py", line 153, in to_numeric
+    values, set(), coerce_numeric=coerce_numeric
+  File "pandas\_libs\lib.pyx", line 2041, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "1.00+00" at position 0
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 403, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF_20240102.py", line 303, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 17:17:52.414 - __init__   [ERROR   ] File:23GD0040_231211141600(1).csv Move To Error Folder
+                                                Error: None

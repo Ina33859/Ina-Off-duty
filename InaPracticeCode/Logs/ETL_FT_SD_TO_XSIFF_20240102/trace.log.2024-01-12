@@ -1,0 +1,668 @@
+2024-01-12 11:18:12.770 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-12 11:18:12.771 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-12 11:18:12.771 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-12 11:18:12.772 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-12 11:18:12.783 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-12 11:18:12.784 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-12 11:18:12.784 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-12 11:18:13.061 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2024-01-12 11:18:13.061 - __init__   [INFO    ] Debug mode enable!
+2024-01-12 11:18:13.079 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20240102.py.*
+2024-01-12 11:18:13.080 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-12 11:18:12.760826
+2024-01-12 11:18:13.314 - __init__   [INFO    ] Set process status code: 0.
+2024-01-12 11:18:13.323 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:18:13.398 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:18:13.482 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:18:13.581 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-12 11:18:13.636 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:18:13.819 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:13.825 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:18:13.826 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-12 11:18:13.920 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-12 11:18:13.969 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:18:14.140 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:14.150 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:18:14.151 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-12 11:18:14.232 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-12 11:18:14.359 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:18:14.368 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:18:14.379 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:18:14.379 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00
+2024-01-12 11:18:14.380 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:18:14.381 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:18:14.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.473 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:18:14.478 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-12 11:18:14.478 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:00.247030
+2024-01-12 11:18:14.485 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.006039
+2024-01-12 11:18:14.520 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Failed to export xsiff: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-12 11:18:14.522 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 466, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 554, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 489, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:18:14.710 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:14.722 - CustomFuction [INFO    ] [ERROR] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx
+2024-01-12 11:18:14.723 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx.
+2024-01-12 11:18:14.749 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx 
+2024-01-12 11:18:14.868 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:18:15.041 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:15.050 - CustomFuction [INFO    ] [ERROR] XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:18:15.052 - CustomFuction [INFO    ] Move file: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx.
+2024-01-12 11:18:15.088 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-12 11:18:18.438 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:18:18.456 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:18:18.698 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:18:18.699 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00.001004
+2024-01-12 11:18:18.700 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:18:18.700 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:18:19.025 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-12 11:18:19.025 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:03.936987
+2024-01-12 11:18:19.027 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.002014
+2024-01-12 11:18:19.133 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Export xsiff:0:00:00.106399
+2024-01-12 11:18:19.134 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:04.046400
+2024-01-12 11:18:19.141 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-12 11:18:19.142 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-12 11:18:19.173 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx 
+2024-01-12 11:18:19.793 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:18:19.828 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:18:19.865 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] [Serial no.]列无法正确取值，例如遇到的第一个错误值为：200041 D12740000000;文件名为：XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:18:20.051 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:20.061 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:18:20.062 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx.
+2024-01-12 11:18:20.099 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2024-01-12 11:18:20.385 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:18:20.611 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:20.624 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:18:20.626 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2024-01-12 11:18:20.659 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-12 11:18:21.242 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:18:21.250 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:18:21.294 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:18:21.294 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00.001001
+2024-01-12 11:18:21.295 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:18:21.296 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:18:21.299 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:18:21.299 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:18:21.300 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:18:21.300 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:18:21.308 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.317 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.325 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.325 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.335 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:18:21.385 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为@
+2024-01-12 11:18:21.386 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-12 11:18:21.387 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:00.728182
+2024-01-12 11:18:21.388 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.001007
+2024-01-12 11:18:21.411 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Failed to export xsiff: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-12 11:18:21.411 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 466, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 554, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 489, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:18:21.612 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:18:21.623 - CustomFuction [INFO    ] [ERROR] XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx
+2024-01-12 11:18:21.624 - CustomFuction [INFO    ] Move file: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx.
+2024-01-12 11:18:21.666 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-12 11:18:21.667 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-12 11:18:21.677 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-12 11:18:21.885 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-12 11:20:06.797 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-12 11:20:06.797 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-12 11:20:06.797 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-12 11:20:06.798 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-12 11:20:06.809 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-12 11:20:06.809 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-12 11:20:06.809 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-12 11:20:07.109 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-12 11:20:07.183 - __init__   [INFO    ] Debug mode enable!
+2024-01-12 11:20:07.198 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20240102.py.*
+2024-01-12 11:20:07.199 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-12 11:20:06.790590
+2024-01-12 11:20:07.372 - __init__   [INFO    ] Set process status code: 0.
+2024-01-12 11:20:07.384 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:20:07.493 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:20:07.618 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:20:07.689 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-12 11:20:07.713 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:20:07.942 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:07.958 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:20:07.959 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-12 11:20:08.059 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-12 11:20:08.107 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:20:08.290 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:08.302 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:20:08.302 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-12 11:20:08.350 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-12 11:20:08.452 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:20:08.456 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:20:08.472 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:20:08.472 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00
+2024-01-12 11:20:08.474 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:20:08.475 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:20:08.651 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.652 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.653 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.653 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.653 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.653 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.654 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.654 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:20:08.669 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-12 11:20:08.670 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:00.319962
+2024-01-12 11:20:08.677 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.007000
+2024-01-12 11:20:08.717 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Failed to export xsiff: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-12 11:20:08.720 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 464, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 552, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 487, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:20:08.916 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:08.932 - CustomFuction [INFO    ] [ERROR] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx
+2024-01-12 11:20:08.935 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx.
+2024-01-12 11:20:09.008 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx 
+2024-01-12 11:20:09.222 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:20:09.479 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:09.490 - CustomFuction [INFO    ] [ERROR] XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:20:09.492 - CustomFuction [INFO    ] Move file: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx.
+2024-01-12 11:20:09.557 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-12 11:20:12.809 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:20:12.829 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:20:13.075 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:20:13.075 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00.000999
+2024-01-12 11:20:13.076 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:20:13.077 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:20:13.342 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-12 11:20:13.343 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:03.786030
+2024-01-12 11:20:13.345 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.002000
+2024-01-12 11:20:13.425 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Export xsiff:0:00:00.079010
+2024-01-12 11:20:13.425 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.868002
+2024-01-12 11:20:13.433 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-12 11:20:13.433 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-12 11:20:13.466 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx 
+2024-01-12 11:20:14.097 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:20:14.135 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:20:14.180 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] [Serial no.]列无法正确取值，例如遇到的第一个错误值为：200041 D12740000000;文件名为：XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:20:14.296 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:14.302 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:20:14.303 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx.
+2024-01-12 11:20:14.327 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2024-01-12 11:20:14.598 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:20:14.759 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:14.768 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:20:14.768 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2024-01-12 11:20:14.806 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-12 11:20:15.408 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:20:15.415 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:20:15.466 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:20:15.466 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00.000998
+2024-01-12 11:20:15.467 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:20:15.468 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:20:15.471 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:20:15.471 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:20:15.471 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:20:15.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:20:15.481 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.490 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.499 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.499 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.508 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:20:15.563 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为@
+2024-01-12 11:20:15.564 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-12 11:20:15.564 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:00.758001
+2024-01-12 11:20:15.566 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.001000
+2024-01-12 11:20:15.591 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Failed to export xsiff: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-12 11:20:15.591 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 464, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 552, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 487, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:20:15.741 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:20:15.751 - CustomFuction [INFO    ] [ERROR] XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx
+2024-01-12 11:20:15.752 - CustomFuction [INFO    ] Move file: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx.
+2024-01-12 11:20:15.781 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-12 11:20:15.781 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-12 11:20:15.789 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-12 11:20:15.956 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-12 11:21:03.939 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-12 11:21:03.939 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-12 11:21:03.939 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-12 11:21:03.941 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-12 11:21:03.952 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-12 11:21:03.952 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-12 11:21:03.952 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-12 11:21:04.270 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-12 11:21:04.305 - __init__   [INFO    ] Debug mode enable!
+2024-01-12 11:21:04.314 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20240102.py.*
+2024-01-12 11:21:04.315 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-12 11:21:03.931507
+2024-01-12 11:21:04.469 - __init__   [INFO    ] Set process status code: 0.
+2024-01-12 11:21:04.479 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:21:04.556 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:21:04.660 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:21:04.742 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-12 11:21:04.779 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:21:04.908 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:04.918 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:21:04.919 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-12 11:21:04.982 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-12 11:21:05.041 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:21:05.198 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:05.206 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:21:05.207 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-12 11:21:05.243 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-12 11:21:05.356 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:21:05.361 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:21:05.372 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:21:05.372 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00
+2024-01-12 11:21:05.373 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:21:05.374 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:21:05.463 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.464 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.465 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.465 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.465 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为PASS
+2024-01-12 11:21:05.471 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-12 11:21:05.472 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:00.228970
+2024-01-12 11:21:05.476 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.004000
+2024-01-12 11:21:05.514 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Failed to export xsiff: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-12 11:21:05.516 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 462, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 550, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 485, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:21:05.690 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:05.701 - CustomFuction [INFO    ] [ERROR] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx
+2024-01-12 11:21:05.702 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx.
+2024-01-12 11:21:05.735 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx 
+2024-01-12 11:21:05.866 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:21:06.021 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:06.031 - CustomFuction [INFO    ] [ERROR] XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:21:06.034 - CustomFuction [INFO    ] Move file: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx.
+2024-01-12 11:21:06.074 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-12 11:21:09.398 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:21:09.417 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:21:09.660 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:21:09.660 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00
+2024-01-12 11:21:09.662 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:21:09.662 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:21:09.926 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-12 11:21:09.927 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:03.852989
+2024-01-12 11:21:09.929 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.001956
+2024-01-12 11:21:10.005 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Export xsiff:0:00:00.076001
+2024-01-12 11:21:10.005 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.930946
+2024-01-12 11:21:10.013 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-12 11:21:10.013 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-12 11:21:10.048 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx 
+2024-01-12 11:21:10.646 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:21:10.679 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:21:10.716 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] [Serial no.]列无法正确取值，例如遇到的第一个错误值为：200041 D12740000000;文件名为：XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:21:10.896 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:10.906 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:21:10.907 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx.
+2024-01-12 11:21:10.944 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2024-01-12 11:21:11.197 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:21:11.401 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:11.417 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:21:11.419 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2024-01-12 11:21:11.460 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-12 11:21:12.038 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:21:12.045 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:21:12.085 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:21:12.085 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00.000999
+2024-01-12 11:21:12.086 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:21:12.087 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:21:12.090 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:21:12.090 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:21:12.090 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:21:12.091 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为预测试
+2024-01-12 11:21:12.099 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.107 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.115 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.115 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.127 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为双脉冲（复合模式）
+2024-01-12 11:21:12.176 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，例如当前遇到的第一个为@
+2024-01-12 11:21:12.177 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名并且将量测数据中的特殊字符替换成空格
+2024-01-12 11:21:12.177 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:00.716980
+2024-01-12 11:21:12.179 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.000998
+2024-01-12 11:21:12.201 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Failed to export xsiff: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-12 11:21:12.201 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 462, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 550, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 485, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:21:12.412 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:21:12.428 - CustomFuction [INFO    ] [ERROR] XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx
+2024-01-12 11:21:12.430 - CustomFuction [INFO    ] Move file: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx.
+2024-01-12 11:21:12.471 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-12 11:21:12.472 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-12 11:21:12.482 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-12 11:21:12.696 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-12 11:24:22.882 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-12 11:24:22.883 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-12 11:24:22.883 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-12 11:24:22.884 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-12 11:24:22.894 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-12 11:24:22.894 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-12 11:24:22.894 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-12 11:24:23.302 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-12 11:24:23.331 - __init__   [INFO    ] Debug mode enable!
+2024-01-12 11:24:23.342 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20240102.py.*
+2024-01-12 11:24:23.342 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-12 11:24:22.874518
+2024-01-12 11:24:23.551 - __init__   [INFO    ] Set process status code: 0.
+2024-01-12 11:24:23.560 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:24:23.657 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:24:23.760 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-12 11:24:23.855 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: QG35-CW_GD400TAS100L6S_只有数字.xlsx 
+2024-01-12 11:24:23.880 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:24:24.080 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S_只有数字.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:24.088 - CustomFuction [INFO    ] [ERROR] QG35-CW_GD400TAS100L6S_只有数字.xlsx
+2024-01-12 11:24:24.089 - CustomFuction [INFO    ] Move file: QG35-CW_GD400TAS100L6S_只有数字.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\QG35-CW_GD400TAS100L6S_只有数字.xlsx.
+2024-01-12 11:24:24.172 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx 
+2024-01-12 11:24:24.215 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:24:24.353 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:24.361 - CustomFuction [INFO    ] [ERROR] TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx
+2024-01-12 11:24:24.361 - CustomFuction [INFO    ] Move file: TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\TLECGQG81-CW_阳光GD200FYS100L6S_取不到header数据..xlsx.
+2024-01-12 11:24:24.391 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-12 11:24:24.494 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:24:24.499 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:24:24.511 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:24:24.511 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00
+2024-01-12 11:24:24.513 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:24:24.513 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:24:24.605 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.605 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.606 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.607 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.607 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为PASS
+2024-01-12 11:24:24.612 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名
+2024-01-12 11:24:24.612 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:00.222007
+2024-01-12 11:24:24.617 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.004044
+2024-01-12 11:24:24.658 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Failed to export xsiff: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx 
+2024-01-12 11:24:24.660 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 462, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 550, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 485, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:24:24.832 - __init__   [ERROR   ] File:XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:24.846 - CustomFuction [INFO    ] [ERROR] XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx
+2024-01-12 11:24:24.846 - CustomFuction [INFO    ] Move file: XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ122-CW-FC_新阳光-GD200FYS100L6S-CW_多列测试.xlsx.
+2024-01-12 11:24:24.876 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx 
+2024-01-12 11:24:25.013 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:24:25.202 - __init__   [ERROR   ] File:XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:25.218 - CustomFuction [INFO    ] [ERROR] XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx
+2024-01-12 11:24:25.220 - CustomFuction [INFO    ] Move file: XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XLECHQ217-CW-FC_新阳光GD200FYS100L6S-CW.xlsx.
+2024-01-12 11:24:25.268 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx 
+2024-01-12 11:24:28.654 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:24:28.672 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:24:28.909 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:24:28.910 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00.000998
+2024-01-12 11:24:28.911 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:24:28.911 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:24:29.167 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名
+2024-01-12 11:24:29.168 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:03.900204
+2024-01-12 11:24:29.170 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.001000
+2024-01-12 11:24:29.241 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Export xsiff:0:00:00.071461
+2024-01-12 11:24:29.241 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Converter XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to FT_GD600MLS100L6S_XWECIQ743_GW_20231124030713.xsiff ;Total Used:0:00:03.973665
+2024-01-12 11:24:29.249 - CustomFuction [INFO    ] [Archive] XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx
+2024-01-12 11:24:29.249 - CustomFuction [INFO    ] Move file: XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECIQ743-CW_新阳光GD600MLS100L6S-CW-D125486-左.xlsx.
+2024-01-12 11:24:29.282 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx 
+2024-01-12 11:24:29.908 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:24:29.940 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:24:29.977 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] [Serial no.]列无法正确取值，例如遇到的第一个错误值为：200041 D12740000000;文件名为：XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:24:30.195 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:30.203 - CustomFuction [INFO    ] [ERROR] XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx
+2024-01-12 11:24:30.204 - CustomFuction [INFO    ] Move file: XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH20-CW_GD600MLS100L6S_取不到header数据.xlsx.
+2024-01-12 11:24:30.243 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx 
+2024-01-12 11:24:30.507 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 文档开头格式不规范，请检查，文件名为：XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:24:30.668 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:30.677 - CustomFuction [INFO    ] [ERROR] XWECYQH62-GW_GD600MLS100L6S-GW.xlsx
+2024-01-12 11:24:30.678 - CustomFuction [INFO    ] Move file: XWECYQH62-GW_GD600MLS100L6S-GW.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECYQH62-GW_GD600MLS100L6S-GW.xlsx.
+2024-01-12 11:24:30.711 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 当前处理的文件: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-12 11:24:31.401 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理文档数据格式
+2024-01-12 11:24:31.408 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功格式化时间
+2024-01-12 11:24:31.448 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN信息为列表
+2024-01-12 11:24:31.448 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 转字典列表后循环时长:0:00:00.001000
+2024-01-12 11:24:31.449 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理row_data_df
+2024-01-12 11:24:31.450 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功整理BIN SUMMARY信息为字典
+2024-01-12 11:24:31.453 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为预测试
+2024-01-12 11:24:31.453 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为预测试
+2024-01-12 11:24:31.453 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为预测试
+2024-01-12 11:24:31.453 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为预测试
+2024-01-12 11:24:31.461 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.472 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.481 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.482 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.490 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为双脉冲（复合模式）
+2024-01-12 11:24:31.539 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] 有非数值型的数据，当前文档遇到的为@
+2024-01-12 11:24:31.540 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] 成功将命名参数名
+2024-01-12 11:24:31.541 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Read source file:0:00:00.830001
+2024-01-12 11:24:31.542 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Create xsiff:0:00:00.000999
+2024-01-12 11:24:31.566 - ETL_FT_SD_TO_XSIFF_20240102 [INFO    ] Failed to export xsiff: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx 
+2024-01-12 11:24:31.567 - ETL_FT_SD_TO_XSIFF_20240102 [ERROR   ] unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 462, in do_file
+    data_df = data_df.where(data_df.notnull(), None).drop_duplicates()
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5251, in duplicated
+    labels, shape = map(list, zip(*map(f, vals)))
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5226, in f
+    vals, size_hint=min(len(self), _SIZE_HINT_LIMIT)
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 702, in factorize
+    values, na_sentinel=na_sentinel, size_hint=size_hint, na_value=na_value
+  File "D:\Python37\lib\site-packages\pandas\core\algorithms.py", line 511, in _factorize_array
+    values, na_sentinel=na_sentinel, na_value=na_value, mask=mask
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1873, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1787, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'dict'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 550, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20240102.py", line 485, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-12 11:24:31.774 - __init__   [ERROR   ] File:XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-12 11:24:31.784 - CustomFuction [INFO    ] [ERROR] XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx
+2024-01-12 11:24:31.785 - CustomFuction [INFO    ] Move file: XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\XWECZS889-GW_新阳光GD600MLS100L6S-GW_特殊字符测试.xlsx.
+2024-01-12 11:24:31.825 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-12 11:24:31.825 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-12 11:24:31.834 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-12 11:24:32.077 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

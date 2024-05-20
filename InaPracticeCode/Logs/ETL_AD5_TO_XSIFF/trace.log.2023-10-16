@@ -1,0 +1,48 @@
+2023-10-16 15:39:00.797 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-16 15:39:00.799 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-16 15:39:00.800 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-16 15:39:00.801 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-16 15:39:00.824 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-16 15:39:00.824 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-16 15:39:00.825 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-16 15:39:04.455 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-10-16 15:39:04.574 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_AD5_TO_XSIFF_EXAMPLE\ETL_AD5_TO_XSIFF.py.*
+2023-10-16 15:39:04.578 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-16 15:39:00.784399
+2023-10-16 15:39:08.015 - __init__   [INFO    ] Set process status code: 0.
+2023-10-16 15:39:08.134 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-16 15:39:08.645 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-16 15:39:09.078 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-16 15:39:09.686 - ETL_AD5_TO_XSIFF [INFO    ] Read ad5 file:0:00:00.173955
+2023-10-16 15:39:10.011 - ETL_AD5_TO_XSIFF [INFO    ] Create xsiff:0:00:00.324156
+2023-10-16 15:39:10.245 - ETL_AD5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.234000
+2023-10-16 15:39:10.246 - ETL_AD5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.002_05_INLINE_M2_20221116052218.xsiff ;Total Used:0:00:00.734150
+2023-10-16 15:39:10.279 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-10-16 15:39:10.280 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\Source\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-10-16 15:39:10.282 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-16 15:39:10.283 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-16 15:39:10.422 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-16 15:39:14.201 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-10-16 17:10:11.913 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-16 17:10:11.913 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-16 17:10:11.913 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-16 17:10:11.913 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-16 17:10:11.928 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-16 17:10:11.928 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-16 17:10:11.928 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-16 17:10:18.925 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-16 17:10:19.411 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_AD5_TO_XSIFF_EXAMPLE\ETL_AD5_TO_XSIFF.py.*
+2023-10-16 17:10:19.411 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-16 17:10:11.897629
+2023-10-16 17:10:22.907 - __init__   [INFO    ] Set process status code: 0.
+2023-10-16 17:10:23.025 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-16 17:10:23.442 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-16 17:10:23.864 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-16 17:10:24.435 - ETL_AD5_TO_XSIFF [INFO    ] Read ad5 file:0:00:00.149069
+2023-10-16 17:10:24.732 - ETL_AD5_TO_XSIFF [INFO    ] Create xsiff:0:00:00.296895
+2023-10-16 17:10:24.935 - ETL_AD5_TO_XSIFF [INFO    ] Export xsiff:0:00:00.203130
+2023-10-16 17:10:24.935 - ETL_AD5_TO_XSIFF [INFO    ] Converter 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to WAT_F6FB_0625682.002_05_INLINE_M2_20221116052218.xsiff ;Total Used:0:00:00.649094
+2023-10-16 17:10:24.966 - CustomFuction [INFO    ] [Archive] 2022111517445900_0625682.002_PUIXE010MXE3.ad5
+2023-10-16 17:10:24.966 - CustomFuction [INFO    ] Move file: 2022111517445900_0625682.002_PUIXE010MXE3.ad5 to Archive folder: Data\Source\2022111517445900_0625682.002_PUIXE010MXE3.ad5.
+2023-10-16 17:10:24.966 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-16 17:10:24.966 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-16 17:10:25.107 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-16 17:10:28.336 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

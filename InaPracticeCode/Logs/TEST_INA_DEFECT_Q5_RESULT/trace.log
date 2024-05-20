@@ -1,0 +1,128 @@
+2023-07-07 11:20:12.556 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 11:20:12.556 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 11:20:12.557 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 11:20:12.558 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 11:20:12.570 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 11:20:12.570 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-07 11:20:12.570 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-07 11:20:18.062 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-07-07 11:20:18.143 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py.*
+2023-07-07 11:20:18.146 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 11:20:12.546965
+2023-07-07 11:20:23.663 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 11:20:23.786 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 11:20:26.361 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 11:24:02.752 - CustomFuction [ERROR   ] 'WAFER_KEY'
+Traceback (most recent call last):
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'WAFER_KEY'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 103, in db2db_his_init_fullUpdate
+    main_logic(db_src, db_tgt)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py", line 76, in main_logic
+    row['WAFER_KEY'], row['DEFECT_ITEM']))
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 958, in __getitem__
+    return self._get_value(key)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 1069, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'WAFER_KEY'
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py", line 127, in <module>
+    XdmLib.CustomFuction.db2db_his_init_fullUpdate(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 118, in db2db_his_init_fullUpdate
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 11:24:08.063 - __init__   [ERROR   ] 程序运行错误,错误见明细
+                                                Error: 'WAFER_KEY'
+2023-07-07 11:24:13.636 - __init__   [INFO    ] Set process status code: 5.
+2023-07-07 11:24:13.735 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 11:57:39.371 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 11:57:39.371 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 11:57:39.371 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 11:57:39.372 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 11:57:39.383 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 11:57:39.383 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-07 11:57:39.384 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-07 11:57:44.755 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-07 11:57:45.247 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py.*
+2023-07-07 11:57:45.262 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 11:57:39.361833
+2023-07-07 11:57:50.779 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 11:57:50.880 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 11:57:53.415 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 11:57:56.000 - CustomFuction [ERROR   ] ORA-00933: SQL 命令未正确结束
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 103, in db2db_his_init_fullUpdate
+    main_logic(db_src, db_tgt)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py", line 55, in main_logic
+    result = db_src.execute(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\Database.py", line 248, in execute
+    return self.cursor.execute(statement , *parameters,**keywordParameters)
+cx_Oracle.DatabaseError: ORA-00933: SQL 命令未正确结束
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py", line 127, in <module>
+    XdmLib.CustomFuction.db2db_his_init_fullUpdate(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 118, in db2db_his_init_fullUpdate
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 11:58:01.247 - __init__   [ERROR   ] 程序运行错误,错误见明细
+                                                Error: ORA-00933: SQL 命令未正确结束
+2023-07-07 11:58:06.710 - __init__   [INFO    ] Set process status code: 5.
+2023-07-07 11:58:06.797 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 13:14:40.154 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 13:14:40.155 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 13:14:40.155 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 13:14:40.156 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 13:14:40.170 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 13:14:40.171 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-07 13:14:40.171 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-07 13:14:45.782 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-07 13:14:49.141 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py.*
+2023-07-07 13:14:49.150 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 13:14:40.145924
+2023-07-07 13:14:54.771 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 13:14:54.916 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 13:14:57.510 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 13:15:00.152 - CustomFuction [ERROR   ] ORA-00933: SQL 命令未正确结束
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 103, in db2db_his_init_fullUpdate
+    main_logic(db_src, db_tgt)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py", line 55, in main_logic
+    result = db_src.execute(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\Database.py", line 248, in execute
+    return self.cursor.execute(statement , *parameters,**keywordParameters)
+cx_Oracle.DatabaseError: ORA-00933: SQL 命令未正确结束
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py", line 127, in <module>
+    XdmLib.CustomFuction.db2db_his_init_fullUpdate(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 118, in db2db_his_init_fullUpdate
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 13:15:05.474 - __init__   [ERROR   ] 程序运行错误,错误见明细
+                                                Error: ORA-00933: SQL 命令未正确结束
+2023-07-07 13:15:11.113 - __init__   [INFO    ] Set process status code: 5.
+2023-07-07 13:15:11.202 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 13:19:33.541 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 13:19:33.542 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 13:19:33.542 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 13:19:33.543 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 13:19:33.554 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 13:19:33.555 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-07 13:19:33.555 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-07 13:19:38.929 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-07 13:19:42.087 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q5_RESULT.py.*
+2023-07-07 13:19:42.097 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 13:19:33.532835
+2023-07-07 13:19:47.632 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 13:19:47.743 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 13:19:50.344 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 13:19:53.137 - TEST_INA_DEFECT_Q5_RESULT [INFO    ] Target Table No Need To Delete
+2023-07-07 13:19:53.140 - TEST_INA_DEFECT_Q5_RESULT [INFO    ] DELETE_DATA_END
+2023-07-07 13:19:53.141 - TEST_INA_DEFECT_Q5_RESULT [INFO    ] INSERT_DATA_START,TOTAL_INSERT_DATA:35
+2023-07-07 13:19:53.184 - TEST_INA_DEFECT_Q5_RESULT [INFO    ] INSERT_DATA_END
+2023-07-07 13:19:53.204 - CustomFuction [INFO    ] commit data
+2023-07-07 13:19:58.647 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 13:19:58.738 - CustomFuction [INFO    ] ========== Finally ==========

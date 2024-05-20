@@ -1,0 +1,139 @@
+2023-07-07 17:54:24.678 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 17:54:24.692 - CustomFuction [ERROR   ] parameters should be a list of sequences/dictionaries or an integer specifying the number of times to execute the statement
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 25, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 21, in do_file
+    db_tgt.executemany(config_sql.SQL_INS_TEST_INA_DEFECT_RAW, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+TypeError: parameters should be a list of sequences/dictionaries or an integer specifying the number of times to execute the statement
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 78, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:14:30.627 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:14:30.631 - CustomFuction [ERROR   ] DPI-1043: invalid number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 22, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: DPI-1043: invalid number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:18:03.799 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:18:03.809 - CustomFuction [ERROR   ] DPI-1043: invalid number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RAW.py", line 22, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: DPI-1043: invalid number
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/INA/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FILE_Loader/TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:22:45.828 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:22:45.833 - CustomFuction [ERROR   ] parameters should be a list of sequences/dictionaries or an integer specifying the number of times to execute the statement
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 22, in do_file
+    db_tgt.executemany(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+TypeError: parameters should be a list of sequences/dictionaries or an integer specifying the number of times to execute the statement
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:33:44.568 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:33:44.572 - CustomFuction [ERROR   ] DPI-1043: invalid number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 22, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_RECIPE, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: DPI-1043: invalid number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:41:16.774 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:41:16.778 - CustomFuction [ERROR   ] ORA-01036: illegal variable name/number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 23, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_REGION, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: ORA-01036: illegal variable name/number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 18:41:23.007 - TEST_INA_DEFECT_RAW [ERROR   ] Read File Error
+2023-07-07 18:41:23.115 - CustomFuction [ERROR   ] ORA-01036: illegal variable name/number
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 27, in do_file
+    raise ex
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 23, in do_file
+    db_tgt.executemanyfordataframe(config_sql.SQL_INS_TEST_INA_DEFECT_REGION, data)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: ORA-01036: illegal variable name/number
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\TEST_INA_DEFECT_RAW.py", line 80, in <module>
+    XdmLib.CustomFuction.file2db_init(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FILE_Loader\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

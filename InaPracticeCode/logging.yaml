@@ -1,0 +1,61 @@
+# -*- coding: utf-8 -*-
+# Level: CRITICAL > ERROR > WARNING > INFO > DEBUG > NOTSET
+version: 1
+disable_existing_loggers: True
+formatters:
+    simple:
+        format: '%(asctime)s.%(msecs)03d - %(module)-10s [%(levelname)-8s] %(message)s'
+        datefmt: '%Y-%m-%d %H:%M:%S'
+
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: DEBUG
+        formatter: simple
+        stream: ext://sys.stdout
+
+    file:
+        class: logging.handlers.TimedRotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: ..\..\Logs\{progname}\trace.log
+        when: midnight
+        interval: 1
+        backupCount: 30
+        encoding: utf8
+        delay: False
+        utc: False
+        atTime:
+    file_error:
+        class: logging.handlers.TimedRotatingFileHandler
+        level: ERROR
+        formatter: simple
+        filename: ..\..\Logs\{progname}\error.log
+        when: midnight
+        interval: 1
+        backupCount: 30
+        encoding: utf8
+        delay: False
+        utc: False
+        atTime:
+    email:
+        class: logging.handlers.SMTPHandler
+        level: CRITICAL
+        formatter: simple
+        mailhost: ['smtp.gmail.com', 587]
+        fromaddr: 'User'
+        toaddrs: ['User']
+        subject: 'Loader SMTP TEST'
+        credentials: ['User','Password']
+        secure: []
+        timeout: 5.0
+root:
+    level: DEBUG
+    handlers: [console, file, file_error, email]
+
+
+    #loggers:
+    #    my_module:
+    #        level: ERROR
+    #        handlers: [console]
+    #        propagate: no

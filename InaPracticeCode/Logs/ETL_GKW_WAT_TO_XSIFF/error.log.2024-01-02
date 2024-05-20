@@ -1,0 +1,1318 @@
+2024-01-02 14:04:21.632 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'text' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 144, in do_file
+    header_text, data_text = text.split("HEADER BEGIN")[1].split("HEADER END")
+NameError: name 'text' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 342, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 169, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:04:21.915 - __init__   [ERROR   ] File:TEST.lot Move To Error Folder
+                                                Error: None
+2024-01-02 14:11:40.549 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'header_dict' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 154, in do_file
+    for key, value in header_dict.items():
+NameError: name 'header_dict' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 454, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 304, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:11:40.756 - __init__   [ERROR   ] File:TEST.lot Move To Error Folder
+                                                Error: None
+2024-01-02 14:12:11.188 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 1 fields in line 13, saw 2
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 168, in do_file
+    dfDict = pd.read_csv(file_path, sep='\t', encoding='unicode_escape', header=None)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 13, saw 2
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 454, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 304, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:12:11.387 - __init__   [ERROR   ] File:TEST.lot Move To Error Folder
+                                                Error: None
+2024-01-02 14:20:49.349 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 1 fields in line 14, saw 2
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 168, in do_file
+    dfDict = pd.read_csv(file_path, sep='\t', encoding='unicode_escape', header=None)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 14, saw 2
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 455, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 305, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:20:49.564 - __init__   [ERROR   ] File:TEST.lot Move To Error Folder
+                                                Error: None
+2024-01-02 14:21:17.005 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 1 fields in line 15, saw 11
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 168, in do_file
+    dfDict = pd.read_csv(file_path, sep='\t', encoding='unicode_escape', header=None)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 15, saw 11
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 455, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 305, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 14:21:17.174 - __init__   [ERROR   ] File:TEST.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:18:35.169 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'str_find' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 169, in do_file
+    START_MEAS_TIME = str_find(dfDict, 'START TIME').strip()
+NameError: name 'str_find' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 455, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 305, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:18:35.316 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:18:35.372 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'str_find' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 169, in do_file
+    START_MEAS_TIME = str_find(dfDict, 'START TIME').strip()
+NameError: name 'str_find' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 455, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 305, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:18:35.553 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:18:35.567 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 1 fields in line 15, saw 11
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 168, in do_file
+    dfDict = pd.read_csv(file_path, sep='\t', encoding='unicode_escape', header=None)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 15, saw 11
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 455, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 305, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:18:35.712 - __init__   [ERROR   ] File:TEST.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:22:39.939 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'text' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 116, in do_file
+    header_text, data_text = text.split("HEADER BEGIN")[1].split("HEADER END")
+NameError: name 'text' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 418, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 268, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:22:40.119 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:22:40.131 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'text' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 116, in do_file
+    header_text, data_text = text.split("HEADER BEGIN")[1].split("HEADER END")
+NameError: name 'text' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 418, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 268, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:22:40.337 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:30:31.601 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'file_content' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 98, in do_file
+    header_section = file_content.split("HEADER BEGIN\n")[1].split("HEADER END")[0]
+NameError: name 'file_content' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 404, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 254, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:30:31.791 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:30:31.807 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'file_content' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 98, in do_file
+    header_section = file_content.split("HEADER BEGIN\n")[1].split("HEADER END")[0]
+NameError: name 'file_content' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 404, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 254, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:30:31.985 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:30:57.129 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'file_content' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 98, in do_file
+    header_section = file_content.split("HEADER BEGIN\n")[1].split("HEADER END")[0]
+NameError: name 'file_content' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 404, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 254, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:30:57.305 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:30:57.318 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'file_content' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 98, in do_file
+    header_section = file_content.split("HEADER BEGIN\n")[1].split("HEADER END")[0]
+NameError: name 'file_content' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 404, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 254, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:30:57.449 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:33:48.317 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'csv' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 100, in do_file
+    csv_reader = csv.reader(file)
+NameError: name 'csv' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 407, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 257, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:33:48.480 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:33:48.490 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'csv' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 100, in do_file
+    csv_reader = csv.reader(file)
+NameError: name 'csv' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 407, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 257, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:33:48.654 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:35:18.171 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 247, in do_file
+    s_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 390, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:35:18.458 - CustomFuction [ERROR   ] module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 247, in do_file
+    s_t = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 390, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:37:25.021 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 91, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 389, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:37:25.214 - CustomFuction [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 91, in do_file
+    ts_t = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 389, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:38:00.144 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'sp_df' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 249, in do_file
+    spec_df = pd.DataFrame(data=sp_df, dtype=object)
+NameError: name 'sp_df' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 389, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 297, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:38:00.345 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:38:00.415 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'sp_df' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 249, in do_file
+    spec_df = pd.DataFrame(data=sp_df, dtype=object)
+NameError: name 'sp_df' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 389, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 297, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:38:00.573 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:38:22.034 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 251, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target", 'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 389, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 297, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:38:22.232 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:38:22.285 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 251, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target", 'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 389, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 297, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:38:22.438 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:41:06.381 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'str_find' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 103, in do_file
+    START_MEAS_TIME = str_find(dfDict, 'START TIME').strip()
+NameError: name 'str_find' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 389, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 239, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:41:06.555 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:41:06.610 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'str_find' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 103, in do_file
+    START_MEAS_TIME = str_find(dfDict, 'START TIME').strip()
+NameError: name 'str_find' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 389, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 239, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:41:06.772 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:41:53.936 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'str_find' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 105, in do_file
+    START_MEAS_TIME = str_find(dfDict, 'START TIME').strip()
+NameError: name 'str_find' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 391, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 241, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:41:54.093 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:41:54.151 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'str_find' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 105, in do_file
+    START_MEAS_TIME = str_find(dfDict, 'START TIME').strip()
+NameError: name 'str_find' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 391, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 241, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:41:54.355 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:43:38.883 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'text' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 120, in do_file
+    header_text, data_text = text.split("HEADER BEGIN")[1].split("HEADER END")
+NameError: name 'text' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:43:39.033 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:43:39.082 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'text' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 120, in do_file
+    header_text, data_text = text.split("HEADER BEGIN")[1].split("HEADER END")
+NameError: name 'text' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:43:39.224 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:44:09.032 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] 'DataFrame' object has no attribute 'split'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 120, in do_file
+    header_text, data_text = dfDict.split("HEADER BEGIN")[1].split("HEADER END")
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5141, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'split'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:44:09.198 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:44:09.248 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] 'DataFrame' object has no attribute 'split'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 120, in do_file
+    header_text, data_text = dfDict.split("HEADER BEGIN")[1].split("HEADER END")
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5141, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'split'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:44:09.392 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:44:29.685 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 2 fields in line 15, saw 11
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 100, in do_file
+    dfDict = pd.read_csv(file_path)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 2 fields in line 15, saw 11
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:44:29.845 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:44:29.862 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 2 fields in line 15, saw 11
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 100, in do_file
+    dfDict = pd.read_csv(file_path)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 2 fields in line 15, saw 11
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:44:29.985 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:44:59.864 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 1 fields in line 2, saw 2
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 100, in do_file
+    dfDict = pd.read_csv(file_path, sep=',', encoding='unicode_escape', header=None)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 2, saw 2
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:45:00.035 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:45:00.048 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Error tokenizing data. C error: Expected 1 fields in line 2, saw 2
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 100, in do_file
+    dfDict = pd.read_csv(file_path, sep=',', encoding='unicode_escape', header=None)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 460, in _read
+    data = parser.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 1198, in read
+    ret = self._engine.read(nrows)
+  File "D:\Python37\lib\site-packages\pandas\io\parsers.py", line 2157, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 862, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas\_libs\parsers.pyx", line 918, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 905, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 2042, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 2, saw 2
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:45:00.166 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:46:02.264 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Unsupported format, or corrupt file: Expected BOF record; found b'HEADER B'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 101, in do_file
+    dfDict = pd.read_excel(file_path, header=None)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 157, in open_workbook
+    ragged_rows=ragged_rows,
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 92, in open_workbook_xls
+    biff_version = bk.getbof(XL_WORKBOOK_GLOBALS)
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1278, in getbof
+    bof_error('Expected BOF record; found %r' % self.mem[savpos:savpos+8])
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1272, in bof_error
+    raise XLRDError('Unsupported format, or corrupt file: ' + msg)
+xlrd.biffh.XLRDError: Unsupported format, or corrupt file: Expected BOF record; found b'HEADER B'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:46:02.453 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:46:02.466 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Unsupported format, or corrupt file: Expected BOF record; found b'HEADER B'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 101, in do_file
+    dfDict = pd.read_excel(file_path, header=None)
+  File "D:\Python37\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "D:\Python37\lib\site-packages\xlrd\__init__.py", line 157, in open_workbook
+    ragged_rows=ragged_rows,
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 92, in open_workbook_xls
+    biff_version = bk.getbof(XL_WORKBOOK_GLOBALS)
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1278, in getbof
+    bof_error('Expected BOF record; found %r' % self.mem[savpos:savpos+8])
+  File "D:\Python37\lib\site-packages\xlrd\book.py", line 1272, in bof_error
+    raise XLRDError('Unsupported format, or corrupt file: ' + msg)
+xlrd.biffh.XLRDError: Unsupported format, or corrupt file: Expected BOF record; found b'HEADER B'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 416, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 266, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:46:02.627 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:49:15.358 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 121, in do_file
+    header_dict = parse_header(header_text)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 107, in parse_header
+    key, value = line.split('，')
+ValueError: not enough values to unpack (expected 2, got 1)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 415, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 265, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:49:15.497 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:49:15.525 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 121, in do_file
+    header_dict = parse_header(header_text)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 107, in parse_header
+    key, value = line.split('，')
+ValueError: not enough values to unpack (expected 2, got 1)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 415, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 265, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:49:15.679 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:52:47.254 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 121, in do_file
+    header_dict = parse_header(header_text)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 107, in parse_header
+    key, value = line.split('，')
+ValueError: not enough values to unpack (expected 2, got 1)
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 415, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 265, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:52:47.503 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:53:35.976 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 121, in do_file
+    header_dict = parse_header(header_text)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 107, in parse_header
+    key, value = line.split('，')
+ValueError: not enough values to unpack (expected 2, got 1)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 415, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 265, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:53:36.119 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:53:36.146 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 121, in do_file
+    header_dict = parse_header(header_text)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 107, in parse_header
+    key, value = line.split('，')
+ValueError: not enough values to unpack (expected 2, got 1)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 415, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 265, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:53:36.274 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:54:07.611 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 121, in do_file
+    header_dict = parse_header(header_text)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 107, in parse_header
+    key, value = line.split(',')
+ValueError: not enough values to unpack (expected 2, got 1)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 415, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 265, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:54:07.806 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:54:07.839 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 121, in do_file
+    header_dict = parse_header(header_text)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 107, in parse_header
+    key, value = line.split(',')
+ValueError: not enough values to unpack (expected 2, got 1)
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 415, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 265, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:54:08.009 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:57:37.201 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] 10 columns passed, passed data had 13 columns
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 564, in _list_to_arrays
+    columns = _validate_or_indexify_columns(content, columns)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 689, in _validate_or_indexify_columns
+    f"{len(columns)} columns passed, passed data had "
+AssertionError: 10 columns passed, passed data had 13 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 140, in do_file
+    data_df = pd.DataFrame(data_list, columns=header_dict.keys())
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 509, in __init__
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 524, in to_arrays
+    return _list_to_arrays(data, columns, coerce_float=coerce_float, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 567, in _list_to_arrays
+    raise ValueError(e) from e
+ValueError: 10 columns passed, passed data had 13 columns
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 434, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 284, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:57:37.372 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 16:57:37.452 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] 10 columns passed, passed data had 13 columns
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 564, in _list_to_arrays
+    columns = _validate_or_indexify_columns(content, columns)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 689, in _validate_or_indexify_columns
+    f"{len(columns)} columns passed, passed data had "
+AssertionError: 10 columns passed, passed data had 13 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 140, in do_file
+    data_df = pd.DataFrame(data_list, columns=header_dict.keys())
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 509, in __init__
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 524, in to_arrays
+    return _list_to_arrays(data, columns, coerce_float=coerce_float, dtype=dtype)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\construction.py", line 567, in _list_to_arrays
+    raise ValueError(e) from e
+ValueError: 10 columns passed, passed data had 13 columns
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 434, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 284, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 16:57:37.700 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:16:11.724 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 147, in do_file
+    start_time = datetime.datetime.strptime(start_time, '%m/%d/%Y %H:%M:%S')
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 276, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:16:11.888 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:16:11.961 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 147, in do_file
+    start_time = datetime.datetime.strptime(start_time, '%m/%d/%Y %H:%M:%S')
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 276, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:16:12.143 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:16:48.344 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] local variable 'dataDf' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 155, in do_file
+    dataDf.columns = ils
+UnboundLocalError: local variable 'dataDf' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 276, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:16:48.516 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:16:48.587 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] local variable 'dataDf' referenced before assignment
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 155, in do_file
+    dataDf.columns = ils
+UnboundLocalError: local variable 'dataDf' referenced before assignment
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 276, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:16:48.735 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:17:37.170 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 12 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 156, in do_file
+    dataDf.columns = ils
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 12 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 277, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:17:37.355 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:17:37.443 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 12 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 156, in do_file
+    dataDf.columns = ils
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 12 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 277, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:17:37.596 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:23:58.447 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 12 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 156, in do_file
+    dataDf.columns = ils
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 12 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 277, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:23:58.670 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:23:58.751 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 0 elements, new values have 12 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 156, in do_file
+    dataDf.columns = ils
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 12 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 277, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:23:58.897 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:39:29.752 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 13 elements, new values have 12 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 156, in do_file
+    dataDf.columns = ils
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 13 elements, new values have 12 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 277, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:39:29.928 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:39:30.006 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 13 elements, new values have 12 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 156, in do_file
+    dataDf.columns = ils
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 13 elements, new values have 12 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 277, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:39:30.195 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:42:10.883 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'delete_Err' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 156, in do_file
+    dataDf = dataDf.applymap(delete_Err)
+NameError: name 'delete_Err' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 276, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:42:11.072 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:42:11.148 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'delete_Err' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 156, in do_file
+    dataDf = dataDf.applymap(delete_Err)
+NameError: name 'delete_Err' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 276, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:42:11.346 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:42:35.657 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'str_find' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 162, in do_file
+    Lot_ID = str_find(dfDict, 'LOT ID')
+NameError: name 'str_find' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 276, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:42:35.830 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 17:42:35.899 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] name 'str_find' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 162, in do_file
+    Lot_ID = str_find(dfDict, 'LOT ID')
+NameError: name 'str_find' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 426, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 276, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 17:42:36.037 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:15:20.808 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] module 'config_sql' has no attribute 'FIND_KEY_FLAG'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 224, in do_file
+    KeyFlag = db_tgt.execute(config_sql.FIND_KEY_FLAG, product=Header['Product'],
+AttributeError: module 'config_sql' has no attribute 'FIND_KEY_FLAG'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 401, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 251, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:15:20.995 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:15:21.101 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] module 'config_sql' has no attribute 'FIND_KEY_FLAG'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 224, in do_file
+    KeyFlag = db_tgt.execute(config_sql.FIND_KEY_FLAG, product=Header['Product'],
+AttributeError: module 'config_sql' has no attribute 'FIND_KEY_FLAG'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 401, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 251, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:15:21.270 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:15:52.337 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] invalid literal for int() with base 10: '    SITEID'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 238, in do_file
+    Para_df_1['SiteId'] = Para_df_1['SiteId'].values.astype(int)
+ValueError: invalid literal for int() with base 10: '    SITEID'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 401, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 251, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:15:52.510 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:15:52.619 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] invalid literal for int() with base 10: '    SITEID'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 238, in do_file
+    Para_df_1['SiteId'] = Para_df_1['SiteId'].values.astype(int)
+ValueError: invalid literal for int() with base 10: '    SITEID'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 401, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 251, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:15:52.820 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:23:21.300 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 261, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target", 'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 399, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 307, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:23:21.458 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:23:21.915 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 261, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target", 'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 399, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 307, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:23:22.060 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:28:12.637 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 154, in do_file
+    dataDf.drop(data_df.columns[-1], axis=1, inplace=True)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 4104, in __getitem__
+    return getitem(key)
+IndexError: index -1 is out of bounds for axis 0 with size 0
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 400, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 250, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:28:12.840 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:28:12.901 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 154, in do_file
+    dataDf.drop(data_df.columns[-1], axis=1, inplace=True)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 4104, in __getitem__
+    return getitem(key)
+IndexError: index -1 is out of bounds for axis 0 with size 0
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 400, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 250, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:28:13.055 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:28:44.063 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 262, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target", 'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 400, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 308, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:28:44.233 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:28:44.718 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 262, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target", 'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 400, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 308, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:28:44.890 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:29:31.600 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 262, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target", 'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 400, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 308, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:29:31.781 - __init__   [ERROR   ] File:B002617_20230925092618.lot Move To Error Folder
+                                                Error: None
+2024-01-02 18:29:32.330 - ETL_GKW_WAT_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 262, in do_file
+    "ControlHigh", "ValidLow", "ValidHigh", "Target", 'ParameterDesc']
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 400, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_WAT_TO_XSIFF/ETL_GKW_WAT_TO_XSIFF.py", line 308, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-02 18:29:32.512 - __init__   [ERROR   ] File:B003007_20231009153042.lot Move To Error Folder
+                                                Error: None

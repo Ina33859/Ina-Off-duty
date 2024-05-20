@@ -1,0 +1,48 @@
+2024-01-08 11:06:44.467 - CustomFuction [ERROR   ] [WinError 3] 系统找不到指定的路径。: './Data/Source'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 662, in file2db_init
+    delete_empty_folder(config_source, config_source, log)
+  File "../..\XdmLib\CustomFuction.py", line 1007, in delete_empty_folder
+    if (not os.listdir(path)) & (org != path):
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: './Data/Source'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 133, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 667, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 11:15:39.040 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 64, in do_file
+    klarfFile.Slot = temp[12]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 137, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 11:17:51.843 - CustomFuction [ERROR   ] name 'current_directory' is not defined
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 48, in do_file
+    source_path = os.path.join(current_directory, klarfFileName)
+NameError: name 'current_directory' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 142, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-08 11:18:51.676 - CustomFuction [ERROR   ] list index out of range
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 69, in do_file
+    klarfFile.Slot = temp[12]
+IndexError: list index out of range
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_TO_KLARF/ETL_LC_TO_KLARF.py", line 142, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

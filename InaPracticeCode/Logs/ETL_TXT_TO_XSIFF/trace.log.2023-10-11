@@ -1,0 +1,41 @@
+2023-10-11 16:35:58.067 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-11 16:35:58.069 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-11 16:35:58.069 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-11 16:35:58.070 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-11 16:35:58.091 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-11 16:35:58.092 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-11 16:35:58.092 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-11 16:36:01.613 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2023-10-11 16:36:02.142 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py.*
+2023-10-11 16:36:02.150 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-11 16:35:58.053924
+2023-10-11 16:36:05.526 - __init__   [INFO    ] Set process status code: 0.
+2023-10-11 16:36:05.642 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-11 16:36:06.049 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-11 16:36:06.475 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-11 16:36:06.946 - CustomFuction [ERROR   ] name 'waferno' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 299, in do_file
+    value = float(item)  # 尝试将项转换为浮点数
+ValueError: could not convert string to float: 'V'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 373, in do_file
+    raise ex
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 325, in do_file
+    data_dict[outer_key]['waferno'] = waferno
+NameError: name 'waferno' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\ETL_TXT_TO_XSIFF.py", line 519, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_TXT_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 631, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-11 16:36:06.973 - CustomFuction [INFO    ] [ERROR] FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt
+2023-10-11 16:36:06.975 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt to ERROR folder: Data\Source\FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt.
+2023-10-11 16:36:10.332 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-11 16:36:10.333 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-11 16:36:10.460 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-11 16:36:13.704 - __init__   [INFO    ] Set process status code: 5.

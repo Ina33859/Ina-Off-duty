@@ -1,0 +1,56 @@
+2023-07-07 10:15:46.361 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 10:15:46.361 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 10:15:46.361 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 10:15:46.362 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 10:15:46.373 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 10:15:46.373 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-07 10:15:46.373 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-07 10:15:54.605 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-07-07 10:15:54.711 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q4_RESULT.py.*
+2023-07-07 10:15:54.717 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 10:15:46.348114
+2023-07-07 10:16:00.189 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 10:16:00.284 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 10:16:02.773 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 10:19:28.374 - TEST_INA_DEFECT_Q4_RESULT [INFO    ] Target Table No Need To Delete
+2023-07-07 10:19:28.374 - TEST_INA_DEFECT_Q4_RESULT [INFO    ] DELETE_DATA_END
+2023-07-07 10:19:28.374 - TEST_INA_DEFECT_Q4_RESULT [INFO    ] INSERT_DATA_START,TOTAL_INSERT_DATA:981166
+2023-07-07 10:19:50.530 - CustomFuction [ERROR   ] ORA-00904: "UPDATE_TIME": 标识符无效
+Traceback (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 103, in db2db_his_init_fullUpdate
+    main_logic(db_src, db_tgt)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q4_RESULT.py", line 114, in main_logic
+    db_tgt.executemanyfordataframe(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\Database.py", line 295, in executemanyfordataframe
+    return self.executemany(statement, tuple_in_list)
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\Database.py", line 280, in executemany
+    return self.cursor.executemany(statement, tuple_in_list)
+cx_Oracle.DatabaseError: ORA-00904: "UPDATE_TIME": 标识符无效
+Stack (most recent call last):
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q4_RESULT.py", line 127, in <module>
+    XdmLib.CustomFuction.db2db_his_init_fullUpdate(
+  File "D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\../..\XdmLib\CustomFuction.py", line 118, in db2db_his_init_fullUpdate
+    log.error(ex, exc_info=True, stack_info=True)
+2023-07-07 10:19:55.987 - __init__   [ERROR   ] 程序运行错误,错误见明细
+                                                Error: ORA-00904: "UPDATE_TIME": 标识符无效
+2023-07-07 10:20:02.277 - __init__   [INFO    ] Set process status code: 5.
+2023-07-07 10:20:02.381 - CustomFuction [INFO    ] ========== Finally ==========
+2023-07-07 10:58:12.195 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 10:58:12.196 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-07-07 10:58:12.196 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-07-07 10:58:12.197 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-07-07 10:58:12.207 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-07-07 10:58:12.207 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-07-07 10:58:12.208 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-07-07 10:58:17.576 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 5, data_time_flg: None.
+2023-07-07 10:58:17.973 - __init__   [INFO    ] Watching control file: D:\INA\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\DBtoDB_TEST_INA\TEST_INA_DEFECT_Q4_RESULT.py.*
+2023-07-07 10:58:17.977 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-07-07 10:58:12.186996
+2023-07-07 10:58:23.424 - __init__   [INFO    ] Set process status code: 0.
+2023-07-07 10:58:23.547 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 10:58:26.119 - Database   [INFO    ] Non set logging! Using default logging.
+2023-07-07 11:02:04.714 - TEST_INA_DEFECT_Q4_RESULT [INFO    ] Target Table No Need To Delete
+2023-07-07 11:02:04.714 - TEST_INA_DEFECT_Q4_RESULT [INFO    ] DELETE_DATA_END
+2023-07-07 11:02:04.715 - TEST_INA_DEFECT_Q4_RESULT [INFO    ] INSERT_DATA_START,TOTAL_INSERT_DATA:981166
+2023-07-07 11:02:32.507 - TEST_INA_DEFECT_Q4_RESULT [INFO    ] INSERT_DATA_END
+2023-07-07 11:02:32.700 - CustomFuction [INFO    ] commit data
+2023-07-07 11:02:39.097 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2023-07-07 11:02:39.190 - CustomFuction [INFO    ] ========== Finally ==========

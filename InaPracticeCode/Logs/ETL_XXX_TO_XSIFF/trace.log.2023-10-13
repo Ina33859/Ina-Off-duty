@@ -1,0 +1,21 @@
+2023-10-13 13:47:30.306 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-13 13:47:30.307 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2023-10-13 13:47:30.307 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2023-10-13 13:47:30.308 - __init__   [INFO    ] Console Quick Edit Disabled
+2023-10-13 13:47:30.325 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2023-10-13 13:47:30.325 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2023-10-13 13:47:30.325 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2023-10-13 13:47:33.799 - __init__   [INFO    ] First run, initialize db table: 'xdm_prog_control'.
+2023-10-13 13:47:33.907 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_HD_TO_XSIFF\ETL_XXX_TO_XSIFF.py.*
+2023-10-13 13:47:33.920 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2023-10-13 13:47:30.297559
+2023-10-13 13:47:37.262 - __init__   [INFO    ] Set process status code: 0.
+2023-10-13 13:47:37.385 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-13 13:47:37.898 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-13 13:47:38.354 - Database   [INFO    ] Non set logging! Using default logging.
+2023-10-13 13:47:38.764 - ETL_XXX_TO_XSIFF [INFO    ] Not XXX File
+2023-10-13 13:47:38.786 - CustomFuction [INFO    ] [SKIP] FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt
+2023-10-13 13:47:38.790 - CustomFuction [INFO    ] Move file: FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt to SKIP folder: Data\Skip\FT1_7HDW31134.000_KY2023005_H2326-0005_R2.txt.
+2023-10-13 13:47:38.791 - CustomFuction [INFO    ] ========[ File End ]========
+2023-10-13 13:47:38.792 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2023-10-13 13:47:38.923 - CustomFuction [INFO    ] ========== Finally ==========
+2023-10-13 13:47:42.103 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

@@ -1,0 +1,83 @@
+2023-10-27 10:05:45.129 - ETL_FT_SD_TO_XSIFF [ERROR   ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-27 10:05:51.634 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-27 10:05:53.277 - ETL_FT_SD_TO_XSIFF [ERROR   ] An exception occurred in the parameter value check: could not convert string to float: '∞'
+2023-10-27 10:05:56.234 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-27 10:18:38.339 - ETL_FT_SD_TO_XSIFF [ERROR   ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-27 10:18:41.313 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-27 10:18:41.604 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'index' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 382, in do_file
+    parameter_values_reset[index] = value
+NameError: name 'index' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 598, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 417, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-27 10:18:44.550 - __init__   [ERROR   ] File:TLECGQG81-CW_阳光GD200FYS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-27 10:18:45.293 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'index' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 382, in do_file
+    parameter_values_reset[index] = value
+NameError: name 'index' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 598, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 417, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-27 10:18:48.192 - __init__   [ERROR   ] File:XWECYQH20-CW_GD600MLS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-27 10:18:48.833 - ETL_FT_SD_TO_XSIFF [ERROR   ] name 'index' is not defined
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 382, in do_file
+    parameter_values_reset[index] = value
+NameError: name 'index' is not defined
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 598, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 417, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-27 10:18:51.717 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-27 10:26:15.094 - ETL_FT_SD_TO_XSIFF [ERROR   ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-27 10:26:18.060 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-27 10:33:07.045 - ETL_FT_SD_TO_XSIFF [ERROR   ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-27 10:33:10.005 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None
+2023-10-27 10:33:11.661 - ETL_FT_SD_TO_XSIFF [ERROR   ] could not convert string to float: '∞'
+Traceback (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 371, in do_file
+    parameter_values = parameter_values.apply(replace_non_numeric)
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\series.py", line 4433, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\apply.py", line 1082, in apply
+    return self.apply_standard()
+  File "D:\soft\anaconda3\lib\site-packages\pandas\core\apply.py", line 1137, in apply_standard
+    mapped = lib.map_infer(
+  File "pandas\_libs\lib.pyx", line 2870, in pandas._libs.lib.map_infer
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 360, in replace_non_numeric
+    float_value = float(value)
+ValueError: could not convert string to float: '∞'
+Stack (most recent call last):
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 580, in <module>
+    XdmLib.CustomFuction.file2db_init(do_file, before_do_file, after_do_file,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\../..\XdmLib\CustomFuction.py", line 596, in file2db_init
+    res = do_file(file_root_source_path,
+  File "D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF.py", line 399, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-10-27 10:33:14.592 - __init__   [ERROR   ] File:XWECYQH62-GW_GD600MLS100L6S-GW.xlsx Move To Error Folder
+                                                Error: None
+2023-10-27 10:39:18.422 - ETL_FT_SD_TO_XSIFF [ERROR   ] Not the correct documentation:  [Serial no.] This column is numeric only.
+2023-10-27 10:39:21.351 - __init__   [ERROR   ] File:QG35-CW_GD400TAS100L6S.xlsx Move To Error Folder
+                                                Error: None

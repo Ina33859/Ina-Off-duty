@@ -1,0 +1,1500 @@
+2024-03-04 11:04:20.090 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 11:04:20.091 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 11:04:20.091 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 11:04:20.093 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 11:04:20.110 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 11:04:20.110 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 11:04:20.111 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 11:04:24.054 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 11:04:27.200 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 11:04:27.203 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 11:04:20.081182
+2024-03-04 11:04:30.728 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 11:04:30.815 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 11:04:31.172 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 11:04:31.501 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 11:04:31.873 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 11:04:31.904 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.030990
+2024-03-04 11:04:31.905 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 11:04:31.905 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 11:04:31.905 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 11:04:31.926 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 11:04:31.926 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 11:04:31.934 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 11:04:31.934 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 11:04:32.903 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 11:04:32.905 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 11:04:32.910 - ETL_LC_CP_TO_XSIFF [ERROR   ] 'DataBlock' object has no attribute 'product_id'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 265, in do_file
+    'Product': result.product_id,
+AttributeError: 'DataBlock' object has no attribute 'product_id'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 414, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 314, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 11:04:34.013 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 11:04:34.101 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 11:04:34.102 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 11:04:34.105 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0141_240218152432.csv 
+2024-03-04 11:04:34.115 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.010021
+2024-03-04 11:04:34.115 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 11:04:34.116 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 11:04:34.116 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 11:04:34.121 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 11:04:34.121 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 11:04:34.124 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 11:04:34.124 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 11:04:34.480 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 11:04:34.485 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.370010
+2024-03-04 11:04:34.531 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.045957
+2024-03-04 11:04:34.531 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0141_240218152432.csv to CP_120015A_23GD01_41_CP1_20240224143356.xsiff ;Total Used:0:00:00.425988
+2024-03-04 11:04:34.548 - CustomFuction [INFO    ] [Archive] 23GD0141_240218152432.csv
+2024-03-04 11:04:34.549 - CustomFuction [INFO    ] Move file: 23GD0141_240218152432.csv to Archive folder: Data\Source\23GD0141_240218152432.csv.
+2024-03-04 11:04:34.549 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0142_240218153534.csv 
+2024-03-04 11:04:34.556 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.006972
+2024-03-04 11:04:34.556 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 11:04:34.557 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 11:04:34.557 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 11:04:34.561 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 11:04:34.562 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 11:04:34.565 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 11:04:34.565 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 11:04:34.950 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 11:04:34.953 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.397012
+2024-03-04 11:04:35.009 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.056020
+2024-03-04 11:04:35.010 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0142_240218153534.csv to CP_120015A_23GD01_42_CP1_20240224143614.xsiff ;Total Used:0:00:00.460004
+2024-03-04 11:04:35.027 - CustomFuction [INFO    ] [Archive] 23GD0142_240218153534.csv
+2024-03-04 11:04:35.027 - CustomFuction [INFO    ] Move file: 23GD0142_240218153534.csv to Archive folder: Data\Source\23GD0142_240218153534.csv.
+2024-03-04 11:04:35.028 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0143_240218141511.csv 
+2024-03-04 11:04:35.036 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.008041
+2024-03-04 11:04:35.036 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 11:04:35.036 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 11:04:35.037 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 11:04:35.044 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 11:04:35.045 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 11:04:35.049 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 11:04:35.049 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 11:04:35.470 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 11:04:35.472 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.435985
+2024-03-04 11:04:35.510 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.037968
+2024-03-04 11:04:35.511 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0143_240218141511.csv to CP_120015A_23GD01_43_CP1_20240224143656.xsiff ;Total Used:0:00:00.482997
+2024-03-04 11:04:35.528 - CustomFuction [INFO    ] [Archive] 23GD0143_240218141511.csv
+2024-03-04 11:04:35.530 - CustomFuction [INFO    ] Move file: 23GD0143_240218141511.csv to Archive folder: Data\Source\23GD0143_240218141511.csv.
+2024-03-04 11:04:35.530 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 11:04:35.531 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 11:04:35.633 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 11:04:36.460 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 11:08:28.708 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 11:08:28.708 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 11:08:28.709 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 11:08:28.710 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 11:08:28.723 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 11:08:28.724 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 11:08:28.724 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 11:08:29.677 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 11:08:32.421 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 11:08:32.422 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 11:08:28.701673
+2024-03-04 11:08:33.397 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 11:08:33.485 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 11:08:33.858 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 11:08:34.216 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 11:08:34.610 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 11:08:34.644 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.034015
+2024-03-04 11:08:34.644 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 11:08:34.644 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 11:08:34.644 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 11:08:34.651 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 11:08:34.651 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 11:08:34.657 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 11:08:34.658 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 11:08:35.664 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 11:08:35.667 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:01.023296
+2024-03-04 11:08:35.747 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.079998
+2024-03-04 11:08:35.748 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.138308
+2024-03-04 11:08:35.770 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 11:08:35.770 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 11:08:35.771 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 11:08:35.771 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 11:08:35.878 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 11:08:36.722 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 13:33:42.641 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:33:42.642 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 13:33:42.642 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:33:42.644 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 13:33:42.661 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 13:33:42.662 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 13:33:42.662 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 13:33:43.161 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 13:33:43.222 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 13:33:43.226 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 13:33:42.616361
+2024-03-04 13:33:43.487 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 13:33:43.509 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:33:43.663 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:33:43.805 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:33:43.939 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 13:36:56.952 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:36:56.952 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 13:36:56.952 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:36:56.954 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 13:36:56.969 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 13:36:56.969 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 13:36:56.970 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 13:36:57.273 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-03-04 13:36:57.273 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-03-04 13:36:57.344 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 13:36:57.346 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 13:36:56.927207
+2024-03-04 13:36:57.651 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 13:36:57.669 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:36:57.810 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:36:57.977 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:36:58.232 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 13:37:31.654 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:33.420878
+2024-03-04 13:37:31.654 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 13:37:31.654 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 13:37:31.655 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 13:37:31.690 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 13:37:31.690 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 13:37:31.745 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 13:37:31.745 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 13:37:34.070 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 13:37:34.075 - ETL_LC_CP_TO_XSIFF [ERROR   ] Length mismatch: Expected axis has 37 elements, new values have 3 elements
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 248, in do_file
+    data_df.columns = selected_parameter_name
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 5154, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas\_libs\properties.pyx", line 66, in pandas._libs.properties.AxisProperty.__set__
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 564, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "D:\Python37\lib\site-packages\pandas\core\internals\managers.py", line 227, in set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 37 elements, new values have 3 elements
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 419, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 319, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 13:37:34.409 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 13:37:34.422 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 13:37:34.423 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 13:37:34.423 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 13:37:34.423 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 13:37:34.464 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 13:37:34.703 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 13:42:21.567 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:42:21.568 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 13:42:21.568 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:42:21.570 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 13:42:21.584 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 13:42:21.585 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 13:42:21.585 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 13:42:21.936 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 13:42:22.014 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 13:42:22.016 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 13:42:21.541496
+2024-03-04 13:42:22.256 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 13:42:22.268 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:42:22.377 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:42:22.485 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:42:22.624 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 13:54:06.999 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:54:06.999 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 13:54:06.999 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:54:07.000 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 13:54:07.015 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 13:54:07.016 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 13:54:07.016 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 13:54:07.449 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-03-04 13:54:07.449 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-03-04 13:54:07.542 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 13:54:07.544 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 13:54:06.974223
+2024-03-04 13:54:07.833 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 13:54:07.855 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:54:08.043 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:54:08.204 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:54:08.396 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 13:54:12.400 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:04.003403
+2024-03-04 13:54:12.400 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 13:54:12.401 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 13:54:12.401 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 13:54:12.405 - ETL_LC_CP_TO_XSIFF [ERROR   ] can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 194, in do_file
+    selected_name_temp =result.ParameterName[0][i].split(' ')[1:] + result.ParameterName[1][i]
+TypeError: can only concatenate list (not "str") to list
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 422, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 322, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 13:54:12.727 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 13:54:12.743 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 13:54:12.744 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 13:54:12.744 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 13:54:12.745 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 13:54:12.765 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 13:54:13.021 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 13:57:37.371 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:57:37.371 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 13:57:37.372 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:57:37.374 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 13:57:37.392 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 13:57:37.392 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 13:57:37.392 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 13:57:37.786 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 13:57:37.861 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 13:57:37.864 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 13:57:37.345266
+2024-03-04 13:57:38.103 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 13:57:38.114 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:57:38.247 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:57:38.341 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:57:38.456 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 13:57:38.492 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.035999
+2024-03-04 13:57:38.493 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 13:57:38.493 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 13:57:38.493 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 13:57:38.498 - ETL_LC_CP_TO_XSIFF [ERROR   ] can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 201, in do_file
+    parameter_value = result.ParameterName[0][i].split(' ')[1:] + result.ParameterName[1][i]
+TypeError: can only concatenate list (not "str") to list
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 431, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 331, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 13:57:38.773 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 13:57:38.785 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 13:57:38.787 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 13:57:38.787 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 13:57:38.787 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 13:57:38.814 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 13:57:39.072 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 13:59:20.403 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:59:20.404 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 13:59:20.404 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 13:59:20.405 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 13:59:20.420 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 13:59:20.420 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 13:59:20.421 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 13:59:20.749 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 13:59:20.852 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 13:59:20.855 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 13:59:20.376879
+2024-03-04 13:59:21.091 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 13:59:21.104 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:59:21.260 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:59:21.412 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 13:59:21.557 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 13:59:21.597 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.039980
+2024-03-04 13:59:21.598 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 13:59:21.598 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 13:59:21.598 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 13:59:21.601 - ETL_LC_CP_TO_XSIFF [ERROR   ] can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 202, in do_file
+    parameter_value = selected_name_temp[i - 3:] + result.ParameterName[1][i]
+TypeError: can only concatenate list (not "str") to list
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 432, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 332, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 13:59:21.892 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 13:59:21.903 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 13:59:21.904 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 13:59:21.904 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 13:59:21.904 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 13:59:21.920 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 13:59:22.139 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:01:52.409 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:01:52.409 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:01:52.409 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:01:52.411 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:01:52.425 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:01:52.425 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:01:52.425 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:01:52.743 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:01:52.788 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:01:52.790 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:01:52.402463
+2024-03-04 14:01:52.999 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:01:53.011 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:01:53.077 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:01:53.153 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:01:53.244 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:01:53.273 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.029036
+2024-03-04 14:01:53.273 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:01:53.273 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:01:53.274 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:01:53.303 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:01:53.304 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:01:53.315 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:01:53.315 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:01:54.313 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:01:54.317 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:01.044362
+2024-03-04 14:01:54.411 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.094025
+2024-03-04 14:01:54.411 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.167423
+2024-03-04 14:01:54.416 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 14:01:54.416 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:01:54.417 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:01:54.417 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:01:54.428 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:01:54.654 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:02:14.829 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:02:14.829 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:02:14.829 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:02:14.831 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:02:14.845 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:02:14.845 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:02:14.846 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:02:15.173 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:02:15.234 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:02:15.235 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:02:14.821489
+2024-03-04 14:02:15.423 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:02:15.431 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:02:15.493 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:02:15.554 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:02:15.676 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:02:15.754 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.077934
+2024-03-04 14:02:15.754 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:02:15.755 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:02:15.756 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 14:02:15.762 - ETL_LC_CP_TO_XSIFF [ERROR   ] 'list' object has no attribute 'str'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 201, in do_file
+    print(type(result.ParameterName[0][i].split(' ')[1:].str()))
+AttributeError: 'list' object has no attribute 'str'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 432, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 332, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 14:02:16.023 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 14:02:16.038 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 14:02:16.040 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:02:16.040 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:02:16.041 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:02:16.060 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:02:16.256 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:06:25.223 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:06:25.223 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:06:25.224 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:06:25.226 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:06:25.246 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:06:25.247 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:06:25.247 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:06:25.574 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:06:25.665 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:06:25.669 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:06:25.213854
+2024-03-04 14:06:25.947 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:06:25.957 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:06:26.062 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:06:26.180 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:06:26.253 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:06:26.274 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.020991
+2024-03-04 14:06:26.274 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:06:26.274 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:06:26.275 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 14:06:26.277 - ETL_LC_CP_TO_XSIFF [ERROR   ] 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 199, in do_file
+    result_string = re.search(r'\s(.*)', result.ParameterName[0][i]).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 430, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 330, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 14:06:26.480 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 14:06:26.491 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 14:06:26.492 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:06:26.492 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:06:26.492 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:06:26.512 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:06:26.747 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:07:05.779 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:07:05.779 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:07:05.780 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:07:05.781 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:07:05.795 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:07:05.795 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:07:05.795 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:07:06.162 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:07:06.231 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:07:06.233 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:07:05.772601
+2024-03-04 14:07:06.425 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:07:06.433 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:07:06.515 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:07:06.645 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:07:06.742 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:07:06.763 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.022024
+2024-03-04 14:07:06.763 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:07:06.764 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:07:06.764 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 14:07:06.766 - ETL_LC_CP_TO_XSIFF [ERROR   ] unsupported operand type(s) for +: 'NoneType' and 'str'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 200, in do_file
+    parameter_value = result_string + result.ParameterName[1][i]
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 430, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 330, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 14:07:06.955 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 14:07:06.964 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 14:07:06.965 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:07:06.965 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:07:06.965 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:07:06.977 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:07:07.159 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:08:40.531 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:08:40.531 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:08:40.531 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:08:40.532 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:08:40.546 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:08:40.546 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:08:40.546 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:08:40.892 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:08:40.962 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:08:40.963 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:08:40.523030
+2024-03-04 14:08:41.153 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:08:41.162 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:08:41.222 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:08:41.279 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:08:41.339 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:08:41.364 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.024992
+2024-03-04 14:08:41.365 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:08:41.365 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:08:41.365 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 14:08:41.367 - ETL_LC_CP_TO_XSIFF [ERROR   ] 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 199, in do_file
+    result_string = re.search(r' .*', result.ParameterName[0][i]).group(0)
+AttributeError: 'NoneType' object has no attribute 'group'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 430, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 330, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 14:08:41.531 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 14:08:41.540 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 14:08:41.540 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:08:41.540 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:08:41.541 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:08:41.553 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:08:41.740 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:08:51.855 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:08:51.855 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:08:51.856 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:08:51.857 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:08:51.872 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:08:51.872 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:08:51.872 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:08:52.207 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:08:52.259 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:08:52.261 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:08:51.830564
+2024-03-04 14:08:52.492 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:08:52.506 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:08:52.663 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:08:52.793 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:08:52.932 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:08:52.962 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.029994
+2024-03-04 14:08:52.962 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:08:52.963 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:10:00.482 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:10:00.482 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:10:00.482 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:10:00.483 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:10:00.497 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:10:00.498 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:10:00.498 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:10:00.848 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-03-04 14:10:00.849 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-03-04 14:10:00.938 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:10:00.943 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:10:00.472143
+2024-03-04 14:10:01.219 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:10:01.236 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:10:01.346 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:10:01.442 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:10:01.552 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:10:01.636 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.084002
+2024-03-04 14:10:01.637 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:10:01.639 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:10:01.641 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:10:01.662 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:10:01.662 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:10:01.673 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:10:01.674 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:10:02.635 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:10:02.639 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:01.002278
+2024-03-04 14:10:02.722 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.083001
+2024-03-04 14:10:02.722 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.170279
+2024-03-04 14:10:02.726 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 14:10:02.727 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:10:02.727 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:10:02.727 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:10:02.737 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:10:02.892 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:10:41.523 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:10:41.523 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:10:41.523 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:10:41.525 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:10:41.538 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:10:41.538 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:10:41.538 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:10:41.900 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:10:41.959 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:10:41.960 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:10:41.509028
+2024-03-04 14:10:42.129 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:10:42.137 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:10:42.194 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:10:42.256 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:10:42.308 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:10:42.325 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.016998
+2024-03-04 14:10:42.325 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:10:42.325 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:10:42.326 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:10:42.332 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:10:42.332 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:10:42.337 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:10:42.337 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:10:43.305 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:10:43.309 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.984192
+2024-03-04 14:10:43.389 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.079965
+2024-03-04 14:10:43.389 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.081155
+2024-03-04 14:10:43.393 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 14:10:43.395 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:10:43.395 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:10:43.395 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:10:43.408 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:10:43.619 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:17:28.544 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:17:28.544 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:17:28.544 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:17:28.546 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:17:28.561 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:17:28.562 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:17:28.562 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:17:28.887 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:17:28.933 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:17:28.935 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:17:28.535795
+2024-03-04 14:17:29.171 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:17:29.178 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:17:29.256 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:17:29.315 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:17:29.418 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:17:29.450 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.031996
+2024-03-04 14:17:29.451 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:17:29.451 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:17:29.451 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:17:29.462 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:17:29.462 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:17:29.469 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:17:29.469 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:17:30.430 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 14:17:30.433 - ETL_LC_CP_TO_XSIFF [ERROR   ] Index(['DieX', 'DieY'], dtype='object')
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 260, in do_file
+    data_df = data_df.drop_duplicates(subset=['DieX', 'DieY'], keep='last')
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5112, in drop_duplicates
+    duplicated = self.duplicated(subset, keep=keep)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 5248, in duplicated
+    raise KeyError(diff)
+KeyError: Index(['DieX', 'DieY'], dtype='object')
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 430, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 330, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 14:17:30.691 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 14:17:30.708 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 14:17:30.709 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:17:30.709 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:17:30.710 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:17:30.727 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:17:30.945 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:44:24.894 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:44:24.895 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:44:24.895 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:44:24.896 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:44:24.912 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:44:24.912 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:44:24.912 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:44:25.298 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:44:25.354 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:44:25.356 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:44:24.883780
+2024-03-04 14:44:25.580 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:44:25.591 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:44:25.701 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:44:25.766 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:44:25.844 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:44:25.864 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.019997
+2024-03-04 14:44:25.864 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:44:25.865 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:44:25.865 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:44:25.877 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:44:25.877 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:44:25.886 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:44:25.886 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:44:26.900 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:44:26.906 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:01.042000
+2024-03-04 14:44:27.000 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.094000
+2024-03-04 14:44:27.000 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.155997
+2024-03-04 14:44:27.004 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 14:44:27.005 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:44:27.005 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:44:27.005 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:44:27.018 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:44:27.242 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:46:23.751 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:46:23.751 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:46:23.752 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:46:23.753 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:46:23.767 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:46:23.767 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:46:23.767 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:46:24.154 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:46:24.252 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:46:24.254 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:46:23.744263
+2024-03-04 14:46:24.507 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:46:24.515 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:46:24.604 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:46:24.701 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:46:24.786 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:46:24.818 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.031982
+2024-03-04 14:46:24.818 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:46:24.819 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:46:24.819 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:46:24.825 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:46:24.826 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:46:24.831 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:46:24.831 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:46:25.778 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:46:25.782 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.963559
+2024-03-04 14:46:25.859 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.077128
+2024-03-04 14:46:25.859 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.073669
+2024-03-04 14:46:25.863 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 14:46:25.864 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:46:25.864 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:46:25.864 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:46:25.879 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:46:26.052 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:47:41.055 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:47:41.056 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:47:41.056 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:47:41.058 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:47:41.073 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:47:41.073 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:47:41.073 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:47:41.411 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:47:41.463 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:47:41.464 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:47:41.043916
+2024-03-04 14:47:41.627 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:47:41.639 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:47:41.705 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:47:41.778 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:47:41.856 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:47:41.875 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.019006
+2024-03-04 14:47:41.875 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:47:41.875 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:47:41.875 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:47:41.882 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:47:41.882 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:47:41.888 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:47:41.888 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:47:42.967 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:47:42.971 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:01.096038
+2024-03-04 14:47:43.051 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.079996
+2024-03-04 14:47:43.052 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.196041
+2024-03-04 14:47:43.056 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 14:47:43.056 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:47:43.056 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:47:43.057 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:47:43.078 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:47:43.317 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:49:14.096 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:49:14.096 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:49:14.097 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:49:14.098 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:49:14.113 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:49:14.114 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:49:14.114 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:49:14.528 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:49:14.628 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:49:14.630 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:49:14.072109
+2024-03-04 14:49:14.893 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:49:14.906 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:49:15.003 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:49:15.151 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:49:15.268 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:49:15.312 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.044032
+2024-03-04 14:49:15.313 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:49:15.313 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:49:34.942 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:49:34.942 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:49:34.942 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:49:34.944 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:49:34.959 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:49:34.960 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:49:34.961 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:49:35.285 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-03-04 14:49:35.286 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-03-04 14:49:35.341 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:49:35.343 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:49:34.916943
+2024-03-04 14:49:35.627 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:49:35.641 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:49:35.775 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:49:35.916 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:49:36.086 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:49:36.125 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.039021
+2024-03-04 14:49:36.125 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:49:36.126 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:49:36.126 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:49:36.140 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:49:36.140 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:49:36.150 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:49:36.151 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:49:38.278 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:53:44.188 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:53:44.188 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:53:44.188 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:53:44.189 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:53:44.205 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:53:44.206 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:53:44.206 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:53:44.526 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-03-04 14:53:44.526 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-03-04 14:53:44.587 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:53:44.589 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:53:44.180644
+2024-03-04 14:53:44.741 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:53:44.750 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:53:44.812 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:53:44.889 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:53:44.987 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:53:45.015 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.028751
+2024-03-04 14:53:45.015 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:53:45.016 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:53:45.016 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:53:45.024 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:53:45.024 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:53:45.030 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:53:45.031 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:53:46.037 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:53:46.042 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:01.026483
+2024-03-04 14:53:46.125 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.082971
+2024-03-04 14:53:46.125 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.138205
+2024-03-04 14:53:46.130 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 14:53:46.130 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:53:46.131 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:53:46.131 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:53:46.141 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:53:46.349 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:56:16.319 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:56:16.320 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:56:16.320 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:56:16.321 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:56:16.340 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:56:16.340 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:56:16.340 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:56:16.655 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:56:16.754 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:56:16.759 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:56:16.309431
+2024-03-04 14:56:17.072 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:56:17.088 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:56:17.195 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:56:17.295 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:56:17.421 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:56:17.511 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.089991
+2024-03-04 14:56:17.511 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:56:17.512 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:56:17.513 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:56:17.528 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:56:17.528 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:56:17.545 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:56:17.545 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:56:18.554 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:56:18.557 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 14:56:18.559 - ETL_LC_CP_TO_XSIFF [ERROR   ] '1'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 98, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index_class_helper.pxi", line 93, in pandas._libs.index.Int64Engine._check_type
+KeyError: '1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 278, in do_file
+    good_die = data_df['HBIN'].value_counts()['1']
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '1'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 438, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 338, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 14:56:18.781 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 14:56:18.792 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 14:56:18.793 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:56:18.793 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:56:18.793 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:56:18.805 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:56:18.988 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 14:57:37.342 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:57:37.342 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 14:57:37.342 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 14:57:37.343 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 14:57:37.356 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 14:57:37.357 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 14:57:37.357 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 14:57:37.709 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 14:57:37.761 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 14:57:37.763 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 14:57:37.332841
+2024-03-04 14:57:38.009 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 14:57:38.021 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:57:38.113 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:57:38.181 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 14:57:38.298 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 14:57:38.336 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.037981
+2024-03-04 14:57:38.336 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 14:57:38.336 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 14:57:38.337 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 14:57:38.344 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 14:57:38.344 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 14:57:38.350 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 14:57:38.350 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 14:57:39.320 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 14:57:39.324 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.988179
+2024-03-04 14:57:39.401 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.077034
+2024-03-04 14:57:39.402 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.104160
+2024-03-04 14:57:39.406 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 14:57:39.406 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 14:57:39.406 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 14:57:39.406 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 14:57:39.417 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 14:57:39.613 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 15:02:30.152 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:02:30.152 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:02:30.152 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:02:30.153 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:02:30.169 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:02:30.169 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:02:30.170 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:02:30.596 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 15:02:30.650 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:02:30.652 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:02:30.143209
+2024-03-04 15:02:30.922 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:02:30.944 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:02:31.043 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:02:31.154 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:02:31.231 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:02:31.252 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.019987
+2024-03-04 15:02:31.252 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:02:31.252 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:02:31.252 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:02:31.259 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:02:31.259 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:02:31.264 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:02:31.264 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:02:32.267 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:02:32.270 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:01.018033
+2024-03-04 15:02:32.360 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.088966
+2024-03-04 15:02:32.360 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.128988
+2024-03-04 15:02:32.364 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 15:02:32.364 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 15:02:32.365 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 15:02:32.365 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 15:02:32.375 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 15:02:32.574 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 15:03:36.033 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:03:36.033 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:03:36.033 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:03:36.035 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:03:36.049 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:03:36.049 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:03:36.049 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:03:36.395 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 15:03:36.453 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:03:36.454 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:03:36.025430
+2024-03-04 15:03:36.591 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:03:36.599 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:03:36.655 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:03:36.729 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:03:36.821 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:03:36.841 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.020003
+2024-03-04 15:03:36.841 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:03:36.841 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:03:36.842 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:03:36.848 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:03:36.849 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:03:36.857 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:03:36.858 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:03:37.808 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:03:37.809 - ETL_LC_CP_TO_XSIFF [INFO    ] Failed to create xsiff: 23GD0103_240118161158.csv 
+2024-03-04 15:03:37.812 - ETL_LC_CP_TO_XSIFF [ERROR   ] '1'
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 98, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index_class_helper.pxi", line 93, in pandas._libs.index.Int64Engine._check_type
+KeyError: '1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 278, in do_file
+    good_die = data_df['HBIN'].value_counts()['1']
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "D:\Python37\lib\site-packages\pandas\core\series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '1'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 439, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 339, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 15:03:38.007 - __init__   [ERROR   ] File:23GD0103_240118161158.csv Move To Error Folder
+                                                Error: None
+2024-03-04 15:03:38.022 - CustomFuction [INFO    ] [ERROR] 23GD0103_240118161158.csv
+2024-03-04 15:03:38.024 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to ERROR folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 15:03:38.025 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 15:03:38.025 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 15:03:38.042 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 15:03:38.213 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 15:08:45.026 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:08:45.027 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:08:45.027 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:08:45.029 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:08:45.042 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:08:45.042 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:08:45.042 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:08:45.397 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 15:08:45.447 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:08:45.457 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:08:45.019296
+2024-03-04 15:08:45.683 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:08:45.697 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:08:45.797 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:08:45.888 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:08:45.958 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:08:45.982 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.023996
+2024-03-04 15:08:45.982 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:08:45.982 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:08:45.983 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:08:45.989 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:08:45.990 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:08:45.996 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:08:45.996 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:08:46.951 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:08:46.955 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.973039
+2024-03-04 15:08:47.041 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.086003
+2024-03-04 15:08:47.041 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.083038
+2024-03-04 15:08:47.045 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 15:08:47.045 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 15:08:47.045 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 15:08:47.045 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 15:08:47.057 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 15:08:47.279 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 15:09:09.956 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:09:09.956 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:09:09.957 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:09:09.958 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:09:09.975 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:09:09.975 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:09:09.975 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:09:10.343 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 15:09:10.428 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:09:10.431 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:09:09.931365
+2024-03-04 15:09:10.694 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:09:10.708 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:09:10.847 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:09:10.980 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:09:11.104 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:09:11.138 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.033029
+2024-03-04 15:09:11.138 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:09:11.138 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:09:11.139 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:09:11.152 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:09:11.152 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:09:11.161 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:09:11.161 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:09:13.286 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:13:31.435 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:13:31.435 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:13:31.435 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:13:31.437 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:13:31.452 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:13:31.452 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:13:31.452 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:13:31.776 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-03-04 15:13:31.777 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-03-04 15:13:31.843 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:13:31.846 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:13:31.404238
+2024-03-04 15:13:32.111 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:13:32.133 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:13:32.286 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:13:32.426 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:13:32.642 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:13:32.677 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.034994
+2024-03-04 15:13:32.677 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:13:32.678 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:13:32.678 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:13:32.692 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:13:32.692 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:13:32.701 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:13:32.701 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:13:34.896 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:16:09.962 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:16:09.962 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:16:09.962 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:16:09.963 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:16:09.978 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:16:09.979 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:16:09.979 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:16:10.413 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-03-04 15:16:10.415 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-03-04 15:16:10.506 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:16:10.513 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:16:09.953359
+2024-03-04 15:16:10.719 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:16:10.734 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:16:10.859 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:16:10.963 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:16:11.053 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:16:11.082 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.028996
+2024-03-04 15:16:11.082 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:16:11.083 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:16:11.084 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:16:11.092 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:16:11.092 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:16:11.098 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:16:11.099 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:16:12.097 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:16:12.103 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:01.021102
+2024-03-04 15:16:12.185 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.081995
+2024-03-04 15:16:12.185 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.132093
+2024-03-04 15:16:12.190 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 15:16:12.191 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 15:16:12.191 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 15:16:12.191 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 15:16:12.200 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 15:16:12.374 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 15:18:11.033 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:18:11.033 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:18:11.033 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:18:11.034 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:18:11.048 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:18:11.048 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:18:11.049 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:18:11.364 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 15:18:11.419 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:18:11.421 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:18:11.025226
+2024-03-04 15:18:11.608 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:18:11.617 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:18:11.715 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:18:11.809 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:18:11.891 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:18:11.913 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.021031
+2024-03-04 15:18:11.913 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:18:11.913 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:18:11.914 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:18:11.922 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:18:11.922 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:18:11.928 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:18:11.929 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:18:12.870 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:18:12.875 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.961997
+2024-03-04 15:18:12.952 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.077212
+2024-03-04 15:18:12.954 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.062316
+2024-03-04 15:18:12.958 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 15:18:12.958 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 15:18:12.959 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0142_240218153534.csv 
+2024-03-04 15:18:12.964 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.005000
+2024-03-04 15:18:12.964 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:18:12.965 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:18:12.965 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:18:12.969 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:18:12.969 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:18:12.972 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:18:12.972 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:18:13.332 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:18:13.334 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.369965
+2024-03-04 15:18:13.380 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.046174
+2024-03-04 15:18:13.380 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0142_240218153534.csv to CP_120015A_23GD01_42_CP1_20240224143614.xsiff ;Total Used:0:00:00.421139
+2024-03-04 15:18:13.383 - CustomFuction [INFO    ] [Archive] 23GD0142_240218153534.csv
+2024-03-04 15:18:13.384 - CustomFuction [INFO    ] Move file: 23GD0142_240218153534.csv to Archive folder: Data\Source\23GD0142_240218153534.csv.
+2024-03-04 15:18:13.384 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 15:18:13.384 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 15:18:13.393 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 15:18:13.553 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 15:20:06.990 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:20:06.990 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:20:06.990 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:20:06.991 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:20:07.006 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:20:07.007 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:20:07.007 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:20:07.391 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 15:20:07.455 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:20:07.457 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:20:06.982217
+2024-03-04 15:20:07.703 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:20:07.715 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:20:07.802 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:20:07.906 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:20:08.016 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:20:08.052 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.036023
+2024-03-04 15:20:08.053 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:20:08.053 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:20:08.053 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:20:08.061 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:20:08.061 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:20:08.067 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:20:08.068 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:20:09.013 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:20:09.019 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.965844
+2024-03-04 15:20:09.094 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.073999
+2024-03-04 15:20:09.094 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.077867
+2024-03-04 15:20:09.103 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 15:20:09.103 - CustomFuction [INFO    ] Move file: 23GD0103_240118161158.csv to Archive folder: Data\Source\23GD0103_240118161158.csv.
+2024-03-04 15:20:09.104 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0141_240218152432.csv 
+2024-03-04 15:20:09.109 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.004989
+2024-03-04 15:20:09.110 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:20:09.110 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:20:09.110 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:20:09.114 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:20:09.114 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:20:09.117 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:20:09.117 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:20:09.465 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:20:09.467 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.357123
+2024-03-04 15:20:09.499 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.031994
+2024-03-04 15:20:09.499 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0141_240218152432.csv to CP_120015A_23GD01_41_CP1_20240224143356.xsiff ;Total Used:0:00:00.395106
+2024-03-04 15:20:09.503 - CustomFuction [INFO    ] [Archive] 23GD0141_240218152432.csv
+2024-03-04 15:20:09.503 - CustomFuction [INFO    ] Move file: 23GD0141_240218152432.csv to Archive folder: Data\Source\23GD0141_240218152432.csv.
+2024-03-04 15:20:09.503 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 15:20:09.503 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 15:20:09.515 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 15:20:09.732 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 15:26:05.441 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:26:05.442 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:26:05.442 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:26:05.444 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:26:05.459 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:26:05.460 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:26:05.460 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:26:05.814 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 15:26:05.884 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:26:05.887 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:26:05.417838
+2024-03-04 15:26:06.224 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:26:06.242 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:26:06.401 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:26:06.540 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:26:06.666 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:26:06.710 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.044032
+2024-03-04 15:26:06.711 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:26:06.711 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:26:06.713 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:30:01.558 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:30:01.558 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:30:01.558 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:30:01.559 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:30:01.574 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:30:01.575 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:30:01.575 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:30:01.883 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-03-04 15:30:01.883 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-03-04 15:30:01.943 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:30:01.945 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:30:01.550308
+2024-03-04 15:30:02.148 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:30:02.160 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:30:02.248 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:30:02.335 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:30:02.418 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:30:02.439 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.021004
+2024-03-04 15:30:02.440 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:30:02.440 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:30:02.440 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:30:02.456 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:30:02.456 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:30:02.464 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:30:02.464 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:30:03.418 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:30:03.425 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.984971
+2024-03-04 15:30:03.517 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.091990
+2024-03-04 15:30:03.517 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.099028
+2024-03-04 15:30:03.525 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 15:30:03.526 - CustomFuction [ERROR   ] Move File Error
+2024-03-04 15:30:03.528 - CustomFuction [ERROR   ] './Data/Source\\23GD0103_240118161158.csv' and 'Data\\Source\\23GD0103_240118161158.csv' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\23GD0103_240118161158.csv' -> 'Data\\Source\\23GD0103_240118161158.csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: './Data/Source\\23GD0103_240118161158.csv' and 'Data\\Source\\23GD0103_240118161158.csv' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 437, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 15:30:03.540 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0141_240218152432.csv 
+2024-03-04 15:30:03.546 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.005990
+2024-03-04 15:30:03.547 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:30:03.547 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:30:03.547 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:30:03.552 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:30:03.552 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:30:03.555 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:30:03.555 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:30:03.938 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:30:03.940 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.392976
+2024-03-04 15:30:03.982 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.039977
+2024-03-04 15:30:03.982 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0141_240218152432.csv to CP_120015A_23GD01_41_CP1_20240224143356.xsiff ;Total Used:0:00:00.441967
+2024-03-04 15:30:03.986 - CustomFuction [INFO    ] [Archive] 23GD0141_240218152432.csv
+2024-03-04 15:30:03.986 - CustomFuction [INFO    ] Move file: 23GD0141_240218152432.csv to Archive folder: Data\Source\23GD0141_240218152432.csv.
+2024-03-04 15:30:03.987 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 15:30:03.987 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 15:30:04.001 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 15:30:04.227 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 15:34:57.986 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:34:57.986 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:34:57.986 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:34:57.988 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:34:58.003 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:34:58.003 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:34:58.003 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:34:58.302 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 15:34:58.391 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:34:58.392 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:34:57.979560
+2024-03-04 15:34:58.571 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:34:58.585 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:34:58.661 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:34:58.724 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:34:58.835 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:34:58.856 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.020961
+2024-03-04 15:34:58.856 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:34:58.857 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:34:58.857 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:34:58.864 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:34:58.864 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:34:58.870 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:34:58.870 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:34:59.853 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:34:59.858 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:01.002299
+2024-03-04 15:34:59.935 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.075967
+2024-03-04 15:34:59.935 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.100227
+2024-03-04 15:34:59.944 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 15:34:59.944 - CustomFuction [ERROR   ] Move File Error
+2024-03-04 15:34:59.946 - CustomFuction [ERROR   ] './Data/Source\\23GD0103_240118161158.csv' and 'Data\\Source\\23GD0103_240118161158.csv' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\23GD0103_240118161158.csv' -> 'Data\\Source\\23GD0103_240118161158.csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: './Data/Source\\23GD0103_240118161158.csv' and 'Data\\Source\\23GD0103_240118161158.csv' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 441, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 15:34:59.948 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0141_240218152432.csv 
+2024-03-04 15:34:59.953 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.004967
+2024-03-04 15:34:59.954 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:34:59.954 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:34:59.954 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:34:59.960 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:34:59.960 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:34:59.963 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:34:59.963 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:35:00.338 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:35:00.339 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.385040
+2024-03-04 15:35:00.370 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.030998
+2024-03-04 15:35:00.371 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0141_240218152432.csv to CP_120015A_23GD01_41_CP1_20240224143356.xsiff ;Total Used:0:00:00.422968
+2024-03-04 15:35:00.373 - CustomFuction [INFO    ] [Archive] 23GD0141_240218152432.csv
+2024-03-04 15:35:00.374 - CustomFuction [INFO    ] Move file: 23GD0141_240218152432.csv to Archive folder: Data\Source\23GD0141_240218152432.csv.
+2024-03-04 15:35:00.374 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 15:35:00.374 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 15:35:00.386 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 15:35:00.637 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-03-04 15:35:56.718 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:35:56.718 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-03-04 15:35:56.718 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-03-04 15:35:56.720 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-03-04 15:35:56.734 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-03-04 15:35:56.734 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-03-04 15:35:56.734 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-03-04 15:35:57.064 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-03-04 15:35:57.148 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_LC_CP_TO_XSIFF\ETL_LC_CP_TO_XSIFF.py.*
+2024-03-04 15:35:57.153 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-03-04 15:35:56.709352
+2024-03-04 15:35:57.328 - __init__   [INFO    ] Set process status code: 0.
+2024-03-04 15:35:57.340 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:35:57.441 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:35:57.520 - Database   [INFO    ] Non set logging! Using default logging.
+2024-03-04 15:35:57.594 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0103_240118161158.csv 
+2024-03-04 15:35:57.621 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.026986
+2024-03-04 15:35:57.621 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:35:57.621 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:35:57.621 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:35:57.628 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:35:57.629 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:35:57.636 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:35:57.637 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:35:58.585 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:35:58.590 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.969000
+2024-03-04 15:35:58.670 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.079649
+2024-03-04 15:35:58.671 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0103_240118161158.csv to CP_120015A_23GD01_03_CP1_20240304110759.xsiff ;Total Used:0:00:01.076632
+2024-03-04 15:35:58.684 - CustomFuction [INFO    ] [Archive] 23GD0103_240118161158.csv
+2024-03-04 15:35:58.685 - CustomFuction [ERROR   ] Move File Error
+2024-03-04 15:35:58.687 - CustomFuction [ERROR   ] './Data/Source\\23GD0103_240118161158.csv' and 'Data\\Source\\23GD0103_240118161158.csv' are the same file
+Traceback (most recent call last):
+  File "D:\Python37\lib\shutil.py", line 557, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: './Data/Source\\23GD0103_240118161158.csv' -> 'Data\\Source\\23GD0103_240118161158.csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 1036, in move_file
+    os.path.join(target_path, fileName))
+  File "D:\Python37\lib\shutil.py", line 571, in move
+    copy_function(src, real_dst)
+  File "D:\Python37\lib\shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "D:\Python37\lib\shutil.py", line 104, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: './Data/Source\\23GD0103_240118161158.csv' and 'Data\\Source\\23GD0103_240118161158.csv' are the same file
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_LC_CP_TO_XSIFF/ETL_LC_CP_TO_XSIFF.py", line 441, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 629, in file2db_init
+    move_file_self(move_file_info)
+  File "../..\XdmLib\CustomFuction.py", line 1044, in move_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-03-04 15:35:58.688 - ETL_LC_CP_TO_XSIFF [INFO    ] Currently working on files: 23GD0141_240218152432.csv 
+2024-03-04 15:35:58.694 - ETL_LC_CP_TO_XSIFF [INFO    ] Read source file:0:00:00.005993
+2024-03-04 15:35:58.694 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format start
+2024-03-04 15:35:58.694 - ETL_LC_CP_TO_XSIFF [INFO    ] Processing time format end
+2024-03-04 15:35:58.695 - ETL_LC_CP_TO_XSIFF [INFO    ] The "specLimits" section begins processing.
+2024-03-04 15:35:58.699 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "specLimits" section.
+2024-03-04 15:35:58.699 - ETL_LC_CP_TO_XSIFF [INFO    ] The "binDef" section begins processing.
+2024-03-04 15:35:58.702 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "binDef" section.
+2024-03-04 15:35:58.703 - ETL_LC_CP_TO_XSIFF [INFO    ] The "rowData dataframe" section begins processing.
+2024-03-04 15:35:59.047 - ETL_LC_CP_TO_XSIFF [INFO    ] End of processing of the "rowData dataframe" section.
+2024-03-04 15:35:59.048 - ETL_LC_CP_TO_XSIFF [INFO    ] Create xsiff:0:00:00.354135
+2024-03-04 15:35:59.079 - ETL_LC_CP_TO_XSIFF [INFO    ] Export xsiff:0:00:00.031021
+2024-03-04 15:35:59.079 - ETL_LC_CP_TO_XSIFF [INFO    ] Converter 23GD0141_240218152432.csv to CP_120015A_23GD01_41_CP1_20240224143356.xsiff ;Total Used:0:00:00.391149
+2024-03-04 15:35:59.082 - CustomFuction [INFO    ] [Archive] 23GD0141_240218152432.csv
+2024-03-04 15:35:59.082 - CustomFuction [INFO    ] Move file: 23GD0141_240218152432.csv to Archive folder: Data\Source\23GD0141_240218152432.csv.
+2024-03-04 15:35:59.082 - CustomFuction [INFO    ] ========[ File End ]========
+2024-03-04 15:35:59.082 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-03-04 15:35:59.100 - CustomFuction [INFO    ] ========== Finally ==========
+2024-03-04 15:35:59.355 - __init__   [INFO    ] Set process status code: 1, Last data time: None.

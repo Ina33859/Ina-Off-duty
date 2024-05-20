@@ -1,0 +1,29 @@
+2023-11-15 15:26:45.852 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-11-15 17:00:17.473 - ETL_XBSL_TO_XSIFF [ERROR   ] 'Operator'
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XBSL_TO_XSIFF/ETL_XBSL_TO_XSIFF.py", line 175, in do_file
+    header['Operator'] = header_device['Operator']
+KeyError: 'Operator'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XBSL_TO_XSIFF/ETL_XBSL_TO_XSIFF.py", line 336, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XBSL_TO_XSIFF/ETL_XBSL_TO_XSIFF.py", line 236, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-15 17:00:18.370 - __init__   [ERROR   ] File:S23A00101-G1.xml Move To Error Folder
+                                                Error: None
+2023-11-15 17:39:37.983 - ETL_XBSL_TO_XSIFF [ERROR   ] name 'item' is not defined
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XBSL_TO_XSIFF/ETL_XBSL_TO_XSIFF.py", line 173, in do_file
+    die_x = item[:4]
+NameError: name 'item' is not defined
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XBSL_TO_XSIFF/ETL_XBSL_TO_XSIFF.py", line 395, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_XBSL_TO_XSIFF/ETL_XBSL_TO_XSIFF.py", line 295, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-15 17:39:38.921 - __init__   [ERROR   ] File:S23A00101-G1.xml Move To Error Folder
+                                                Error: None

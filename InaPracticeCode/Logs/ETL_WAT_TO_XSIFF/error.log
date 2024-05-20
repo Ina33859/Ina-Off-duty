@@ -1,0 +1,12 @@
+2024-01-02 14:05:01.340 - CustomFuction [ERROR   ] [WinError 3] 系统找不到指定的路径。: 'D:\\FileHub\\WAT\\WAT_FORMAT1'
+Traceback (most recent call last):
+  File "../..\XdmLib\CustomFuction.py", line 662, in file2db_init
+    delete_empty_folder(config_source, config_source, log)
+  File "../..\XdmLib\CustomFuction.py", line 1007, in delete_empty_folder
+    if (not os.listdir(path)) & (org != path):
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\FileHub\\WAT\\WAT_FORMAT1'
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/WAT_CONVERTER/ETL_WAT_TO_XSIFF.py", line 766, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 667, in file2db_init
+    log.error(ex, exc_info=True, stack_info=True)

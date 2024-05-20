@@ -1,0 +1,189 @@
+2023-11-14 09:48:14.242 - __init__   [ERROR   ] Access XDM Loader control table fail.
+2023-11-14 09:49:05.741 - ETL_GKW_CP_TO_XSIFF [ERROR   ] "['site' '空白'] not found in axis"
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 244, in do_file
+    data_df.drop(['site', '空白'], axis=1, inplace=True)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 4174, in drop
+    errors=errors,
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3889, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3923, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 5287, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: "['site' '空白'] not found in axis"
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 325, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-14 09:49:06.767 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None
+2023-11-14 13:54:34.438 - ETL_GKW_CP_TO_XSIFF [ERROR   ] "['site' '空白'] not found in axis"
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 244, in do_file
+    data_df.drop(['site', '空白'], axis=1, inplace=True)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 4174, in drop
+    errors=errors,
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3889, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3923, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 5287, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: "['site' '空白'] not found in axis"
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 325, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-14 13:54:35.376 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None
+2023-11-14 13:55:53.097 - ETL_GKW_CP_TO_XSIFF [ERROR   ] "['site' '空白'] not found in axis"
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 244, in do_file
+    data_df.drop(['site', '空白'], axis=1, inplace=True)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 4174, in drop
+    errors=errors,
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3889, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3923, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 5287, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: "['site' '空白'] not found in axis"
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 325, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-14 13:55:54.049 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None
+2023-11-14 14:03:45.586 - ETL_GKW_CP_TO_XSIFF [ERROR   ] cannot use absolute path on element
+Traceback (most recent call last):
+  File "D:\Python37\lib\xml\etree\ElementPath.py", line 272, in iterfind
+    selector = _cache[cache_key]
+KeyError: ('/DIEDATA/DATALOG/TEST', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 238, in do_file
+    for test in root.findall('/DIEDATA/DATALOG/TEST'):
+  File "D:\Python37\lib\xml\etree\ElementPath.py", line 313, in findall
+    return list(iterfind(elem, path, namespaces))
+  File "D:\Python37\lib\xml\etree\ElementPath.py", line 277, in iterfind
+    raise SyntaxError("cannot use absolute path on element")
+  File "<string>", line None
+SyntaxError: cannot use absolute path on element
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 427, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 325, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-14 14:03:46.510 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None
+2023-11-14 14:11:13.378 - ETL_GKW_CP_TO_XSIFF [ERROR   ] cannot use absolute path on element
+Traceback (most recent call last):
+  File "D:\Python37\lib\xml\etree\ElementPath.py", line 272, in iterfind
+    selector = _cache[cache_key]
+KeyError: ('/TANGO_CP_FORMAT/DIEDATA/DATALOG/TEST', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 239, in do_file
+    for test in root.findall('/TANGO_CP_FORMAT/DIEDATA/DATALOG/TEST'):
+  File "D:\Python37\lib\xml\etree\ElementPath.py", line 313, in findall
+    return list(iterfind(elem, path, namespaces))
+  File "D:\Python37\lib\xml\etree\ElementPath.py", line 277, in iterfind
+    raise SyntaxError("cannot use absolute path on element")
+  File "<string>", line None
+SyntaxError: cannot use absolute path on element
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 428, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-14 14:11:14.275 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None
+2023-11-14 14:13:03.064 - ETL_GKW_CP_TO_XSIFF [ERROR   ] "['site' '空白'] not found in axis"
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 245, in do_file
+    data_df.drop(['site', '空白'], axis=1, inplace=True)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 4174, in drop
+    errors=errors,
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3889, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3923, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 5287, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: "['site' '空白'] not found in axis"
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 428, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-14 14:13:03.992 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None
+2023-11-14 14:15:53.616 - ETL_GKW_CP_TO_XSIFF [ERROR   ] cannot use absolute path on element
+Traceback (most recent call last):
+  File "D:\Python37\lib\xml\etree\ElementPath.py", line 272, in iterfind
+    selector = _cache[cache_key]
+KeyError: ('/TANGO_CP_FORMAT/DIEDATA/DATALOG/TEST', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 239, in do_file
+    for test in root.findall('/TANGO_CP_FORMAT/DIEDATA/DATALOG/TEST'):
+  File "D:\Python37\lib\xml\etree\ElementPath.py", line 313, in findall
+    return list(iterfind(elem, path, namespaces))
+  File "D:\Python37\lib\xml\etree\ElementPath.py", line 277, in iterfind
+    raise SyntaxError("cannot use absolute path on element")
+  File "<string>", line None
+SyntaxError: cannot use absolute path on element
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 428, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-14 14:15:54.553 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None
+2023-11-14 14:25:29.827 - ETL_GKW_CP_TO_XSIFF [ERROR   ] "['site' '空白'] not found in axis"
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 245, in do_file
+    data_df.drop(['site', '空白'], axis=1, inplace=True)
+  File "D:\Python37\lib\site-packages\pandas\core\frame.py", line 4174, in drop
+    errors=errors,
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3889, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\generic.py", line 3923, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "D:\Python37\lib\site-packages\pandas\core\indexes\base.py", line 5287, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: "['site' '空白'] not found in axis"
+Stack (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 428, in <module>
+    do_file, before_do_file, after_do_file, skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_GKW_CP_TO_XSIFF/ETL_GKW_CP_TO_XSIFF.py", line 326, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2023-11-14 14:25:30.731 - __init__   [ERROR   ] File:TryNewXML_GC08A8-BSI-Sample_B001451_11_2_20230905173628.XML Move To Error Folder
+                                                Error: None

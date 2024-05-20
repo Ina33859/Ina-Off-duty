@@ -1,0 +1,437 @@
+2024-01-23 14:19:33.904 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:19:33.905 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 14:19:33.905 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:19:33.907 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 14:19:33.922 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 14:19:33.922 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 14:19:33.922 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 14:19:34.621 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-23 14:19:37.178 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 14:19:37.224 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 14:19:37.240 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 14:19:33.879574
+2024-01-23 14:19:37.719 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 14:19:37.731 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:19:37.835 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:19:37.984 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:19:38.155 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 14:24:43.400 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Failed to read file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 14:24:43.420 - ETL_FT_SD_TO_XSIFF_20231228 [ERROR   ] time data 09/27/2023 9:27:56 AM doesn't match format specified
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\arrays\datetimes.py", line 2059, in objects_to_datetime64ns
+    values, tz_parsed = conversion.datetime_to_datetime64(data)
+  File "pandas\_libs\tslibs\conversion.pyx", line 350, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+TypeError: Unrecognized value type: <class 'str'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 246, in do_file
+    filtered_df['Test Date'] = pd.to_datetime(filtered_df['Test Date'], format="%Y-%m-%d %H:%M:%S")
+  File "D:\Python37\lib\site-packages\pandas\core\tools\datetimes.py", line 803, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "D:\Python37\lib\site-packages\pandas\core\tools\datetimes.py", line 466, in _convert_listlike_datetimes
+    allow_object=True,
+  File "D:\Python37\lib\site-packages\pandas\core\arrays\datetimes.py", line 2064, in objects_to_datetime64ns
+    raise e
+  File "D:\Python37\lib\site-packages\pandas\core\arrays\datetimes.py", line 2055, in objects_to_datetime64ns
+    require_iso8601=require_iso8601,
+  File "pandas\_libs\tslib.pyx", line 352, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 496, in pandas._libs.tslib.array_to_datetime
+ValueError: time data 09/27/2023 9:27:56 AM doesn't match format specified
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 574, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 389, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-23 14:24:43.610 - __init__   [ERROR   ] File:AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 14:24:43.618 - CustomFuction [INFO    ] [ERROR] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 14:24:43.619 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-01-23 14:24:43.647 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-23 14:24:43.648 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-23 14:24:43.662 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-23 14:24:43.795 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-23 14:24:46.547 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:24:46.547 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 14:24:46.547 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:24:46.549 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 14:24:46.562 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 14:24:46.563 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 14:24:46.563 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 14:24:46.951 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-23 14:24:49.548 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 14:24:49.570 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 14:24:49.583 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 14:24:46.517660
+2024-01-23 14:24:49.867 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 14:24:49.880 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:24:50.020 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:24:50.165 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:24:50.350 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 14:24:52.101 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] 1       09/27/2023 9:27:56 AM
+2       09/27/2023 9:28:36 AM
+3       09/27/2023 9:30:00 AM
+4       09/27/2023 9:30:31 AM
+5       09/27/2023 9:30:57 AM
+                ...          
+158    09/27/2023 10:48:15 AM
+159    09/27/2023 10:48:43 AM
+160    09/27/2023 10:49:07 AM
+161    09/27/2023 10:49:36 AM
+162    09/27/2023 10:50:00 AM
+Name: Test Date, Length: 162, dtype: object
+2024-01-23 14:25:29.670 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Failed to read file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 14:25:29.673 - ETL_FT_SD_TO_XSIFF_20231228 [ERROR   ] time data 09/27/2023 9:27:56 AM doesn't match format specified
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\arrays\datetimes.py", line 2059, in objects_to_datetime64ns
+    values, tz_parsed = conversion.datetime_to_datetime64(data)
+  File "pandas\_libs\tslibs\conversion.pyx", line 350, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+TypeError: Unrecognized value type: <class 'str'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 247, in do_file
+    filtered_df['Test Date'] = pd.to_datetime(filtered_df['Test Date'], format="%Y-%m-%d %H:%M:%S")
+  File "D:\Python37\lib\site-packages\pandas\core\tools\datetimes.py", line 803, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "D:\Python37\lib\site-packages\pandas\core\tools\datetimes.py", line 466, in _convert_listlike_datetimes
+    allow_object=True,
+  File "D:\Python37\lib\site-packages\pandas\core\arrays\datetimes.py", line 2064, in objects_to_datetime64ns
+    raise e
+  File "D:\Python37\lib\site-packages\pandas\core\arrays\datetimes.py", line 2055, in objects_to_datetime64ns
+    require_iso8601=require_iso8601,
+  File "pandas\_libs\tslib.pyx", line 352, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 496, in pandas._libs.tslib.array_to_datetime
+ValueError: time data 09/27/2023 9:27:56 AM doesn't match format specified
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 575, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 390, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-23 14:25:29.864 - __init__   [ERROR   ] File:AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 14:25:29.871 - CustomFuction [INFO    ] [ERROR] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 14:25:29.872 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-01-23 14:25:29.917 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-23 14:25:29.917 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-23 14:25:29.935 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-23 14:25:30.122 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-23 14:25:32.032 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:25:32.032 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 14:25:32.032 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:25:32.033 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 14:25:32.046 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 14:25:32.047 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 14:25:32.047 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 14:25:32.405 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-23 14:25:34.917 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 14:25:34.947 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 14:25:34.952 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 14:25:32.006882
+2024-01-23 14:25:35.301 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 14:25:35.360 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:25:35.553 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:25:35.759 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:25:35.944 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 14:32:16.724 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Failed to read file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 14:32:16.728 - ETL_FT_SD_TO_XSIFF_20231228 [ERROR   ] time data 09/27/2023 9:27:56 AM doesn't match format specified
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\pandas\core\arrays\datetimes.py", line 2059, in objects_to_datetime64ns
+    values, tz_parsed = conversion.datetime_to_datetime64(data)
+  File "pandas\_libs\tslibs\conversion.pyx", line 350, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+TypeError: Unrecognized value type: <class 'str'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 247, in do_file
+    filtered_df['Test Date'] = pd.to_datetime(filtered_df['Test Date'], format="%Y-%m-%d %H:%M:%S")
+  File "D:\Python37\lib\site-packages\pandas\core\tools\datetimes.py", line 803, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "D:\Python37\lib\site-packages\pandas\core\tools\datetimes.py", line 466, in _convert_listlike_datetimes
+    allow_object=True,
+  File "D:\Python37\lib\site-packages\pandas\core\arrays\datetimes.py", line 2064, in objects_to_datetime64ns
+    raise e
+  File "D:\Python37\lib\site-packages\pandas\core\arrays\datetimes.py", line 2055, in objects_to_datetime64ns
+    require_iso8601=require_iso8601,
+  File "pandas\_libs\tslib.pyx", line 352, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 496, in pandas._libs.tslib.array_to_datetime
+ValueError: time data 09/27/2023 9:27:56 AM doesn't match format specified
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 575, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 390, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-23 14:32:16.872 - __init__   [ERROR   ] File:AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 14:32:16.886 - CustomFuction [INFO    ] [ERROR] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 14:32:16.889 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-01-23 14:32:16.942 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-23 14:32:16.943 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-23 14:32:16.960 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-23 14:32:17.124 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-23 14:32:19.284 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:32:19.284 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 14:32:19.284 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:32:19.286 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 14:32:19.299 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 14:32:19.299 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 14:32:19.300 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 14:32:19.567 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-23 14:32:22.047 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 14:32:22.077 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 14:32:22.080 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 14:32:19.257382
+2024-01-23 14:32:22.383 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 14:32:22.397 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:32:22.558 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:32:22.717 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:32:22.927 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 14:32:43.198 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:20.270721
+2024-01-23 14:32:43.206 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Failed to create xsiff: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 14:32:43.208 - ETL_FT_SD_TO_XSIFF_20231228 [ERROR   ] strptime() argument 1 must be str, not Timestamp
+Traceback (most recent call last):
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 452, in do_file
+    datetime.strptime(header[variable_name], date_format)
+TypeError: strptime() argument 1 must be str, not Timestamp
+Stack (most recent call last):
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2181, in <module>
+    main()
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 2172, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1484, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\soft\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 577, in <module>
+    skip_file, None, log, config, config_sql)
+  File "../..\XdmLib\CustomFuction.py", line 597, in file2db_init
+    file, pre_params, db_src, db_tgt)
+  File "D:/Ina/ETL_XdmLib_2.A.13/ETL_XdmLib_2.A.13/EDAETL/ETL_TABLE/ETL_FT_SD_TO_XSIFF/ETL_FT_SD_TO_XSIFF_20231228.py", line 475, in do_file
+    log.error(ex, exc_info=True, stack_info=True)
+2024-01-23 14:32:43.390 - __init__   [ERROR   ] File:AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 14:32:43.399 - CustomFuction [INFO    ] [ERROR] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 14:32:43.400 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-01-23 14:32:43.433 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-23 14:32:43.433 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-23 14:32:43.450 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-23 14:32:43.683 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-23 14:32:44.762 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:32:44.762 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 14:32:44.762 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 14:32:44.763 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 14:32:44.776 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 14:32:44.777 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 14:32:44.777 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 14:32:45.028 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-23 14:32:45.058 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 14:32:45.070 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 14:32:45.071 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 14:32:44.753479
+2024-01-23 14:32:45.234 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 14:32:45.240 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:32:45.302 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:32:45.371 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 14:32:45.461 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 14:32:46.204 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:00.743149
+2024-01-23 14:32:46.212 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.008027
+2024-01-23 14:32:46.257 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.045010
+2024-01-23 14:32:46.257 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to FT_GD800HFA120C2S_B20_AWECGQI56_GW_20230927092756.xsiff ;Total Used:0:00:00.796186
+2024-01-23 14:32:46.260 - CustomFuction [INFO    ] [Archive] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 14:32:46.260 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-01-23 14:32:46.347 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-23 14:32:46.347 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-23 14:32:46.355 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-23 14:32:46.510 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-23 15:05:07.639 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 15:05:07.648 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 15:05:07.648 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 15:05:07.650 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 15:05:07.661 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 15:05:07.662 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 15:05:07.662 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 15:05:07.969 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-23 15:05:08.020 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 15:05:08.039 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 15:05:08.041 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 15:05:07.615904
+2024-01-23 15:05:08.326 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 15:05:08.343 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 15:05:08.538 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 15:05:08.668 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 15:05:08.815 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 15:07:22.001 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 15:07:22.002 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 15:07:22.002 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 15:07:22.003 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 15:07:22.017 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 15:07:22.017 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 15:07:22.017 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 15:07:22.261 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-23 15:07:22.261 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-23 15:07:22.295 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 15:07:22.307 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 15:07:22.309 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 15:07:21.975817
+2024-01-23 15:07:22.531 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 15:07:22.548 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 15:07:22.680 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 15:07:22.806 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 15:07:22.916 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 16:25:22.341 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 16:25:22.342 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 16:25:22.342 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 16:25:22.343 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 16:25:22.355 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 16:25:22.355 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 16:25:22.355 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 16:25:22.629 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 0, data_time_flg: None.
+2024-01-23 16:25:22.629 - __init__   [WARNING ] The loader duplicate execute(Set attribute: 'ALLOW_DUPLICATE_EXECUTE = False' disable it).
+2024-01-23 16:25:22.663 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 16:25:22.675 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 16:25:22.677 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 16:25:22.333618
+2024-01-23 16:25:22.850 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 16:25:22.858 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 16:25:22.928 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 16:25:23.002 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 16:25:23.070 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 16:25:23.799 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:00.729181
+2024-01-23 16:25:23.805 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.005004
+2024-01-23 16:25:23.842 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.036959
+2024-01-23 16:25:23.843 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to FT_GD800HFA120C2S_B20_AWECGQI56_GW_20230927092756.xsiff ;Total Used:0:00:00.773150
+2024-01-23 16:25:23.846 - CustomFuction [INFO    ] [Archive] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 16:25:23.846 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-01-23 16:25:23.942 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-23 16:25:23.942 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-23 16:25:23.955 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-23 16:25:24.107 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-23 16:25:57.692 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 16:25:57.692 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 16:25:57.692 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 16:25:57.693 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 16:25:57.704 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 16:25:57.704 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 16:25:57.704 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 16:25:57.964 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-23 16:25:58.025 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 16:25:58.048 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 16:25:58.051 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 16:25:57.685340
+2024-01-23 16:25:58.443 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 16:25:58.508 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 16:25:58.652 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 16:25:58.731 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 16:25:58.818 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 16:25:59.450 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:00.631967
+2024-01-23 16:25:59.454 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.004000
+2024-01-23 16:25:59.488 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.034009
+2024-01-23 16:25:59.488 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to FT_GD800HFA120C2S_B20_AWECGQI56_GW_20230927092756.xsiff ;Total Used:0:00:00.669976
+2024-01-23 16:25:59.490 - CustomFuction [INFO    ] [Archive] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 16:25:59.491 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-01-23 16:25:59.588 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx 
+2024-01-23 16:26:00.274 - ETL_FT_SD_TO_XSIFF_20231228 [ERROR   ] [Serial no.]列长度不符合要求
+2024-01-23 16:26:00.493 - __init__   [ERROR   ] File:AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 16:26:00.509 - CustomFuction [INFO    ] [ERROR] AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx
+2024-01-23 16:26:00.511 - CustomFuction [INFO    ] Move file: AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx.
+2024-01-23 16:26:00.549 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-23 16:26:00.549 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-23 16:26:00.561 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-23 16:26:00.736 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-23 16:27:10.819 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 16:27:10.819 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 16:27:10.819 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 16:27:10.821 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 16:27:10.832 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 16:27:10.832 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 16:27:10.832 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 16:27:11.120 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-23 16:27:11.164 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 16:27:11.183 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 16:27:11.186 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 16:27:10.810336
+2024-01-23 16:27:11.347 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 16:27:11.355 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 16:27:11.437 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 16:27:11.518 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 16:27:11.586 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 16:27:12.328 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:00.742034
+2024-01-23 16:27:12.334 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.005964
+2024-01-23 16:27:12.372 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.038007
+2024-01-23 16:27:12.372 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to FT_GD800HFA120C2S_B20_AWECGQI56_GW_20230927092756.xsiff ;Total Used:0:00:00.786005
+2024-01-23 16:27:12.376 - CustomFuction [INFO    ] [Archive] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 16:27:12.376 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-01-23 16:27:12.460 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx 
+2024-01-23 16:27:13.138 - ETL_FT_SD_TO_XSIFF_20231228 [ERROR   ] [Serial no.]列长度不符合要求
+2024-01-23 16:27:13.323 - __init__   [ERROR   ] File:AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 16:27:13.332 - CustomFuction [INFO    ] [ERROR] AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx
+2024-01-23 16:27:13.333 - CustomFuction [INFO    ] Move file: AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx.
+2024-01-23 16:27:13.371 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-23 16:27:13.371 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-23 16:27:13.382 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-23 16:27:13.579 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
+2024-01-23 17:40:39.106 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 17:40:39.106 - __init__   [INFO    ] XdmLib Ver. 2.A.13
+2024-01-23 17:40:39.106 - __init__   [INFO    ] # ===== [ XdmLib Ver. ] ===== #
+2024-01-23 17:40:39.107 - __init__   [INFO    ] Console Quick Edit Disabled
+2024-01-23 17:40:39.119 - __init__   [INFO    ] Server/Host Name: DESKTOP-J6AUF2I
+2024-01-23 17:40:39.119 - __init__   [INFO    ] Archive setting non-setting, Archive files will be kept.
+2024-01-23 17:40:39.119 - __init__   [INFO    ] Error setting non-setting, Error files will be kept.
+2024-01-23 17:40:39.387 - __init__   [INFO    ] Server: DESKTOP-J6AUF2I, Status: 1, data_time_flg: None.
+2024-01-23 17:40:39.422 - __init__   [INFO    ] Debug mode enable!
+2024-01-23 17:40:39.433 - __init__   [INFO    ] Watching control file: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\ETL_FT_SD_TO_XSIFF_20231228.py.*
+2024-01-23 17:40:39.434 - __init__   [INFO    ] SetProcessStatus 0, Start time: 2024-01-23 17:40:39.098688
+2024-01-23 17:40:39.646 - __init__   [INFO    ] Set process status code: 0.
+2024-01-23 17:40:39.654 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 17:40:39.741 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 17:40:39.816 - Database   [INFO    ] Non set logging! Using default logging.
+2024-01-23 17:40:39.905 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx 
+2024-01-23 17:40:40.674 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Read source file:0:00:00.769236
+2024-01-23 17:40:40.680 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Create xsiff:0:00:00.005960
+2024-01-23 17:40:40.726 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Export xsiff:0:00:00.046003
+2024-01-23 17:40:40.727 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Converter AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to FT_GD800HFA120C2S_B20_AWECGQI56_GW_20230927092756.xsiff ;Total Used:0:00:00.822199
+2024-01-23 17:40:40.731 - CustomFuction [INFO    ] [Archive] AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx
+2024-01-23 17:40:40.732 - CustomFuction [INFO    ] Move file: AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx to Archive folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECGQI56-CW_GD800HFA120C2S_B20-CW_时间.xlsx.
+2024-01-23 17:40:40.823 - ETL_FT_SD_TO_XSIFF_20231228 [INFO    ] Currently working on files: AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx 
+2024-01-23 17:40:41.518 - ETL_FT_SD_TO_XSIFF_20231228 [ERROR   ] [Serial no.] Length does not meet the requirements
+2024-01-23 17:40:41.717 - __init__   [ERROR   ] File:AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx Move To Error Folder
+                                                Error: None
+2024-01-23 17:40:41.733 - CustomFuction [INFO    ] [ERROR] AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx
+2024-01-23 17:40:41.735 - CustomFuction [INFO    ] Move file: AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx to ERROR folder: D:\Ina\ETL_XdmLib_2.A.13\ETL_XdmLib_2.A.13\EDAETL\ETL_TABLE\ETL_FT_SD_TO_XSIFF\Data\Source\StarPower\FT\Module\UNISIC\Dynamic\GW\AWECZQF73-CW_GD800HFA120C2S_B20-CW_第二列长度报错测试.xlsx.
+2024-01-23 17:40:41.774 - CustomFuction [INFO    ] ========[ File End ]========
+2024-01-23 17:40:41.774 - CustomFuction [INFO    ] ========[ Delete Empty Folder ]========
+2024-01-23 17:40:41.785 - CustomFuction [INFO    ] ========== Finally ==========
+2024-01-23 17:40:41.976 - __init__   [INFO    ] Set process status code: 1, Last data time: None.
